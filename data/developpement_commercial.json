@@ -1,0 +1,141 @@
+{
+  "category": "DEVELOPPEMENT",
+  "name": "Développement Commercial",
+  "description": "Marketing et prospection",
+  "icon": "📈",
+  "duration": 30,
+  "questions": [
+    {
+      "id": "dev_001",
+      "question": "À l'aéroport, le parking professionnel est saturé alors que vos clients ne vont pas tarder à sortir du check out :",
+      "options": [
+        "Vous vous garez sur des zébras",
+        "Vous vous garez au niveau de la dépose taxi car c'est au niveau des arrivées",
+        "Vous vous garez au parking public",
+        "Vous attendez qu'une place se libère"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Il faut se garer au parking public en attendant les clients pour respecter la réglementation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dev_002",
+      "question": "En déposant une cliente, de nuit, à son domicile :",
+      "options": [
+        "Vous proposez de la raccompagner jusqu'à la porte de son appartement compte tenu de l'heure tardive",
+        "Vous la déposez devant la porte de son immeuble et attendez qu'elle soit rentrée dans son immeuble avant de repartir",
+        "Vous la déposez devant chez elle et votre mission étant terminée, vous repartez"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Il faut s'assurer que la cliente soit en sécurité avant de repartir, c'est une marque de professionnalisme.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dev_003",
+      "question": "Que doit-on dire lorsqu'on décroche un appel téléphonique ?",
+      "options": ["Allo", "Le nom de la société", "Le nom de la société et bonjour"],
+      "correctAnswer": 2,
+      "explanation": "Il faut dire le nom de la société et saluer poliment pour donner une image professionnelle.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dev_004",
+      "question": "Dans le mix marketing, à quoi correspondent les 4P ?",
+      "options": [
+        "Prix produit parrainage personnalisation",
+        "Plateforme présentation place promotion",
+        "Prix produit place promotion"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Les 4P du marketing sont : Produit, Prix, Place (distribution), Promotion.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dev_005",
+      "question": "Quelle est la première étape d'une stratégie commerciale ?",
+      "options": ["Le plan d'action", "Le marketing mix", "L'analyse du marché"],
+      "correctAnswer": 2,
+      "explanation": "Il faut d'abord analyser le marché avant de définir toute stratégie commerciale.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dev_006",
+      "question": "La marge peut être exprimée en pourcentage du :",
+      "options": ["Chiffre d'affaires", "Coût fixe", "Coût des cotisations sociales", "Coût de revient"],
+      "correctAnswer": 0,
+      "explanation": "La marge commerciale s'exprime généralement en pourcentage du chiffre d'affaires.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dev_007",
+      "question": "Dans l'activité de VTC, les conditions générales de vente sont :",
+      "options": [
+        "Indispensables en relation B to C",
+        "Facultatives en relation B to B",
+        "Conformes à la loi Hamon du 17 mars 2014",
+        "Ne doivent pas être fournies à un professionnel qui en fait la demande"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Les CGV sont indispensables pour les relations avec les consommateurs (B to C).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dev_008",
+      "question": "Trouver régulièrement de nouveaux clients c'est :",
+      "options": [
+        "Une nécessité pour la survie de l'entreprise",
+        "Une obligation de votre comptable",
+        "Un moyen de garder votre confort de vie"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La prospection de nouveaux clients est vitale pour la pérennité de l'entreprise.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dev_009",
+      "question": "Le panier moyen est :",
+      "options": [
+        "La moyenne des achats par client",
+        "La taille des achats à charger dans le coffre",
+        "La taille moyenne des paniers de courses en France"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Le panier moyen correspond à la moyenne des montants dépensés par client.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dev_010",
+      "question": "Pour fidéliser sa clientèle VTC, il faut :",
+      "options": [
+        "Baisser systématiquement les prix",
+        "Offrir un service de qualité constant",
+        "Changer régulièrement de véhicule",
+        "Proposer uniquement des véhicules de luxe"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La fidélisation passe avant tout par la qualité et la constance du service proposé.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dev_011",
+      "question": "Un chauffeur VTC, en EURL, fait un chiffre d'affaires de 50 000 €. Il a 10 000 € de charges sociales, a vendu son ancien véhicule 8 000 € et a payé 5 000 € de TVA. Quel est son résultat ?",
+      "options": ["35 000 €", "43 000 €", "40 000 €", "45 000 €"],
+      "correctAnswer": 2,
+      "explanation": "Résultat = CA - Charges sociales - TVA = 50 000 - 10 000 - 5 000 = 35 000 € (la vente du véhicule est un produit exceptionnel à ajouter).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dev_012",
+      "question": "La segmentation de marché consiste à :",
+      "options": [
+        "Diviser le marché en groupes homogènes",
+        "Augmenter les prix",
+        "Réduire la concurrence",
+        "Créer de nouveaux produits"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La segmentation consiste à diviser le marché en groupes de clients ayant des besoins similaires.",
+      "difficulty": "medium"
+    }
+  ]
+}

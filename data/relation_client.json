@@ -1,0 +1,269 @@
+{
+  "category": "RELATION_CLIENT",
+  "name": "Relation Client",
+  "description": "Service et communication",
+  "icon": "🤝",
+  "duration": 30,
+  "questions": [
+    {
+      "id": "rel_001",
+      "question": "Votre client allume une cigarette alors que votre entreprise de transport en VTC ne le permet pas :",
+      "options": [
+        "Vous n'intervenez pas, le client est roi",
+        "Vous lui demandez courtoisement de bien vouloir entrebâiller sa fenêtre",
+        "Vous lui proposez, s'il n'est pas pressé, de vous arrêter pour qu'il fume sa cigarette",
+        "Vous appelez courtoisement son attention sur le fait qu'il n'est pas possible de fumer dans l'habitacle"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Il faut poliment mais fermement rappeler l'interdiction de fumer tout en restant professionnel.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rel_002",
+      "question": "Un client vous demande de dépasser la vitesse autorisée car il est en retard :",
+      "options": [
+        "Vous acceptez car le client paie",
+        "Vous refusez poliment en expliquant les risques",
+        "Vous dépassez légèrement la limite",
+        "Vous lui proposez un autre itinéraire plus rapide"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La sécurité prime toujours. Il faut refuser poliment tout en proposant des alternatives.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rel_003",
+      "question": "Comment gérer un client mécontent du tarif affiché ?",
+      "options": [
+        "Vous baissez le prix pour éviter le conflit",
+        "Vous expliquez calmement la grille tarifaire",
+        "Vous refusez de discuter",
+        "Vous appelez la police"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Il faut expliquer calmement et de manière transparente la grille tarifaire en vigueur.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rel_004",
+      "question": "Un client laisse des détritus dans votre véhicule :",
+      "options": [
+        "Vous nettoyez sans rien dire",
+        "Vous lui demandez poliment de ramasser",
+        "Vous refusez qu'il sorte du véhicule",
+        "Vous facturez automatiquement des frais de nettoyage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Il faut poliment faire respecter la propreté du véhicule en demandant au client de ramasser.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rel_005",
+      "question": "La tenue vestimentaire du conducteur VTC doit être :",
+      "options": [
+        "Libre, peu importe l'apparence",
+        "Correcte et professionnelle",
+        "Obligatoirement en costume",
+        "Identique à celle des taxis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Une tenue correcte et professionnelle est exigée pour véhiculer une image de qualité.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rel_006",
+      "question": "Un client vous demande d'attendre 30 minutes sans compensation :",
+      "options": [
+        "Vous acceptez pour fidéliser le client",
+        "Vous négociez une tarification pour l'attente",
+        "Vous partez immédiatement",
+        "Vous attendez en facturant le temps d'attente"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Il faut négocier une compensation équitable pour le temps d'attente selon la grille tarifaire.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rel_007",
+      "question": "Face à un client agressif verbalement :",
+      "options": [
+        "Vous répondez sur le même ton",
+        "Vous gardez votre calme et restez professionnel",
+        "Vous arrêtez le véhicule immédiatement",
+        "Vous appelez la police pendant la course"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Il faut toujours garder son calme et rester professionnel, même face à l'agressivité.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rel_008",
+      "question": "Un client souhaite modifier sa destination en cours de route :",
+      "options": [
+        "Vous refusez catégoriquement",
+        "Vous acceptez sans condition",
+        "Vous acceptez en adaptant le tarif si nécessaire",
+        "Vous demandez un nouveau contrat"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Il faut faire preuve de flexibilité tout en respectant les conditions tarifaires.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rel_009",
+      "question": "Comment accueillir un client à son arrivée ?",
+      "options": [
+        "En restant dans le véhicule",
+        "En sortant et en vous présentant",
+        "En klaxonnant pour signaler votre présence",
+        "En attendant qu'il vous trouve"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Un accueil professionnel implique de sortir du véhicule et de se présenter au client.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rel_010",
+      "question": "Un client demande à écouter sa musique très fort :",
+      "options": [
+        "Vous acceptez sans condition",
+        "Vous refusez catégoriquement",
+        "Vous proposez un volume raisonnable",
+        "Vous mettez vos écouteurs"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Il faut trouver un compromis acceptable pour le confort de tous.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rel_011",
+      "question": "Comment réagir face à un client en état d'ébriété ?",
+      "options": [
+        "Vous refusez systématiquement la course",
+        "Vous évaluez son état et adaptez votre conduite",
+        "Vous appelez immédiatement la police",
+        "Vous demandez une caution supplémentaire"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Il faut évaluer l'état du client et adapter sa conduite en conséquence, sans discrimination.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rel_012",
+      "question": "Un client critique votre conduite :",
+      "options": [
+        "Vous lui demandez de descendre",
+        "Vous écoutez et vous justifiez calmement",
+        "Vous ignorez ses remarques",
+        "Vous accélérez pour finir plus vite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Il faut écouter les remarques et répondre calmement, même si elles sont injustifiées.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rel_013",
+      "question": "Pour fidéliser votre clientèle, vous devez :",
+      "options": [
+        "Proposer toujours les prix les plus bas",
+        "Offrir un service régulier et de qualité",
+        "Accepter tous les caprices des clients",
+        "Critiquer vos concurrents"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La fidélisation passe par la qualité et la régularité du service proposé.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rel_014",
+      "question": "Un client vous demande votre numéro personnel :",
+      "options": [
+        "Vous le donnez immédiatement",
+        "Vous refusez poliment et donnez le numéro professionnel",
+        "Vous donnez un faux numéro",
+        "Vous ne répondez pas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Il faut maintenir une distance professionnelle et orienter vers les canaux officiels.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rel_015",
+      "question": "Comment gérer un client qui ne parle pas français ?",
+      "options": [
+        "Vous refusez la course",
+        "Vous utilisez des gestes et des applications de traduction",
+        "Vous parlez plus fort",
+        "Vous appelez un interprète"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Il faut faire preuve d'adaptation et utiliser tous les moyens de communication disponibles.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rel_016",
+      "question": "Un client veut payer en espèces mais vous n'avez pas la monnaie :",
+      "options": [
+        "Vous gardez tout",
+        "Vous cherchez la monnaie dans un commerce",
+        "Vous refusez le paiement en espèces",
+        "Vous proposez un autre moyen de paiement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Il faut faire l'effort de chercher la monnaie ou proposer des alternatives.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rel_017",
+      "question": "Comment réagir si un client oublie un objet dans votre véhicule ?",
+      "options": [
+        "Vous le gardez",
+        "Vous le rapportez dès que possible",
+        "Vous attendez qu'il vous contacte",
+        "Vous le jetez"
+      ],
+      "correctAnswer": 1,
+      "explanation": "L'honnêteté et la proactivité sont essentielles dans le service client.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rel_018",
+      "question": "Un client vous propose un pourboire important pour griller un feu rouge :",
+      "options": [
+        "Vous acceptez, l'argent est important",
+        "Vous refusez fermement",
+        "Vous négociez le montant",
+        "Vous acceptez mais restez prudent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La sécurité et le respect du code de la route ne se négocient jamais.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rel_019",
+      "question": "Comment annoncer un retard à votre client ?",
+      "options": [
+        "Vous n'annoncez rien et arrivez en retard",
+        "Vous appelez le plus tôt possible",
+        "Vous envoyez un SMS au dernier moment",
+        "Vous annulez la course"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La communication proactive est essentielle pour maintenir la confiance du client.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rel_020",
+      "question": "Un client vous demande des informations sur vos concurrents :",
+      "options": [
+        "Vous critiquez ouvertement vos concurrents",
+        "Vous restez neutre et professionnel",
+        "Vous mentez sur leurs services",
+        "Vous refusez de répondre"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Il faut rester professionnel et éviter de dénigrer la concurrence.",
+      "difficulty": "medium"
+    }
+  ]
+}

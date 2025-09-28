@@ -1,0 +1,257 @@
+{
+  "category": "REGLEMENTATION",
+  "name": "Réglementation VTC",
+  "description": "Règles et obligations légales",
+  "icon": "⚖️",
+  "duration": 30,
+  "questions": [
+    {
+      "id": "reg_001",
+      "question": "Quelles sont les dimensions minimales d'un véhicule VTC ?",
+      "options": ["4,5 m x 1,7 m", "4,6 m x 1,8 m", "4,3 m x 1,5 m", "4,5 m x 1,6 m"],
+      "correctAnswer": 3,
+      "explanation": "Les véhicules VTC doivent mesurer au minimum 4,5 m de long et 1,6 m de large.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "reg_002",
+      "question": "L'inscription au registre des exploitants VTC donne lieu à :",
+      "options": [
+        "La publication au bulletin officiel",
+        "La publication du nom de l'entreprise dans la liste des exploitants sur le site du Ministère",
+        "La délivrance d'une attestation d'inscription",
+        "La délivrance d'un diplôme"
+      ],
+      "correctAnswer": 2,
+      "explanation": "L'inscription donne lieu à la délivrance d'une attestation d'inscription par l'autorité compétente.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_003",
+      "question": "Comment reconnaît-on un VTC ?",
+      "options": [
+        "Par la couleur noire du véhicule de haut-de-gamme",
+        "Par un macaron à l'avant et à l'arrière du véhicule",
+        "Par un macaron à l'avant",
+        "Par un macaron à l'arrière"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Un VTC se reconnaît par un macaron obligatoire à l'avant et à l'arrière du véhicule.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "reg_004",
+      "question": "La prise en charge d'un client sur une voie ouverte à la circulation publique sans réservation préalable est :",
+      "options": [
+        "Autorisée si elle est consécutive à la dépose du client précédent sur le même lieu",
+        "Un délit puni d'une peine de prison et d'une amende pouvant aller jusqu'à 15 000 €",
+        "Passible d'une suspension du permis de conduire"
+      ],
+      "correctAnswer": 1,
+      "explanation": "C'est un délit grave passible de lourdes sanctions financières et pénales selon l'article L3124-13 du code des transports.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "reg_005",
+      "question": "Pour la réalisation d'une prestation de VTC :",
+      "options": [
+        "Les conditions générales de vente peuvent constituer un document valant contrat, sous réserve que le client ait dûment signé toutes les pages",
+        "Il doit exister un contrat avec le client final qui doit être obligatoirement écrit sur support papier",
+        "Il doit exister un contrat avec le client final pouvant être écrit sur support papier ou électronique",
+        "Les conditions générales de vente peuvent constituer un document valant contrat, sous réserve que le client ait dûment signé la dernière page"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Le contrat peut être établi sur support papier ou électronique conformément à la réglementation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_006",
+      "question": "Qui délivre la carte professionnelle des conducteurs de VTC ?",
+      "options": [
+        "Les organisations professionnelles de VTC",
+        "La préfecture",
+        "La chambre de métiers et de l'artisanat",
+        "La Mairie"
+      ],
+      "correctAnswer": 1,
+      "explanation": "C'est la préfecture qui délivre la carte professionnelle VTC après réussite à l'examen.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "reg_007",
+      "question": "Pour accéder à la profession de conducteur de VTC, il faut obligatoirement :",
+      "options": [
+        "Suivre une formation",
+        "Réussir à un examen",
+        "Avoir une expérience professionnelle de conducteur de véhicule léger dans les 5 ans précédents la demande de carte professionnelle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La réussite à l'examen est obligatoire pour devenir conducteur VTC, la formation n'est pas obligatoire mais recommandée.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "reg_008",
+      "question": "Je peux faire du transport de personnes à titre onéreux avec un permis probatoire ?",
+      "options": ["Oui", "Non"],
+      "correctAnswer": 1,
+      "explanation": "Il est interdit de faire du transport payant avec un permis probatoire. Il faut avoir un permis définitif.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "reg_009",
+      "question": "Si je suis condamné pour abus de confiance, je peux toujours conduire un véhicule VTC ?",
+      "options": ["Oui", "Non"],
+      "correctAnswer": 1,
+      "explanation": "Certaines condamnations pénales sont incompatibles avec l'exercice de la profession de conducteur VTC.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_010",
+      "question": "Quel est le nombre maximum de personnes autorisées dans une voiture VTC ?",
+      "options": ["7 personnes", "8 personnes", "9 personnes", "Pas de limite"],
+      "correctAnswer": 2,
+      "explanation": "Un véhicule VTC peut transporter au maximum 9 personnes, conducteur compris.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "reg_011",
+      "question": "Le ticket de réservation doit être établi :",
+      "options": ["Sur support papier", "Un engagement oral suffit", "Sur support électronique", "Papier ou électronique"],
+      "correctAnswer": 3,
+      "explanation": "Le ticket de réservation peut être établi sur support papier ou électronique.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_012",
+      "question": "La durée minimale entre la réservation et la prise en charge est de :",
+      "options": ["Aucune durée minimale", "15 minutes", "30 minutes", "1 heure"],
+      "correctAnswer": 0,
+      "explanation": "Il n'y a pas de durée minimale obligatoire entre la réservation et la prise en charge.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_013",
+      "question": "Un VTC peut-il prendre en charge un client sans réservation préalable ?",
+      "options": ["Oui, dans tous les cas", "Non, jamais", "Oui, si le client le demande", "Seulement dans les aéroports"],
+      "correctAnswer": 1,
+      "explanation": "Un VTC ne peut jamais prendre en charge un client sans réservation préalable, c'est interdit par la loi.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "reg_014",
+      "question": "La capacité minimale du moteur d'un véhicule VTC est de :",
+      "options": ["Aucune exigence", "1400 cm³", "1600 cm³", "2000 cm³"],
+      "correctAnswer": 0,
+      "explanation": "Il n'y a pas d'exigence de cylindrée minimale pour les véhicules VTC.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_015",
+      "question": "L'âge maximum d'un véhicule VTC est de :",
+      "options": ["5 ans", "7 ans", "10 ans", "Pas de limite"],
+      "correctAnswer": 1,
+      "explanation": "Un véhicule VTC ne peut pas dépasser 7 ans d'âge.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_016",
+      "question": "Le macaron VTC doit être :",
+      "options": ["Visible de l'extérieur", "À l'intérieur du véhicule", "Amovible", "Permanent"],
+      "correctAnswer": 0,
+      "explanation": "Le macaron VTC doit être visible de l'extérieur, à l'avant et à l'arrière du véhicule.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "reg_017",
+      "question": "La formation continue des conducteurs VTC est :",
+      "options": ["Obligatoire tous les 5 ans", "Facultative", "Obligatoire tous les 3 ans", "Obligatoire à vie"],
+      "correctAnswer": 1,
+      "explanation": "La formation continue n'est pas obligatoire pour les conducteurs VTC, mais fortement recommandée.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_018",
+      "question": "Un conducteur VTC peut-il refuser une course ?",
+      "options": ["Non, jamais", "Oui, sans justification", "Oui, avec justification valable", "Seulement la nuit"],
+      "correctAnswer": 2,
+      "explanation": "Un conducteur VTC peut refuser une course pour des motifs légitimes (sécurité, etc.).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_019",
+      "question": "La carte professionnelle VTC est valable :",
+      "options": ["1 an", "3 ans", "5 ans", "10 ans"],
+      "correctAnswer": 2,
+      "explanation": "La carte professionnelle VTC est valable 5 ans et doit être renouvelée.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "reg_020",
+      "question": "En cas de contrôle, le conducteur VTC doit présenter :",
+      "options": [
+        "Seulement sa carte professionnelle",
+        "Carte professionnelle et permis de conduire",
+        "Tous les documents du véhicule",
+        "Carte professionnelle, permis et attestation d'assurance"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Le conducteur doit présenter sa carte professionnelle, son permis de conduire et l'attestation d'assurance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_021",
+      "question": "La visite médicale pour un conducteur VTC est :",
+      "options": ["Obligatoire", "Facultative", "Seulement après 60 ans", "Seulement en cas de problème"],
+      "correctAnswer": 0,
+      "explanation": "La visite médicale est obligatoire pour obtenir et renouveler la carte professionnelle VTC.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "reg_022",
+      "question": "Un véhicule VTC doit avoir au minimum :",
+      "options": ["3 portes", "4 portes", "5 portes", "Aucune exigence"],
+      "correctAnswer": 1,
+      "explanation": "Un véhicule VTC doit avoir au minimum 4 portes pour faciliter l'accès des passagers.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "reg_023",
+      "question": "L'immatriculation d'un véhicule VTC doit :",
+      "options": [
+        "Être normale",
+        "Comporter la mention VTC",
+        "Être spéciale",
+        "Peu importe"
+      ],
+      "correctAnswer": 0,
+      "explanation": "L'immatriculation d'un véhicule VTC est normale, aucune mention spéciale n'est requise.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_024",
+      "question": "La tarification VTC doit être :",
+      "options": [
+        "Libre",
+        "Fixée par l'État",
+        "Identique aux taxis",
+        "Négociable avec le client"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La tarification VTC est libre, contrairement aux taxis qui ont des tarifs réglementés.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_025",
+      "question": "Un exploitant VTC peut exercer avec :",
+      "options": [
+        "Seulement des véhicules en propriété",
+        "Seulement des véhicules en location",
+        "Véhicules en propriété ou en location",
+        "Véhicules mis à disposition"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Un exploitant VTC peut utiliser des véhicules en propriété ou en location selon la réglementation.",
+      "difficulty": "medium"
+    }
+  ]
+}

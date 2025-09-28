@@ -1,0 +1,223 @@
+{
+  "category": "GESTION",
+  "name": "Gestion d'Entreprise",
+  "description": "Comptabilité et administration",
+  "icon": "💼",
+  "duration": 30,
+  "questions": [
+    {
+      "id": "ges_001",
+      "question": "Le matériel informatique peut être amorti sur :",
+      "options": ["3 ans", "5 ans", "1 an"],
+      "correctAnswer": 0,
+      "explanation": "Le matériel informatique s'amortit généralement sur 3 ans selon les règles comptables.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_002",
+      "question": "La TVA sur les prestations de transport de personnes est de :",
+      "options": ["20%", "10%", "5,5%", "0%"],
+      "correctAnswer": 1,
+      "explanation": "Le transport de personnes bénéficie d'un taux de TVA réduit à 10%.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_003",
+      "question": "Un auto-entrepreneur VTC doit déclarer son chiffre d'affaires :",
+      "options": ["Annuellement", "Trimestriellement", "Mensuellement", "Au choix"],
+      "correctAnswer": 3,
+      "explanation": "L'auto-entrepreneur peut choisir entre déclaration mensuelle ou trimestrielle.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ges_004",
+      "question": "Les charges sociales d'un conducteur VTC indépendant sont calculées sur :",
+      "options": ["Le chiffre d'affaires", "Le bénéfice", "Le nombre de kilomètres", "Le nombre de clients"],
+      "correctAnswer": 0,
+      "explanation": "Pour un auto-entrepreneur, les charges sociales sont un pourcentage du chiffre d'affaires.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_005",
+      "question": "L'assurance responsabilité civile professionnelle est due :",
+      "options": [
+        "Par tous les conducteurs de VTC indépendants",
+        "Par tous les conducteurs de VTC indépendants, à l'exception des auto-entrepreneurs",
+        "Par tous les conducteurs qu'ils soient indépendants ou salariés"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tous les conducteurs VTC indépendants doivent souscrire une assurance RC professionnelle.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_006",
+      "question": "Le seuil de chiffre d'affaires pour rester auto-entrepreneur en prestations de services est de :",
+      "options": ["72 600 €", "176 200 €", "85 800 €", "Pas de limite"],
+      "correctAnswer": 0,
+      "explanation": "Le seuil pour les prestations de services est de 72 600 € en 2024.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ges_007",
+      "question": "La durée légale de conservation des factures est de :",
+      "options": ["5 ans", "10 ans", "3 ans", "Illimitée"],
+      "correctAnswer": 1,
+      "explanation": "Les factures doivent être conservées pendant 10 ans à des fins fiscales.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_008",
+      "question": "Un véhicule VTC peut être financé par :",
+      "options": ["Achat comptant uniquement", "Crédit ou leasing", "Location longue durée", "Toutes ces solutions"],
+      "correctAnswer": 3,
+      "explanation": "Toutes les solutions de financement sont possibles selon la situation de l'entreprise.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ges_009",
+      "question": "En cas de contrôle fiscal, quels documents doit présenter un VTC auto-entrepreneur ?",
+      "options": [
+        "Seulement le livre de recettes",
+        "Livre de recettes et factures",
+        "Livre de recettes, factures et justificatifs d'achats",
+        "Aucun document spécifique"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Un auto-entrepreneur doit tenir un livre de recettes et conserver toutes ses factures et justificatifs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_010",
+      "question": "Le résultat d'une entreprise correspond à :",
+      "options": [
+        "Chiffre d'affaires - charges",
+        "Chiffre d'affaires + charges",
+        "Chiffre d'affaires × charges",
+        "Chiffre d'affaires ÷ charges"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Le résultat (bénéfice ou perte) = Chiffre d'affaires - Charges.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ges_011",
+      "question": "La cotisation foncière des entreprises (CFE) concerne :",
+      "options": [
+        "Tous les auto-entrepreneurs",
+        "Seulement les entreprises avec local",
+        "Toute activité professionnelle",
+        "Seulement les sociétés"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La CFE concerne toute activité professionnelle, y compris les auto-entrepreneurs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_012",
+      "question": "Un conducteur VTC peut déduire de ses revenus :",
+      "options": [
+        "Seulement le carburant",
+        "Toutes les charges liées à l'activité",
+        "Rien du tout en auto-entrepreneur",
+        "Seulement l'assurance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Toutes les charges justifiées et liées à l'activité professionnelle sont déductibles.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_013",
+      "question": "La comptabilité d'un auto-entrepreneur VTC consiste en :",
+      "options": [
+        "Une comptabilité complète",
+        "Un livre de recettes uniquement",
+        "Aucune obligation",
+        "Un bilan annuel"
+      ],
+      "correctAnswer": 1,
+      "explanation": "L'auto-entrepreneur doit seulement tenir un livre de recettes (et un registre des achats si nécessaire).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ges_014",
+      "question": "Le versement libératoire de l'impôt sur le revenu pour un auto-entrepreneur est de :",
+      "options": ["1%", "2,2%", "3%", "5%"],
+      "correctAnswer": 1,
+      "explanation": "Le taux du versement libératoire est de 2,2% du chiffre d'affaires pour les prestations de services.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ges_015",
+      "question": "En cas de dépassement du seuil auto-entrepreneur, que se passe-t-il ?",
+      "options": [
+        "Rien, pas de conséquence",
+        "Passage automatique en entreprise individuelle",
+        "Amende fiscale",
+        "Interdiction d'exercer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "En cas de dépassement des seuils, il y a passage automatique au régime de l'entreprise individuelle.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_016",
+      "question": "Un auto-entrepreneur VTC doit-il facturer la TVA ?",
+      "options": [
+        "Oui, toujours",
+        "Non, jamais",
+        "Seulement au-dessus d'un certain seuil",
+        "Au choix"
+      ],
+      "correctAnswer": 2,
+      "explanation": "L'auto-entrepreneur est exonéré de TVA jusqu'à certains seuils de chiffre d'affaires.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_017",
+      "question": "La franchise en base de TVA permet :",
+      "options": [
+        "De ne pas déclarer la TVA",
+        "De ne pas facturer la TVA",
+        "De récupérer la TVA sur les achats",
+        "D'être exonéré d'impôts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La franchise en base permet de ne pas facturer la TVA aux clients jusqu'à un certain seuil.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_018",
+      "question": "Un conducteur VTC en SARL doit :",
+      "options": [
+        "Tenir une comptabilité simplifiée",
+        "Tenir une comptabilité complète",
+        "Aucune obligation comptable",
+        "Seulement un livre de recettes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Une SARL doit tenir une comptabilité complète avec bilan et compte de résultat.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ges_019",
+      "question": "Les charges sociales d'un auto-entrepreneur VTC sont de :",
+      "options": ["12,8%", "22%", "25%", "45%"],
+      "correctAnswer": 1,
+      "explanation": "Le taux de charges sociales pour un auto-entrepreneur en prestations de services est de 22%.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ges_020",
+      "question": "La déclaration de chiffre d'affaires auto-entrepreneur se fait :",
+      "options": [
+        "Sur papier uniquement",
+        "En ligne uniquement",
+        "Au choix papier ou en ligne",
+        "Par téléphone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La déclaration de chiffre d'affaires auto-entrepreneur se fait obligatoirement en ligne.",
+      "difficulty": "easy"
+    }
+  ]
+}

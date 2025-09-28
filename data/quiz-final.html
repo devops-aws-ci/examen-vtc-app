@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCM VTC</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; }
+        .container { background: white; border-radius: 20px; padding: 30px; margin: 20px 0; }
+        .header { text-align: center; color: white; margin-bottom: 20px; }
+        .question { font-size: 1.2rem; margin-bottom: 20px; color: #333; }
+        .option { background: #f8f9fa; border: 2px solid #dee2e6; border-radius: 10px; padding: 15px; margin: 10px 0; cursor: pointer; transition: all 0.3s; }
+        .option:hover { background: #e9ecef; }
+        .option.selected { background: #e3f2fd; border-color: #2196f3; }
+        .nav-btn { background: #2196f3; color: white; border: none; padding: 12px 24px; border-radius: 8px; cursor: pointer; margin: 10px; }
+        .nav-btn:hover { background: #1976d2; }
+        .nav-btn:disabled { background: #ccc; cursor: not-allowed; }
+        .info { display: flex; justify-content: space-between; margin-bottom: 20px; color: white; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 id="title">QCM VTC</h1>
+        <p id="subtitle">Chargement...</p>
+    </div>
+    
+    <div class="info">
+        <span>Question: <span id="current">1</span>/<span id="total">?</span></span>
+        <span>Score: <span id="score">0</span></span>
+        <span>Temps: <span id="timer">--:--</span></span>
+    </div>
+    
+    <div class="container">
+        <div class="question" id="question">Chargement des questions...</div>
+        <div id="options"></div>
+        
+        <div style="text-align: center; margin-top: 20px;">
+            <button class="nav-btn" onclick="previous()" id="prevBtn" disabled>Précédent</button>
+            <button class="nav-btn" onclick="next()" id="nextBtn">Suivant</button>
+            <button class="nav-btn" onclick="goHome()">Accueil</button>
+        </div>
+    </div>
+
+    <script>
+        console.log('Quiz-final.html chargé !');
+        
+        let currentQuestion = 0;
+        let questions = [];
+        let answers = [];
+        let score = 0;
+        let timeLeft = 0;
+        let config = {};
+        
+        // Données de test par défaut
+        const testData = {
+            "matiere": "Test QCM VTC",
+            "questions": [
+                {
+                    "question": "Quel ministère gère le registre des exploitants VTC ?",
+                    "options": ["Ministère de l'économie", "Ministère du tourisme", "Ministère de l'intérieur", "Ministère des transports"],
+                    "reponse_correcte": "d"
+                },
+                {
+                    "question": "Un véhicule VTC doit être âgé de moins de combien d'années ?",
+                    "options": ["5 ans", "6 ans", "7 ans", "8 ans"],
+                    "reponse_correcte": "b"
+                },
+                {
+                    "question": "La réservation préalable est-elle obligatoire pour les VTC ?",
+                    "options": ["Oui, toujours", "Non, jamais", "Seulement en ville", "Seulement pour l'aéroport"],
+                    "reponse_correcte": "a"
+                }
+            ]
+        };
+        
+        async function init() {
+            console.log('Initialisation...');
+            
+            // Récupérer la configuration
+            const configStr = localStorage.getItem('currentQuizConfig');
+            const category = localStorage.getItem('currentQuizCategory');
+            
+            if (configStr && category) {
+                config = JSON.parse(configStr);
+                console.log('Configuration trouvée:', config);
+                document.getElementById('title').textContent = config.title;
+                document.getElementById('subtitle').textContent = `${config.duration} min - Coeff ${config.coefficient}`;
+                timeLeft = config.duration * 60;
+                
+                // Essayer de charger le fichier JSON
+                try {
+                    const files = {
+                        't3p': 'data/t3p_prevention_qcm.json',
+                        'gestion': 'data/gestion_entreprise_qcm.json',
+                        'securite': 'data/securite_routiere_qcm.json',
+                        'francais': 'data/francais_qcm.json',
+                        'anglais': 'data/anglais_qcm.json',
+                        'commercial': 'data/developpement_commercial_qcm.json',
+                        'reglementation': 'data/reglementation_vtc_qcm.json'
+                    };
+                    
+                    if (files[category]) {
+                        console.log('Chargement de:', files[category]);
+                        const response = await fetch(files[category]);
+                        
+                        if (response.ok) {
+                            const data = await response.json();
+                            console.log('Données chargées:', data);
+                            questions = data.questions || [];
+                        } else {
+                            console.log('Erreur fetch:', response.status);
+                            questions = testData.questions;
+                        }
+                    } else {
+                        console.log('Fichier non trouvé pour:', category);
+                        questions = testData.questions;
+                    }
+                } catch (error) {
+                    console.log('Erreur chargement JSON:', error);
+                    questions = testData.questions;
+                }
+            } else {
+                console.log('Pas de configuration, utilisation des données test');
+                questions = testData.questions;
+                config = { title: 'Test QCM', duration: 30, coefficient: 1 };
+                timeLeft = 30 * 60;
+            }
+            
+            if (questions.length === 0) {
+                console.log('Aucune question, utilisation des données test');
+                questions = testData.questions;
+            }
+            
+            console.log('Questions finales:', questions.length);
+            document.getElementById('total').textContent = questions.length;
+            
+            startTimer();
+            showQuestion();
+        }
+        
+        function startTimer() {
+            setInterval(() => {
+                if (timeLeft > 0) {
+                    timeLeft--;
+                    const min = Math.floor(timeLeft / 60);
+                    const sec = timeLeft % 60;
+                    document.getElementById('timer').textContent = 
+                        `${min.toString().padStart(2, '0')}:${sec.toString().padStart(2, '0')}`;
+                }
+            }, 1000);
+        }
+        
+        function showQuestion() {
+            const q = questions[currentQuestion];
+            document.getElementById('current').textContent = currentQuestion + 1;
+            document.getElementById('question').textContent = q.question;
+            document.getElementById('score').textContent = score;
+            
+            const optionsDiv = document.getElementById('options');
+            optionsDiv.innerHTML = '';
+            
+            q.options.forEach((option, index) => {
+                const div = document.createElement('div');
+                div.className = 'option';
+                div.textContent = String.fromCharCode(65 + index) + ') ' + option;
+                div.onclick = () => selectOption(index);
+                
+                if (answers[currentQuestion] === String.fromCharCode(97 + index)) {
+                    div.classList.add('selected');
+                }
+                
+                optionsDiv.appendChild(div);
+            });
+            
+            document.getElementById('prevBtn').disabled = currentQuestion === 0;
+            document.getElementById('nextBtn').textContent = 
+                currentQuestion === questions.length - 1 ? 'Terminer' : 'Suivant';
+        }
+        
+        function selectOption(index) {
+            document.querySelectorAll('.option').forEach(o => o.classList.remove('selected'));
+            document.querySelectorAll('.option')[index].classList.add('selected');
+            answers[currentQuestion] = String.fromCharCode(97 + index);
+        }
+        
+        function next() {
+            if (currentQuestion < questions.length - 1) {
+                currentQuestion++;
+                showQuestion();
+            } else {
+                finish();
+            }
+        }
+        
+        function previous() {
+            if (currentQuestion > 0) {
+                currentQuestion--;
+                showQuestion();
+            }
+        }
+        
+        function finish() {
+            score = 0;
+            questions.forEach((q, i) => {
+                if (answers[i] === q.reponse_correcte) score++;
+            });
+            
+            const percent = (score / questions.length * 100).toFixed(1);
+            const grade = (score / questions.length * 20).toFixed(1);
+            
+            alert(`Quiz terminé!\nScore: ${score}/${questions.length} (${percent}%)\nNote: ${grade}/20\n${percent >= 60 ? 'Réussi!' : 'Échec'}`);
+        }
+        
+        function goHome() {
+            localStorage.removeItem('currentQuizConfig');
+            localStorage.removeItem('currentQuizCategory');
+            window.location.href = 'index.html';
+        }
+        
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>

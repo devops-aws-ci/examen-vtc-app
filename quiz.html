@@ -545,50 +545,227 @@
             }
         }
         
-        // Simuler le chargement des données (remplacez par votre logique)
+        // Charger les données depuis les fichiers JSON
         async function getQuizDataForCategory(category) {
-            // Simuler une requête réseau
-            await new Promise(resolve => setTimeout(resolve, 1000));
-            
-            // Données de démonstration - remplacez par vos vrais fichiers JSON
-            const demoData = {
+            try {
+                // Mapping des catégories vers les fichiers JSON
+                const jsonFiles = {
+                    't3p': 'data/t3p_prevention_qcm.json',
+                    'gestion': 'data/gestion_entreprise_qcm.json',
+                    'securite': 'data/securite_routiere_qcm.json',
+                    'francais': 'data/francais_qcm.json',
+                    'anglais': 'data/anglais_qcm.json',
+                    'commercial': 'data/developpement_commercial_qcm.json',
+                    'reglementation': 'data/reglementation_vtc_qcm.json'
+                };
+                
+                const fileName = jsonFiles[category];
+                if (!fileName) {
+                    throw new Error(`Fichier non trouvé pour la catégorie: ${category}`);
+                }
+                
+                const response = await fetch(fileName);
+                if (!response.ok) {
+                    throw new Error(`Erreur HTTP: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                return data;
+                
+            } catch (error) {
+                console.error('Erreur lors du chargement des données:', error);
+                
+                // Fallback avec données de base si le fichier JSON n'existe pas
+                return getFallbackData(category);
+            }
+        }
+        
+        // Données de fallback si les fichiers JSON ne sont pas trouvés
+        function getFallbackData(category) {
+            const fallbackData = {
                 't3p': {
-                    matiere: "T3P et prévention des discriminations",
-                    questions: [
+                    "matiere": "T3P et prévention des discriminations sexuelles et sexistes",
+                    "duree": "45 minutes",
+                    "points": 20,
+                    "coefficient": 2,
+                    "questions": [
                         {
-                            id: 1,
-                            type: "QCM",
-                            question: "Quel ministère gère le registre des exploitants VTC ?",
-                            options: ["Ministère de l'économie", "Ministère en charge du tourisme", "Ministère de l'intérieur", "Ministère en charge des transports"],
-                            reponse_correcte: "d",
-                            points: 1
+                            "id": 1,
+                            "type": "QCM",
+                            "question": "Quel ministère gère le registre des exploitants VTC ?",
+                            "options": [
+                                "Ministère de l'économie",
+                                "Ministère en charge du tourisme", 
+                                "Ministère de l'intérieur",
+                                "Ministère en charge des transports"
+                            ],
+                            "reponse_correcte": "d",
+                            "points": 1
                         },
                         {
-                            id: 2,
-                            type: "QCM", 
-                            question: "Puis-je utiliser un véhicule acheté en janvier 2012 pour exercer la profession de VTC ?",
-                            options: ["Oui, si c'est un véhicule hybride ou électrique", "Non si c'est un véhicule thermique", "Oui, à condition qu'il respecte les critères de puissance et de dimensions"],
-                            reponse_correcte: "b",
-                            points: 1
+                            "id": 2,
+                            "type": "QCM",
+                            "question": "Puis-je utiliser un véhicule acheté en janvier 2012 pour exercer la profession de VTC ?",
+                            "options": [
+                                "Oui, si c'est un véhicule hybride ou électrique",
+                                "Non si c'est un véhicule thermique",
+                                "Oui, à condition qu'il respecte les critères de puissance et de dimensions"
+                            ],
+                            "reponse_correcte": "b",
+                            "points": 1
+                        },
+                        {
+                            "id": 3,
+                            "type": "QCM", 
+                            "question": "L'arrêté du 6 Avril 2017 relatif à la signalétique définitive des voitures de transport avec chauffeur impose :",
+                            "options": [
+                                "Une vignette ronde de couleur rouge",
+                                "2 vignettes rondes de couleur rouge",
+                                "2 vignettes rondes de couleur mauve"
+                            ],
+                            "reponse_correcte": "c",
+                            "points": 1
                         }
                     ]
                 },
                 'gestion': {
-                    matiere: "Gestion d'entreprise",
-                    questions: [
+                    "matiere": "Gestion d'entreprise",
+                    "duree": "30 minutes", 
+                    "points": 20,
+                    "coefficient": 3,
+                    "questions": [
                         {
-                            id: 1,
-                            type: "QCM",
-                            question: "Quand il y a franchise de TVA cela signifie que :",
-                            options: ["La déclaration de TVA sera faite ultérieurement", "La prestation n'est pas assujettie à la TVA", "L'entreprise ne peut pas récupérer la TVA"],
-                            reponse_correcte: "b",
-                            points: 1
+                            "id": 1,
+                            "type": "QCM",
+                            "question": "Quand il y a franchise de TVA cela signifie que :",
+                            "options": [
+                                "La déclaration de TVA sera faite ultérieurement",
+                                "La prestation n'est pas assujettie à la TVA",
+                                "L'entreprise ne peut pas récupérer la TVA"
+                            ],
+                            "reponse_correcte": "b",
+                            "points": 1
+                        },
+                        {
+                            "id": 2,
+                            "type": "QCM",
+                            "question": "Quelle situation permet d'avoir un crédit de TVA :",
+                            "options": [
+                                "TVA collectée supérieure à TVA déductible",
+                                "TVA collectée est inférieure TVA déductible",
+                                "TVA collectée = TVA déductible"
+                            ],
+                            "reponse_correcte": "b",
+                            "points": 1
+                        }
+                    ]
+                },
+                'securite': {
+                    "matiere": "Sécurité routière",
+                    "duree": "30 minutes",
+                    "points": 20,
+                    "coefficient": 3,
+                    "questions": [
+                        {
+                            "id": 1,
+                            "type": "QCM",
+                            "question": "Pour faire établir une nouvelle carte grise lors d'un changement de domicile, le propriétaire dispose de :",
+                            "options": [
+                                "3 semaines",
+                                "1 mois",
+                                "15 jours"
+                            ],
+                            "reponse_correcte": "b",
+                            "points": 1
+                        }
+                    ]
+                },
+                'francais': {
+                    "matiere": "Français",
+                    "duree": "30 minutes",
+                    "points": 20,
+                    "coefficient": 2,
+                    "questions": [
+                        {
+                            "id": 1,
+                            "type": "QCM",
+                            "question": "Que signifie le mot « recensement » ?",
+                            "options": [
+                                "Enquête",
+                                "Recueil d'informations",
+                                "Traitement de statistiques",
+                                "Dénombrement détaillé"
+                            ],
+                            "reponse_correcte": "d",
+                            "points": 2
+                        }
+                    ]
+                },
+                'anglais': {
+                    "matiere": "Anglais",
+                    "duree": "30 minutes",
+                    "points": 20,
+                    "coefficient": 1,
+                    "questions": [
+                        {
+                            "id": 1,
+                            "type": "QCM",
+                            "question": "Il y a un supplément pour la quatrième personne",
+                            "options": [
+                                "There is no extra charge for the fourth person",
+                                "There is a supplement for the third person",
+                                "There is an extra charge for the fourth person"
+                            ],
+                            "reponse_correcte": "c",
+                            "points": 1
+                        }
+                    ]
+                },
+                'commercial': {
+                    "matiere": "Développement commercial",
+                    "duree": "30 minutes",
+                    "points": 20,
+                    "coefficient": 3,
+                    "questions": [
+                        {
+                            "id": 1,
+                            "type": "QCM",
+                            "question": "À l'aéroport, le parking professionnel est saturé alors que vos clients ne vont pas tarder à sortir du check out :",
+                            "options": [
+                                "Vous vous garez sur des zébras",
+                                "Vous vous garez au niveau de la dépose taxi car c'est au niveau des arrivées",
+                                "Vous vous garez au parking public",
+                                "Vous attendez qu'une place se libère"
+                            ],
+                            "reponse_correcte": "c",
+                            "points": 1
+                        }
+                    ]
+                },
+                'reglementation': {
+                    "matiere": "Réglementation nationale VTC",
+                    "duree": "20 minutes",
+                    "points": 20,
+                    "coefficient": 3,
+                    "questions": [
+                        {
+                            "id": 1,
+                            "type": "QCM",
+                            "question": "La durée maximale de stationnement précédant l'horaire de prise en charge mentionné par le client lors de sa réservation à un aéroport ou une gare pour un VTC est de :",
+                            "options": [
+                                "30 minutes",
+                                "45 minutes",
+                                "1 heure",
+                                "1h30"
+                            ],
+                            "reponse_correcte": "c",
+                            "points": 2
                         }
                     ]
                 }
             };
             
-            return demoData[category] || demoData['t3p'];
+            return fallbackData[category] || fallbackData['t3p'];
         }
         
         function showError(message) {
@@ -723,4 +900,167 @@
             }
         }
         
-        function previous
+        function previousQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                displayQuestion();
+            }
+        }
+        
+        function endQuiz() {
+            if (timerInterval) {
+                clearInterval(timerInterval);
+            }
+            calculateScore();
+            showResults();
+        }
+        
+        function calculateScore() {
+            score = 0;
+            quizData.questions.forEach((question, index) => {
+                if (userAnswers[index] === question.reponse_correcte) {
+                    score++;
+                }
+            });
+        }
+        
+        function showResults() {
+            document.getElementById('questionCard').style.display = 'none';
+            document.getElementById('navigation').style.display = 'none';
+            
+            const percentage = (score / quizData.questions.length) * 100;
+            const noteVingt = (score / quizData.questions.length) * 20;
+            const endTime = Date.now();
+            const timeUsed = Math.round((endTime - startTime) / 1000 / 60); // en minutes
+            
+            // Déterminer si c'est réussi (note minimale requise)
+            const minGradeRequired = 6; // Note minimale sur 20
+            const passed = noteVingt >= minGradeRequired;
+            
+            // Mettre à jour les éléments
+            document.getElementById('finalScore').textContent = `${score}/${quizData.questions.length}`;
+            document.getElementById('scoreCircle').className = `score-circle ${passed ? 'pass' : 'fail'}`;
+            document.getElementById('resultTitle').textContent = passed ? 'Félicitations !' : 'Échec';
+            document.getElementById('resultMessage').textContent = passed 
+                ? `Vous avez réussi l'épreuve de ${quizConfig.title} !`
+                : `Note insuffisante. Il faut au moins ${minGradeRequired}/20 pour valider cette épreuve.`;
+            
+            // Détails des résultats
+            document.getElementById('detailScore').textContent = `${score}/${quizData.questions.length}`;
+            document.getElementById('detailPercentage').textContent = `${percentage.toFixed(1)}%`;
+            document.getElementById('detailGrade').textContent = `${noteVingt.toFixed(1)}/20`;
+            document.getElementById('detailTime').textContent = `${timeUsed} min`;
+            
+            document.getElementById('results').style.display = 'block';
+            
+            // Sauvegarder les résultats
+            saveQuizResult(score, quizData.questions.length, noteVingt, passed);
+        }
+        
+        function saveQuizResult(score, total, grade, passed) {
+            const category = localStorage.getItem('currentQuizCategory');
+            const results = JSON.parse(localStorage.getItem('quizResults') || '{}');
+            
+            results[category] = {
+                score: score,
+                total: total,
+                grade: grade,
+                passed: passed,
+                date: new Date().toISOString(),
+                timeUsed: Math.round((Date.now() - startTime) / 1000 / 60)
+            };
+            
+            localStorage.setItem('quizResults', JSON.stringify(results));
+        }
+        
+        function restartQuiz() {
+            currentQuestionIndex = 0;
+            userAnswers = [];
+            score = 0;
+            timeLeft = quizConfig.duration * 60;
+            startTime = null;
+            
+            document.getElementById('questionCard').style.display = 'block';
+            document.getElementById('navigation').style.display = 'flex';
+            document.getElementById('results').style.display = 'none';
+            
+            initQuiz();
+        }
+        
+        function reviewAnswers() {
+            // Créer une page de révision
+            let reviewHTML = `
+                <div style="background: white; border-radius: 20px; padding: 30px; margin-top: 20px;">
+                    <h2 style="text-align: center; margin-bottom: 30px; color: #2c3e50;">Révision des réponses</h2>
+            `;
+            
+            quizData.questions.forEach((question, index) => {
+                const userAnswer = userAnswers[index];
+                const correctAnswer = question.reponse_correcte;
+                const isCorrect = userAnswer === correctAnswer;
+                
+                reviewHTML += `
+                    <div style="margin-bottom: 30px; padding: 20px; border-radius: 12px; background: ${isCorrect ? '#e8f5e8' : '#ffebee'};">
+                        <h4 style="color: #2c3e50; margin-bottom: 15px;">Question ${index + 1}</h4>
+                        <p style="margin-bottom: 15px; font-weight: 500;">${question.question}</p>
+                        <div style="margin-bottom: 10px;">
+                            <strong>Votre réponse:</strong> 
+                            <span style="color: ${isCorrect ? '#4caf50' : '#f44336'};">
+                                ${userAnswer ? question.options[userAnswer.charCodeAt(0) - 97] : 'Pas de réponse'}
+                            </span>
+                        </div>
+                        <div>
+                            <strong>Bonne réponse:</strong> 
+                            <span style="color: #4caf50;">
+                                ${question.options[correctAnswer.charCodeAt(0) - 97]}
+                            </span>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            reviewHTML += `
+                    <div style="text-align: center; margin-top: 30px;">
+                        <button class="nav-btn" onclick="closeReview()">Fermer la révision</button>
+                    </div>
+                </div>
+            `;
+            
+            document.getElementById('results').innerHTML = reviewHTML;
+        }
+        
+        function closeReview() {
+            showResults(); // Retour aux résultats normaux
+        }
+        
+        function goHome() {
+            // Nettoyer le localStorage
+            localStorage.removeItem('currentQuizConfig');
+            localStorage.removeItem('currentQuizCategory');
+            window.location.href = 'index.html';
+        }
+        
+        // Gestion des raccourcis clavier
+        document.addEventListener('keydown', function(event) {
+            if (document.getElementById('questionCard').style.display !== 'none') {
+                // Touches 1-4 pour sélectionner les options
+                if (event.key >= '1' && event.key <= '4') {
+                    const optionIndex = parseInt(event.key) - 1;
+                    const question = quizData.questions[currentQuestionIndex];
+                    if (optionIndex < question.options.length) {
+                        selectOption(optionIndex);
+                    }
+                }
+                // Flèche droite ou Entrée pour question suivante
+                else if (event.key === 'ArrowRight' || event.key === 'Enter') {
+                    nextQuestion();
+                }
+                // Flèche gauche pour question précédente
+                else if (event.key === 'ArrowLeft') {
+                    previousQuestion();
+                }
+            }
+        });
+        
+        // Initialiser le quiz au chargement de la page
+        document.addEventListener('DOMContentLoaded', initQuiz);

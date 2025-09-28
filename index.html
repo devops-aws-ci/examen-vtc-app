@@ -722,11 +722,13 @@
                 // Charger toutes les catégories en parallèle
                 const loadPromises = DATA_CONFIG.categories.map(async (categoryConfig) => {
                     try {
+                        console.log(`Tentative de chargement de: ${categoryConfig.file}`);
                         const response = await fetch(categoryConfig.file);
                         if (!response.ok) {
-                            throw new Error(`HTTP ${response.status}`);
+                            throw new Error(`HTTP ${response.status} pour ${categoryConfig.file}`);
                         }
                         const data = await response.json();
+                        console.log(`✅ Fichier ${categoryConfig.file} chargé avec ${data.questions?.length || 0} questions`);
                         
                         // Stocker les données de la catégorie
                         categoriesData[categoryConfig.id] = {
@@ -737,9 +739,9 @@
                         // Stocker les questions
                         questionDatabase[categoryConfig.id] = data.questions || [];
                         
-                        return { success: true, category: categoryConfig.id };
+                        return { success: true, category: categoryConfig.id, count: data.questions?.length || 0 };
                     } catch (error) {
-                        console.warn(`Erreur lors du chargement de ${categoryConfig.file}:`, error);
+                        console.warn(`❌ Erreur lors du chargement de ${categoryConfig.file}:`, error);
                         
                         // Utiliser les données de fallback
                         categoriesData[categoryConfig.id] = {
@@ -748,11 +750,18 @@
                         };
                         questionDatabase[categoryConfig.id] = getFallbackQuestions(categoryConfig.id);
                         
-                        return { success: false, category: categoryConfig.id, error };
+                        return { success: false, category: categoryConfig.id, error, count: getFallbackQuestions(categoryConfig.id).length };
                     }
                 });
 
                 const results = await Promise.all(loadPromises);
+                
+                // Afficher les résultats de chargement
+                console.log('📊 Résultats du chargement:');
+                results.forEach(result => {
+                    const status = result.success ? '✅' : '❌';
+                    console.log(`${status} ${result.category}: ${result.count} questions`);
+                });
                 
                 // Vérifier les résultats
                 const failedLoads = results.filter(r => !r.success);
@@ -1471,13 +1480,34 @@
             
             html += `
                     <div style="text-align: center; margin-top: 40px;">
-                        <button class="btn btn-primary" onclick="goHome()">🏠 Retour à l'accueil</button>
-                        <button class="btn btn-success" onclick="restartExam()" style="margin-left: 15px;">🔄 Recommencer</button>
+                        <button class="btn btn-primary" onclick="goHomeFromReview()">🏠 Retour à l'accueil</button>
+                        <button class="btn btn-success" onclick="restartExamFromReview()" style="margin-left: 15px;">🔄 Recommencer</button>
                     </div>
                 </div>
             `;
             
             return html;
+        }
+
+        // Nouvelles fonctions pour les boutons de la page de révision
+        function goHomeFromReview() {
+            // Supprimer la page de révision
+            const reviewPage = document.getElementById('review-page');
+            if (reviewPage) {
+                reviewPage.remove();
+            }
+            // Retourner à l'accueil
+            goHome();
+        }
+
+        function restartExamFromReview() {
+            // Supprimer la page de révision
+            const reviewPage = document.getElementById('review-page');
+            if (reviewPage) {
+                reviewPage.remove();
+            }
+            // Redémarrer l'examen
+            restartExam();
         }
 
         // Gestion des statistiques

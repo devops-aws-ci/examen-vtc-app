@@ -1,0 +1,1594 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCM VTC - Préparation Examen</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .main-content {
+            padding: 40px;
+        }
+
+        .stats-card {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .stats-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .stat-item {
+            background: rgba(255,255,255,0.2);
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            display: block;
+        }
+
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .category-card {
+            background: white;
+            border: 2px solid #e1e8ed;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .category-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+            transition: left 0.5s;
+        }
+
+        .category-card:hover::before {
+            left: 100%;
+        }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+            border-color: #3498db;
+        }
+
+        .category-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #3498db;
+        }
+
+        .category-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .category-description {
+            color: #7f8c8d;
+            margin-bottom: 15px;
+        }
+
+        .question-count {
+            background: #3498db;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .exam-container {
+            display: none;
+        }
+
+        .question-card {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #ecf0f1;
+        }
+
+        .question-number {
+            background: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: 600;
+        }
+
+        .timer {
+            background: #e74c3c;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: 600;
+            font-family: 'Courier New', monospace;
+        }
+
+        .question-text {
+            font-size: 1.3rem;
+            line-height: 1.6;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+
+        .options-container {
+            margin-bottom: 40px;
+        }
+
+        .option {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+        }
+
+        .option:hover {
+            background: #e3f2fd;
+            border-color: #2196f3;
+        }
+
+        .option.selected {
+            background: #e8f5e8;
+            border-color: #4caf50;
+            color: #2e7d32;
+        }
+
+        .option.correct {
+            background: #e8f5e8;
+            border-color: #4caf50;
+        }
+
+        .option.incorrect {
+            background: #ffebee;
+            border-color: #f44336;
+        }
+
+        .option-letter {
+            background: #6c757d;
+            color: white;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            font-weight: 600;
+            flex-shrink: 0;
+        }
+
+        .option.selected .option-letter {
+            background: #4caf50;
+        }
+
+        .option-text {
+            flex: 1;
+            font-size: 1.1rem;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .btn {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(52, 152, 219, 0.4);
+        }
+
+        .btn-secondary {
+            background: #95a5a6;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #7f8c8d;
+        }
+
+        .btn-success {
+            background: linear-gradient(135deg, #27ae60, #219a52);
+            color: white;
+        }
+
+        .btn-large {
+            padding: 15px 40px;
+            font-size: 1.2rem;
+        }
+
+        .progress-bar {
+            background: #ecf0f1;
+            height: 8px;
+            border-radius: 4px;
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            height: 100%;
+            transition: width 0.3s ease;
+        }
+
+        .results-container {
+            display: none;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .results-card {
+            background: white;
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .score-circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 30px;
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        .score-excellent {
+            background: linear-gradient(135deg, #27ae60, #219a52);
+        }
+
+        .score-good {
+            background: linear-gradient(135deg, #f39c12, #e67e22);
+        }
+
+        .score-poor {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+        }
+
+        .results-message {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+
+        .results-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .result-detail {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .result-detail-number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .result-detail-label {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+
+        .home-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: rgba(255,255,255,0.9);
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            font-size: 1.5rem;
+            color: #3498db;
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+        .home-button:hover {
+            background: white;
+            transform: scale(1.1);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                border-radius: 15px;
+            }
+
+            .header {
+                padding: 30px 20px;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .main-content {
+                padding: 30px 20px;
+            }
+
+            .categories-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .question-header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .navigation {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .btn {
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        .fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        @keyframes slideInRight {
+            from { transform: translateX(100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        
+        @keyframes slideOutRight {
+            from { transform: translateX(0); opacity: 1; }
+            to { transform: translateX(100%); opacity: 0; }
+        }
+        
+        .notification {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .loading-spinner {
+            border: 3px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top: 3px solid white;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .category-card:hover {
+            transform: translateY(-5px) scale(1.02);
+        }
+        
+        .question-card {
+            transition: all 0.3s ease;
+        }
+        
+        .option:active {
+            transform: scale(0.98);
+        }
+        
+        .btn:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+<body>
+    <button class="home-button" onclick="goHome()" title="Retour à l'accueil">🏠</button>
+
+    <div class="container">
+        <!-- Page d'accueil -->
+        <div id="home-page">
+            <div class="header">
+                <h1>QCM VTC</h1>
+                <p>Préparez votre examen de conducteur VTC avec nos questions officielles</p>
+            </div>
+
+            <div class="main-content">
+                <!-- Statistiques -->
+                <div class="stats-card">
+                    <h3>📊 Vos Statistiques</h3>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-number" id="total-exams">0</span>
+                            <span>Examens passés</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" id="success-rate">0%</span>
+                            <span>Taux de réussite</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" id="best-score">0</span>
+                            <span>Meilleur score</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bouton examen complet -->
+                <div style="text-align: center; margin-bottom: 40px;">
+                    <button class="btn btn-success btn-large pulse" onclick="startFullExam()">
+                        🎯 Examen Complet VTC
+                    </button>
+                    <p style="margin-top: 10px; color: #7f8c8d;">Simulation complète de l'examen officiel</p>
+                </div>
+
+                <!-- Catégories d'entraînement -->
+                <h2 style="text-align: center; margin-bottom: 30px; color: #2c3e50;">📚 Entraînement par Catégorie</h2>
+                
+                <div class="categories-grid">
+                    <!-- Les catégories seront générées dynamiquement -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Page d'examen -->
+        <div id="exam-page" class="exam-container">
+            <div class="header">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <h1 id="exam-title">Examen VTC</h1>
+                    <div class="timer" id="timer">⏱️ 30:00</div>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+            </div>
+
+            <div class="main-content">
+                <div class="question-card fade-in" id="question-card">
+                    <div class="question-header">
+                        <span class="question-number" id="question-number">Question 1/25</span>
+                    </div>
+
+                    <div class="question-text" id="question-text">
+                        Chargement de la question...
+                    </div>
+
+                    <div class="options-container" id="options-container">
+                        <!-- Les options seront générées dynamiquement -->
+                    </div>
+
+                    <div class="navigation">
+                        <button class="btn btn-secondary" id="prev-btn" onclick="previousQuestion()">⬅️ Précédent</button>
+                        <button class="btn btn-primary" id="next-btn" onclick="nextQuestion()">Suivant ➡️</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page de résultats -->
+        <div id="results-page" class="results-container">
+            <div class="results-card fade-in">
+                <div class="score-circle" id="score-circle">
+                    <span id="score-percentage">0%</span>
+                </div>
+
+                <div class="results-message" id="results-message">
+                    Excellent travail !
+                </div>
+
+                <div class="results-details">
+                    <div class="result-detail">
+                        <div class="result-detail-number" id="correct-answers">0</div>
+                        <div class="result-detail-label">Bonnes réponses</div>
+                    </div>
+                    <div class="result-detail">
+                        <div class="result-detail-number" id="total-questions">0</div>
+                        <div class="result-detail-label">Questions total</div>
+                    </div>
+                    <div class="result-detail">
+                        <div class="result-detail-number" id="time-spent">0min</div>
+                        <div class="result-detail-label">Temps passé</div>
+                    </div>
+                </div>
+
+                <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin-top: 30px;">
+                    <button class="btn btn-primary" onclick="reviewAnswers()">📝 Revoir les réponses</button>
+                    <button class="btn btn-success" onclick="restartExam()">🔄 Recommencer</button>
+                    <button class="btn btn-secondary" onclick="goHome()">🏠 Accueil</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Configuration des fichiers de données
+        const DATA_CONFIG = {
+            categories: [
+                { 
+                    id: 'REGLEMENTATION', 
+                    file: 'data/reglementation.json',
+                    fallback: {
+                        name: "Réglementation VTC",
+                        description: "Règles et obligations légales", 
+                        icon: "⚖️",
+                        duration: 30
+                    }
+                },
+                { 
+                    id: 'RELATION_CLIENT', 
+                    file: 'data/relation_client.json',
+                    fallback: {
+                        name: "Relation Client",
+                        description: "Service et communication",
+                        icon: "🤝", 
+                        duration: 30
+                    }
+                },
+                { 
+                    id: 'DEVELOPPEMENT', 
+                    file: 'data/developpement_commercial.json',
+                    fallback: {
+                        name: "Développement Commercial",
+                        description: "Marketing et prospection",
+                        icon: "📈",
+                        duration: 30
+                    }
+                },
+                { 
+                    id: 'GESTION', 
+                    file: 'data/gestion.json',
+                    fallback: {
+                        name: "Gestion d'Entreprise", 
+                        description: "Comptabilité et administration",
+                        icon: "💼",
+                        duration: 30
+                    }
+                },
+                { 
+                    id: 'SECURITE', 
+                    file: 'data/securite.json',
+                    fallback: {
+                        name: "Sécurité Routière",
+                        description: "Code de la route et sécurité", 
+                        icon: "🚗",
+                        duration: 30
+                    }
+                },
+                { 
+                    id: 'FRANCAIS', 
+                    file: 'data/francais.json',
+                    fallback: {
+                        name: "Compréhension Française",
+                        description: "Maîtrise de la langue française",
+                        icon: "🇫🇷", 
+                        duration: 30
+                    }
+                }
+            ]
+        };
+
+        // Base de données des questions (sera chargée dynamiquement)
+        let questionDatabase = {};
+        let categoriesData = {};
+        let isDataLoaded = false;
+
+        // Variables globales
+        let currentExam = {
+            questions: [],
+            currentQuestionIndex: 0,
+            answers: {},
+            startTime: null,
+            category: null,
+            isFullExam: false
+        };
+
+        let timer = null;
+        let timeRemaining = 0;
+
+        // Chargement des données depuis les fichiers JSON
+        async function loadQuestionsData() {
+            const loadingIndicator = document.getElementById('loading-indicator');
+            if (loadingIndicator) loadingIndicator.style.display = 'block';
+
+            try {
+                // Charger toutes les catégories en parallèle
+                const loadPromises = DATA_CONFIG.categories.map(async (categoryConfig) => {
+                    try {
+                        const response = await fetch(categoryConfig.file);
+                        if (!response.ok) {
+                            throw new Error(`HTTP ${response.status}`);
+                        }
+                        const data = await response.json();
+                        
+                        // Stocker les données de la catégorie
+                        categoriesData[categoryConfig.id] = {
+                            ...data,
+                            ...categoryConfig.fallback
+                        };
+                        
+                        // Stocker les questions
+                        questionDatabase[categoryConfig.id] = data.questions || [];
+                        
+                        return { success: true, category: categoryConfig.id };
+                    } catch (error) {
+                        console.warn(`Erreur lors du chargement de ${categoryConfig.file}:`, error);
+                        
+                        // Utiliser les données de fallback
+                        categoriesData[categoryConfig.id] = {
+                            ...categoryConfig.fallback,
+                            questions: getFallbackQuestions(categoryConfig.id)
+                        };
+                        questionDatabase[categoryConfig.id] = getFallbackQuestions(categoryConfig.id);
+                        
+                        return { success: false, category: categoryConfig.id, error };
+                    }
+                });
+
+                const results = await Promise.all(loadPromises);
+                
+                // Vérifier les résultats
+                const failedLoads = results.filter(r => !r.success);
+                if (failedLoads.length > 0) {
+                    console.warn(`${failedLoads.length} fichier(s) n'ont pas pu être chargés. Utilisation des données de secours.`);
+                    showNotification('Certaines données ont été chargées en mode hors ligne.', 'warning');
+                }
+
+                isDataLoaded = true;
+                updateCategoriesDisplay();
+                
+            } catch (error) {
+                console.error('Erreur critique lors du chargement des données:', error);
+                loadFallbackData();
+                showNotification('Données chargées en mode hors ligne.', 'info');
+            } finally {
+                if (loadingIndicator) loadingIndicator.style.display = 'none';
+            }
+        }
+
+        // Données de secours intégrées
+        function getFallbackQuestions(category) {
+            const fallbackData = {
+                REGLEMENTATION: [
+                    {
+                        id: "reg_001",
+                        question: "Quelles sont les dimensions minimales d'un véhicule VTC ?",
+                        options: ["4,5 m x 1,7 m", "4,6 m x 1,8 m", "4,3 m x 1,5 m", "4,5 m x 1,6 m"],
+                        correctAnswer: 3,
+                        explanation: "Les véhicules VTC doivent mesurer au minimum 4,5 m de long et 1,6 m de large.",
+                        difficulty: "easy"
+                    },
+                    {
+                        id: "reg_002",
+                        question: "Comment reconnaît-on un VTC ?",
+                        options: [
+                            "Par la couleur noire du véhicule de haut-de-gamme",
+                            "Par un macaron à l'avant et à l'arrière du véhicule",
+                            "Par un macaron à l'avant",
+                            "Par un macaron à l'arrière"
+                        ],
+                        correctAnswer: 1,
+                        explanation: "Un VTC se reconnaît par un macaron obligatoire à l'avant et à l'arrière du véhicule.",
+                        difficulty: "easy"
+                    },
+                    {
+                        id: "reg_003",
+                        question: "L'inscription au registre des exploitants VTC donne lieu à :",
+                        options: [
+                            "La publication au bulletin officiel",
+                            "La publication du nom de l'entreprise dans la liste des exploitants sur le site du Ministère",
+                            "La délivrance d'une attestation d'inscription",
+                            "La délivrance d'un diplôme"
+                        ],
+                        correctAnswer: 2,
+                        explanation: "L'inscription donne lieu à la délivrance d'une attestation d'inscription.",
+                        difficulty: "medium"
+                    },
+                    {
+                        id: "reg_004",
+                        question: "La prise en charge d'un client sur une voie ouverte à la circulation publique sans réservation préalable est :",
+                        options: [
+                            "Autorisée si elle est consécutive à la dépose du client précédent sur le même lieu",
+                            "Un délit puni d'une peine de prison et d'une amende pouvant aller jusqu'à 15 000 €",
+                            "Passible d'une suspension du permis de conduire"
+                        ],
+                        correctAnswer: 1,
+                        explanation: "C'est un délit grave passible de lourdes sanctions financières et pénales.",
+                        difficulty: "hard"
+                    },
+                    {
+                        id: "reg_005",
+                        question: "Qui délivre la carte professionnelle des conducteurs de VTC ?",
+                        options: [
+                            "Les organisations professionnelles de VTC",
+                            "La préfecture",
+                            "La chambre de métiers et de l'artisanat",
+                            "La Mairie"
+                        ],
+                        correctAnswer: 1,
+                        explanation: "C'est la préfecture qui délivre la carte professionnelle VTC.",
+                        difficulty: "easy"
+                    }
+                ],
+                RELATION_CLIENT: [
+                    {
+                        id: "rel_001",
+                        question: "Votre client allume une cigarette alors que votre entreprise de transport en VTC ne le permet pas :",
+                        options: [
+                            "Vous n'intervenez pas, le client est roi",
+                            "Vous lui demandez courtoisement de bien vouloir entrebâiller sa fenêtre",
+                            "Vous lui proposez, s'il n'est pas pressé, de vous arrêter pour qu'il fume sa cigarette",
+                            "Vous appelez courtoisement son attention sur le fait qu'il n'est pas possible de fumer dans l'habitacle"
+                        ],
+                        correctAnswer: 3,
+                        explanation: "Il faut poliment mais fermement rappeler l'interdiction de fumer.",
+                        difficulty: "medium"
+                    },
+                    {
+                        id: "rel_002",
+                        question: "Un client vous demande de dépasser la vitesse autorisée car il est en retard :",
+                        options: [
+                            "Vous acceptez car le client paie",
+                            "Vous refusez poliment en expliquant les risques",
+                            "Vous dépassez légèrement la limite",
+                            "Vous lui proposez un autre itinéraire plus rapide"
+                        ],
+                        correctAnswer: 1,
+                        explanation: "La sécurité prime toujours. Il faut refuser poliment tout en proposant des alternatives.",
+                        difficulty: "easy"
+                    },
+                    {
+                        id: "rel_003",
+                        question: "La tenue vestimentaire du conducteur VTC doit être :",
+                        options: [
+                            "Libre, peu importe l'apparence",
+                            "Correcte et professionnelle",
+                            "Obligatoirement en costume",
+                            "Identique à celle des taxis"
+                        ],
+                        correctAnswer: 1,
+                        explanation: "Une tenue correcte et professionnelle est exigée pour véhiculer une image de qualité.",
+                        difficulty: "easy"
+                    }
+                ],
+                DEVELOPPEMENT: [
+                    {
+                        id: "dev_001",
+                        question: "Quelle est la première étape d'une stratégie commerciale ?",
+                        options: ["Le plan d'action", "Le marketing mix", "L'analyse du marché"],
+                        correctAnswer: 2,
+                        explanation: "Il faut d'abord analyser le marché avant toute stratégie commerciale.",
+                        difficulty: "medium"
+                    },
+                    {
+                        id: "dev_002",
+                        question: "À l'aéroport, le parking professionnel est saturé alors que vos clients ne vont pas tarder à sortir du check out :",
+                        options: [
+                            "Vous vous garez sur des zébras",
+                            "Vous vous garez au niveau de la dépose taxi car c'est au niveau des arrivées",
+                            "Vous vous garez au parking public",
+                            "Vous attendez qu'une place se libère"
+                        ],
+                        correctAnswer: 2,
+                        explanation: "Il faut se garer au parking public en attendant les clients.",
+                        difficulty: "easy"
+                    },
+                    {
+                        id: "dev_003",
+                        question: "Que doit-on dire lorsqu'on décroche un appel téléphonique ?",
+                        options: ["Allo", "Le nom de la société", "Le nom de la société et bonjour"],
+                        correctAnswer: 2,
+                        explanation: "Il faut dire le nom de la société et saluer poliment.",
+                        difficulty: "easy"
+                    },
+                    {
+                        id: "dev_004",
+                        question: "Dans le mix marketing, à quoi correspondent les 4P ?",
+                        options: [
+                            "Prix produit parrainage personnalisation",
+                            "Plateforme présentation place promotion",
+                            "Prix produit place promotion"
+                        ],
+                        correctAnswer: 2,
+                        explanation: "Les 4P du marketing sont : Produit, Prix, Place, Promotion.",
+                        difficulty: "medium"
+                    }
+                ],
+                GESTION: [
+                    {
+                        id: "ges_001",
+                        question: "Le matériel informatique peut être amorti sur :",
+                        options: ["3 ans", "5 ans", "1 an"],
+                        correctAnswer: 0,
+                        explanation: "Le matériel informatique s'amortit généralement sur 3 ans.",
+                        difficulty: "medium"
+                    },
+                    {
+                        id: "ges_002",
+                        question: "La TVA sur les prestations de transport de personnes est de :",
+                        options: ["20%", "10%", "5,5%", "0%"],
+                        correctAnswer: 1,
+                        explanation: "Le transport de personnes bénéficie d'un taux de TVA réduit à 10%.",
+                        difficulty: "medium"
+                    },
+                    {
+                        id: "ges_003",
+                        question: "L'assurance responsabilité civile professionnelle est due :",
+                        options: [
+                            "Par tous les conducteurs de VTC indépendants",
+                            "Par tous les conducteurs de VTC indépendants, à l'exception des auto-entrepreneurs",
+                            "Par tous les conducteurs qu'ils soient indépendants ou salariés"
+                        ],
+                        correctAnswer: 0,
+                        explanation: "Tous les conducteurs VTC indépendants doivent souscrire une assurance RC professionnelle.",
+                        difficulty: "medium"
+                    }
+                ],
+                FRANCAIS: [
+                    {
+                        id: "fra_001",
+                        question: "Quel est le synonyme de 'itinéraire' ?",
+                        options: ["Parcours", "Véhicule", "Passager", "Tarif"],
+                        correctAnswer: 0,
+                        explanation: "Un itinéraire est un parcours, un chemin à suivre.",
+                        difficulty: "easy"
+                    },
+                    {
+                        id: "fra_002",
+                        question: "Comment écrit-on correctement ?",
+                        options: ["Nous avons était en retard", "Nous avons été en retard", "Nous avons êtres en retard", "Nous avons étés en retard"],
+                        correctAnswer: 1,
+                        explanation: "Le participe passé du verbe être est 'été', invariable avec l'auxiliaire avoir.",
+                        difficulty: "medium"
+                    },
+                    {
+                        id: "fra_003",
+                        question: "Que signifie 'être ponctuel' ?",
+                        options: ["Être en retard", "Arriver à l'heure", "Conduire vite", "Être poli"],
+                        correctAnswer: 1,
+                        explanation: "Être ponctuel signifie arriver à l'heure convenue, respecter les horaires.",
+                        difficulty: "easy"
+                    }
+                ],
+                SECURITE: [
+                    {
+                        id: "sec_001",
+                        question: "La vitesse est limitée à combien en agglomération ?",
+                        options: ["30 km/h", "50 km/h", "70 km/h", "90 km/h"],
+                        correctAnswer: 1,
+                        explanation: "La vitesse est limitée à 50 km/h en agglomération.",
+                        difficulty: "easy"
+                    },
+                    {
+                        id: "sec_002",
+                        question: "Le taux d'alcoolémie maximum autorisé pour un conducteur professionnel est de :",
+                        options: ["0,5 g/L", "0,2 g/L", "0,8 g/L", "0 g/L"],
+                        correctAnswer: 1,
+                        explanation: "Pour les conducteurs professionnels, le taux maximum est de 0,2 g/L de sang.",
+                        difficulty: "hard"
+                    },
+                    {
+                        id: "sec_003",
+                        question: "En cas d'accident, que faut-il faire en premier ?",
+                        options: [
+                            "Déplacer les véhicules",
+                            "Sécuriser la zone et protéger",
+                            "Constater les dégâts",
+                            "Appeler l'assurance"
+                        ],
+                        correctAnswer: 1,
+                        explanation: "La priorité absolue est de sécuriser la zone pour éviter un sur-accident.",
+                        difficulty: "easy"
+                    },
+                    {
+                        id: "sec_004",
+                        question: "Le port de la ceinture de sécurité est :",
+                        options: [
+                            "Obligatoire pour le conducteur seulement",
+                            "Obligatoire pour tous les occupants",
+                            "Optionnel en ville",
+                            "Obligatoire sauf pour les taxis"
+                        ],
+                        correctAnswer: 1,
+                        explanation: "Le port de la ceinture est obligatoire pour tous les occupants du véhicule.",
+                        difficulty: "easy"
+                    },
+                    {
+                        id: "sec_005",
+                        question: "Le contrôle technique d'un véhicule VTC doit être effectué :",
+                        options: ["Tous les ans", "Tous les 2 ans", "Tous les 6 mois", "Tous les 4 ans"],
+                        correctAnswer: 0,
+                        explanation: "Les véhicules VTC doivent passer le contrôle technique tous les ans.",
+                        difficulty: "medium"
+                    }
+                ]
+            };
+            
+            return fallbackData[category] || [];
+        }
+
+        function loadFallbackData() {
+            DATA_CONFIG.categories.forEach(categoryConfig => {
+                categoriesData[categoryConfig.id] = {
+                    ...categoryConfig.fallback,
+                    questions: getFallbackQuestions(categoryConfig.id)
+                };
+                questionDatabase[categoryConfig.id] = getFallbackQuestions(categoryConfig.id);
+            });
+            isDataLoaded = true;
+            updateCategoriesDisplay();
+        }
+
+        // Mise à jour de l'affichage des catégories
+        function updateCategoriesDisplay() {
+            const categoriesGrid = document.querySelector('.categories-grid');
+            if (!categoriesGrid) return;
+
+            categoriesGrid.innerHTML = '';
+            
+            Object.keys(categoriesData).forEach(categoryId => {
+                const categoryData = categoriesData[categoryId];
+                const questionCount = questionDatabase[categoryId]?.length || 0;
+                
+                const categoryCard = document.createElement('div');
+                categoryCard.className = 'category-card';
+                categoryCard.onclick = () => startCategoryExam(categoryId);
+                
+                categoryCard.innerHTML = `
+                    <div class="category-icon">${categoryData.icon}</div>
+                    <div class="category-title">${categoryData.name}</div>
+                    <div class="category-description">${categoryData.description}</div>
+                    <span class="question-count">${questionCount} question${questionCount > 1 ? 's' : ''}</span>
+                `;
+                
+                categoriesGrid.appendChild(categoryCard);
+            });
+        }
+
+        // Fonction de notification
+        function showNotification(message, type = 'info') {
+            const notification = document.createElement('div');
+            notification.className = `notification notification-${type}`;
+            notification.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: ${type === 'warning' ? '#f39c12' : type === 'error' ? '#e74c3c' : '#3498db'};
+                color: white;
+                padding: 15px 25px;
+                border-radius: 10px;
+                z-index: 10000;
+                font-weight: 500;
+                max-width: 300px;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+                animation: slideInRight 0.3s ease;
+            `;
+            notification.textContent = message;
+            
+            document.body.appendChild(notification);
+            
+            setTimeout(() => {
+                notification.style.animation = 'slideOutRight 0.3s ease forwards';
+                setTimeout(() => notification.remove(), 300);
+            }, 3000);
+        }
+
+        // Fonction d'initialisation mise à jour
+        async function initApp() {
+            loadStatistics();
+            showPage('home-page');
+            
+            // Ajouter un indicateur de chargement
+            const loadingHtml = `
+                <div id="loading-indicator" style="
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0,0,0,0.8);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    z-index: 9999;
+                    color: white;
+                    font-size: 1.2rem;
+                ">
+                    <div style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 20px;">📚</div>
+                        <div>Chargement des questions...</div>
+                        <div style="margin-top: 10px; font-size: 0.9rem; opacity: 0.7;">
+                            Préparation de votre examen VTC
+                        </div>
+                    </div>
+                </div>
+            `;
+            document.body.insertAdjacentHTML('beforeend', loadingHtml);
+            
+            await loadQuestionsData();
+        }
+
+        // Navigation entre pages
+        function showPage(pageId) {
+            document.querySelectorAll('#home-page, #exam-page, #results-page').forEach(page => {
+                page.style.display = 'none';
+            });
+            document.getElementById(pageId).style.display = 'block';
+        }
+
+        function goHome() {
+            showPage('home-page');
+            stopTimer();
+            loadStatistics();
+        }
+
+        // Démarrage des examens
+        function startFullExam() {
+            if (!isDataLoaded) {
+                showNotification('Données en cours de chargement, veuillez patienter...', 'warning');
+                return;
+            }
+
+            const allQuestions = [];
+            Object.keys(questionDatabase).forEach(category => {
+                allQuestions.push(...questionDatabase[category]);
+            });
+            
+            currentExam = {
+                questions: shuffleArray(allQuestions),
+                currentQuestionIndex: 0,
+                answers: {},
+                startTime: new Date(),
+                category: 'FULL_EXAM',
+                isFullExam: true
+            };
+            
+            document.getElementById('exam-title').textContent = 'Examen Complet VTC';
+            startExam(180); // 3 heures
+        }
+
+        function startCategoryExam(category) {
+            if (!isDataLoaded) {
+                showNotification('Données en cours de chargement, veuillez patienter...', 'warning');
+                return;
+            }
+
+            const questions = questionDatabase[category] || [];
+            if (questions.length === 0) {
+                showNotification('Aucune question disponible pour cette catégorie.', 'error');
+                return;
+            }
+            
+            currentExam = {
+                questions: shuffleArray([...questions]),
+                currentQuestionIndex: 0,
+                answers: {},
+                startTime: new Date(),
+                category: category,
+                isFullExam: false
+            };
+            
+            const categoryData = categoriesData[category];
+            document.getElementById('exam-title').textContent = categoryData?.name || 'Examen VTC';
+            startExam(categoryData?.duration || 30);
+        }
+
+        function startExam(durationMinutes) {
+            showPage('exam-page');
+            timeRemaining = durationMinutes * 60;
+            startTimer();
+            displayQuestion();
+        }
+
+        // Gestion du timer
+        function startTimer() {
+            timer = setInterval(() => {
+                timeRemaining--;
+                updateTimerDisplay();
+                
+                if (timeRemaining <= 0) {
+                    finishExam();
+                }
+            }, 1000);
+        }
+
+        function stopTimer() {
+            if (timer) {
+                clearInterval(timer);
+                timer = null;
+            }
+        }
+
+        function updateTimerDisplay() {
+            const minutes = Math.floor(timeRemaining / 60);
+            const seconds = timeRemaining % 60;
+            const timerElement = document.getElementById('timer');
+            timerElement.textContent = `⏱️ ${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            
+            // Changer la couleur si moins de 5 minutes
+            if (timeRemaining < 300) {
+                timerElement.style.background = '#e74c3c';
+                timerElement.classList.add('pulse');
+            }
+        }
+
+        // Affichage des questions
+        function displayQuestion() {
+            const question = currentExam.questions[currentExam.currentQuestionIndex];
+            if (!question) return;
+
+            // Mise à jour du numéro de question
+            document.getElementById('question-number').textContent = 
+                `Question ${currentExam.currentQuestionIndex + 1}/${currentExam.questions.length}`;
+            
+            // Mise à jour de la barre de progression
+            const progress = ((currentExam.currentQuestionIndex + 1) / currentExam.questions.length) * 100;
+            document.getElementById('progress-fill').style.width = `${progress}%`;
+
+            // Affichage de la question
+            document.getElementById('question-text').textContent = question.question;
+
+            // Génération des options
+            const optionsContainer = document.getElementById('options-container');
+            optionsContainer.innerHTML = '';
+
+            question.options.forEach((option, index) => {
+                const optionElement = document.createElement('div');
+                optionElement.className = 'option';
+                optionElement.onclick = () => selectOption(index);
+                
+                const letter = String.fromCharCode(65 + index); // A, B, C, D...
+                optionElement.innerHTML = `
+                    <div class="option-letter">${letter}</div>
+                    <div class="option-text">${option}</div>
+                `;
+                
+                // Marquer comme sélectionnée si déjà répondu
+                if (currentExam.answers[currentExam.currentQuestionIndex] === index) {
+                    optionElement.classList.add('selected');
+                }
+                
+                optionsContainer.appendChild(optionElement);
+            });
+
+            // Mise à jour des boutons de navigation
+            document.getElementById('prev-btn').disabled = currentExam.currentQuestionIndex === 0;
+            const nextBtn = document.getElementById('next-btn');
+            nextBtn.textContent = currentExam.currentQuestionIndex === currentExam.questions.length - 1 ? 
+                'Terminer 🏁' : 'Suivant ➡️';
+        }
+
+        function selectOption(optionIndex) {
+            // Enregistrer la réponse
+            currentExam.answers[currentExam.currentQuestionIndex] = optionIndex;
+            
+            // Mettre à jour l'affichage
+            document.querySelectorAll('.option').forEach((option, index) => {
+                option.classList.toggle('selected', index === optionIndex);
+            });
+        }
+
+        function nextQuestion() {
+            if (currentExam.currentQuestionIndex < currentExam.questions.length - 1) {
+                currentExam.currentQuestionIndex++;
+                displayQuestion();
+            } else {
+                finishExam();
+            }
+        }
+
+        function previousQuestion() {
+            if (currentExam.currentQuestionIndex > 0) {
+                currentExam.currentQuestionIndex--;
+                displayQuestion();
+            }
+        }
+
+        // Fin d'examen et résultats
+        function finishExam() {
+            stopTimer();
+            
+            const results = calculateResults();
+            displayResults(results);
+            saveExamResults(results);
+            
+            showPage('results-page');
+        }
+
+        function calculateResults() {
+            let correctAnswers = 0;
+            
+            currentExam.questions.forEach((question, index) => {
+                const userAnswer = currentExam.answers[index];
+                if (userAnswer === question.correctAnswer) {
+                    correctAnswers++;
+                }
+            });
+            
+            const totalQuestions = currentExam.questions.length;
+            const percentage = Math.round((correctAnswers / totalQuestions) * 100);
+            const timeSpent = Math.round((new Date() - currentExam.startTime) / 1000 / 60); // en minutes
+            
+            return {
+                correctAnswers,
+                totalQuestions,
+                percentage,
+                timeSpent,
+                category: currentExam.category,
+                isFullExam: currentExam.isFullExam
+            };
+        }
+
+        function displayResults(results) {
+            // Score en pourcentage
+            document.getElementById('score-percentage').textContent = `${results.percentage}%`;
+            
+            // Couleur du cercle selon le score
+            const scoreCircle = document.getElementById('score-circle');
+            scoreCircle.className = 'score-circle';
+            if (results.percentage >= 80) {
+                scoreCircle.classList.add('score-excellent');
+            } else if (results.percentage >= 60) {
+                scoreCircle.classList.add('score-good');
+            } else {
+                scoreCircle.classList.add('score-poor');
+            }
+            
+            // Message de résultat
+            const messages = {
+                excellent: "🎉 Excellent ! Vous êtes prêt pour l'examen VTC !",
+                good: "👍 Bien ! Continuez à vous entraîner.",
+                average: "📚 Passable. Il faut encore réviser.",
+                poor: "📖 Insuffisant. Révisez vos cours avant de repasser l'examen."
+            };
+            
+            let messageKey = 'poor';
+            if (results.percentage >= 80) messageKey = 'excellent';
+            else if (results.percentage >= 60) messageKey = 'good';
+            else if (results.percentage >= 40) messageKey = 'average';
+            
+            document.getElementById('results-message').textContent = messages[messageKey];
+            
+            // Détails des résultats
+            document.getElementById('correct-answers').textContent = results.correctAnswers;
+            document.getElementById('total-questions').textContent = results.totalQuestions;
+            document.getElementById('time-spent').textContent = `${results.timeSpent}min`;
+        }
+
+        function restartExam() {
+            if (currentExam.isFullExam) {
+                startFullExam();
+            } else {
+                startCategoryExam(currentExam.category);
+            }
+        }
+
+        function reviewAnswers() {
+            showReviewPage();
+        }
+
+        function showReviewPage() {
+            const reviewHtml = generateReviewHtml();
+            
+            // Créer une nouvelle page de révision
+            const reviewPage = document.createElement('div');
+            reviewPage.id = 'review-page';
+            reviewPage.innerHTML = reviewHtml;
+            reviewPage.style.display = 'block';
+            
+            // Cacher les autres pages
+            document.querySelectorAll('#home-page, #exam-page, #results-page').forEach(page => {
+                page.style.display = 'none';
+            });
+            
+            // Ajouter la page de révision
+            const existingReview = document.getElementById('review-page');
+            if (existingReview) {
+                existingReview.remove();
+            }
+            document.querySelector('.container').appendChild(reviewPage);
+        }
+
+        function generateReviewHtml() {
+            let html = `
+                <div class="header">
+                    <h1>📝 Révision des Réponses</h1>
+                </div>
+                <div class="main-content">
+            `;
+            
+            currentExam.questions.forEach((question, index) => {
+                const userAnswer = currentExam.answers[index];
+                const isCorrect = userAnswer === question.correctAnswer;
+                const userAnswerText = userAnswer !== undefined ? question.options[userAnswer] : 'Pas de réponse';
+                const correctAnswerText = question.options[question.correctAnswer];
+                
+                html += `
+                    <div class="question-card" style="margin-bottom: 30px;">
+                        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                            <span class="question-number">Question ${index + 1}</span>
+                            <span style="margin-left: 20px; padding: 8px 16px; border-radius: 20px; color: white; font-weight: bold; ${isCorrect ? 'background: #27ae60;' : 'background: #e74c3c;'}">
+                                ${isCorrect ? '✅ Correct' : '❌ Incorrect'}
+                            </span>
+                        </div>
+                        
+                        <div class="question-text" style="margin-bottom: 20px;">
+                            ${question.question}
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong>Votre réponse :</strong> 
+                            <span style="color: ${isCorrect ? '#27ae60' : '#e74c3c'}; font-weight: bold;">
+                                ${userAnswerText}
+                            </span>
+                        </div>
+                        
+                        ${!isCorrect ? `
+                            <div style="margin-bottom: 15px;">
+                                <strong>Bonne réponse :</strong> 
+                                <span style="color: #27ae60; font-weight: bold;">
+                                    ${correctAnswerText}
+                                </span>
+                            </div>
+                        ` : ''}
+                        
+                        ${question.explanation ? `
+                            <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #3498db;">
+                                <strong>💡 Explication :</strong><br>
+                                ${question.explanation}
+                            </div>
+                        ` : ''}
+                    </div>
+                `;
+            });
+            
+            html += `
+                    <div style="text-align: center; margin-top: 40px;">
+                        <button class="btn btn-primary" onclick="goHome()">🏠 Retour à l'accueil</button>
+                        <button class="btn btn-success" onclick="restartExam()" style="margin-left: 15px;">🔄 Recommencer</button>
+                    </div>
+                </div>
+            `;
+            
+            return html;
+        }
+
+        // Gestion des statistiques
+        function loadStatistics() {
+            const stats = JSON.parse(localStorage.getItem('vtc_exam_stats') || '{}');
+            
+            document.getElementById('total-exams').textContent = stats.totalExams || 0;
+            document.getElementById('success-rate').textContent = `${stats.averageScore || 0}%`;
+            document.getElementById('best-score').textContent = stats.bestScore || 0;
+        }
+
+        function saveExamResults(results) {
+            const stats = JSON.parse(localStorage.getItem('vtc_exam_stats') || '{}');
+            
+            stats.totalExams = (stats.totalExams || 0) + 1;
+            stats.bestScore = Math.max(stats.bestScore || 0, results.percentage);
+            
+            // Calcul de la moyenne
+            const totalScore = (stats.averageScore || 0) * ((stats.totalExams || 1) - 1) + results.percentage;
+            stats.averageScore = Math.round(totalScore / stats.totalExams);
+            
+            // Sauvegarder les détails de l'examen
+            if (!stats.examHistory) stats.examHistory = [];
+            stats.examHistory.push({
+                date: new Date().toISOString(),
+                category: results.category,
+                score: results.percentage,
+                correctAnswers: results.correctAnswers,
+                totalQuestions: results.totalQuestions,
+                timeSpent: results.timeSpent
+            });
+            
+            // Garder seulement les 50 derniers examens
+            if (stats.examHistory.length > 50) {
+                stats.examHistory = stats.examHistory.slice(-50);
+            }
+            
+            localStorage.setItem('vtc_exam_stats', JSON.stringify(stats));
+        }
+
+        // Fonctions utilitaires
+        function shuffleArray(array) {
+            const shuffled = [...array];
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
+        }
+
+        // Gestion des raccourcis clavier
+        document.addEventListener('keydown', function(event) {
+            if (document.getElementById('exam-page').style.display === 'block') {
+                switch(event.key) {
+                    case 'ArrowLeft':
+                        event.preventDefault();
+                        previousQuestion();
+                        break;
+                    case 'ArrowRight':
+                    case 'Enter':
+                        event.preventDefault();
+                        nextQuestion();
+                        break;
+                    case '1':
+                    case '2':
+                    case '3':
+                    case '4':
+                        event.preventDefault();
+                        const optionIndex = parseInt(event.key) - 1;
+                        if (optionIndex < currentExam.questions[currentExam.currentQuestionIndex].options.length) {
+                            selectOption(optionIndex);
+                        }
+                        break;
+                    case 'Escape':
+                        event.preventDefault();
+                        if (confirm('Voulez-vous vraiment quitter l\'examen ?')) {
+                            goHome();
+                        }
+                        break;
+                }
+            }
+        });
+
+        // Prévenir la fermeture accidentelle pendant un examen
+        window.addEventListener('beforeunload', function(event) {
+            if (document.getElementById('exam-page').style.display === 'block') {
+                event.preventDefault();
+                event.returnValue = 'Vous êtes en cours d\'examen. Voulez-vous vraiment quitter ?';
+                return event.returnValue;
+            }
+        });
+
+        // Initialisation de l'application
+        document.addEventListener('DOMContentLoaded', async function() {
+            await initApp();
+            setTimeout(() => {
+                const cards = document.querySelectorAll('.category-card');
+                cards.forEach((card, index) => {
+                    setTimeout(() => {
+                        card.style.opacity = '0';
+                        card.style.transform = 'translateY(20px)';
+                        card.style.transition = 'all 0.5s ease';
+                        
+                        setTimeout(() => {
+                            card.style.opacity = '1';
+                            card.style.transform = 'translateY(0)';
+                        }, 100);
+                    }, index * 100);
+                });
+            }, 500);
+        });
+    </script>
+</body>
+</html>

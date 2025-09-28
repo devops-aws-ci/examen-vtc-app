@@ -512,7 +512,7 @@
     </style>
 </head>
 <body>
-    <button class="home-button" onclick="goHome()" title="Retour à l'accueil">🏠</button>
+    <button class="home-button" onclick="goHomeFromAnywhere()" title="Retour à l'accueil">🏠</button>
 
     <div class="container">
         <!-- Page d'accueil -->
@@ -620,9 +620,9 @@
                 </div>
 
                 <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin-top: 30px;">
-                    <button class="btn btn-primary" onclick="reviewAnswers()">📝 Revoir les réponses</button>
-                    <button class="btn btn-success" onclick="restartExam()">🔄 Recommencer</button>
-                    <button class="btn btn-secondary" onclick="goHome()">🏠 Accueil</button>
+                    <button class="btn btn-primary" onclick="reviewAnswersFromResults()">📝 Revoir les réponses</button>
+                    <button class="btn btn-success" onclick="restartExamFromResults()">🔄 Recommencer</button>
+                    <button class="btn btn-secondary" onclick="goHomeFromResults()">🏠 Accueil</button>
                 </div>
             </div>
         </div>
@@ -1508,6 +1508,34 @@
             }
             // Redémarrer l'examen
             restartExam();
+        }
+
+        // Nouvelles fonctions pour les boutons de la page de résultats
+        function goHomeFromResults() {
+            goHome();
+        }
+
+        function restartExamFromResults() {
+            restartExam();
+        }
+
+        function reviewAnswersFromResults() {
+            reviewAnswers();
+        }
+
+        // Fonction universelle pour le bouton home en haut à gauche
+        function goHomeFromAnywhere() {
+            // Nettoyer toutes les pages temporaires
+            const reviewPage = document.getElementById('review-page');
+            if (reviewPage) {
+                reviewPage.remove();
+            }
+            
+            // Arrêter le timer si en cours
+            stopTimer();
+            
+            // Retourner à l'accueil
+            goHome();
         }
 
         // Gestion des statistiques

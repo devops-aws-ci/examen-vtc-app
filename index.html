@@ -511,11 +511,99 @@
     </div>
     
     <script>
+        // Configuration des QCM avec toutes les données
+        const quizConfig = {
+            't3p': {
+                title: 'T3P et Prévention des Discriminations',
+                file: 'data/t3p_prevention_qcm.json',
+                duration: 45,
+                coefficient: 2,
+                questions: 10,
+                qrc: 5
+            },
+            'gestion': {
+                title: 'Gestion d\'Entreprise',
+                file: 'data/gestion_entreprise_qcm.json',
+                duration: 30,
+                coefficient: 3,
+                questions: 15,
+                qrc: 5
+            },
+            'securite': {
+                title: 'Sécurité Routière',
+                file: 'data/securite_routiere_qcm.json',
+                duration: 30,
+                coefficient: 3,
+                questions: 20,
+                qrc: 0
+            },
+            'francais': {
+                title: 'Français',
+                file: 'data/francais_qcm.json',
+                duration: 30,
+                coefficient: 2,
+                questions: 7,
+                qrc: 3
+            },
+            'anglais': {
+                title: 'Anglais',
+                file: 'data/anglais_qcm.json',
+                duration: 30,
+                coefficient: 1,
+                questions: 20,
+                qrc: 0
+            },
+            'commercial': {
+                title: 'Développement Commercial',
+                file: 'data/developpement_commercial_qcm.json',
+                duration: 30,
+                coefficient: 3,
+                questions: 12,
+                qrc: 4
+            },
+            'reglementation': {
+                title: 'Réglementation VTC',
+                file: 'data/reglementation_vtc_qcm.json',
+                duration: 20,
+                coefficient: 3,
+                questions: 6,
+                qrc: 2
+            }
+        };
+
         function startQuiz(category) {
-            // Ici vous pouvez rediriger vers la page de quiz correspondante
-            alert(`Démarrage du quiz ${category}. Redirection vers la page de quiz...`);
-            // Exemple : window.location.href = `quiz-${category}.html`;
+            if (quizConfig[category]) {
+                // Stocker la configuration dans localStorage pour la page de quiz
+                localStorage.setItem('currentQuizConfig', JSON.stringify(quizConfig[category]));
+                localStorage.setItem('currentQuizCategory', category);
+                
+                // Rediriger vers la page de quiz universelle
+                window.location.href = 'quiz.html';
+            } else {
+                console.error('Quiz non trouvé pour la catégorie:', category);
+            }
         }
+
+        // Fonction pour obtenir les statistiques globales
+        function getGlobalStats() {
+            const totalQuestions = Object.values(quizConfig).reduce((sum, config) => sum + config.questions, 0);
+            const totalPoints = Object.values(quizConfig).reduce((sum, config) => sum + (config.questions * (config.qrc > 0 ? 1 : 1)) + (config.qrc * 2), 0);
+            
+            return {
+                subjects: Object.keys(quizConfig).length,
+                questions: totalQuestions,
+                points: totalPoints,
+                passingGrade: '10/20'
+            };
+        }
+
+        // Mettre à jour les statistiques au chargement
+        document.addEventListener('DOMContentLoaded', function() {
+            const stats = getGlobalStats();
+            document.querySelector('.stat-item:nth-child(1) .stat-number').textContent = stats.subjects;
+            document.querySelector('.stat-item:nth-child(2) .stat-number').textContent = stats.questions + '+';
+            document.querySelector('.stat-item:nth-child(3) .stat-number').textContent = stats.points;
+        });
         
         // Animation d'entrée pour les cartes
         document.addEventListener('DOMContentLoaded', function() {

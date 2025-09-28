@@ -525,24 +525,129 @@
             return true;
         }
         
-        // Charger les données du quiz depuis le fichier JSON
+        // Charger les données depuis les fichiers JSON
         async function loadQuizData() {
             try {
-                // Pour la démo, nous utilisons les données stockées localement
-                // Dans un vrai projet, vous feriez : fetch(quizConfig.file)
                 const category = localStorage.getItem('currentQuizCategory');
-                quizData = await getQuizDataForCategory(category);
+                console.log('Catégorie:', category);
                 
-                if (!quizData || !quizData.questions) {
-                    throw new Error('Données de quiz invalides');
+                // Mapping des catégories vers les fichiers JSON
+                const jsonFiles = {
+                    't3p': 'data/t3p_prevention_qcm.json',
+                    'gestion': 'data/gestion_entreprise_qcm.json',
+                    'securite': 'data/securite_routiere_qcm.json',
+                    'francais': 'data/francais_qcm.json',
+                    'anglais': 'data/anglais_qcm.json',
+                    'commercial': 'data/developpement_commercial_qcm.json',
+                    'reglementation': 'data/reglementation_vtc_qcm.json'
+                };
+                
+                const fileName = jsonFiles[category];
+                console.log('Fichier à charger:', fileName);
+                
+                if (!fileName) {
+                    throw new Error(`Fichier non trouvé pour la catégorie: ${category}`);
                 }
                 
-                return true;
+                try {
+                    const response = await fetch(fileName);
+                    console.log('Réponse fetch:', response.status, response.statusText);
+                    
+                    if (!response.ok) {
+                        throw new Error(`Erreur HTTP: ${response.status}`);
+                    }
+                    
+                    const data = await response.json();
+                    console.log('Données chargées:', data);
+                    
+                    if (!data || !data.questions || data.questions.length === 0) {
+                        throw new Error('Aucune question trouvée dans le fichier JSON');
+                    }
+                    
+                    return data;
+                    
+                } catch (fetchError) {
+                    console.error('Erreur de chargement:', fetchError);
+                    console.log('Utilisation des données de fallback');
+                    return getFallbackData(category);
+                }
+                
             } catch (error) {
-                console.error('Erreur de chargement:', error);
-                showError('Impossible de charger les questions du quiz.');
-                return false;
+                console.error('Erreur lors du chargement des données:', error);
+                return getFallbackData('t3p'); // Fallback par défaut
             }
+        }
+        
+        // Données de fallback si les fichiers JSON ne sont pas trouvés
+        function getFallbackData(category) {
+            console.log('Chargement des données de fallback pour:', category);
+            
+            const fallbackData = {
+                't3p': {
+                    "matiere": "T3P et prévention des discriminations (Données de test)",
+                    "duree": "45 minutes",
+                    "points": 20,
+                    "coefficient": 2,
+                    "questions": [
+                        {
+                            "id": 1,
+                            "type": "QCM",
+                            "question": "Quel ministère gère le registre des exploitants VTC ?",
+                            "options": [
+                                "Ministère de l'économie",
+                                "Ministère en charge du tourisme", 
+                                "Ministère de l'intérieur",
+                                "Ministère en charge des transports"
+                            ],
+                            "reponse_correcte": "d",
+                            "points": 1
+                        },
+                        {
+                            "id": 2,
+                            "type": "QCM",
+                            "question": "Puis-je utiliser un véhicule acheté en janvier 2012 pour exercer la profession de VTC ?",
+                            "options": [
+                                "Oui, si c'est un véhicule hybride ou électrique",
+                                "Non si c'est un véhicule thermique",
+                                "Oui, à condition qu'il respecte les critères de puissance et de dimensions"
+                            ],
+                            "reponse_correcte": "b",
+                            "points": 1
+                        },
+                        {
+                            "id": 3,
+                            "type": "QCM", 
+                            "question": "L'arrêté du 6 Avril 2017 relatif à la signalétique définitive des voitures de transport avec chauffeur impose :",
+                            "options": [
+                                "Une vignette ronde de couleur rouge",
+                                "2 vignettes rondes de couleur rouge",
+                                "2 vignettes rondes de couleur mauve"
+                            ],
+                            "reponse_correcte": "c",
+                            "points": 1
+                        }
+                    ]
+                },
+                'gestion': {
+                    "matiere": "Gestion d'entreprise (Données de test)",
+                    "questions": [
+                        {
+                            "id": 1,
+                            "type": "QCM",
+                            "question": "Quand il y a franchise de TVA cela signifie que :",
+                            "options": [
+                                "La déclaration de TVA sera faite ultérieurement",
+                                "La prestation n'est pas assujettie à la TVA",
+                                "L'entreprise ne peut pas récupérer la TVA"
+                            ],
+                            "reponse_correcte": "b",
+                            "points": 1
+                        }
+                    ]
+                }
+            };
+            
+            return fallbackData[category] || fallbackData['t3p'];
         }
         
         // Charger les données depuis les fichiers JSON
@@ -775,7 +880,15 @@
         }
         
         async function initQuiz() {
-            if (!loadQuizConfig()) return;
+            console.log('Initialisation du quiz...');
+            
+            // Charger la configuration
+            if (!loadQuizConfig()) {
+                console.error('Échec du chargement de la configuration');
+                return;
+            }
+            
+            console.log('Configuration chargée:', quizConfig);
             
             // Mettre à jour l'interface avec les infos du quiz
             document.getElementById('examTitle').textContent = quizConfig.title;
@@ -785,17 +898,29 @@
             document.getElementById('coefficient').textContent = quizConfig.coefficient;
             
             // Charger les données
-            const success = await loadQuizData();
-            if (!success) return;
-            
-            // Initialiser le quiz
-            document.getElementById('loading').style.display = 'none';
-            document.getElementById('questionCard').style.display = 'block';
-            document.getElementById('navigation').style.display = 'flex';
-            
-            startTime = Date.now();
-            startTimer();
-            displayQuestion();
+            console.log('Chargement des données du quiz...');
+            try {
+                quizData = await loadQuizData();
+                
+                if (!quizData || !quizData.questions || quizData.questions.length === 0) {
+                    throw new Error('Aucune donnée de quiz valide');
+                }
+                
+                console.log('Quiz chargé avec succès:', quizData.questions.length, 'questions');
+                
+                // Masquer le chargement et afficher le quiz
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('questionCard').style.display = 'block';
+                document.getElementById('navigation').style.display = 'flex';
+                
+                startTime = Date.now();
+                startTimer();
+                displayQuestion();
+                
+            } catch (error) {
+                console.error('Erreur lors du chargement du quiz:', error);
+                showError(`Erreur de chargement: ${error.message}`);
+            }
         }
         
         function startTimer() {

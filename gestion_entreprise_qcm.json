@@ -13,8 +13,8 @@
         "La prestation n’est pas assujettie à la TVA",
         "L’entreprise ne peut pas récupérer la TVA"
       ],
-	  "correctAnswer": [ 2, 3 ],
-      "explanation": "Franchise en base : pas de collecte ni déduction de TVA. Service-Public : https://entreprendre.service-public.fr/vosdroits/F21746",
+      "correctAnswer": [ 2, 3 ],
+      "explanation": "Franchise en base : pas de collecte/déduction de TVA (Service-Public).",
       "difficulty": "medium"
     },
     {
@@ -26,7 +26,7 @@
         "TVA collectée =TVA déductible"
       ],
       "correctAnswer": 2,
-      "explanation": "Crédit de TVA quand TVA déductible > TVA collectée. impots.gouv.fr : https://www.impots.gouv.fr/professionnel/remboursement-de-credit-de-tva-0",
+      "explanation": "Crédit de TVA quand déductible > collectée (impots.gouv).",
       "difficulty": "medium"
     },
     {
@@ -64,7 +64,7 @@
         "Tout au long de la durée de vie d’une entreprise"
       ],
       "correctAnswer": 2,
-      "explanation": "Conserver pièces et livres comptables 10 ans (C. com. L123-22). https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006219327/",
+      "explanation": "Conservation des pièces 10 ans (C. com. L123-22).",
       "difficulty": "medium"
     },
     {
@@ -126,7 +126,7 @@
         "7 500 €"
       ],
       "correctAnswer": 1,
-      "explanation": "SASU : capital libre (mini 1 €). https://entreprendre.service-public.fr/vosdroits/F37383",
+      "explanation": "SASU : capital libre (min. 1 €) (Service-Public).",
       "difficulty": "medium"
     },
     {
@@ -276,7 +276,7 @@
         "5,5 %"
       ],
       "correctAnswer": 2,
-      "explanation": "Transport de personnes : TVA 10 %. BOFiP : https://bofip.impots.gouv.fr/bofip/477-PGP.html",
+      "explanation": "TVA transport de voyageurs : 10 % (BOFiP).",
       "difficulty": "medium"
     },
     {
@@ -288,7 +288,7 @@
         "APE"
       ],
       "correctAnswer": 3,
-      "explanation": "Code APE (NAF) géré par l’INSEE. https://entreprendre.service-public.fr/vosdroits/F33050",
+      "explanation": "",
       "difficulty": "medium"
     },
     {
@@ -511,7 +511,7 @@
         "10 ans"
       ],
       "correctAnswer": 4,
-      "explanation": "Conservation 10 ans. L123-22 C. com. https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006219327/",
+      "explanation": "Conservation des documents 10 ans (L123-22).",
       "difficulty": "medium"
     },
     {
@@ -537,7 +537,7 @@
         "INSEE"
       ],
       "correctAnswer": 4,
-      "explanation": "Code APE attribué par l’INSEE. https://www.insee.fr/fr/information/6790269",
+      "explanation": "Code APE attribué par l’INSEE.",
       "difficulty": "medium"
     },
     {
@@ -635,7 +635,7 @@
         "Assimilé salarié"
       ],
       "correctAnswer": 3,
-      "explanation": "Président de SASU = assimilé salarié. URSSAF : https://mon-entreprise.urssaf.fr/simulateurs/sasu",
+      "explanation": "Président de SASU = assimilé salarié (URSSAF).",
       "difficulty": "medium"
     },
     {
@@ -648,7 +648,7 @@
         "Oui, partiellement dans tous les cas"
       ],
       "correctAnswer": 4,
-      "explanation": "TVA carburants : récupération partielle. https://entreprendre.service-public.fr/vosdroits/F23569",
+      "explanation": "TVA carburants : récupération partielle (Service-Public).",
       "difficulty": "medium"
     },
     {
@@ -747,7 +747,7 @@
         "BIC"
       ],
       "correctAnswer": 1,
-      "explanation": "Montants du compte de résultat en HT (entreprises soumises à la TVA).",
+      "explanation": "Montants du compte de résultat en HT (si TVA).",
       "difficulty": "medium"
     },
     {
@@ -760,7 +760,7 @@
         "15 jours"
       ],
       "correctAnswer": 2,
-      "explanation": "CDD : pas de durée minimale légale (sauf cas particuliers).",
+      "explanation": "CDD : pas de durée minimale légale (hors cas spécifiques).",
       "difficulty": "medium"
     },
     {
@@ -773,7 +773,7 @@
         "Un produit"
       ],
       "correctAnswer": 3,
-      "explanation": "TVA = flux de trésorerie (ni charge ni produit).",
+      "explanation": "",
       "difficulty": "medium"
     },
     {
@@ -863,7 +863,7 @@
         1,
         3
       ],
-      "explanation": "",
+      "explanation": "Coût -> calcul arithmétique précisé dans l’énoncé.",
       "difficulty": "medium"
     },
     {
@@ -879,7 +879,7 @@
         1,
         3
       ],
-      "explanation": "",
+      "explanation": "Emprunt : hausse trésorerie et dettes (capitaux étrangers).",
       "difficulty": "medium"
     },
     {
@@ -904,7 +904,7 @@
         "(Coûts fixes + coûts variables) = chiffre d'affaires"
       ],
       "correctAnswer": 2,
-      "explanation": "Seuil de rentabilité atteint quand Résultat = 0.",
+      "explanation": "Seuil de rentabilité : Résultat=0.",
       "difficulty": "medium"
     },
     {
@@ -941,7 +941,7 @@
         "Le compte de résultat"
       ],
       "correctAnswer": 2,
-      "explanation": "",
+      "explanation": "Micro : livre des recettes (registre achats si revente).",
       "difficulty": "medium"
     },
     {
@@ -953,7 +953,7 @@
         "5,5%"
       ],
       "correctAnswer": 1,
-      "explanation": "",
+      "explanation": "Transport de personnes : 10 % (BOFiP).",
       "difficulty": "medium"
     },
     {
@@ -1051,7 +1051,7 @@
         "Aucune différence"
       ],
       "correctAnswer": 2,
-      "explanation": "SIREN (9) vs SIRET (14). INSEE.",
+      "explanation": "SIREN 9 chiffres / SIRET 14 (INSEE).",
       "difficulty": "medium"
     },
     {
@@ -1152,7 +1152,7 @@
         2,
         3
       ],
-      "explanation": "",
+      "explanation": "Récupération TVA en réel simplifié/normal (impots.gouv).",
       "difficulty": "medium"
     },
     {
@@ -1216,7 +1216,7 @@
         2,
         3
       ],
-      "explanation": "",
+      "explanation": "Méthodes d’amortissement : linéaire et dégressif.",
       "difficulty": "medium"
     },
     {

@@ -15,7 +15,7 @@
         "Ministère en charge des transports"
       ],
       "correctAnswer": 2,
-      "explanation": "Discrimination = traitement défavorable fondé sur critère prohibé. Art. 225-1 Code pénal.",
+      "explanation": "Art. 225-1 Code pénal : discrimination = traitement défavorable fondé sur critère prohibé.",
       "difficulty": "medium"
     },
     {
@@ -30,7 +30,7 @@
         1,
         3
       ],
-      "explanation": "Critères interdits : origine, sexe, situation de famille, grossesse, apparence physique, patronyme, etc. Art. 225-1 CP.",
+      "explanation": "Critères interdits : origine, sexe, situation familiale, grossesse, apparence physique, patronyme, orientation sexuelle, handicap...",
       "difficulty": "medium"
     },
     {
@@ -42,7 +42,7 @@
         "2 vignettes rondes de couleur mauve"
       ],
       "correctAnswer": 3,
-      "explanation": "Sanctions pénales : 3 ans prison et 45 000 € amende. Art. 225-2 CP.",
+      "explanation": "Art. 225-2 Code pénal : sanctions = 3 ans prison et 45 000 € amende.",
       "difficulty": "medium"
     },
     {
@@ -55,7 +55,7 @@
         "Un organisme agréé par l'Autorité de contrôle prudentiel et de résolution."
       ],
       "correctAnswer": 1,
-      "explanation": "Refuser une course pour motif discriminatoire est interdit. Code des transports + Art. 225-1 CP.",
+      "explanation": "Refuser une course pour motif discriminatoire = interdit (Code des transports + art. 225-1 CP).",
       "difficulty": "medium"
     },
     {
@@ -81,7 +81,7 @@
         "Durant 2 heures maximum pour attendre une personne disposant d'une réservation préalable"
       ],
       "correctAnswer": 1,
-      "explanation": "Formation continue obligatoire tous les 5 ans. Arrêté 11 août 2017.",
+      "explanation": "Formation continue obligatoire tous les 5 ans (Arrêté du 11 août 2017).",
       "difficulty": "medium"
     },
     {
@@ -106,7 +106,7 @@
         "Vous refusez de le prendre"
       ],
       "correctAnswer": 3,
-      "explanation": "Le B2 doit être vierge de certaines condamnations. Code des transports.",
+      "explanation": "Extrait B2 doit être vierge de condamnations incompatibles (Code des transports).",
       "difficulty": "medium"
     },
     {
@@ -119,7 +119,7 @@
         "Rond et rouge"
       ],
       "correctAnswer": 2,
-      "explanation": "La visite médicale est obligatoire pour exercer (aptitude). Code des transports R3120-9.",
+      "explanation": "Visite médicale obligatoire pour aptitude à la conduite professionnelle (Code des transports R3120-9).",
       "difficulty": "medium"
     },
     {
@@ -132,7 +132,7 @@
         "Lors d'une première inscription sur le registre, lors des renouvellements quinquennaux ou d'un changement de véhicule"
       ],
       "correctAnswer": 1,
-      "explanation": "Client handicapé : refuser = discrimination. Obligation de prise en charge. Art. 225-1 CP.",
+      "explanation": "Refus client handicapé = discrimination (art. 225-1 CP).",
       "difficulty": "medium"
     },
     {
@@ -143,7 +143,7 @@
         "Non."
       ],
       "correctAnswer": 3,
-      "explanation": "Formation discrimination incluse dans formation continue. Arrêté 11 août 2017.",
+      "explanation": "Formation discrimination incluse dans formation continue obligatoire (Arrêté 11 août 2017).",
       "difficulty": "medium"
     },
     {
@@ -180,7 +180,7 @@
         "Le taxi et le VTC seulement"
       ],
       "correctAnswer": 3,
-      "explanation": "En cas de refus discriminatoire, sanction disciplinaire + pénale. Art. 225-2 CP.",
+      "explanation": "Refus discriminatoire = sanction disciplinaire et pénale (art. 225-2 CP).",
       "difficulty": "medium"
     },
     {
@@ -231,7 +231,7 @@
         "1 an"
       ],
       "correctAnswer": 1,
-      "explanation": "La HALDE (aujourd’hui Défenseur des droits) lutte contre discriminations.",
+      "explanation": "Défenseur des droits (ex-HALDE) = autorité indépendante contre discriminations.",
       "difficulty": "medium"
     },
     {

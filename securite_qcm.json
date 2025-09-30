@@ -42,7 +42,7 @@
         2,
         3
       ],
-      "explanation": "En agglomération bien éclairée, feux de position OU de croisement possibles si visibilité suffisante. Code de la route (Éclairage).",
+      "explanation": "Agglo éclairée : feux de position OU de croisement si visibilité suffisante (Code de la route – éclairage).",
       "difficulty": "medium"
     },
     {
@@ -54,7 +54,7 @@
         "130 km/h"
       ],
       "correctAnswer": 2,
-      "explanation": "110 km/h sur routes à deux chaussées séparées (hors autoroute). Code de la route R413-2 / Sécurité routière.",
+      "explanation": "110 km/h sur routes à 2 chaussées séparées (hors autoroute). R413-2.",
       "difficulty": "medium"
     },
     {
@@ -70,7 +70,7 @@
         1,
         2
       ],
-      "explanation": "Aquaplanage favorisé par l’eau et la vitesse ; route sèche/vent latéral non déterminants. Sécurité routière.",
+      "explanation": "Aquaplanage favorisé par eau + vitesse ; route sèche/vent latéral non déterminants.",
       "difficulty": "medium"
     },
     {
@@ -83,7 +83,7 @@
         "30 m"
       ],
       "correctAnswer": 3,
-      "explanation": "En agglomération, panneaux de danger à ~50 m. Instruction interministérielle sur la signalisation routière.",
+      "explanation": "Panneaux de danger en agglomération à ~50 m (IISR).",
       "difficulty": "medium"
     },
     {
@@ -95,7 +95,7 @@
         "Oui, il s’agit d’une obligation européenne"
       ],
       "correctAnswer": 1,
-      "explanation": "Roue de secours non obligatoire légalement (trousse de réparation admise). Service-Public.fr.",
+      "explanation": "Roue de secours non obligatoire (trousse réparation admise). Service‑Public.",
       "difficulty": "medium"
     },
     {
@@ -111,7 +111,7 @@
         3,
         4
       ],
-      "explanation": "Incendie tunnel : couper moteur, laisser clés, évacuer par issue de secours. Sécurité routière / exploitant du tunnel.",
+      "explanation": "Feu tunnel : couper moteur, laisser clés, évacuer par issue de secours.",
       "difficulty": "medium"
     },
     {
@@ -152,7 +152,7 @@
         1,
         2
       ],
-      "explanation": "Conduire pendant suspension = délit et retrait de 6 points. Code de la route L224-16 & barème points.",
+      "explanation": "Conduire pendant suspension = délit + retrait 6 points. L224‑16.",
       "difficulty": "medium"
     },
     {
@@ -164,7 +164,7 @@
         "de 1,50 m"
       ],
       "correctAnswer": 3,
-      "explanation": "Dépassement d’un cycliste hors agglomération : 1,50 m. R414-4.",
+      "explanation": "Dépassement cycliste hors agglo : 1,50 m. R414‑4.",
       "difficulty": "medium"
     },
     {
@@ -216,7 +216,7 @@
         2,
         3
       ],
-      "explanation": "Retrait 4 pts : sens interdit et stop non respecté. Téléphone/ceinture = 3 pts. Barème points (Sécurité routière).",
+      "explanation": "Sens interdit et stop = −4 pts ; téléphone/ceinture = −3 pts.",
       "difficulty": "medium"
     },
     {
@@ -229,7 +229,7 @@
         "150 m"
       ],
       "correctAnswer": 4,
-      "explanation": "Hors agglomération, panneaux de danger à ~150 m. IISR.",
+      "explanation": "Hors agglo : panneaux de danger à ~150 m (IISR).",
       "difficulty": "medium"
     },
     {
@@ -242,7 +242,7 @@
         "Verte"
       ],
       "correctAnswer": 2,
-      "explanation": "Voyants rouges = urgence (arrêt immédiat). Notice constructeur / Sécurité routière.",
+      "explanation": "Voyants rouges = arrêt immédiat (panne grave).",
       "difficulty": "medium"
     },
     {
@@ -255,7 +255,7 @@
         "8 passagers"
       ],
       "correctAnswer": 4,
-      "explanation": "Permis B : jusqu’à 8 passagers (9 places avec conducteur). Service-Public.fr.",
+      "explanation": "Permis B : jusqu’à 8 passagers (9 places avec conducteur). Service‑Public.",
       "difficulty": "medium"
     },
     {
@@ -271,7 +271,7 @@
         1,
         2
       ],
-      "explanation": "Temps de réaction ↑ ⇒ distance de réaction ↑ et donc distance d’arrêt ↑. Sécurité routière.",
+      "explanation": "Temps de réaction ↑ ⇒ distance de réaction et d’arrêt ↑.",
       "difficulty": "medium"
     },
     {
@@ -311,7 +311,7 @@
         2,
         3
       ],
-      "explanation": "Fatigue : gestes moins rapides, réflexes plus lents. Sécurité routière.",
+      "explanation": "Fatigue : gestes moins rapides, réflexes plus lents.",
       "difficulty": "medium"
     },
     {
@@ -323,7 +323,7 @@
         "70 km à l'heure"
       ],
       "correctAnswer": 2,
-      "explanation": "Brouillard <50 m : vitesse max 50 km/h. R413-5.",
+      "explanation": "Brouillard <50 m : VMA 50 km/h. R413‑5.",
       "difficulty": "medium"
     },
     {
@@ -351,7 +351,7 @@
         1,
         4
       ],
-      "explanation": "Stationnements gênants : sur trottoirs/accotements piétons ; sur bouches d’incendie/accès souterrains. R417-10 et s.",
+      "explanation": "Stationnements très gênants : trottoir/accotement piétons ; bouches incendie/accès souterrains.",
       "difficulty": "medium"
     },
     {
@@ -364,7 +364,7 @@
         "Oui, mais avec le moteur froid"
       ],
       "correctAnswer": 4,
-      "explanation": "Liquide de refroidissement à moteur froid. Notice constructeur / Sécurité routière.",
+      "explanation": "Liquide de refroidissement à vérifier moteur froid.",
       "difficulty": "medium"
     },
     {
@@ -380,7 +380,7 @@
         3,
         4
       ],
-      "explanation": "Ne pas retirer le casque ni donner à boire ; couvrir et parler à la victime. PSC1 / Samu / Sécurité routière.",
+      "explanation": "Ne pas retirer le casque ni donner à boire ; couvrir, rassurer, alerter (PSC1).",
       "difficulty": "medium"
     },
     {
@@ -408,7 +408,7 @@
         2,
         4
       ],
-      "explanation": "Niveau d’huile : terrain plat, moteur froid (ou tiède après repos). Notice constructeur.",
+      "explanation": "Niveau d’huile : terrain plat, moteur froid ou reposé.",
       "difficulty": "medium"
     },
     {
@@ -421,7 +421,7 @@
         "Pour que le garagiste puisse établir un devis des réparations"
       ],
       "correctAnswer": 2,
-      "explanation": "Constat amiable : déterminer les responsabilités. Assureurs / Service-Public.fr.",
+      "explanation": "Constat amiable : pour déterminer responsabilités.",
       "difficulty": "medium"
     },
     {
@@ -436,7 +436,7 @@
         1,
         2
       ],
-      "explanation": "Conduire pendant suspension = délit et -6 points. L224-16 + barème points.",
+      "explanation": "Conduite pendant suspension = délit et −6 points.",
       "difficulty": "medium"
     },
     {
@@ -464,7 +464,7 @@
         3,
         4
       ],
-      "explanation": "0,7 g/L = contravention (amende) + -6 points. R234-1 et barème points.",
+      "explanation": "0,7 g/L = contravention + −6 points (pas prison). R234‑1.",
       "difficulty": "medium"
     },
     {
@@ -477,7 +477,7 @@
         "Il est toujours autorisé de dépasser un véhicule par la droite"
       ],
       "correctAnswer": 2,
-      "explanation": "Dépassement par la droite exceptionnel seulement si le véhicule devant tourne à gauche. R414-4.",
+      "explanation": "Dépassement par droite seulement si véhicule devant tourne à gauche.",
       "difficulty": "medium"
     },
     {
@@ -493,7 +493,7 @@
         1,
         3
       ],
-      "explanation": "Pression ↑ si véhicule très chargé et pour longs trajets autoroutiers. Notice constructeur.",
+      "explanation": "Pression ↑ si véhicule très chargé et pour longs trajets autoroutiers.",
       "difficulty": "medium"
     },
     {
@@ -534,7 +534,7 @@
         2,
         4
       ],
-      "explanation": "Excès +40 à <50 km/h : -4 points et suspension possible. Barème points / R413-14-1.",
+      "explanation": "Excès +40 à <50 km/h : −4 points et suspension possible.",
       "difficulty": "medium"
     },
     {
@@ -547,7 +547,7 @@
         "8 minutes"
       ],
       "correctAnswer": 1,
-      "explanation": "130 vs 120 km/h sur 100 km : ~4 min ‘gagnées’. Sécurité routière (calcul vitesse/temps).",
+      "explanation": "130 vs 120 km/h sur 100 km : ~4 minutes ‘gagnées’.",
       "difficulty": "medium"
     },
     {
@@ -563,7 +563,7 @@
         2,
         3
       ],
-      "explanation": "Pluie : distance de freinage et d’arrêt augmentent ; temps de réaction inchangé. Sécurité routière.",
+      "explanation": "Pluie : distance de freinage et d’arrêt ↑ ; temps de réaction inchangé.",
       "difficulty": "medium"
     },
     {
@@ -575,7 +575,7 @@
         "Un retrait de trois points"
       ],
       "correctAnswer": 3,
-      "explanation": "Téléphone tenu en main : -3 points. R412-6-1 / barème points.",
+      "explanation": "Téléphone tenu en main : −3 points. R412‑6‑1.",
       "difficulty": "medium"
     },
     {
@@ -591,7 +591,7 @@
         3,
         4
       ],
-      "explanation": "Accident matériel : s’arrêter sans danger + échanger identités ; pas d’obligation systématique police/gendarmerie. Code de la route.",
+      "explanation": "Accident matériel : s’arrêter sans danger + échange d’identités (pas forcément police).",
       "difficulty": "medium"
     },
     {
@@ -607,7 +607,7 @@
         1,
         4
       ],
-      "explanation": "Piétons : traverser en tenant compte visibilité/vitesse ; utiliser un passage si <50 m. R412-37.",
+      "explanation": "Piéton : utiliser un passage si <50 m ; tenir compte visibilité/vitesse.",
       "difficulty": "medium"
     },
     {
@@ -622,7 +622,7 @@
         1,
         3
       ],
-      "explanation": "Récidive stupéfiants : annulation possible et confiscation/immobilisation du véhicule. L235-1 et s.",
+      "explanation": "Stupéfiants : récidive → annulation possible + confiscation/immobilisation.",
       "difficulty": "medium"
     },
     {
@@ -648,7 +648,7 @@
         "Un taux minimal de transparence de 80 % sur les vitres avant, le pare brise et les vitres arrières"
       ],
       "correctAnswer": 1,
-      "explanation": "Transparence ≥70% sur vitres AV et pare-brise (arrière non concerné). Décret 2016-448 / R316-3.",
+      "explanation": "Vitres AV/pare‑brise : ≥70 % de transparence (arrière non concerné).",
       "difficulty": "medium"
     },
     {
@@ -660,7 +660,7 @@
         "30 mètres au moins de votre véhicule"
       ],
       "correctAnswer": 3,
-      "explanation": "Triangle à ≥30 m (et gilet). R416-19.",
+      "explanation": "Triangle à ≥30 m (gilet recommandé).",
       "difficulty": "medium"
     },
     {
@@ -672,7 +672,7 @@
         "Pour saluer un collègue conducteur"
       ],
       "correctAnswer": 2,
-      "explanation": "En agglomération, avertisseur sonore autorisé en cas de danger immédiat. R416-1.",
+      "explanation": "Agglomération : avertisseur sonore seulement en cas de danger immédiat.",
       "difficulty": "medium"
     },
     {
@@ -699,7 +699,7 @@
         1,
         2
       ],
-      "explanation": "Sous-gonflage : risque d’éclatement + surconsommation. Sécurité routière.",
+      "explanation": "Sous‑gonflage : surconsommation et risque d’éclatement.",
       "difficulty": "medium"
     },
     {
@@ -715,7 +715,7 @@
         2,
         4
       ],
-      "explanation": "Excès +40 à <50 km/h : contravention 4e classe et -4 points. Barème points / R413-14-1.",
+      "explanation": "Excès +40 à <50 km/h : contravention 4e classe + −4 points.",
       "difficulty": "medium"
     },
     {
@@ -727,7 +727,7 @@
         "1 seconde"
       ],
       "correctAnswer": 3,
-      "explanation": "Temps de réaction ~1 seconde en moyenne. Sécurité routière.",
+      "explanation": "Temps de réaction moyen ≈ 1 seconde.",
       "difficulty": "medium"
     },
     {
@@ -740,7 +740,7 @@
         "Pour téléphoner"
       ],
       "correctAnswer": 2,
-      "explanation": "BAU : arrêt autorisé seulement en cas de panne/accident. R411-25.",
+      "explanation": "BAU : arrêt autorisé uniquement panne/accident.",
       "difficulty": "medium"
     },
     {
@@ -752,7 +752,7 @@
         "1 point"
       ],
       "correctAnswer": 3,
-      "explanation": "Chevauchement ligne continue : -1 point (dépassement = -3). Barème points.",
+      "explanation": "Chevauchement ligne continue = −1 point (dépasser = −3).",
       "difficulty": "medium"
     },
     {
@@ -780,7 +780,7 @@
         2,
         3
       ],
-      "explanation": "Permis probatoire : stage obligatoire si perte ≥3 points en une fois. Sécurité routière.",
+      "explanation": "Probatoire : stage obligatoire si perte ≥3 points en une fois.",
       "difficulty": "medium"
     },
     {
@@ -793,7 +793,7 @@
         "1,50 mètres"
       ],
       "correctAnswer": 2,
-      "explanation": "En ville : 1 m (hors agglo : 1,5 m). R414-4.",
+      "explanation": "En ville : 1 m (hors agglo : 1,5 m).",
       "difficulty": "medium"
     },
     {
@@ -805,7 +805,7 @@
         "Un ralentisseur"
       ],
       "correctAnswer": 1,
-      "explanation": "Panneau A2 : cassis ou dos d’âne (ralentisseur spécifique : panonceau M). IISR.",
+      "explanation": "Panneau cassis/dos d’âne A2.",
       "difficulty": "medium"
     },
     {
@@ -818,7 +818,7 @@
         "Dans les six mois qui suivent le déménagement"
       ],
       "correctAnswer": 3,
-      "explanation": "Changement d’adresse carte grise : dans le mois. Service-Public.fr / ANTS.",
+      "explanation": "Changement d’adresse carte grise dans le mois (ANTS).",
       "difficulty": "medium"
     },
     {
@@ -834,7 +834,7 @@
         2,
         4
       ],
-      "explanation": "Place PMR : réservée véhicules avec carte ; mise en fourrière possible ; amende 4e classe. R417-11.",
+      "explanation": "Place PMR : réservée véhicules autorisés ; fourrière possible ; amende 4e classe.",
       "difficulty": "medium"
     },
     {
@@ -846,7 +846,7 @@
         "D’avoir deux pneus de taille différente"
       ],
       "correctAnswer": 2,
-      "explanation": "Éclatement lié surtout au sous-gonflage (échauffement). Sécurité routière.",
+      "explanation": "Éclatement surtout lié au sous‑gonflage (échauffement).",
       "difficulty": "medium"
     },
     {
@@ -858,7 +858,7 @@
         "Je dois la priorité durant la manœuvre"
       ],
       "correctAnswer": 3,
-      "explanation": "Lors d’une manœuvre, je dois la priorité pendant la manœuvre. R415-6.",
+      "explanation": "En manœuvre : je dois la priorité pendant la manœuvre.",
       "difficulty": "medium"
     },
     {
@@ -870,7 +870,7 @@
         "110km/h"
       ],
       "correctAnswer": 3,
-      "explanation": "Pluie sur autoroute : VMA 110 km/h. R413-2.",
+      "explanation": "Pluie sur autoroute : VMA 110 km/h.",
       "difficulty": "medium"
     },
     {
@@ -882,7 +882,7 @@
         "Est autorisé pour donner tout type d’avertissement aux autres usagers de la route"
       ],
       "correctAnswer": 2,
-      "explanation": "En agglomération : avertisseur sonore uniquement en cas de danger immédiat. R416-1.",
+      "explanation": "Agglomération : avertisseur sonore juste en cas de danger.",
       "difficulty": "medium"
     },
     {
@@ -907,7 +907,7 @@
         "M’oblige à réduire ma vitesse"
       ],
       "correctAnswer": 3,
-      "explanation": "Descente dangereuse sur 1 500 m (et non dans 1 500 m). IISR.",
+      "explanation": "Descente dangereuse sur 1 500 m (et non dans 1 500 m).",
       "difficulty": "medium"
     },
     {
@@ -919,7 +919,7 @@
         "Un permis non probatoire doté d’un capital de 12 points"
       ],
       "correctAnswer": 1,
-      "explanation": "Après invalidation, nouveau permis = probatoire 6 points. L223-1 / Sécurité routière.",
+      "explanation": "Après invalidation : nouveau permis probatoire 6 points.",
       "difficulty": "medium"
     },
     {
@@ -931,7 +931,7 @@
         "4 points"
       ],
       "correctAnswer": 2,
-      "explanation": "Excès +35 km/h : retrait 3 points (30 à <40). Barème points.",
+      "explanation": "Excès +35 km/h → −3 points (30 à <40).",
       "difficulty": "medium"
     },
     {
@@ -944,7 +944,7 @@
         "Vous avez une contravention et une perte de 6 points"
       ],
       "correctAnswer": 4,
-      "explanation": "0,29 mg/L air ≈ 0,58 g/L sang : contravention + -6 points. R234-1 / barème points.",
+      "explanation": "0,29 mg/L air ≈ 0,58 g/L sang : contravention + −6 points.",
       "difficulty": "medium"
     },
     {
@@ -960,7 +960,7 @@
         1,
         3
       ],
-      "explanation": "Temps de réaction ↑ ⇒ distance de réaction ↑ ⇒ distance d’arrêt ↑. Sécurité routière.",
+      "explanation": "Temps de réaction ↑ ⇒ distances ↑.",
       "difficulty": "medium"
     },
     {
@@ -972,7 +972,7 @@
         "Orange"
       ],
       "correctAnswer": 1,
-      "explanation": "Pictogramme niveau 3 : rouge. ANSM / Sécurité routière.",
+      "explanation": "Pictogramme niveau 3 : rouge.",
       "difficulty": "medium"
     },
     {
@@ -988,7 +988,7 @@
         2,
         3
       ],
-      "explanation": "Alcool : ↑ temps de réaction et distance de freinage ; réflexes diminuent. Sécurité routière.",
+      "explanation": "Alcool : ↑ temps de réaction et distance de freinage.",
       "difficulty": "medium"
     },
     {
@@ -1000,7 +1000,7 @@
         "Obligatoire pour toute infraction"
       ],
       "correctAnswer": 1,
-      "explanation": "Dépistage stupéfiants obligatoire en cas d’accident mortel. R235-2.",
+      "explanation": "Dépistage stupéfiants obligatoire en cas d’accident mortel.",
       "difficulty": "medium"
     },
     {
@@ -1016,7 +1016,7 @@
         2,
         4
       ],
-      "explanation": "Parler à la victime, la couvrir ; ne pas retirer casque ni donner à boire. PSC1.",
+      "explanation": "Premiers secours : parler/couvrir ; ne pas retirer le casque.",
       "difficulty": "medium"
     },
     {
@@ -1028,7 +1028,7 @@
         "Secourir, protéger, alerter"
       ],
       "correctAnswer": 1,
-      "explanation": "Conduite à tenir : Protéger, Alerter, Secourir (P.A.S.). PSC1.",
+      "explanation": "Conduite à tenir : Protéger, Alerter, Secourir.",
       "difficulty": "medium"
     },
     {
@@ -1043,7 +1043,7 @@
         1,
         3
       ],
-      "explanation": "Sous-gonflage : surconsommation + risque d’éclatement. Sécurité routière.",
+      "explanation": "Sous‑gonflage : surconsommation + éclatement.",
       "difficulty": "medium"
     },
     {
@@ -1058,7 +1058,7 @@
         1,
         2
       ],
-      "explanation": "Conduire moins vite = moins de CO₂ + baisse consommation. Ademe / Sécurité routière.",
+      "explanation": "Rouler moins vite : baisse CO₂ et consommation.",
       "difficulty": "medium"
     },
     {
@@ -1071,7 +1071,7 @@
         "1 mois"
       ],
       "correctAnswer": 2,
-      "explanation": "Constat amiable à envoyer sous 5 jours à l’assureur. Code assurances / Service-Public.fr.",
+      "explanation": "Constat amiable à envoyer sous 5 jours à l’assureur.",
       "difficulty": "medium"
     },
     {
@@ -1087,7 +1087,7 @@
         2,
         4
       ],
-      "explanation": "ESP corrige pertes d’adhérence (freins+moteur) et est obligatoire sur véhicules neufs. R321-16 / règlement UE.",
+      "explanation": "ESP : agit via freins et moteur ; obligatoire sur véhicules neufs.",
       "difficulty": "medium"
     },
     {
@@ -1115,7 +1115,7 @@
         2,
         3
       ],
-      "explanation": "Dépistage stupéfiants systématique : homicide involontaire et infractions punies de suspension. R235-2.",
+      "explanation": "Stupéfiants : dépistage systématique pour certaines infractions et accidents graves.",
       "difficulty": "medium"
     },
     {
@@ -1141,7 +1141,7 @@
         "Utilisation en conduite d’un téléphone tenu en main"
       ],
       "correctAnswer": 1,
-      "explanation": "Retrait 6 points : excès ≥50 km/h. Téléphone = 3 pts ; alcool <0,25 mg/L ≠. Barème points.",
+      "explanation": "Retrait 6 points : excès ≥50 km/h (tél tenu en main = −3).",
       "difficulty": "medium"
     },
     {
@@ -1157,7 +1157,7 @@
         2,
         4
       ],
-      "explanation": "0,7 g/L : contravention + -6 points. R234-1 / barème points.",
+      "explanation": "0,7 g/L : contravention + −6 points (pas prison).",
       "difficulty": "medium"
     },
     {
@@ -1170,7 +1170,7 @@
         "Une ligne discontinue"
       ],
       "correctAnswer": 1,
-      "explanation": "Ligne de dissuasion : traits 3 m, intervalles ~1,33 m. IISR.",
+      "explanation": "Ligne de dissuasion : traits 3 m, intervalles ~1,33 m.",
       "difficulty": "medium"
     },
     {
@@ -1182,7 +1182,7 @@
         "Permet de ne pas allonger la distance d’arrêt"
       ],
       "correctAnswer": 1,
-      "explanation": "ABS aide à garder la direction ; la distance d’arrêt n’est pas forcément réduite. Sécurité routière.",
+      "explanation": "ABS aide à garder la direction ; distance d’arrêt pas forcément réduite.",
       "difficulty": "medium"
     },
     {
@@ -1208,7 +1208,7 @@
         "Eclairer à 150 mètres"
       ],
       "correctAnswer": 1,
-      "explanation": "Feux de position : visibles à 150 m. IISR.",
+      "explanation": "Feux de position visibles à 150 m.",
       "difficulty": "medium"
     }
   ]

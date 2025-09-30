@@ -35,7 +35,7 @@
       "options": [
         "Thank you for the race. Save the change !",
         "Thank you for the ride. Keep the change!",
-        "Thank you for the errand. Give the change! 308"
+        "Thank you for the errand. Give the change!"
       ],
       "correctAnswer": 2,
       "explanation": "« Thank you for the ride. Keep the change! » = Merci pour la course, gardez la monnaie.",
@@ -72,7 +72,7 @@
       "options": [
         "La secrétaire a reçu une prime",
         "On a donné une prime à la secrétaire",
-        "Le secrétaire était donné en prime 309"
+        "Le secrétaire était donné en prime"
       ],
       "correctAnswer": 2,
       "explanation": "« The secretary was given a bonus » = on a donné une prime à la secrétaire.",
@@ -120,7 +120,7 @@
       "options": [
         "On",
         "In",
-        "At 310"
+        "At"
       ],
       "correctAnswer": 1,
       "explanation": "On utilise « on Monday ».",
@@ -156,7 +156,7 @@
       "options": [
         "Nous arriverons probablement en retard. Il y a trop de circulation",
         "Nous arriverons probablement en retard. Il y a beaucoup de ralentissement",
-        "Nous arriverons certainement en retard. Il y a peu de circulation 311"
+        "Nous arriverons certainement en retard. Il y a peu de circulation"
       ],
       "correctAnswer": 1,
       "explanation": "Traduction : Nous arriverons probablement en retard. Il y a trop de circulation.",
@@ -204,7 +204,7 @@
       "options": [
         "La campagne",
         "La prairie",
-        "Le paysage 312"
+        "Le paysage"
       ],
       "correctAnswer": 3,
       "explanation": "« Landscape » = paysage.",
@@ -241,7 +241,7 @@
       "options": [
         "Un remboursement",
         "Un refus",
-        "Une retrouvaille 313"
+        "Une retrouvaille"
       ],
       "correctAnswer": 1,
       "explanation": "« Refund » = remboursement (orthographe corrigée).",
@@ -275,9 +275,9 @@
       "id": "eng_023",
       "question": " Pouvez-vous attendre quelques minutes ? Mon ami arrive.",
       "options": [
-        "Could you wait a couple of minutes ? ﻿My friend would arrive",
-        "Could you wait a couple of minutes ? ﻿My friend is coming",
-        "Are you waiting a couple of minutes ? My friend is coming 314"
+        "Could you wait a couple of minutes ?  My friend would arrive",
+        "Could you wait a couple of minutes ?  My friend is coming",
+        "Are you waiting a couple of minutes ? My friend is coming"
       ],
       "correctAnswer": 2,
       "explanation": "Correct = « Could you wait… My friend is coming ».",
@@ -325,7 +325,7 @@
       "options": [
         "What brand is your car ?",
         "How is your car ?",
-        "Is that your car ? 315"
+        "Is that your car ?"
       ],
       "correctAnswer": 1,
       "explanation": "Correct = « What brand is your car? ».",
@@ -373,7 +373,7 @@
       "options": [
         "Je suis désolé, j'ai perdu mon sac à main. Que pouvons-nous faire ?",
         "Je suis désolé, j‘ai perdu mon portefeuille. Que pouvonsnous faire ?",
-        "Je suis désolé, j‘ai perdu mon portefeuille. Que pouvez-vous faire ? 316"
+        "Je suis désolé, j‘ai perdu mon portefeuille. Que pouvez-vous faire ?"
       ],
       "correctAnswer": 2,
       "explanation": "« I lost my wallet » = portefeuille.",
@@ -409,7 +409,7 @@
       "options": [
         "Il semble que les routes soient bloquées, pouvez-vous prendre l'autoroute ?",
         "Il semblerait qu'il faille prendre l'autoroute pour éviter les bouchons ?",
-        "Apparemment, il y a des bouchons sur l'autoroute, connaissez-vous une autre route ? 317"
+        "Apparemment, il y a des bouchons sur l'autoroute, connaissez-vous une autre route ?"
       ],
       "correctAnswer": 3,
       "explanation": "Bonne traduction = « there are traffic jams… another way? ».",
@@ -457,7 +457,7 @@
       "options": [
         "J‘ai une correspondance à la gare à 16h15",
         "J‘ai une correspondance à l'aéroport à 16h15",
-        "J'ai une correspondance à la gare à 4h15 du matin 318"
+        "J'ai une correspondance à la gare à 4h15 du matin"
       ],
       "correctAnswer": 1,
       "explanation": "Commute = correspondance.",
@@ -493,7 +493,7 @@
       "options": [
         "Is it possible to visit this historical monument ?",
         "Do you know some listed historical monuments ?",
-        "Do you know when this historical monument was built ? 319"
+        "Do you know when this historical monument was built ?"
       ],
       "correctAnswer": 3,
       "explanation": "Correct = « Do you know when this historical monument was built? ».",
@@ -529,7 +529,7 @@
       "options": [
         "Merci pour la course, ne changez pas",
         "Merci d'avoir attendu, gardez la monnaie",
-        "Merci pour la course, gardez la monnaie 320"
+        "Merci pour la course, gardez la monnaie"
       ],
       "correctAnswer": 3,
       "explanation": "Traduction : Merci pour la course, gardez la monnaie.",
@@ -565,7 +565,7 @@
       "options": [
         "Êtes-vous venus pour le festival de musique ?",
         "Avez-vous votre place pour le festival de musique ?",
-        "Êtes-vous allés au festival de musique ? 321"
+        "Êtes-vous allés au festival de musique ?"
       ],
       "correctAnswer": 1,
       "explanation": "Traduction correcte : Êtes-vous venus pour le festival de musique ?",
@@ -613,7 +613,7 @@
       "options": [
         "Pas de fauteuil roulant",
         "J‘accueille les handicapés",
-        "Pas de place pour le fauteuil 322"
+        "Pas de place pour le fauteuil"
       ],
       "correctAnswer": 2,
       "explanation": "Traduction correcte : « Disabled welcome » = j’accueille les handicapés.",
@@ -662,7 +662,7 @@
       "options": [
         "We check the motor three times per year",
         "We're checking the motor three times per week",
-        "We were tchecking the motor three times per year 323"
+        "We were tchecking the motor three times per year"
       ],
       "correctAnswer": 1,
       "explanation": "Correct = « We check the motor three times per year ».",
@@ -711,7 +711,7 @@
         "She had been living in Paris since ten years",
         "She has been living in Paris for ten years",
         "She has lived in Paris until ten years",
-        "She lived in Paris for ten years 324"
+        "She lived in Paris for ten years"
       ],
       "correctAnswer": 2,
       "explanation": "Correct = « She has been living in Paris for ten years ».",
@@ -735,7 +735,7 @@
       "options": [
         "Au métro",
         "En banlieue",
-        "Au bord de la mer 325"
+        "Au bord de la mer"
       ],
       "correctAnswer": 2,
       "explanation": "Suburb = banlieue.",
@@ -747,7 +747,7 @@
       "options": [
         "Dangerous",
         "Noisy",
-        "Exciting 347"
+        "Exciting"
       ],
       "correctAnswer": 3,
       "explanation": "Opposite of boring = exciting.",
@@ -843,7 +843,7 @@
       "options": [
         "A careful driving allows not being fined",
         "A cautious drive permits not to get amends",
-        "To drive with prudence avoids contraventions 328 Réponses QCM 329"
+        "To drive with prudence avoids contraventions  Réponses QCM"
       ],
       "correctAnswer": 1,
       "explanation": "Correct = « A careful driving allows not being fined ».",

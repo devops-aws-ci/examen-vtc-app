@@ -37,9 +37,9 @@
         "Moins de 5 ans, sauf pour les véhicules de collection de 15 ans",
         "Moins de 5 ans, sauf pour les véhicules de collection de 20 ans",
         "Moins de 6 ans, sauf pour les véhicules de collection de 25 ans",
-        "Moins de 7 ans, sauf pour les véhicules de collection de 30 ans 408"
+        "Moins de 7 ans, sauf pour les véhicules de collection de 30 ans"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 4,
       "explanation": "Âge véhicule VTC (thermique) < 7 ans (collection < 30 ans). Arrêté technique VTC.",
       "difficulty": "medium"
     },
@@ -75,7 +75,7 @@
         "Longueur 4,30 m et largeur 1,81 m",
         "Longueur 4.61 m et largeur 1,77 m",
         "Longueur 4,47 m et largeur 1,85 m",
-        "Longueur 4.70 m et largeur 1.80 m 409"
+        "Longueur 4.70 m et largeur 1.80 m"
       ],
       "correctAnswer": 2,
       "explanation": "Dimensions minimales VTC : L ≥ 4,60 m et l ≥ 1,70 m. Réponse valide : 4,61 m x 1,77 m. Arrêté technique VTC.",
@@ -111,7 +111,7 @@
       "options": [
         "Non, car il ne serait pas visible",
         "Oui",
-        "Non, sous réserve d'une dérogation délivrée par le Ministère chargé des transports 410"
+        "Non, sous réserve d'une dérogation délivrée par le Ministère chargé des transports"
       ],
       "correctAnswer": 2,
       "explanation": "Macaron EVTC obligatoire (arrêté signalétique du 6 avril 2017). https://www.ecologie.gouv.fr/politiques-publiques/taxi-vtc-vmdtr-cpa-reglementation-transports-publics-particuliers-personnes",
@@ -149,7 +149,7 @@
         "Six mois d'emprisonnement et 5 000 € d'amende",
         "Un an d'emprisonnement et 15 000 € d'amende",
         "Six mois d'emprisonnement et 10 000 € d'amende",
-        "Un an d'emprisonnement et 20 000 € d'amende 411"
+        "Un an d'emprisonnement et 20 000 € d'amende"
       ],
       "correctAnswer": 2,
       "explanation": "Exercice sans inscription REVTC : 1 an prison et 15 000 € d’amende. L.3124-4 et L.3124-9 : https://www.legifrance.gouv.fr/codes/",
@@ -188,7 +188,7 @@
         "Par la couleur noire du véhicule de haut-de-gamme",
         "Par un macaron à l'avant et à l'arrière du véhicule",
         "Par un macaron à l'avant",
-        "Par un macaron à l'arrière 412"
+        "Par un macaron à l'arrière"
       ],
       "correctAnswer": 2,
       "explanation": "Identification VTC : macarons avant ET arrière. Arrêté signalétique 6 avril 2017.",
@@ -213,7 +213,7 @@
         "la publication au bulletin officiel",
         "la publication du nom de l'entreprise dans la liste des exploitants sur le site du Ministère",
         "la délivrance d'une attestation d'inscription",
-        "la délivrance d'un diplôme 413"
+        "la délivrance d'un diplôme"
       ],
       "correctAnswer": 3,
       "explanation": "Idem reg_014 (attestation d’inscription).",
@@ -240,7 +240,7 @@
         "un engagement oral suffit",
         "Sur support électronique"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "explanation": "Ticket de réservation : support papier ou électronique. L.3120-2.",
       "difficulty": "medium"
     },
@@ -251,7 +251,7 @@
         "les organisations professionnelles de VTC",
         "la préfecture",
         "la chambre de métiers et de l'artisanat",
-        "la Mairie 414"
+        "la Mairie"
       ],
       "correctAnswer": 2,
       "explanation": "Carte pro VTC délivrée par la préfecture. Arrêté du 7 sept. 2017.",
@@ -286,7 +286,7 @@
       "question": " Je peux faire du transport de personnes à titre onéreux avec un permis probatoire ?",
       "options": [
         "Oui",
-        "Non 415"
+        "Non"
       ],
       "correctAnswer": 2,
       "explanation": "Permis probatoire : non pour T3P (ancienneté du permis requise).",
@@ -299,7 +299,7 @@
         "Oui",
         "Non"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "explanation": "Condamnation pour abus de confiance : incompatible → Non. B2 vierge exigé (L.3120-2-1).",
       "difficulty": "medium"
     },
@@ -320,7 +320,7 @@
       "question": " Sommes-nous obligés de mettre notre carte professionnelle sur le pare-brise du véhicule ?",
       "options": [
         "Oui",
-        "Non 416"
+        "Non"
       ],
       "correctAnswer": 2,
       "explanation": "Carte pro sur pare-brise : non (seules vignettes EVTC).",
@@ -354,9 +354,9 @@
       "options": [
         "Dans toute la France",
         "Dans sa région",
-        "Seulement dans un département 417"
+        "Seulement dans un département"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "Validité nationale : carte pro valable dans toute la France.",
       "difficulty": "medium"
     },
@@ -388,7 +388,7 @@
       "options": [
         "Le ministre des Transports peut infliger un avertissement, suspendre ou retirer définitivement l'autorisation de stationnement, après avis de la commission communale.",
         "Le préfet peut infliger un aver-tissement, suspendre ou retirer définitivement la carte professionnelle.",
-        "Le maire peut suspendre la carte professionnelle. 418"
+        "Le maire peut suspendre la carte professionnelle."
       ],
       "correctAnswer": 2,
       "explanation": "Sanctions disciplinaires : préfet (avertissement, suspension, retrait carte).",
@@ -403,7 +403,7 @@
         "L'assurance responsabilité civile du chauffeur",
         "La vignette affichée sur le pare-brise"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "explanation": "Validité carte : attestation formation continue (tous les 5 ans). Arrêté 11 août 2017.",
       "difficulty": "medium"
     },
@@ -425,7 +425,7 @@
       "options": [
         "Autorisée si elle est consécutive à la dépose du client précédent sur le même lieu",
         "Un délit puni d'une peine de prison et d'une amende pouvant aller jusqu'à 15 000 €",
-        "Passible d'une suspension du permis de conduire 419"
+        "Passible d'une suspension du permis de conduire"
       ],
       "correctAnswer": 2,
       "explanation": "Maraude interdite = délit (idem reg_005).",
@@ -460,7 +460,7 @@
       "options": [
         "Les taxis ainsi que les VTC n'ont pas droit à la subvention pour des véhicules adaptés aux personnes à mobilité réduite",
         "Les taxis ont droit à la subvention pour des véhicules adaptés aux personnes à mobilité réduite",
-        "Les VTC ont droit à la subvention pour des véhicules adaptés aux personnes à mobilité réduite 420"
+        "Les VTC ont droit à la subvention pour des véhicules adaptés aux personnes à mobilité réduite"
       ],
       "correctAnswer": 3,
       "explanation": "Subvention PMR : VTC éligibles (décret 31/07/2023). Ministère.",
@@ -485,7 +485,7 @@
         "Sans limites de temps",
         "Dans la limite de 1H maximum sur présentation d'un bon de réservation"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "explanation": "Gare/aéroport : limite 1h avec bon de réservation. L.3120-2 ; fiches préfectures.",
       "difficulty": "medium"
     },
@@ -496,9 +496,9 @@
         "Nom et téléphone client, date, heure et lieu de prise en charge",
         "Nom et téléphone client, date et heure de réservation, date, heure et lieu de destination",
         "Nom et téléphone client, date et heure de réservation, date, heure et lieu de prise en charge",
-        "Nom ou dénomination sociale et coordonnées de la société 421"
+        "Nom ou dénomination sociale et coordonnées de la société"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 4,
       "explanation": "Ticket de réservation : nom/tél du client, date/heure de réservation, date/heure/lieu de prise en charge. L.3120-2.",
       "difficulty": "medium"
     },
@@ -511,7 +511,7 @@
         "Loi d'Observation des Taxis Intra-muros",
         "Loi d'Orientation du Transport Intérieur"
       ],
-      "correctAnswer": 4,
+      "correctAnswer": 2,
       "explanation": "LOTI : Loi d’Orientation du Transport Intérieur.",
       "difficulty": "medium"
     },
@@ -533,7 +533,7 @@
       "question": " Un VTC peut stationner en ville en attente de clientèle ?",
       "options": [
         "Sans bon de réservation préalable",
-        "Avec bon de réservation préalable 422"
+        "Avec bon de réservation préalable"
       ],
       "correctAnswer": 2,
       "explanation": "Stationnement en ville : uniquement avec bon de réservation préalable.",
@@ -568,7 +568,7 @@
       "options": [
         "120 €",
         "170 €",
-        "220 € 423"
+        "220 €"
       ],
       "correctAnswer": 2,
       "explanation": "Frais d’inscription au registre VTC : 170 €. Service-Public/Ministère : https://entreprendre.service-public.fr/vosdroits/F31027 et https://www.ecologie.gouv.fr/politiques-publiques/vtc-registre-voitures-transport-chauffeur",
@@ -582,7 +582,10 @@
         "Avoir 10 points minimum sur son permis de conduire",
         "Casier judiciaire B2 vierge"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": [
+        1,
+        3
+      ],
       "explanation": "Examen T3P : permis > 3 ans (2 ans AAC), 10 points non exigés, B2 compatible (vierge d’infractions excluantes).",
       "difficulty": "medium"
     }

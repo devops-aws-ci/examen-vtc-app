@@ -12,6 +12,14 @@ cd C:\myworkspace\personel-repos\examen-vtc-app
 
 python3 -m http.server 8000
 
+## 🎯 git config
+https://github.com/settings/tokens
+developpers settings --> Personal access tokens (classic) --> Generate new token 
+
+git config --global credential.helper store
+git config core.autocrlf false --global
+
+
 ## 🎯 Fonctionnalités
 
 ### ✨ Interface Moderne

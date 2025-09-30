@@ -1,0 +1,590 @@
+{
+  "category": "reglementation",
+  "name": "Réglementation nationale VTC",
+  "description": "Test de connaissance sur la réglementation nationale des VTC.",
+  "icon": "law.png",
+  "duration": "20",
+  "questions": [
+    {
+      "id": "reg_001",
+      "question": " La durée maximale de stationnement précédant l'horaire de prise en charge mentionné par le client lors de sa réservation à un aéroport ou une gare pour un VTC est de :",
+      "options": [
+        "30 minutes",
+        "45 minutes",
+        "1 heure",
+        "1h30"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Durée max d’attente aux gares/aéroports : 1 heure avant l’horaire de prise en charge. Code des transports (décret) : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000030048385/",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_002",
+      "question": " Quel est le périmètre d'exercice de l'activité de conducteur de VTC ?",
+      "options": [
+        "Le territoire national",
+        "Son département de résidence",
+        "sa commune de résidence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Périmètre d’exercice : territoire national. Code des transports (L.3120-2 et s.).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_003",
+      "question": " Un véhicule VTC doit être âgé de :",
+      "options": [
+        "Moins de 5 ans, sauf pour les véhicules de collection de 15 ans",
+        "Moins de 5 ans, sauf pour les véhicules de collection de 20 ans",
+        "Moins de 6 ans, sauf pour les véhicules de collection de 25 ans",
+        "Moins de 7 ans, sauf pour les véhicules de collection de 30 ans 408"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Âge véhicule VTC (thermique) < 7 ans (collection < 30 ans). Arrêté technique VTC.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_004",
+      "question": " La longueur minimale hors tout d'un véhicule VTC hybride ou électrique :",
+      "options": [
+        "Est de 3 mètres",
+        "Est de 4 mètres",
+        "Est de 4,50 mètres",
+        "Aucune longueur minimale n'est imposée"
+      ],
+      "correctAnswer": 4,
+      "explanation": "Véhicule hybride/électrique : pas de longueur minimale imposée. Arrêté technique VTC.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_005",
+      "question": " La prise en charge d'un client sur une voie ouverte à la circulation publique sans réservation préalable est :",
+      "options": [
+        "Autorisée si elle est consécutive à la dépose du client précédent sur le même lieu",
+        "Un délit puni d'une peine de prison et d'une amende pouvant aller jusqu'à 15 000€",
+        "Passible d'une suspension du permis de conduire"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Maraude interdite pour VTC : délit puni d’1 an prison et 15 000 €. Code des transports L.3124-9 : https://www.legifrance.gouv.fr/codes/id/LEGISCTA000030048385/",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_006",
+      "question": " Parmi les dimensions suivantes, quelles sont celles permettant à une voiture d'être exploitée en VTC ?",
+      "options": [
+        "Longueur 4,30 m et largeur 1,81 m",
+        "Longueur 4.61 m et largeur 1,77 m",
+        "Longueur 4,47 m et largeur 1,85 m",
+        "Longueur 4.70 m et largeur 1.80 m 409"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dimensions minimales VTC : L ≥ 4,60 m et l ≥ 1,70 m. Réponse valide : 4,61 m x 1,77 m. Arrêté technique VTC.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_007",
+      "question": " Le portail REVTC ou registre des exploitants de VTC est utilisé pour :",
+      "options": [
+        "Créer un dossier d'exploitant (inscription) ou le mettre à jour",
+        "mettre en relation des exploitants de VTC et des clients par les plateformes",
+        "Obtenir la carte professionnelle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "REVTC sert à s’inscrire / mettre à jour le dossier d’exploitant. Portail officiel : https://registre-vtc.developpement-durable.gouv.fr/public/accueil",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_008",
+      "question": " Puis-je utiliser un véhicule acheté en janvier 2012 pour exercer la profession de VTC ?",
+      "options": [
+        "Oui, à la condition qu'il respecte les critères de puissance et de dimensions",
+        "Oui, si c'est un véhicule hybride ou électrique",
+        "Non si c'est un véhicule thermique"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Véhicule acheté en 2012 (thermique) : trop ancien (âge > 7 ans) → Non.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_009",
+      "question": " Vous exploitez un véhicule avec lunette arrière surteintée. Est-il obligatoire d'apposer le macaron EVTC ?",
+      "options": [
+        "Non, car il ne serait pas visible",
+        "Oui",
+        "Non, sous réserve d'une dérogation délivrée par le Ministère chargé des transports 410"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Macaron EVTC obligatoire (arrêté signalétique du 6 avril 2017). https://www.ecologie.gouv.fr/politiques-publiques/taxi-vtc-vmdtr-cpa-reglementation-transports-publics-particuliers-personnes",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_010",
+      "question": " Pour chaque véhicule exploité comme VTC, une capacité financière est exigée. Quel est son montant ?",
+      "options": [
+        "100 €",
+        "1500 €",
+        "900 €"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Capacité financière : 1 500 € par véhicule. Code des transports R.3122-7 et s.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_011",
+      "question": " Je suis conducteur d'un véhicule de transport avec chauffeur, je peux :",
+      "options": [
+        "Éviter de rentrer à mon siège social sous conditions",
+        "Prendre à bord un client qui me hèle en sortant de chez lui à condition de remplir un bon de réservation pendant la course",
+        "Prendre un client qui lève la main dans la rue car il n'y a pas de taxis à proximité",
+        "Rouler à petite vitesse dans les zones commerciales, d'affaires ou de loisirs à la recherche de clients"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Retour au siège/garage sauf nouvelle réservation. Possibilité d’éviter le retour sous conditions (ticket de réservation). L.3120-2.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_012",
+      "question": " Quelle est la sanction encourue pour exercice de l'activité de conducteur de VTC sans inscription au registre des exploitants VTC ?",
+      "options": [
+        "Six mois d'emprisonnement et 5 000 € d'amende",
+        "Un an d'emprisonnement et 15 000 € d'amende",
+        "Six mois d'emprisonnement et 10 000 € d'amende",
+        "Un an d'emprisonnement et 20 000 € d'amende 411"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Exercice sans inscription REVTC : 1 an prison et 15 000 € d’amende. L.3124-4 et L.3124-9 : https://www.legifrance.gouv.fr/codes/",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_013",
+      "question": " Quelle sont les dimensions minimum d'une voiture pour être utilisée comme VTC ?",
+      "options": [
+        "4,5 m x 1,7 m",
+        "4,6 m x 1,8 m",
+        "4,3 m x 1,5 m",
+        "4,5 m x 1,6 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dimensions min : 4,5 m x 1,7 m (thermique). Arrêté technique VTC.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_014",
+      "question": " L'inscription au registre des exploitants VTC donne lieu à :",
+      "options": [
+        "La publication au bulletin officiel",
+        "La publication du nom de l'entreprise dans la liste des exploitants sur le site du Ministère",
+        "La délivrance d'une attestation d'inscription",
+        "La délivrance d'un diplôme"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Inscription REVTC → attestation d’inscription. Portail REVTC.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_015",
+      "question": " Comment reconnait-on un VTC ?",
+      "options": [
+        "Par la couleur noire du véhicule de haut-de-gamme",
+        "Par un macaron à l'avant et à l'arrière du véhicule",
+        "Par un macaron à l'avant",
+        "Par un macaron à l'arrière 412"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Identification VTC : macarons avant ET arrière. Arrêté signalétique 6 avril 2017.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_016",
+      "question": " La prise en charge d’un client sur une voie ouverte à la circulation publique sans réservation préalable est :",
+      "options": [
+        "Autorisée si elle est consécutive à la dépose du client précédent sur le même lieu",
+        "Un délit puni d’une peine de prison et d’une amende pouvant aller jusqu’à 15 000 €",
+        "Passible d’une supsension du permis de conduire"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Maraude : délit puni d’1 an et 15 000 € (réservation préalable obligatoire). L.3120-2 et L.3124-9.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_017",
+      "question": " L'inscription au registre des exploitants VTC donne lieu à :",
+      "options": [
+        "la publication au bulletin officiel",
+        "la publication du nom de l'entreprise dans la liste des exploitants sur le site du Ministère",
+        "la délivrance d'une attestation d'inscription",
+        "la délivrance d'un diplôme 413"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Idem reg_014 (attestation d’inscription).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_018",
+      "question": " Pour la réalisation d'une prestation de VTC :",
+      "options": [
+        "les conditions générales de vente peuvent constituer un document valant contrat, sous réserve que le client ait dûment signé toutes les pages",
+        "il doit exister un contrat avec le client final qui doit être obligatoirement écrit sur support papier",
+        "il doit exister un contrat avec le client final pouvant être écrit sur support papier ou électronique",
+        "les conditions générales de vente peuvent constituer un document valant contrat, sous réserve que le client ait dûment signé la dernière page"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Contrat possible sur support papier ou électronique (CGV pouvant valoir contrat). Code de la consommation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_019",
+      "question": " Le ticket de réservation doit être établi :",
+      "options": [
+        "Sur support papier",
+        "un engagement oral suffit",
+        "Sur support électronique"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ticket de réservation : support papier ou électronique. L.3120-2.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_020",
+      "question": " Qui délivre la carte professionnelle des conducteurs de VTC ?",
+      "options": [
+        "les organisations professionnelles de VTC",
+        "la préfecture",
+        "la chambre de métiers et de l'artisanat",
+        "la Mairie 414"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Carte pro VTC délivrée par la préfecture. Arrêté du 7 sept. 2017.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_021",
+      "question": " Pour accéder à la profession de conducteur de VTC, il faut obligatoirement :",
+      "options": [
+        "Suivre une formation",
+        "Réussir à un examen",
+        "Avoir une expérience professionnelle de conducteur de véhicule léger dans les 5 ans précédents la demande de carte professionnelle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Accès à la profession : réussite à l’examen (T3P). Arrêté 6 avril 2017.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_022",
+      "question": " L’assurance responsabilité civile professionnelle est due :",
+      "options": [
+        "Par tous les conducteurs de VTC indé-pendants",
+        "Par tous les conducteurs de VTC indé-pendants, à l'exception des auto-entrepre-neurs",
+        "Par tous les conducteurs qu'ils soient indépendants ou salariés"
+      ],
+      "correctAnswer": 3,
+      "explanation": "RCP due par tous conducteurs (salariés ou indépendants). Code des transports.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_023",
+      "question": " Je peux faire du transport de personnes à titre onéreux avec un permis probatoire ?",
+      "options": [
+        "Oui",
+        "Non 415"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Permis probatoire : non pour T3P (ancienneté du permis requise).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_024",
+      "question": " Si je suis condamné pour abus de confiance, je peux toujours conduire un véhicule VTC ?",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Condamnation pour abus de confiance : incompatible → Non. B2 vierge exigé (L.3120-2-1).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_025",
+      "question": " Quel est le nombre maximum de personnes autorisées dans une voiture VTC ?",
+      "options": [
+        "8 places au maximum y compris le chauffeur",
+        "9 places au maximum y compris le chauffeur",
+        "9 places au maximum sans le chauffeur"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Max 8 passagers y compris le conducteur (véhicule ≤ 9 places). L.3120-1.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_026",
+      "question": " Sommes-nous obligés de mettre notre carte professionnelle sur le pare-brise du véhicule ?",
+      "options": [
+        "Oui",
+        "Non 416"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Carte pro sur pare-brise : non (seules vignettes EVTC).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_027",
+      "question": " Seule la carte professionnelle permet d'exercer la profession de chauffeur VTC.",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Carte pro obligatoire pour exercer : Oui.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_028",
+      "question": " En cas d'arrêt définitif de la profession doit-on rendre sa carte professionnelle ?",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Arrêt définitif : restitution carte pro : Oui.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_029",
+      "question": " La carte professionnelle de chauffeur VTC est valable pour exercer.",
+      "options": [
+        "Dans toute la France",
+        "Dans sa région",
+        "Seulement dans un département 417"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Validité nationale : carte pro valable dans toute la France.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_030",
+      "question": " En usage privé, le conducteur doit-il apposer sa carte professionnelle sur le pare-brise ?",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Usage privé : pas d’obligation d’apposer la carte pro.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_031",
+      "question": " Le conjoint d’un chauffeur VTC peut-il conduire en lieu et place de son conjoint avec son seul permis B ?",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Conjoint non titulaire ne peut pas conduire avec seul permis B : Non.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_032",
+      "question": " Parmi les propositions suivantes, quelles sont les sanctions disciplinaires pouvant être appliquées aux chauffeurs VTC en cas de violation de la réglementation applicable ?",
+      "options": [
+        "Le ministre des Transports peut infliger un avertissement, suspendre ou retirer définitivement l'autorisation de stationnement, après avis de la commission communale.",
+        "Le préfet peut infliger un aver-tissement, suspendre ou retirer définitivement la carte professionnelle.",
+        "Le maire peut suspendre la carte professionnelle. 418"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sanctions disciplinaires : préfet (avertissement, suspension, retrait carte).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_033",
+      "question": " Les documents qui donnent professionnelle VTC sont : la validité à la carte",
+      "options": [
+        "La visite médicale en cours de validité",
+        "L'attestation de formation continue obligatoire tous les 5 ans",
+        "L'assurance responsabilité civile du chauffeur",
+        "La vignette affichée sur le pare-brise"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Validité carte : attestation formation continue (tous les 5 ans). Arrêté 11 août 2017.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_034",
+      "question": " La prise en charge d'un client sur une voie ouverte à la circulation publique sans réservation préalable est :",
+      "options": [
+        "Autorisée si elle est consécutive à la dépose du client précédent sur le même lieu",
+        "Un délit puni d'une peine de prison et d'une amende pouvant aller jusqu'à 15 000 €",
+        "Passible d'une suspension du permis de conduire"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Maraude interdite = délit (idem reg_005).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_035",
+      "question": " La prise en charge d'un client sur une voie ouverte à la circulation publique sans réservation préalable est :",
+      "options": [
+        "Autorisée si elle est consécutive à la dépose du client précédent sur le même lieu",
+        "Un délit puni d'une peine de prison et d'une amende pouvant aller jusqu'à 15 000 €",
+        "Passible d'une suspension du permis de conduire 419"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Maraude interdite = délit (idem reg_005).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_036",
+      "question": " La première date d'immatriculation de ma voiture correspond au 10 octobre 2023. Avant quelle date devait-elle passer au contrôle technique si je suis chauffeur VTC ?",
+      "options": [
+        "10 octobre 2026",
+        "10 octobre 2025",
+        "10 octobre 2024"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Contrôle technique VTC : 1 an → première échéance 1 an après 1re immatriculation. Rép. : 10/10/2024. (Arrêté CT + fiches préfectures)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_037",
+      "question": " Quel doit être l'âge d'un véhicule VTC à moteur thermique ?",
+      "options": [
+        "Inférieur à 7 ans, à l'exception des voitures de collection dont l'âge doit être de moins de 30 ans.",
+        "Inférieur à 6 ans, à l'exception des voitures de collection dont l'âge doit être d'au moins 30 ans."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Âge véhicule thermique < 7 ans (sauf collection < 30 ans).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_038",
+      "question": " Selon le décret du 31 juillet 2023 les VTC :",
+      "options": [
+        "Les taxis ainsi que les VTC n'ont pas droit à la subvention pour des véhicules adaptés aux personnes à mobilité réduite",
+        "Les taxis ont droit à la subvention pour des véhicules adaptés aux personnes à mobilité réduite",
+        "Les VTC ont droit à la subvention pour des véhicules adaptés aux personnes à mobilité réduite 420"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Subvention PMR : VTC éligibles (décret 31/07/2023). Ministère.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_039",
+      "question": " Prendre en charge un client sur la voie publique sans bon de commande est :",
+      "options": [
+        "Une faute grave",
+        "Passible d'une suspension de permis de conduire",
+        "Autorisé"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Prise en charge sans bon = faute/maraude interdite.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_040",
+      "question": " Un chauffeur VTC peut se garer sur une voie ouverte à la circulation publique à l'abord d'une gare ou d'un aéroport",
+      "options": [
+        "Sans limites de temps",
+        "Dans la limite de 1H maximum sur présentation d'un bon de réservation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Gare/aéroport : limite 1h avec bon de réservation. L.3120-2 ; fiches préfectures.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_041",
+      "question": " La réservation préalable doit comprendre les éléments suivants",
+      "options": [
+        "Nom et téléphone client, date, heure et lieu de prise en charge",
+        "Nom et téléphone client, date et heure de réservation, date, heure et lieu de destination",
+        "Nom et téléphone client, date et heure de réservation, date, heure et lieu de prise en charge",
+        "Nom ou dénomination sociale et coordonnées de la société 421"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ticket de réservation : nom/tél du client, date/heure de réservation, date/heure/lieu de prise en charge. L.3120-2.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_042",
+      "question": " Quelle est la signification du terme LOTI ?",
+      "options": [
+        "Loi d'Organisation du Tourisme Intérieur",
+        "Loi d'Orientation du Tourisme Interne",
+        "Loi d'Observation des Taxis Intra-muros",
+        "Loi d'Orientation du Transport Intérieur"
+      ],
+      "correctAnswer": 4,
+      "explanation": "LOTI : Loi d’Orientation du Transport Intérieur.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_043",
+      "question": " Quelle est la puissance minimale d'un véhicule exploité en régime VTC ?",
+      "options": [
+        "120 CV",
+        "84 kW",
+        "120 kW",
+        "100 CV"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Puissance min : 84 kW (≈ 115-120 ch). Arrêté technique VTC.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_044",
+      "question": " Un VTC peut stationner en ville en attente de clientèle ?",
+      "options": [
+        "Sans bon de réservation préalable",
+        "Avec bon de réservation préalable 422"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Stationnement en ville : uniquement avec bon de réservation préalable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_045",
+      "question": " Je dois toujours avoir dans mon véhicule lattestation confirmant que j'ai bien effectué la formation continue ?",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Attestation de formation continue à bord : vrai. Arrêté du 11 août 2017.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_046",
+      "question": " Quand doit-on justifier de la capacité financière ?",
+      "options": [
+        "À l'inscription au registre",
+        "À l'inscription sur le registre, lors de chaque mise à jour relative au nombre de véhicules déclarés en utilisation régulière et le cas échéant lors du renouvellement au bout de 5 ans",
+        "À l'inscription sur le registre et lors de chaque mise à jour relative au nombre de véhicules déclarés en utilisation régulière"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Capacité financière : à l’inscription et à chaque mise à jour/renouvellement (tous les 5 ans).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_047",
+      "question": " Quel est le montant des frais d'inscription au registre des voitures de transport avec chauffeur ?",
+      "options": [
+        "120 €",
+        "170 €",
+        "220 € 423"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Frais d’inscription au registre VTC : 170 €. Service-Public/Ministère : https://entreprendre.service-public.fr/vosdroits/F31027 et https://www.ecologie.gouv.fr/politiques-publiques/vtc-registre-voitures-transport-chauffeur",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reg_048",
+      "question": " Quelles sont les conditions requises pour pouvoir passer l'examen de T3P ?",
+      "options": [
+        "Avoir son permis de conduire depuis plus de 4 ans",
+        "Avoir 10 points minimum sur son permis de conduire",
+        "Casier judiciaire B2 vierge"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Examen T3P : permis > 3 ans (2 ans AAC), 10 points non exigés, B2 compatible (vierge d’infractions excluantes).",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,1215 @@
+{
+  "category": "SECURITE",
+  "name": "Sécurité Routière",
+  "description": "Code de la route et sécurité",
+  "icon": "🚗",
+  "duration": 30,
+  "questions": [
+    {
+      "id": "sec_001",
+      "question": "Ce panneau m'indique :",
+      "options": [
+        "Un stationnement à durée limitée",
+        "Que du 1er au 15 de chaque mois, le stationnement est autorisé du côté des numéros impairs des immeubles bordant la rue",
+        "Que du 1er au 15 de chaque mois, le stationnement est autorisé du côté des numéros pairs des immeubles bordant la rue"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_002",
+      "question": "Pour faire établir une nouvelle carte grise lors d’un changement de domicile, le propriétaire dispose de :",
+      "options": [
+        "3 semaines",
+        "1 mois",
+        "15 jours"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_003",
+      "question": "En agglomération éclairée la nuit :",
+      "options": [
+        "Je dois rouler en feux de croisement",
+        "Je peux rouler en feux de position",
+        "Je peux rouler en feux de croisement",
+        "Je peux rouler sans feux"
+      ],
+      "correctAnswer": [
+        2,
+        3
+      ],
+      "explanation": "En agglomération bien éclairée, feux de position OU de croisement possibles si visibilité suffisante. Code de la route (Éclairage).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_004",
+      "question": "Sur les routes à 2x2 voies séparées par une ligne continue, la vitesse est limitée à :",
+      "options": [
+        "90 km/h",
+        "110 km/h",
+        "130 km/h"
+      ],
+      "correctAnswer": 2,
+      "explanation": "110 km/h sur routes à deux chaussées séparées (hors autoroute). Code de la route R413-2 / Sécurité routière.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_005",
+      "question": "Les éléments qui favorisent le risque d’aquaplanage sont :",
+      "options": [
+        "Une grande quantité d’eau sur la chaussée",
+        "Une vitesse élevée",
+        "Une route sèche",
+        "Un fort vent latéral"
+      ],
+      "correctAnswer": [
+        1,
+        2
+      ],
+      "explanation": "Aquaplanage favorisé par l’eau et la vitesse ; route sèche/vent latéral non déterminants. Sécurité routière.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_006",
+      "question": "En agglomération, à quelle distance d’un danger les panneaux de signalisation sont-ils placés ?",
+      "options": [
+        "100 m",
+        "40 m",
+        "50 m",
+        "30 m"
+      ],
+      "correctAnswer": 3,
+      "explanation": "En agglomération, panneaux de danger à ~50 m. Instruction interministérielle sur la signalisation routière.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_007",
+      "question": "La roue de secours est-elle obligatoire dans une voiture ?",
+      "options": [
+        "Non, la règlementation française ne l’impose pas",
+        "Oui, il s’agit d’un équipement de sécurité",
+        "Oui, il s’agit d’une obligation européenne"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Roue de secours non obligatoire légalement (trousse de réparation admise). Service-Public.fr.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_008",
+      "question": "Que faut-il faire en cas d’incendie dans un tunnel :",
+      "options": [
+        "Réduire la distance de sécurité à l’arrêt pour faciliter l’accès des secours",
+        "Faire un demi-tour avec son véhicule pour fuir plus vite",
+        "Laisser les clefs de contact sur le véhicule, après avoir éteint le moteur",
+        "Évacuer le tunnel par l’issue de secours la plus proche"
+      ],
+      "correctAnswer": [
+        3,
+        4
+      ],
+      "explanation": "Incendie tunnel : couper moteur, laisser clés, évacuer par issue de secours. Sécurité routière / exploitant du tunnel.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_009",
+      "question": "Mon permis de conduire porte la mention « verres correcteurs » ; pour conduire je peux porter des lentilles de contact :",
+      "options": [
+        "Il est conseillé d’avoir à bord de mon véhicule des lunettes de rechange",
+        "Oui",
+        "Non",
+        "Je dois avoir à bord de mon véhicule des lunettes de rechange"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_010",
+      "question": "En roulant à une vitesse de 90 km/h, un conducteur doit laisser une distance de sécurité de :",
+      "options": [
+        "20 mètres environ",
+        "80 mètres environ",
+        "50 mètres environ",
+        "30 mètres environ"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_011",
+      "question": "Conduisant durant une période de suspension du permis de conduire :",
+      "options": [
+        "Je commets un délit",
+        "Je risque un retrait de 6 points de mon permis de conduire",
+        "Il ne peut pas y avoir de retrait de points"
+      ],
+      "correctAnswer": [
+        1,
+        2
+      ],
+      "explanation": "Conduire pendant suspension = délit et retrait de 6 points. Code de la route L224-16 & barème points.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_012",
+      "question": "Je dépasse un cycliste hors agglomération je dois laisser un espace de sécurité :",
+      "options": [
+        "de 2,50 m",
+        "de 1 m",
+        "de 1,50 m"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Dépassement d’un cycliste hors agglomération : 1,50 m. R414-4.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_013",
+      "question": "Rouler à 120 km/h au lieu de 130 km/h permet de réduire les émissions de gaz carbonique (CO2) :",
+      "options": [
+        "Non",
+        "Oui",
+        "Cela n’a aucun effet sur les émissions de gaz carbonique"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_014",
+      "question": "En cas de non-paiement, une amende forfaitaire devient majorée à l’issue d’un délai de :",
+      "options": [
+        "30 jours",
+        "40 jours",
+        "45 jours"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_015",
+      "question": "Ce pictogramme, qui figure sur des boîtes de médicaments, signifie :",
+      "options": [
+        "Soyez très prudent. Ne pas conduire sans l’avis d’un professionnel de santé",
+        "Attention, danger : ne pas conduire. Pour la reprise de la conduite, demandez l’avis d’un médecin",
+        "Soyez prudent. Ne pas conduire sans avoir lu la notice"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_016",
+      "question": "Dans cette liste d'infractions, quelles sont celles qui entrainent un retrait de quatre points du permis de conduire :",
+      "options": [
+        "Utilisation du téléphone en conduisant",
+        "Circulation en sens interdit",
+        "Stop glissé",
+        "Non port de la ceinture de sécurité"
+      ],
+      "correctAnswer": [
+        2,
+        3
+      ],
+      "explanation": "Retrait 4 pts : sens interdit et stop non respecté. Téléphone/ceinture = 3 pts. Barème points (Sécurité routière).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_017",
+      "question": "Hors agglomération, à quelle distance d’un danger les panneaux de signalisation sont-ils placés ?",
+      "options": [
+        "50 m",
+        "200 m",
+        "100 m",
+        "150 m"
+      ],
+      "correctAnswer": 4,
+      "explanation": "Hors agglomération, panneaux de danger à ~150 m. IISR.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_018",
+      "question": "Les témoins sur le tableau de bord du véhicule qui alertent le conducteur d’une urgence mécanique sont de couleur :",
+      "options": [
+        "Bleue",
+        "Rouge",
+        "Orange",
+        "Verte"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Voyants rouges = urgence (arrêt immédiat). Notice constructeur / Sécurité routière.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_019",
+      "question": "Un permis B, permet de transporter au maximum :",
+      "options": [
+        "7 passagers",
+        "6 passagers",
+        "9 passagers",
+        "8 passagers"
+      ],
+      "correctAnswer": 4,
+      "explanation": "Permis B : jusqu’à 8 passagers (9 places avec conducteur). Service-Public.fr.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_020",
+      "question": "Si mon temps de réaction augmente :",
+      "options": [
+        "La distance de réaction augmente",
+        "La distance d’arrêt augmente",
+        "La distance de freinage augmente",
+        "La distance d’arrêt est inchangée"
+      ],
+      "correctAnswer": [
+        1,
+        2
+      ],
+      "explanation": "Temps de réaction ↑ ⇒ distance de réaction ↑ et donc distance d’arrêt ↑. Sécurité routière.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_021",
+      "question": "Je peux suivre un stage de sensibilisation à la sécurité routière :",
+      "options": [
+        "Une fois tous les 2 ans",
+        "Trois fois par an",
+        "Une fois par an"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_022",
+      "question": "A 90 km/h la distance d'arrêt est approximativement de :",
+      "options": [
+        "80 m",
+        "70 m",
+        "50 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_023",
+      "question": "Donnez au moins deux effets de la fatigue.",
+      "options": [
+        "Le temps de réaction est plus rapide",
+        "Les gestes sont moins rapides",
+        "Les réflexes sont plus lents",
+        "Une diminution de la distance parcourue pendant le temps de réaction"
+      ],
+      "correctAnswer": [
+        2,
+        3
+      ],
+      "explanation": "Fatigue : gestes moins rapides, réflexes plus lents. Sécurité routière.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_024",
+      "question": "Par temps de brouillard, lorsque la visibilité est inférieure à 50 mètres, je roule à :",
+      "options": [
+        "30 km à l'heure",
+        "50 km à l'heure",
+        "70 km à l'heure"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Brouillard <50 m : vitesse max 50 km/h. R413-5.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_025",
+      "question": "Sur les routes à sens unique, à deux voies ou lors d'un accès sur un rond point, vous pouvez circuler sur la voie de gauche :",
+      "options": [
+        "Pour préparer un changement de direction à gauche",
+        "Il n'y a pas de règle le précisant",
+        "Lorsque vous êtes seul (e) sur la route et que vous ne gênez personne"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_026",
+      "question": "Quel type d'arrêt ou de stationnement sont considérés comme gênant la circulation publique dans le code de la route ?",
+      "options": [
+        "Arrêt ou stationnement sur les trottoirs, les passages ou accotements réservés à la circulation des piétons",
+        "Il n'y a pas d'arrêt ou de stationnement gênant pour les véhicules T3P",
+        "Arrêt ou stationnement sur une place de parking",
+        "Arrêt ou stationnement au droit des bouches d'incendie et des accès à des installations souterraines"
+      ],
+      "correctAnswer": [
+        1,
+        4
+      ],
+      "explanation": "Stationnements gênants : sur trottoirs/accotements piétons ; sur bouches d’incendie/accès souterrains. R417-10 et s.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_027",
+      "question": "Puis-je rajouter moi-même du liquide de refroidissement ?",
+      "options": [
+        "Non, cela doit attendre la prochaine révision",
+        "Non, il faut aller chez le garagiste",
+        "Oui, mais avec le moteur chaud",
+        "Oui, mais avec le moteur froid"
+      ],
+      "correctAnswer": 4,
+      "explanation": "Liquide de refroidissement à moteur froid. Notice constructeur / Sécurité routière.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_028",
+      "question": "Quelles sont les actions à mettre en œuvre en présence d'un blessé :",
+      "options": [
+        "Retirer son casque",
+        "Donner à boire de l'eau",
+        "Couvrir la victime",
+        "Parler à la victime"
+      ],
+      "correctAnswer": [
+        3,
+        4
+      ],
+      "explanation": "Ne pas retirer le casque ni donner à boire ; couvrir et parler à la victime. PSC1 / Samu / Sécurité routière.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_029",
+      "question": "Au volant de mon véhicule léger, je me dirige vers le sommet d’une motagne (véhicule montant). Un véhicule de transport en commun arrive en sens inverse (véhicule descendant). Le croisement s’avère difficile :",
+      "options": [
+        "C’est au transport en commun de s’arrêter pour me laisser passer",
+        "Je dois m’arrêter pour faciliter le passage du transport en commun",
+        "Il n’y a pas de règle, c’est une question de courtoisie"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_030",
+      "question": "Quelles sont les précautions nécessaires pour vérifier le niveau d'huile?",
+      "options": [
+        "Moteur allumé",
+        "Terrain plat",
+        "Moteur chaud",
+        "Moteur froid"
+      ],
+      "correctAnswer": [
+        2,
+        4
+      ],
+      "explanation": "Niveau d’huile : terrain plat, moteur froid (ou tiède après repos). Notice constructeur.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_031",
+      "question": "Pourquoi faut-il rédiger un constat amiable?",
+      "options": [
+        "Pour calculer les indemnisations de chacune des personnes impliquées",
+        "Pour déterminer les responsabilités de chacune des personnes impliquées",
+        "Pour déterminer la sanction encourue par l'auteur",
+        "Pour que le garagiste puisse établir un devis des réparations"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Constat amiable : déterminer les responsabilités. Assureurs / Service-Public.fr.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_032",
+      "question": "Conduisant durant une période de suspension du permis de conduire :",
+      "options": [
+        "Je risque un retrait de 6 points de mon permis de conduire",
+        "Je commets un délit",
+        "Il ne peut pas y avoir de retrait de points"
+      ],
+      "correctAnswer": [
+        1,
+        2
+      ],
+      "explanation": "Conduire pendant suspension = délit et -6 points. L224-16 + barème points.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_033",
+      "question": "Sur les routes à 2x2 voies séparées par une ligne continue, la vitesse est limitée à :",
+      "options": [
+        "110 km/h",
+        "130 km/h",
+        "90 km/h"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_034",
+      "question": "Contrôlé avec un taux d'alcool de 0,7 gramme par litre de sang, je risque :",
+      "options": [
+        "Une peine de prison",
+        "Un retrait de 4 points sur mon permis de conduire",
+        "Une amende",
+        "Un retrait de 6 points sur mon permis de conduire"
+      ],
+      "correctAnswer": [
+        3,
+        4
+      ],
+      "explanation": "0,7 g/L = contravention (amende) + -6 points. R234-1 et barème points.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_035",
+      "question": "Dans quel cas exceptionnel devez-vous dépasser un véhicule par la droite ?",
+      "options": [
+        "Lorsque le conducteur du véhicule qui me précède a signalé qu'il allait changer de direction vers la droite",
+        "Lorsque le conducteur du véhicule qui me précède a signalé qu'il allait changer de direction vers la gauche",
+        "Lorsque le conducteur du véhicule qui me suit a signalé qu'il allait changer de direction vers la gauche",
+        "Il est toujours autorisé de dépasser un véhicule par la droite"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dépassement par la droite exceptionnel seulement si le véhicule devant tourne à gauche. R414-4.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_036",
+      "question": "Je dois augmenter la pression des pneus :",
+      "options": [
+        "Si mon véhicule est très chargé",
+        "Lorsque la route est mouillée",
+        "Si je circule longtemps sur autoroute",
+        "Sur la neige"
+      ],
+      "correctAnswer": [
+        1,
+        3
+      ],
+      "explanation": "Pression ↑ si véhicule très chargé et pour longs trajets autoroutiers. Notice constructeur.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_037",
+      "question": "Lorsque le permis a été invalidé en raison d'une perte totale de points, le nouveau permis obtenu est :",
+      "options": [
+        "Un permis probatoire doté d'un capital de 6 points",
+        "Un permis non probatoire doté d'un capital de 12 points",
+        "Un permis probatoire doté d'un capital de 12 points"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_038",
+      "question": "Sont considérés comme véhicules d'intervention d'urgence prioritaire les :",
+      "options": [
+        "Véhicules des services pénitenciers",
+        "Véhicules du SAMU",
+        "Véhicules de secours d'électricité",
+        "Véhicules de service hivernal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_039",
+      "question": "Un conducteur qui commet un excès de vitesse de 40 km/h audessus de la vitesse autorisée risque :",
+      "options": [
+        "Une peine d'emprisonnement",
+        "La réduction de quatre points du permis de conduire",
+        "La réduction de six points du permis de conduire",
+        "La suspension de son permis de conduire"
+      ],
+      "correctAnswer": [
+        2,
+        4
+      ],
+      "explanation": "Excès +40 à <50 km/h : -4 points et suspension possible. Barème points / R413-14-1.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_040",
+      "question": "Sur un trajet de 100 km sur autoroute, si je roule à 130 km/h au lieu de 120 km/h, je « gagne » environ :",
+      "options": [
+        "4 minutes",
+        "10 minutes",
+        "15 minutes",
+        "8 minutes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "130 vs 120 km/h sur 100 km : ~4 min ‘gagnées’. Sécurité routière (calcul vitesse/temps).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_041",
+      "question": "Par temps de pluie, est allongé(e) :",
+      "options": [
+        "Le temps de réaction",
+        "La distance de freinage",
+        "La distance d'arrêt",
+        "L'adhérence sur la route"
+      ],
+      "correctAnswer": [
+        2,
+        3
+      ],
+      "explanation": "Pluie : distance de freinage et d’arrêt augmentent ; temps de réaction inchangé. Sécurité routière.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_042",
+      "question": "Vous êtes au volant de votre véhicule et recevez un appel sur votre téléphone portable. Vous prenez le téléphone en main, vous encourez :",
+      "options": [
+        "Un retrait d'un point",
+        "Un retrait de deux points",
+        "Un retrait de trois points"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Téléphone tenu en main : -3 points. R412-6-1 / barème points.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_043",
+      "question": "Quelles sont les obligations expressément prévues par le code de la route, pour tout conducteur impliqué dans un accident de la circulation qui n'a provoqué que des dégâts matériels ?",
+      "options": [
+        "Avertir ou faire avertir la police",
+        "Avertir ou faire avertir la gendarmerie",
+        "S'arrêter aussitôt que cela lui est possible, sans créer de danger pour la circulation",
+        "Communiquer son identité et son adresse à toute personne impliquée dans l'accident"
+      ],
+      "correctAnswer": [
+        3,
+        4
+      ],
+      "explanation": "Accident matériel : s’arrêter sans danger + échanger identités ; pas d’obligation systématique police/gendarmerie. Code de la route.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_044",
+      "question": "Les piétons qui s'engagent dans la traversée d'une chaussée :",
+      "options": [
+        "Doivent traverser la chaussée en tenant compte de la visibilité ainsi que de la distance et de la vitesse des véhicules",
+        "Ont le droit de s'engager quelle que soit la vitesse et la distance des véhicules",
+        "N'ont pas le droit de s'engager dans la traversée d'une chaussée hors d'un passage piéton, même s'il n'en n'existe pas à moins de 50 mètres",
+        "Sont tenus d'utiliser, lorsqu'il en existe à moins de 50 mètres, les passages prévus à leur intention"
+      ],
+      "correctAnswer": [
+        1,
+        4
+      ],
+      "explanation": "Piétons : traverser en tenant compte visibilité/vitesse ; utiliser un passage si <50 m. R412-37.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_045",
+      "question": "En cas de récidive d'une conduite sous l'influence de substances ou de plantes classées comme stupéfiants, vous encourez :",
+      "options": [
+        "L'annulation de votre permis de conduire",
+        "La suspension de votre permis de conduire",
+        "La confiscation/immobilisation de votre véhicule"
+      ],
+      "correctAnswer": [
+        1,
+        3
+      ],
+      "explanation": "Récidive stupéfiants : annulation possible et confiscation/immobilisation du véhicule. L235-1 et s.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_046",
+      "question": "Mon voyant d'essence vient de s'allumer :",
+      "options": [
+        "Je réduis mon allure afin de diminuer ma consommation de carburant",
+        "Je continue ma route jusqu'à une prochaine station",
+        "J'allume mes feux de détresse",
+        "Je m'arrête sur ma droite"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_047",
+      "question": "Le décret n° 2016-448 du 13 avril 2016 modifiant certaines dispositions du code de la route relatives aux véhicules interdit les « vitres surteintées ». A cette fin, il impose :",
+      "options": [
+        "Un taux minimal de transparence de 70% sur les vitres avant et le pare-prise",
+        "Un taux minimal de transparence de 80% sur les vitres arrières et lunettes-arrières",
+        "Un taux minimal de transparence de 70% sur les vitres avant, le pare-prise et les vitres arrières",
+        "Un taux minimal de transparence de 80 % sur les vitres avant, le pare brise et les vitres arrières"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Transparence ≥70% sur vitres AV et pare-brise (arrière non concerné). Décret 2016-448 / R316-3.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_048",
+      "question": "En cas de panne de votre véhicule, à quelle distance placezvous le triangle de pré signalisation ?",
+      "options": [
+        "50 mètres au moins de votre véhicule",
+        "10 mètres au moins de votre véhicule",
+        "30 mètres au moins de votre véhicule"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Triangle à ≥30 m (et gilet). R416-19.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_049",
+      "question": "En agglomération, l'usage de l'avertisseur sonore est autorisé :",
+      "options": [
+        "Pour donner les avertissements nécessaires aux autres usagers de la route",
+        "En cas de danger immédiat",
+        "Pour saluer un collègue conducteur"
+      ],
+      "correctAnswer": 2,
+      "explanation": "En agglomération, avertisseur sonore autorisé en cas de danger immédiat. R416-1.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_050",
+      "question": "A 90 km/h la distance d'arrêt est approximativement de :",
+      "options": [
+        "50 m",
+        "70 m",
+        "80 m"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_051",
+      "question": "Lorsque les pneus sont sous-gonflés cela entraîne :",
+      "options": [
+        "Un risque accru d'éclatement",
+        "Une augmentation de la consommation de carburant",
+        "Une meilleure adhérence à la route"
+      ],
+      "correctAnswer": [
+        1,
+        2
+      ],
+      "explanation": "Sous-gonflage : risque d’éclatement + surconsommation. Sécurité routière.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_052",
+      "question": "Que risque un conducteur en cas de dépassement de la vitesse maximale autorisée compris entre 40 km/h et moins de 50 km/h ?",
+      "options": [
+        "Une contravention de première classe",
+        "Une contravention de quatrième classe",
+        "La perte de deux points du permis de conduire",
+        "La perte de quatre points du permis de conduire"
+      ],
+      "correctAnswer": [
+        2,
+        4
+      ],
+      "explanation": "Excès +40 à <50 km/h : contravention 4e classe et -4 points. Barème points / R413-14-1.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_053",
+      "question": "La durée du temps de réaction est d'environ :",
+      "options": [
+        "1/2 seconde",
+        "1/10 ième de seconde",
+        "1 seconde"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Temps de réaction ~1 seconde en moyenne. Sécurité routière.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_054",
+      "question": "Dans quel cas l'arrêt est-il autorisé sur la bande d'arrêt d'urgence de l'autoroute ?",
+      "options": [
+        "Jamais",
+        "En cas de panne ou d'accident",
+        "Dans tous les cas",
+        "Pour téléphoner"
+      ],
+      "correctAnswer": 2,
+      "explanation": "BAU : arrêt autorisé seulement en cas de panne/accident. R411-25.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_055",
+      "question": "Combien de points perdez-vous en cas de chevauchement d'une ligne continue ?",
+      "options": [
+        "3 points",
+        "2 points",
+        "1 point"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Chevauchement ligne continue : -1 point (dépassement = -3). Barème points.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_056",
+      "question": "Les feux de route éclairent à une distance minimale de :",
+      "options": [
+        "100 mètres",
+        "50 mètres",
+        "150 mètres",
+        "200 mètres"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_057",
+      "question": "Titulaire d'un permis probatoire, dans quel cas, devrais-je suivre obligatoirement un stage de sensibilisation à la sécurité routière :",
+      "options": [
+        "En cas de perte en une seule fois de 2 points",
+        "En cas de perte en une seule fois de 3 points",
+        "En cas de perte en une seule fois de 4 points"
+      ],
+      "correctAnswer": [
+        2,
+        3
+      ],
+      "explanation": "Permis probatoire : stage obligatoire si perte ≥3 points en une fois. Sécurité routière.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_058",
+      "question": "En agglomération, lorsque vous dépassez latéralement, un piéton ou un cycliste, vous devez laisser un espace d’au moins :",
+      "options": [
+        "3 mètres",
+        "1 mètre",
+        "0,50 mètre",
+        "1,50 mètres"
+      ],
+      "correctAnswer": 2,
+      "explanation": "En ville : 1 m (hors agglo : 1,5 m). R414-4.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_059",
+      "question": "Ce panneau signale :",
+      "options": [
+        "Un cassis ou dos d’âne",
+        "Un ralentisseur de type dos d’âne",
+        "Un ralentisseur"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Panneau A2 : cassis ou dos d’âne (ralentisseur spécifique : panonceau M). IISR.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_060",
+      "question": "Le changement d’adresse sur une carte grise se doit d‘être effectué :",
+      "options": [
+        "Dans l’année qui suit le déménagement",
+        "N’importe quand, il n’y a pas de délai",
+        "Dans le mois qui suit le déménagement",
+        "Dans les six mois qui suivent le déménagement"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Changement d’adresse carte grise : dans le mois. Service-Public.fr / ANTS.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_061",
+      "question": "Cet emplacement :",
+      "options": [
+        "Est réservé aux véhicules transportant une ou plusieurs personnes handicapées",
+        "Est réservé aux véhicules portant une carte de stationnement pour personnes handicapées",
+        "Son occupation illicite est punie d’une contravention de troisième classe",
+        "Son occupation illicite fait encourir une mise en fourrière du véhicule"
+      ],
+      "correctAnswer": [
+        2,
+        4
+      ],
+      "explanation": "Place PMR : réservée véhicules avec carte ; mise en fourrière possible ; amende 4e classe. R417-11.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_062",
+      "question": "L’éclatement d’un pneu, dû à un mauvais gonflage, provient plutôt :",
+      "options": [
+        "D’un excès de pression",
+        "D‘un manque de pression",
+        "D’avoir deux pneus de taille différente"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Éclatement lié surtout au sous-gonflage (échauffement). Sécurité routière.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_063",
+      "question": "Lorsque je manœuvre :",
+      "options": [
+        "Je dois la priorité avant de manœuvrer",
+        "Je suis toujours prioritaire",
+        "Je dois la priorité durant la manœuvre"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Lors d’une manœuvre, je dois la priorité pendant la manœuvre. R415-6.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_064",
+      "question": "En cas de pluies, la vitesse maximale sur une autoroute est baissée à :",
+      "options": [
+        "130km/h",
+        "120km/h",
+        "110km/h"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Pluie sur autoroute : VMA 110 km/h. R413-2.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_065",
+      "question": "En agglomération, l’usage de l’avertisseur sonore :",
+      "options": [
+        "Est interdit de manière générale et absolue",
+        "N’est autorisé qu’en cas de danger immédiat",
+        "Est autorisé pour donner tout type d’avertissement aux autres usagers de la route"
+      ],
+      "correctAnswer": 2,
+      "explanation": "En agglomération : avertisseur sonore uniquement en cas de danger immédiat. R416-1.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_066",
+      "question": "Que peut faire un automobiliste lorsqu'il y a une ligne de dissuasion ?",
+      "options": [
+        "Doubler un véhicule lent",
+        "Doubler un autre véhicule",
+        "Ne doubler ni un autre véhicule ni un véhicule lent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_067",
+      "question": "Ce panneau :",
+      "options": [
+        "M’indique une descente dangereuse dans un sens de circulation unique sur deux voies",
+        "M’indique une descente dangereuse dans 1 500 mètres de distance",
+        "M’indique une descente dangereuse sur une distance de 1 500 mètres",
+        "M’oblige à réduire ma vitesse"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Descente dangereuse sur 1 500 m (et non dans 1 500 m). IISR.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_068",
+      "question": "Lorsque le permis a été invalidé en raison d'une perte totale de points, le nouveau permis obtenu est :",
+      "options": [
+        "Un permis probatoire doté d’un capital de 6 points",
+        "Un permis probatoire doté d’un capital de 12 points",
+        "Un permis non probatoire doté d’un capital de 12 points"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Après invalidation, nouveau permis = probatoire 6 points. L223-1 / Sécurité routière.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_069",
+      "question": "Un excès de vitessse de 35km /h au dessus de la vitesse maximale autorisée entraine une perte de :",
+      "options": [
+        "1 point",
+        "3 points",
+        "4 points"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Excès +35 km/h : retrait 3 points (30 à <40). Barème points.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_070",
+      "question": "Vous avez consommé de l’alcool. A l’issue d’un contrôle routier, votre taux est de 0,29 mg par litre d’air expiré. Que se passe-til ?",
+      "options": [
+        "Vous n’avez pas de poursuites",
+        "Vous avez une contravention",
+        "C’est un délit passible de poursuites judiciaires",
+        "Vous avez une contravention et une perte de 6 points"
+      ],
+      "correctAnswer": 4,
+      "explanation": "0,29 mg/L air ≈ 0,58 g/L sang : contravention + -6 points. R234-1 / barème points.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_071",
+      "question": "Si mon temps de réaction augmente :",
+      "options": [
+        "La distance d’arrêt augmente",
+        "La distance d’arrêt est inchangée",
+        "La distance de réaction augmente",
+        "La distance de freinage augmente"
+      ],
+      "correctAnswer": [
+        1,
+        3
+      ],
+      "explanation": "Temps de réaction ↑ ⇒ distance de réaction ↑ ⇒ distance d’arrêt ↑. Sécurité routière.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_072",
+      "question": "Le niveau 3 des pictogrammes figurant sur les boîtes de médicament et alertant des risques en cas de conduite est de couleur :",
+      "options": [
+        "Rouge",
+        "Jaune",
+        "Orange"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pictogramme niveau 3 : rouge. ANSM / Sécurité routière.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_073",
+      "question": "En cas d’absorption d’alcool, on observe une augmentation :",
+      "options": [
+        "Du champ visuel",
+        "De la distance de freinage",
+        "Du temps de réaction",
+        "Des réflexes"
+      ],
+      "correctAnswer": [
+        2,
+        3
+      ],
+      "explanation": "Alcool : ↑ temps de réaction et distance de freinage ; réflexes diminuent. Sécurité routière.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_074",
+      "question": "Le dépistage de stupéfiants est :",
+      "options": [
+        "Obligatoire lors d’un accident mortel",
+        "Possible lors d’un accident corporel ou matériel",
+        "Obligatoire pour toute infraction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dépistage stupéfiants obligatoire en cas d’accident mortel. R235-2.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_075",
+      "question": "Quelles sont les actions à mettre en œuvre en présence d’un blessé :",
+      "options": [
+        "Retirer son casque",
+        "Parler à la victime",
+        "Donner à boire de l’eau",
+        "Couvrir la victime"
+      ],
+      "correctAnswer": [
+        2,
+        4
+      ],
+      "explanation": "Parler à la victime, la couvrir ; ne pas retirer casque ni donner à boire. PSC1.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_076",
+      "question": "En présence d’un accident qui vient d’avoir lieu, je dois :",
+      "options": [
+        "Protéger, alerter, secourir",
+        "Alerter, secourir, protéger",
+        "Secourir, protéger, alerter"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Conduite à tenir : Protéger, Alerter, Secourir (P.A.S.). PSC1.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_077",
+      "question": "Lorsque les pneus sont sous-gonflés cela entraîne :",
+      "options": [
+        "Une augmentation de la consommation de carburant",
+        "Une meilleure adhérence à la route",
+        "Un risque accru d’éclatement"
+      ],
+      "correctAnswer": [
+        1,
+        3
+      ],
+      "explanation": "Sous-gonflage : surconsommation + risque d’éclatement. Sécurité routière.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_078",
+      "question": "En pratiquant l’éco-conduite j’adopte responsable, conduire moins vite c’est : une conduite",
+      "options": [
+        "Moins de rejet de dioxyde de carbone",
+        "Baisse de la consommation",
+        "Moins de rejet d’O2"
+      ],
+      "correctAnswer": [
+        1,
+        2
+      ],
+      "explanation": "Conduire moins vite = moins de CO₂ + baisse consommation. Ademe / Sécurité routière.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_079",
+      "question": "Dans quel délai un automobiliste doit-il transmettre un constat amiable à son assureur ?",
+      "options": [
+        "2 jours",
+        "5 jours",
+        "7 jours",
+        "1 mois"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Constat amiable à envoyer sous 5 jours à l’assureur. Code assurances / Service-Public.fr.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_080",
+      "question": "Le dispositif de contrôle électronique de stabilité ESP :",
+      "options": [
+        "Agit sur les freins de manière à renforcer la stabilité du véhicule lors des freinages",
+        "Agit sur les feins et le moteur de manière à corriger les pertes d’adhérence ou de stabilité du véhicule",
+        "Doit obligatoirement être proposé en option par les constructeurs automobiles sur les véhicules mis en circulation actuellement",
+        "Est obligatoire sur toutes les automobiles mises en circulation actuellement"
+      ],
+      "correctAnswer": [
+        2,
+        4
+      ],
+      "explanation": "ESP corrige pertes d’adhérence (freins+moteur) et est obligatoire sur véhicules neufs. R321-16 / règlement UE.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_081",
+      "question": "En cas de non-respect de l’arrêt obligatoire au stop, quel est le retrait de points encouru ?",
+      "options": [
+        "4 points",
+        "2 points",
+        "6 points"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_082",
+      "question": "Dans quel(s) cas les forces de police et de gendarmerie pratiquent-elles des dépistages systématiques d’absorption de substances ou plantes classées comme stupéfiants ?",
+      "options": [
+        "En cas d’accident matériel de la circulation",
+        "Dans un homicide involontaire",
+        "Lorsque le conducteur d’un véhicule est l’auteur présumé d’une infraction au code de la route punie d’une peine de suspension du permis de conduire",
+        "Dans un accident corporel lorsqu’il existe une ou plusieurs raisons plausibles de soupçonner que la personne impliquée conduisait après avoir fait usage de produits stupéfiants"
+      ],
+      "correctAnswer": [
+        2,
+        3
+      ],
+      "explanation": "Dépistage stupéfiants systématique : homicide involontaire et infractions punies de suspension. R235-2.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_083",
+      "question": "Quelle distance de sécurité minimale devez-vous respecter sur autoroute par temps clair ?",
+      "options": [
+        "66 mètres",
+        "82 mètres",
+        "78 mètres",
+        "54 mètres"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_084",
+      "question": "Dans les cas suivants, lesquels donnent lieu à un retrait de 6 points sur mon permis de conduire ?",
+      "options": [
+        "Excès de vitesse égal ou supérieur à 50km/h",
+        "Conduite avec un taux d’alcoolémie inférieur à 0,25mg/l d’air expiré",
+        "Blessures involontaires entrainant une incapacité de travail de moins de 3 mois",
+        "Utilisation en conduite d’un téléphone tenu en main"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Retrait 6 points : excès ≥50 km/h. Téléphone = 3 pts ; alcool <0,25 mg/L ≠. Barème points.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_085",
+      "question": "Contrôlé avec un taux d’alcool de 0,7 gramme par litre de sang, je risque :",
+      "options": [
+        "Un retrait de 4 points sur mon permis de conduire",
+        "Un retrait de 6 points sur mon permis de conduire",
+        "Une peine de prison",
+        "Une amende"
+      ],
+      "correctAnswer": [
+        2,
+        4
+      ],
+      "explanation": "0,7 g/L : contravention + -6 points. R234-1 / barème points.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_086",
+      "question": "Comment se nomme une ligne possédant une bande de 3 mètres dont les intervalles sont de 1,33 mètre ?",
+      "options": [
+        "Une ligne de dissuasion",
+        "Une bande d’arrêt d’urgence",
+        "Une ligne d’insertion",
+        "Une ligne discontinue"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ligne de dissuasion : traits 3 m, intervalles ~1,33 m. IISR.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_087",
+      "question": "L’ABS (système d’antiblocage des roues) :",
+      "options": [
+        "Aide à maintenir la direction du véhicule",
+        "Réduit considérablement la distance d’arrêt",
+        "Permet de ne pas allonger la distance d’arrêt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ABS aide à garder la direction ; la distance d’arrêt n’est pas forcément réduite. Sécurité routière.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_088",
+      "question": "Pour dépasser un cycliste en ville, je dois laisser un espace latéral de :",
+      "options": [
+        "1 m",
+        "0,50 m",
+        "2 m",
+        "1,5 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sec_089",
+      "question": "Les feux de positions doivent :",
+      "options": [
+        "Être visibles à 150 mètres",
+        "Être visibles à 50 mètres",
+        "Eclairer à 50 mètres",
+        "Eclairer à 150 mètres"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Feux de position : visibles à 150 m. IISR.",
+      "difficulty": "medium"
+    }
+  ]
+}

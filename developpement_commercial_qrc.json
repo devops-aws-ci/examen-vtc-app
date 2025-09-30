@@ -1,0 +1,123 @@
+{
+  "category": "developpement_commercial_qrc",
+  "name": "Développement commercial QRC",
+  "description": "Questions à réponse courte pour la catégorie développement commercial.",
+  "icon": "business_qrc.png",
+  "duration": "10",
+  "questions": [
+    {
+      "id": "dev_qrc_001",
+      "question": " En cas de retard très important du client. Que faites-vous ?",
+      "answer": "Je contacte le client pour connaître son heure d'arrivée; en fonction, je lui propose de réserver un autre VTC ou je l'attends.",
+      "points": 2
+    },
+    {
+      "id": "dev_qrc_002",
+      "question": " Quelles sont les méthodes de prospection existantes ? Citez un exemple de chaque.",
+      "answer": "Prospection traditionnelle (porte à porte, téléphone) ou prospection numérique (site web, mailing, réseaux sociaux).",
+      "points": 2
+    },
+    {
+      "id": "dev_qrc_003",
+      "question": " Le montant d'une prestation s'élève à 75 € TTC. Calculez le montant de la TVA et le prix HT, en détaillant vos calculs.",
+      "answer": "Prix HT : 75 / 1,10 = 68,18 € ; TVA : 75 - 68,18 = 6,82 €.",
+      "points": 2
+    },
+    {
+      "id": "dev_qrc_004",
+      "question": " Vous connaissez un VTC qui va démarrer son activité avec des prix très bas afin d'attirer un maximum de clients. Que pensezvous de cette politique tarifaire ?",
+      "answer": "Politique tarifaire risquée : rentabilité diminuée, perception négative par les clients (prix bas = qualité médiocre) et dégradation de l'image de la profession.",
+      "points": 2
+    },
+    {
+      "id": "dev_qrc_005",
+      "question": " Citez 4 qualités indispensables pour l'exercice de la profession de VTC :",
+      "answer": "Amabilité, ponctualité, neutralité, discrétion et sens du service.",
+      "points": 2
+    },
+    {
+      "id": "dev_qrc_006",
+      "question": " Qui fixe le prix d’une prestation de VTC, selon quelle contrainte ?",
+      "answer": "Le prix est fixé librement par le chauffeur VTC en fonction de l'offre et de la demande de son lieu d'exercice.",
+      "points": 2
+    },
+    {
+      "id": "dev_qrc_007",
+      "question": " A quoi correspond le chiffre d'affaires d'un exploitant VTC ?",
+      "answer": "La somme des prestations réalisées pendant un exercice (transports et prestations annexes).",
+      "points": 2
+    },
+    {
+      "id": "dev_qrc_008",
+      "question": " Qui fixe le prix d'une prestation de VTC, selon quelle contrainte ?",
+      "answer": "Le prix est fixé librement par le chauffeur VTC en fonction de l'offre et de la demande de son lieu d'exercice.",
+      "points": 2
+    },
+    {
+      "id": "dev_qrc_009",
+      "question": " Citez 4 moyens de communication à votre disposition pour faire connaître votre entreprise ?",
+      "answer": "Site web ou blog, emailing, SMS, journaux locaux, flyers, presse professionnelle, radio locale, réseaux sociaux.",
+      "points": 2
+    },
+    {
+      "id": "dev_qrc_010",
+      "question": " Votre client oublie son portefeuille dans votre véhicule. Que faites-vous ?",
+      "answer": "Contacter rapidement le client, le rassurer et organiser la restitution du portefeuille de façon sûre et rapide.",
+      "points": 2
+    },
+    {
+      "id": "dev_qrc_011",
+      "question": " A quoi correspond le chiffre d'affaires d'un exploitant VTC ?",
+      "answer": "La somme des prestations réalisées pendant un exercice (transports et prestations annexes).",
+      "points": 2
+    },
+    {
+      "id": "dev_qrc_012",
+      "question": " Votre client oublie son portefeuille dans votre véhicule. Que faites-vous ?",
+      "answer": "Contacter rapidement le client, le rassurer et organiser la restitution du portefeuille de façon sûre et rapide.",
+      "points": 2
+    },
+    {
+      "id": "dev_qrc_013",
+      "question": " Citez quatre des mentions devant obligatoirement figurer sur un devis.",
+      "answer": "Date du devis et durée de validité; date, heure et lieu de prise en charge; lieu de destination; numéro au Répertoire des métiers; numéro de TVA; nom et adresse du client; date de début et durée estimée de la prestation.",
+      "points": 2
+    },
+    {
+      "id": "dev_qrc_014",
+      "question": " Quelles sont les méthodes de prospection existantes ? Citez un exemple de chaque.",
+      "answer": "Prospection traditionnelle (porte à porte, téléphone) ou prospection numérique (site web, mailing, réseaux sociaux, centrales de réservation).",
+      "points": 2
+    },
+    {
+      "id": "dev_qrc_015",
+      "question": " Vous avez réussi votre examen avec succès et décidez d'acheter un véhicule pour réaliser votre activité. Sur quels points ailez-vous être attentifs concernant l'achat de celui-ci ? Citez-en 3.",
+      "answer": "Source énergétique (électrique, hybride, essence, diesel), prix négocié, standing et confort du véhicule, coût du crédit ou de l'amortissement, entretien courant.",
+      "points": 2
+    },
+    {
+      "id": "dev_qrc_016",
+      "question": " Qu'appelle-t-on un marché de niche en mercatique ?",
+      "answer": "Un marché très étroit destiné à un produit ou service très spécialisé.",
+      "points": 2
+    },
+    {
+      "id": "dev_qrc_017",
+      "question": " Qu'est-ce qu'un coût de revient ?",
+      "answer": "Somme des charges engagées pour produire un bien ou un service.",
+      "points": 2
+    },
+    {
+      "id": "dev_qrc_018",
+      "question": " A quoi sert la reformulation à la fin d'un échange pour une réservation (téléphonique ou face à face) ?",
+      "answer": "Confirmer la demande transmise par le client (date, heure, lieu, destination) pour éviter tout quiproquo.",
+      "points": 2
+    },
+    {
+      "id": "dev_qrc_019",
+      "question": " Définissez la notion de marge en gestion ?",
+      "answer": "Différence entre un prix de vente et un prix d'achat.",
+      "points": 2
+    }
+  ]
+}

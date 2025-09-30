@@ -3,191 +3,120 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>QCM VTC - Préparation Examen</title>
+  <title>QCM & QRC VTC - Préparation Examen</title>
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans";
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      min-height: 100vh; padding: 20px; color: #2c3e50;
-    }
-    .container { max-width: 1200px; margin: 0 auto; background:#fff; border-radius: 20px; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,.1); }
-    .header { background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%); color:#fff; padding: 40px 24px; text-align: center; }
-    .header h1 { font-size: clamp(1.6rem, 2.5vw, 2.6rem); font-weight: 800; }
-    .main-content { padding: 34px 24px 40px; }
-
-    .categories-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap: 18px; }
-    .category-card { border: 2px solid #e1e8ed; border-radius: 16px; padding: 22px; cursor: pointer; background:#fff; transition: transform .2s, box-shadow .2s, border-color .2s; }
-    .category-card:hover { transform: translateY(-4px); box-shadow: 0 15px 30px rgba(0,0,0,.12); border-color:#3498db; }
-    .category-card .icon { font-size: 2rem; margin-bottom: 10px; }
-    .badge { background:#3498db; color:#fff; padding:6px 10px; border-radius: 999px; font-size:.8rem; font-weight: 600; }
-
-    .hidden { display:none !important; }
-    .question-card { background:#fff; border-radius: 16px; padding: 26px; box-shadow: 0 10px 24px rgba(0,0,0,.08); margin-bottom: 18px; }
-    .question-number { background:#3498db; color:#fff; padding: 8px 14px; border-radius: 999px; font-weight: 700; }
-    .question-text { font-size: 1.15rem; margin: 14px 0; font-weight: 600; color:#1e293b; }
-    .options { display:flex; flex-direction: column; gap: 10px; }
-    .option { border:2px solid #e9ecef; border-radius: 12px; padding: 12px; cursor: pointer; background:#f8fafc; transition: background .2s, border-color .2s; }
-    .option:hover { background:#e3f2fd; border-color:#2196f3; }
-    .option.selected { background:#e0f2fe; border-color:#0284c7; }
-    .option.correct { background:#e8f5e9; border-color:#22c55e; }
-    .option.incorrect { background:#ffebee; border-color:#ef4444; }
-    .btn { border:0; border-radius: 999px; padding: 12px 20px; font-weight: 700; cursor: pointer; margin: 6px; }
-    .btn-primary { background:#3498db; color:#fff; }
-    .btn-success { background:#22c55e; color:#fff; }
-    .btn-secondary { background:#94a3b8; color:#fff; }
-
-    .results { text-align:center; padding: 10px; }
-    .score-circle { width: 120px; height:120px; border-radius: 50%; display:flex; align-items:center; justify-content:center; margin: 0 auto 16px; color:#fff; font-size: 2rem; font-weight: 900; }
-    .score-excellent { background: linear-gradient(135deg, #22c55e, #16a34a); }
-    .score-good { background: linear-gradient(135deg, #f59e0b, #d97706); }
-    .score-poor { background: linear-gradient(135deg, #ef4444, #b91c1c); }
-    .review-item { border:1px solid #e5e7eb; border-radius: 12px; padding: 14px; margin-bottom: 10px; text-align:left; }
-    .review-item .ok { color:#16a34a; font-weight: 700; }
-    .review-item .ko { color:#b91c1c; font-weight: 700; }
+    body { font-family: system-ui, sans-serif; background: linear-gradient(135deg,#667eea 0%,#764ba2 100%); min-height:100vh; padding:20px; color:#2c3e50; }
+    .container { max-width:1200px; margin:0 auto; background:#fff; border-radius:20px; overflow:hidden; box-shadow:0 20px 40px rgba(0,0,0,.1); }
+    .header { background:linear-gradient(135deg,#2c3e50 0%,#3498db 100%); color:#fff; padding:40px 24px; text-align:center; }
+    .header h1 { font-size:2rem; font-weight:800; }
+    .main-content { padding:34px 24px 40px; }
+    .section-title { font-size:1.4rem; font-weight:700; margin:20px 0 14px; }
+    .categories-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; }
+    .category-card { border:2px solid #e1e8ed; border-radius:16px; padding:22px; cursor:pointer; background:#fff; transition:.2s; }
+    .category-card:hover { transform:translateY(-4px); box-shadow:0 15px 30px rgba(0,0,0,.12); border-color:#3498db; }
+    .badge { background:#3498db;color:#fff;padding:6px 10px;border-radius:999px;font-size:.8rem;font-weight:600; }
+    .hidden{display:none!important;}
+    .question-card{background:#fff;border-radius:16px;padding:26px;box-shadow:0 10px 24px rgba(0,0,0,.08);margin-bottom:18px;}
+    .question-number{background:#3498db;color:#fff;padding:8px 14px;border-radius:999px;font-weight:700;}
+    .question-text{font-size:1.15rem;margin:14px 0;font-weight:600;color:#1e293b;}
+    .options{display:flex;flex-direction:column;gap:10px;}
+    .option{border:2px solid #e9ecef;border-radius:12px;padding:12px;cursor:pointer;background:#f8fafc;transition:.2s;}
+    .option:hover{background:#e3f2fd;border-color:#2196f3;}
+    .option.selected{background:#e0f2fe;border-color:#0284c7;}
+    .option.correct{background:#e8f5e9;border-color:#22c55e;}
+    .option.incorrect{background:#ffebee;border-color:#ef4444;}
+    .btn{border:0;border-radius:999px;padding:12px 20px;font-weight:700;cursor:pointer;margin:6px;}
+    .btn-primary{background:#3498db;color:#fff;}
+    .btn-success{background:#22c55e;color:#fff;}
+    .btn-secondary{background:#94a3b8;color:#fff;}
+    .results{text-align:center;padding:10px;}
+    .score-circle{width:120px;height:120px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 16px;color:#fff;font-size:2rem;font-weight:900;}
+    .score-excellent{background:linear-gradient(135deg,#22c55e,#16a34a);}
+    .score-good{background:linear-gradient(135deg,#f59e0b,#d97706);}
+    .score-poor{background:linear-gradient(135deg,#ef4444,#b91c1c);}
+    .review-item{border:1px solid #e5e7eb;border-radius:12px;padding:14px;margin-bottom:10px;text-align:left;}
   </style>
 </head>
 <body>
-  <div class="container">
-    <header class="header">
-      <h1>QCM VTC — Préparation Examen</h1>
-      <p>Choisissez une catégorie pour lancer un test.</p>
-    </header>
+<div class="container">
+  <header class="header"><h1>QCM & QRC — Préparation Examen VTC</h1></header>
+  <main class="main-content">
+    <h2 class="section-title">QCM</h2>
+    <section id="categoriesQCM" class="categories-grid"></section>
+    <h2 class="section-title">QRC</h2>
+    <section id="categoriesQRC" class="categories-grid"></section>
 
-    <main class="main-content">
-      <section id="categories" class="categories-grid"></section>
-
-      <section id="exam" class="hidden">
-        <div class="question-card">
-          <div class="question-number" id="qNumber"></div>
-          <div class="question-text" id="qText"></div>
-          <div class="options" id="qOptions"></div>
-          <div style="margin-top:14px;">
-            <button id="prevBtn" class="btn btn-secondary">◀ Précédent</button>
-            <button id="checkBtn" class="btn btn-primary">Vérifier</button>
-            <button id="nextBtn" class="btn btn-secondary">Suivant ▶</button>
-            <button id="finishBtn" class="btn btn-success">Terminer</button>
-          </div>
+    <section id="exam" class="hidden">
+      <div class="question-card">
+        <div class="question-number" id="qNumber"></div>
+        <div class="question-text" id="qText"></div>
+        <div class="options" id="qOptions"></div>
+        <div id="qrcInput" class="hidden"><textarea id="qrcAnswer" rows="3" style="width:100%;padding:8px;border-radius:8px;border:1px solid #ccc;"></textarea></div>
+        <div style="margin-top:14px;">
+          <button id="prevBtn" class="btn btn-secondary">◀ Précédent</button>
+          <button id="checkBtn" class="btn btn-primary">Vérifier</button>
+          <button id="nextBtn" class="btn btn-secondary">Suivant ▶</button>
+          <button id="finishBtn" class="btn btn-success">Terminer</button>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="results" class="hidden results">
-        <div class="score-circle" id="scoreCircle">0%</div>
-        <h2 id="resultTitle"></h2>
-        <p><strong>Score :</strong> <span id="score"></span></p>
-        <div id="review"></div>
-        <div style="margin-top:16px;">
-          <button id="replayBtn" class="btn btn-primary">Rejouer la catégorie</button>
-          <button id="homeBtn" class="btn btn-secondary">Accueil</button>
-        </div>
-      </section>
-    </main>
-  </div>
+    <section id="results" class="hidden results">
+      <div class="score-circle" id="scoreCircle">0%</div>
+      <h2 id="resultTitle"></h2>
+      <p><strong>Score :</strong> <span id="score"></span></p>
+      <div id="review"></div>
+      <div style="margin-top:16px;">
+        <button id="replayBtn" class="btn btn-primary">Rejouer la catégorie</button>
+        <button id="homeBtn" class="btn btn-secondary">Accueil</button>
+      </div>
+    </section>
+  </main>
+</div>
 
 <script>
-const QCM_FILES = [
-  'data/gestion_entreprise_qcm.json',
-  'data/securite_qcm.json',
-  'data/t3p_prevention_discrimination_qcm.json',
-  'data/francais_qcm.json',
-  'data/anglais_qcm.json',
-  'data/developpement_commercial_qcm.json',
-  'data/reglementation_qcm.json'
-];
-
-const state = { bank: [], currentCat:null, questions:[], answers:new Map(), idx:0 };
-const byId = id => document.getElementById(id);
-
-function isValidQuestion(q){
-  if(!q || typeof q.question!=='string' || !Array.isArray(q.options)) return false;
-  const n=q.options.length; let ca=q.correctAnswer;
-  if(Array.isArray(ca)) return ca.every(v=>Number.isFinite(v)&&v>=1&&v<=n);
-  return Number.isFinite(ca)&&ca>=1&&ca<=n;
-}
-function normalizeCategory(raw){
-  const questions=(raw.questions||[]).filter(isValidQuestion).map((q,i)=>({
-    id:q.id||`Q${i+1}`,
-    text:q.question,
-    options:q.options,
-    correct:Array.isArray(q.correctAnswer)?q.correctAnswer.map(Number):[Number(q.correctAnswer)],
-    explanation:q.explanation||''
-  }));
-  return {key:raw.category||'CAT',name:raw.name||'Catégorie',questions};
-}
+const QCM_FILES=[
+ 'data/gestion_entreprise_qcm.json','data/securite_qcm.json','data/t3p_prevention_discrimination_qcm.json',
+ 'data/francais_qcm.json','data/anglais_qcm.json','data/developpement_commercial_qcm.json','data/reglementation_qcm.json'];
+const QRC_FILES=[
+ 'data/gestion_entreprise_qrc.json','data/reglementation_qrc.json',
+ 'data/t3p_prevention_discrimination_qrc.json','data/developpement_commercial_qrc.json'];
+const state={bankQCM:[],bankQRC:[],currentCat:null,questions:[],answers:new Map(),idx:0,type:'QCM'};
+const byId=id=>document.getElementById(id);
+function isValidQCM(q){if(!q||typeof q.question!=='string'||!Array.isArray(q.options))return false;const n=q.options.length;let ca=q.correctAnswer;if(Array.isArray(ca))return ca.every(v=>Number.isFinite(v)&&v>=1&&v<=n);return Number.isFinite(ca)&&ca>=1&&ca<=n;}
+function normalizeQCM(raw){const questions=(raw.questions||[]).filter(isValidQCM).map((q,i)=>({
+ id:q.id||`Q${i+1}`,text:q.question,options:q.options,
+ correct:Array.isArray(q.correctAnswer)?q.correctAnswer.map(Number):[Number(q.correctAnswer)],explanation:q.explanation||''}));
+ return {key:raw.category||'CAT',name:raw.name||'Catégorie',questions};}
+function isValidQRC(q){return q&&typeof q.question==='string'&&typeof q.answer==='string';}
+function normalizeQRC(raw){const questions=(raw.questions||[]).filter(isValidQRC).map((q,i)=>({
+ id:q.id||`Q${i+1}`,text:q.question,answer:q.answer,points:q.points||1}));
+ return {key:raw.category||'CAT',name:raw.name||'Catégorie',questions};}
 async function loadAll(){
-  const results=await Promise.allSettled(QCM_FILES.map(f=>fetch(f).then(r=>r.json())));
-  const cats=[]; results.forEach((res)=>{ if(res.status==='fulfilled'){ const cat=normalizeCategory(res.value); if(cat.questions.length) cats.push(cat);} });
-  if(cats.length){ const all=cats.flatMap(c=>c.questions.map(q=>({...q,id:`${c.key}:${q.id}`}))); cats.unshift({key:'ALL',name:'Tous les sujets',questions:all}); }
-  state.bank=cats; renderCategories();
+ const resQCM=await Promise.allSettled(QCM_FILES.map(f=>fetch(f).then(r=>r.json())));
+ const resQRC=await Promise.allSettled(QRC_FILES.map(f=>fetch(f).then(r=>r.json())));
+ state.bankQCM=resQCM.filter(r=>r.status==='fulfilled').map(r=>normalizeQCM(r.value));
+ state.bankQRC=resQRC.filter(r=>r.status==='fulfilled').map(r=>normalizeQRC(r.value));
+ if(state.bankQCM.length){const all=state.bankQCM.flatMap(c=>c.questions.map(q=>({...q,id:`${c.key}:${q.id}`})));
+   state.bankQCM.unshift({key:'ALL_QCM',name:'Tous les sujets QCM',questions:all});}
+ if(state.bankQRC.length){const all=state.bankQRC.flatMap(c=>c.questions.map(q=>({...q,id:`${c.key}:${q.id}`})));
+   state.bankQRC.unshift({key:'ALL_QRC',name:'Tous les sujets QRC',questions:all});}
+ renderCategories();
 }
 function renderCategories(){
-  const root=byId('categories'); root.innerHTML='';
-  state.bank.forEach(cat=>{
-    const card=document.createElement('div'); card.className='category-card';
-    card.innerHTML=`<div class=\"icon\">📚</div><div class=\"category-title\">${cat.name}</div><span class=\"badge\">${cat.questions.length} questions</span>`;
-    card.onclick=()=>startExam(cat);
-    root.appendChild(card);
-  });
+ const rootQCM=byId('categoriesQCM');rootQCM.innerHTML='';state.bankQCM.forEach(cat=>{const card=document.createElement('div');card.className='category-card';card.innerHTML=`<div>📘</div><div>${cat.name}</div><span class='badge'>${cat.questions.length}</span>`;card.onclick=()=>startExam(cat,'QCM');rootQCM.appendChild(card);});
+ const rootQRC=byId('categoriesQRC');rootQRC.innerHTML='';state.bankQRC.forEach(cat=>{const card=document.createElement('div');card.className='category-card';card.innerHTML=`<div>📝</div><div>${cat.name}</div><span class='badge'>${cat.questions.length}</span>`;card.onclick=()=>startExam(cat,'QRC');rootQRC.appendChild(card);});
 }
-function startExam(cat){
-  state.currentCat=cat; state.questions=cat.questions; state.idx=0; state.answers=new Map();
-  byId('categories').classList.add('hidden'); byId('exam').classList.remove('hidden'); byId('results').classList.add('hidden');
-  renderQuestion();
-}
-function renderQuestion(){
-  const i=state.idx; const q=state.questions[i];
-  byId('qNumber').textContent=`Question ${i+1}/${state.questions.length}`;
-  byId('qText').textContent=q.text;
-  const root=byId('qOptions'); root.innerHTML='';
-  q.options.forEach((opt,idx)=>{
-    const div=document.createElement('div'); div.className='option'; div.textContent=`${String.fromCharCode(97+idx)}) ${opt}`;
-    div.onclick=()=>toggleOption(idx+1);
-    if(state.answers.get(i)?.choices?.includes(idx+1)) div.classList.add('selected');
-    root.appendChild(div);
-  });
-  // disable prev button on first question
-  byId('prevBtn').disabled = (i===0);
-}
-function toggleOption(choice){
-  const i=state.idx; let ans=state.answers.get(i)||{choices:[]};
-  if(ans.choices.includes(choice)) ans.choices=ans.choices.filter(c=>c!==choice);
-  else ans.choices.push(choice);
-  state.answers.set(i,ans);
-  renderQuestion();
-}
-function checkAnswer(){
-  const i=state.idx; const q=state.questions[i]; const ans=state.answers.get(i)||{choices:[]};
-  const root=byId('qOptions'); const correctSet=new Set(q.correct);
-  [...root.children].forEach((n,idx)=>{
-    const optIdx=idx+1;
-    if(correctSet.has(optIdx)) n.classList.add('correct');
-    if(ans.choices.includes(optIdx)&&!correctSet.has(optIdx)) n.classList.add('incorrect');
-  });
-  ans.correct=ans.choices.length>0 && ans.choices.every(c=>correctSet.has(c)) && ans.choices.length===correctSet.size;
-  state.answers.set(i,ans);
-}
-function nextQ(){ if(state.idx<state.questions.length-1){state.idx++; renderQuestion();} }
-function prevQ(){ if(state.idx>0){state.idx--; renderQuestion();} }
-function finishExam(){
-  let correct=0; state.questions.forEach((q,i)=>{ if(state.answers.get(i)?.correct) correct++; });
-  const total=state.questions.length; const pct=Math.round(correct/total*100);
-  byId('exam').classList.add('hidden'); byId('results').classList.remove('hidden');
-  const circle=byId('scoreCircle'); circle.textContent=`${pct}%`; circle.className='score-circle '+(pct>=80?'score-excellent':pct>=50?'score-good':'score-poor');
-  byId('score').textContent=`${correct}/${total} (${pct}%)`;
-  byId('resultTitle').textContent=pct>=80?'Excellent !':pct>=50?'Bien joué !':'Continuez à réviser';
-  const review=byId('review'); review.innerHTML=''; state.questions.forEach((q,i)=>{
-    const ans=state.answers.get(i)||{choices:[]}; const user=ans.choices.map(c=>`${String.fromCharCode(96+c)}) ${q.options[c-1]}`).join(', ')||'—';
-    const good=q.correct.map(c=>`${String.fromCharCode(96+c)}) ${q.options[c-1]}`).join(', ');
-    const div=document.createElement('div'); div.className='review-item';
-    div.innerHTML=`<p><strong>${i+1}. ${q.text}</strong><br/>Votre réponse : ${user}<br/>Bonne réponse : ${good}</p>`;
-    review.appendChild(div);
-  });
-}
-function replayCategory(){ if(state.currentCat) startExam(state.currentCat); }
-function goHome(){ byId('results').classList.add('hidden'); byId('categories').classList.remove('hidden'); }
-byId('checkBtn').onclick=checkAnswer; byId('nextBtn').onclick=nextQ; byId('prevBtn').onclick=prevQ; byId('finishBtn').onclick=finishExam;
-byId('replayBtn').onclick=replayCategory; byId('homeBtn').onclick=goHome;
-loadAll();
+function startExam(cat,type){state.type=type;state.currentCat=cat;state.questions=cat.questions;state.idx=0;state.answers=new Map();byId('categoriesQCM').classList.add('hidden');byId('categoriesQRC').classList.add('hidden');byId('exam').classList.remove('hidden');byId('results').classList.add('hidden');renderQuestion();}
+function renderQuestion(){const i=state.idx;const q=state.questions[i];byId('qNumber').textContent=`Question ${i+1}/${state.questions.length}`;byId('qText').textContent=q.text;const root=byId('qOptions');root.innerHTML='';byId('qrcInput').classList.add('hidden');if(state.type==='QCM'){q.options.forEach((opt,idx)=>{const div=document.createElement('div');div.className='option';div.textContent=`${String.fromCharCode(97+idx)}) ${opt}`;div.onclick=()=>toggleOption(idx+1);if(state.answers.get(i)?.choices?.includes(idx+1))div.classList.add('selected');root.appendChild(div);});}else{byId('qrcInput').classList.remove('hidden');byId('qrcAnswer').value=state.answers.get(i)?.text||'';}byId('prevBtn').disabled=(i===0);}
+function toggleOption(choice){const i=state.idx;let ans=state.answers.get(i)||{choices:[]};if(ans.choices.includes(choice))ans.choices=ans.choices.filter(c=>c!==choice);else ans.choices.push(choice);state.answers.set(i,ans);renderQuestion();}
+function checkAnswer(){const i=state.idx;const q=state.questions[i];if(state.type==='QCM'){const ans=state.answers.get(i)||{choices:[]};const root=byId('qOptions');const correctSet=new Set(q.correct);[...root.children].forEach((n,idx)=>{const optIdx=idx+1;if(correctSet.has(optIdx))n.classList.add('correct');if(ans.choices.includes(optIdx)&&!correctSet.has(optIdx))n.classList.add('incorrect');});ans.correct=ans.choices.length>0&&ans.choices.every(c=>correctSet.has(c))&&ans.choices.length===correctSet.size;state.answers.set(i,ans);}else{const val=byId('qrcAnswer').value.trim();state.answers.set(i,{text:val});alert(`Réponse attendue : ${q.answer}`);}}
+function nextQ(){if(state.idx<state.questions.length-1){state.idx++;renderQuestion();}}
+function prevQ(){if(state.idx>0){state.idx--;renderQuestion();}}
+function finishExam(){let score=0;let total=0;const review=byId('review');review.innerHTML='';state.questions.forEach((q,i)=>{if(state.type==='QCM'){total++;if(state.answers.get(i)?.correct)score++;}else{total+=q.points;}});byId('exam').classList.add('hidden');byId('results').classList.remove('hidden');const pct=Math.round(score/total*100);const circle=byId('scoreCircle');circle.textContent=`${pct}%`;circle.className='score-circle '+(pct>=80?'score-excellent':pct>=50?'score-good':'score-poor');byId('score').textContent=`${score}/${total} (${pct}%)`;byId('resultTitle').textContent=pct>=80?'Excellent !':pct>=50?'Bien joué !':'Continuez à réviser';state.questions.forEach((q,i)=>{const ans=state.answers.get(i);const div=document.createElement('div');div.className='review-item';if(state.type==='QCM'){const user=ans?.choices?.map(c=>`${String.fromCharCode(96+c)}) ${q.options[c-1]}`).join(', ')||'—';const good=q.correct.map(c=>`${String.fromCharCode(96+c)}) ${q.options[c-1]}`).join(', ');div.innerHTML=`<p><strong>${i+1}. ${q.text}</strong><br/>Votre réponse : ${user}<br/>Bonne réponse : ${good}</p>`;}else{div.innerHTML=`<p><strong>${i+1}. ${q.text}</strong><br/>Votre réponse : ${ans?.text||'—'}<br/>Réponse attendue : ${q.answer} (${q.points} pts)</p>`;}review.appendChild(div);});}
+function replayCategory(){if(state.currentCat)startExam(state.currentCat,state.type);}
+function goHome(){byId('results').classList.add('hidden');byId('categoriesQCM').classList.remove('hidden');byId('categoriesQRC').classList.remove('hidden');}
+byId('checkBtn').onclick=checkAnswer;byId('nextBtn').onclick=nextQ;byId('prevBtn').onclick=prevQ;byId('finishBtn').onclick=finishExam;byId('replayBtn').onclick=replayCategory;byId('homeBtn').onclick=goHome;loadAll();
 </script>
 </body>
 </html>

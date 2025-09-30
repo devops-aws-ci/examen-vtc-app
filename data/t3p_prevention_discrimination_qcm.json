@@ -1,0 +1,1213 @@
+{
+  "category": "T3P et prévention des discriminations sexuelles et sexistes",
+  "name": "T3P et prévention des discriminations sexuelles et sexistes",
+  "description": "Questions à choix multiples pour préparer l’examen T3P (transports publics particuliers) et la prévention des discriminations sexuelles et sexistes.",
+  "icon": "gavel",
+  "duration": "45 minutes",
+  "questions": [
+    {
+      "id": "t3p_001",
+      "question": "Quel ministère gère le registre des exploitants VTC ?",
+      "options": [
+        "Ministère de l’économie",
+        "Ministère en charge du tourisme",
+        "Ministère de l’intérieur",
+        "Ministère en charge des transports"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Art. 225-1 Code pénal : discrimination = traitement défavorable fondé sur critère prohibé.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_002",
+      "question": "Puis-je utiliser un véhicule acheté en janvier 2012 pour exercer la profession de VTC ?",
+      "options": [
+        "Oui, si c’est un véhicule hybride ou électrique",
+        "Non si c’est un véhicule thermique",
+        "Oui, à condition qu’il respecte les critères de puissance et de dimensions"
+      ],
+      "correctAnswer": [
+        1,
+        3
+      ],
+      "explanation": "Critères interdits : origine, sexe, situation familiale, grossesse, apparence physique, patronyme, orientation sexuelle, handicap...",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_003",
+      "question": "L'arrêté du 6 Avril 2017 relatif à la signalétique définitive des voitures de transport avec chauffeur impose :",
+      "options": [
+        "Une vignette ronde de couleur rouge",
+        "2 vignettes rondes de couleur rouge",
+        "2 vignettes rondes de couleur mauve"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Art. 225-2 Code pénal : sanctions = 3 ans prison et 45 000 € amende.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_004",
+      "question": "Par qui est accordée la garantie financière qui permet à un exploitant VTC de justifier l'exigence de capacité financière ?",
+      "options": [
+        "Un assureur ou une banque doté d'un numéro de Siret.",
+        "Une structure agréée par l'AMF (Autorité des Marchés Financiers).",
+        "Une organisation agréée par la Direction de la législation et de la réglementation financière.",
+        "Un organisme agréé par l'Autorité de contrôle prudentiel et de résolution."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Refuser une course pour motif discriminatoire = interdit (Code des transports + art. 225-1 CP).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_005",
+      "question": "Hormis la garantie financière de 1500 euros, de quelle(s) manière(s) un exploitant de VTC peut prouver qu'il satisfait à l'exigence de capacité financière ?",
+      "options": [
+        "Par le biais d'une attestation de prêt de plus de 6 mois.",
+        "Par l'intermédiaire d'un contrat de location de plus de 4 mois.",
+        "En apportant la preuve qu'il est propriétaire de sa voiture.",
+        "Grâce à un contrat de location de plus de 6 mois."
+      ],
+      "correctAnswer": 2,
+      "explanation": "La carte professionnelle est délivrée par le préfet. Code des transports.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_006",
+      "question": "Un chauffeur VTC peut se garer sur une voie ouverte à la circulation publique aux abords d'une gare ou d'un aéroport :",
+      "options": [
+        "Durant 1 heure maximum pour attendre une personne disposant d'une réservation préalable.",
+        "Durant 45 minutes maximum pour attendre une personne disposant d'une réservation préalable.",
+        "Il n'y a pas de durée minimale s'il y a bien une réservation préalable.",
+        "Durant 2 heures maximum pour attendre une personne disposant d'une réservation préalable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Formation continue obligatoire tous les 5 ans (Arrêté du 11 août 2017).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_007",
+      "question": "Est-il possible d'exercer l'activité de chauffeur VTC avec un permis probatoire ?",
+      "options": [
+        "Oui.",
+        "Oui et non.",
+        "Non.",
+        "Cela dépend de la situation de chaque chauffeur."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Prévention discrimination = obligation légale de tout professionnel T3P.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_008",
+      "question": "Un client vous interpelle à un feu rouge et vous demande de le prendre en charge :",
+      "options": [
+        "Vous acceptez",
+        "Vous lui dites qu'il doit d'abord faire une réservation",
+        "Vous refusez de le prendre"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Extrait B2 doit être vierge de condamnations incompatibles (Code des transports).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_009",
+      "question": "Quelle est la couleur et la forme de la signalétique VTC ?",
+      "options": [
+        "Rectangulaire et vert",
+        "Rond et vert",
+        "Rectangulaire et rouge",
+        "Rond et rouge"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Visite médicale obligatoire pour aptitude à la conduite professionnelle (Code des transports R3120-9).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_010",
+      "question": "La capacité financière doit être justifiée par le conducteur de VTC :",
+      "options": [
+        "En cas de départ d'un associé dans la société",
+        "En cas de location d'un véhicule utilisé le temps d'un évènement",
+        "En cas de location de plus de 6 mois d'un véhicule en utilisation régulière",
+        "Lors d'une première inscription sur le registre, lors des renouvellements quinquennaux ou d'un changement de véhicule"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Refus client handicapé = discrimination (art. 225-1 CP).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_011",
+      "question": "Un chauffeur VTC est-il dans l'obligation de prendre en charge une personne aveugle accompagnée de son chien-guide ?",
+      "options": [
+        "Oui.",
+        "Non."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Formation discrimination incluse dans formation continue obligatoire (Arrêté 11 août 2017).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_012",
+      "question": "Quelles sont les conditions requises pour pouvoir passer l’examen de T3P ?",
+      "options": [
+        "Avoir son permis de conduire depuis plus de 5 ans",
+        "Avoir 10 points minimum sur son permis de conduire",
+        "Casier judiciaire B2 vierge"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Critères prohibés nombreux (origine, orientation sexuelle, handicap...). Art. 225-1 CP.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_013",
+      "question": "Quelles sont les sanctions possibles en cas d‘exercice illégal d‘une des professions du T3P ?",
+      "options": [
+        "Une amende de 30 000 €et un deux ans d'emprisonnement",
+        "Une amende de 15 000 €et un an d'emprisonnement",
+        "Une amende de 1500 €et six mois d'emprisonnement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Le chauffeur doit assurer l’égalité de traitement entre clients.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_014",
+      "question": "Parmi les entreprises du T3P, quelles sont celles qui sont soumises à l'obligation de s'assurer en responsabilité civile professionnelle?",
+      "options": [
+        "VTC et 2ou 3 roues",
+        "Le taxi, VTC et 2 ou 3 roues seulement",
+        "Le taxi seulement",
+        "Le taxi et le VTC seulement"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Refus discriminatoire = sanction disciplinaire et pénale (art. 225-2 CP).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_015",
+      "question": "Pour effectuer du T3P le véhicule doit :",
+      "options": [
+        "Être de couleur blanche",
+        "Avoir des tailles de pneumatiques fixées par décret",
+        "Avoir une signalétique distinctive"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La responsabilité incombe au conducteur/exploitant. Code des transports.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_016",
+      "question": "Qui délivre les agréments aux centres de formation ?",
+      "options": [
+        "Les conseils départementaux",
+        "L'association permanente des chambres de métiers et de l'artisanat",
+        "Les préfectures",
+        "Le ministère des transports pour les VTC, le ministère de l'environnement pour les 2 ou 3 roues, le ministère de l'intérieur pour les taxis"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Obligation de neutralité (ex : pas de propos discriminatoires). Art. 225-1 CP.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_017",
+      "question": "Qui préside la commision locale du T3P ?",
+      "options": [
+        "Le représentant de chaque collège à tour de rôle",
+        "Le préfet ou son représentant",
+        "Le directeur des transports du département",
+        "Le Président de la chambre des métiers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La DDPP peut contrôler et sanctionner (répression des fraudes).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_018",
+      "question": "Quelle est la durée du mandat des membres de la commision locale des T3P ?",
+      "options": [
+        "3 ans",
+        "2 ans",
+        "5 ans",
+        "1 an"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Défenseur des droits (ex-HALDE) = autorité indépendante contre discriminations.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_019",
+      "question": "Un client avec une prescription médicale sera remboursé de son transport s'il utilise :",
+      "options": [
+        "Un taxi conventionné ou un VTC conventionné",
+        "Un VTC conventionné ou un Taxi moto conventionné",
+        "Un taxi conventionné ou un Taxi moto conventionné ou un VTC conventionné",
+        "Un taxi conventionné"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Exemple de discrimination : refus de client en raison de son origine.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_020",
+      "question": "Quels agents sont habilités àeffectuer un contrôle routier de conducteur de T3P ?",
+      "options": [
+        "Les agents représentant la SNCF",
+        "Les gendarmes",
+        "Le juge du tribunal d'instance",
+        "Les policiers"
+      ],
+      "correctAnswer": 3,
+      "explanation": "La loi impose prévention discrimination dans T3P. Code des transports.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_021",
+      "question": "Parmi les condamnations suivantes, lesquelles peuvent être mentionnées au bulletin n° 2 du casier judiciaire ?",
+      "options": [
+        "Transporter et déposer des objets, déchets, liquides insalubres en un lieu sans l'autorisation de la personne ayant la jouissance du lieu",
+        "Conduire avec un taux d'alcool dans le sang de 0,8 gramme par litre ou plus",
+        "Transporter un appareil permettant de déceler la présence de systèmes servant à la constatation des infractions à la législation, ou à la réglementation de la circulation routière",
+        "Poursuivre sa route, en connaissance de cause, après avoir occasionné un accident"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_022",
+      "question": "Quelle est la périodicité de la formation continue pour le T3P ?",
+      "options": [
+        "Tous les 5 ans",
+        "Chaque année",
+        "Jamais",
+        "Tous les 2 ans"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_023",
+      "question": "Quelle est la sanction encourue pour l'exercice illégal de l'activité de T3P ?",
+      "options": [
+        "Un an d'emprisonnement et 20 000 € d'amende",
+        "Un an d'emprisonnement et 15 000 € d'amende",
+        "6 mois d'emprisonnement et 10 000 € d'amende",
+        "6 mois d'emprisonnement et 5 000 € d'amende"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_024",
+      "question": "Parmi les condamnations suivantes, lesquelles peuvent être mentionnées au bulletin n° 2 du casier judiciaire ?",
+      "options": [
+        "Transporter et déposer des objets, déchets, liquides insalubres en un lieu sans l'autorisation de la personne ayant la jouissance du lieu",
+        "Poursuivre sa route, en connaissance de cause, après avoir occasionné un accident",
+        "Transporter un appareil permettant de déceler la présence de systèmes servant à la constatation des infractions à la législation, ou à la réglementation de la circulation routière",
+        "Conduire avec un taux d'alcool dans le sang de 0.8 gramme par litre ou plus"
+      ],
+      "correctAnswer": 4,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_025",
+      "question": "Quelle est la périodicité de la visite médicale d'un conducteur, âgé de 61 ans à ce jour ?",
+      "options": [
+        "1 an",
+        "2 ans",
+        "5 ans",
+        "7 ans"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_026",
+      "question": "Si un chauffeur utilise son véhicule T3P dans le cadre d'une activité non-professionnelle que doit-il faire ?",
+      "options": [
+        "Ne rien faire de spécifique",
+        "Enlever ou occulter toutes références à la profession exercée",
+        "Apposer un panneau indiquant qu'il ne prend pas de client",
+        "Il n'a pas le droit d'utiliser son véhicule en dehors de son activité professionnelle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_027",
+      "question": "A partir de quel montant minimal le conducteur de T3P a-t-il l'obligation de fournir une note de course ?",
+      "options": [
+        "1 euro",
+        "Il n'y a pas de montant minimal si c'est à la demande du client",
+        "15,24 €",
+        "25€"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_028",
+      "question": "Les conducteurs de T3P bénéficient-ils d'un régime particulier au niveau de la limitation de vitesse ?",
+      "options": [
+        "Oui, suivant l'accord conclu avec les autorités locales",
+        "Oui, suivant l'accord conclu avec le ministère de l'intérieur",
+        "Oui ou non en fonction du véhicule utilisé",
+        "Pas de régime particulier"
+      ],
+      "correctAnswer": 4,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_029",
+      "question": "La carte professionnelle d'un conducteur de T3P :",
+      "options": [
+        "Doit-être apposée de telle manière que la photographie soit visible de l'intérieur par le client",
+        "Doit-être apposée de telle manière que la photographie soit visible de l'extérieur",
+        "Il n'y a pas d'obligation d'apposer sa carte professionnelle dans le véhicule"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_030",
+      "question": "Un conducteur sanctionné par le tribunal correctionnel pour délit de fuite peut saisir :",
+      "options": [
+        "Le tribunal correctionnel qui jugera à nouveau l'affaire",
+        "Le tribunal judiciaire pour une condamnation inférieure à 4 000 €",
+        "La cour de cassation",
+        "La cour d'appel"
+      ],
+      "correctAnswer": 4,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_031",
+      "question": "Quelle est l'autorité qui effectue la vérification du casier judiciaire d'un candidat à la carte professionnelle de conducteur de véhicules 3Р ?",
+      "options": [
+        "Le ministère chargé des transports",
+        "Le préfet de région",
+        "Le préfet de police ou le préfet",
+        "es forces de l'ordre"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_032",
+      "question": "Le retrait de la carte professionnelle est :",
+      "options": [
+        "Consécutif à la décision d'un juge de l'ordre administratif sous certaines conditions",
+        "Une sanction administrative prise par un préfet",
+        "Une sanction administrative prise par un juge",
+        "Consécutif à la décision d'un juge de l'ordre pénal sous certaines conditions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_033",
+      "question": "Quel kilométrage maximum un conducteur de T3P peut-il réaliser pour sa course ?",
+      "options": [
+        "500 km",
+        "1000 km",
+        "300 km",
+        "Pas de limitation"
+      ],
+      "correctAnswer": 4,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_034",
+      "question": "Quels agents sont habilités à effectuer un contrôle routier de conducteur de T3P ?",
+      "options": [
+        "Les policiers",
+        "Le juge du tribunal judiciaire",
+        "Les agents représentant la SNCF",
+        "Les gendarmes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_035",
+      "question": "La réglementation du T3P se trouve dans le :",
+      "options": [
+        "Code pénal",
+        "Code du travail",
+        "Code des transport",
+        "Code préfectoral"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_036",
+      "question": "Quelle est l'ancienneté maximum pour un véhicule hybride ?",
+      "options": [
+        "Aucune",
+        "6 ans",
+        "7 ans",
+        "2 ans"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_037",
+      "question": "Pour être exploitable en activité de transport public particulier de personnes, un véhicule électrique doit être :",
+      "options": [
+        "Sans contraintes particulières",
+        "De couleur noire",
+        "Équipé d'un pack confort (boite automatique, climatisation, connectique…)",
+        "Soumis à des contraintes particulières"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_038",
+      "question": "Vous êtes chauffeur de transport particulier de personnes né le 12 mai 1950. Quelle est la périodicité de l’examen médical d’atitude physique auquel vous devez vous soumettre ?",
+      "options": [
+        "5 ans",
+        "2 ans",
+        "1 an"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_039",
+      "question": "Quelle est la taille minimum de la commune dans laquelle peut s'exercer une activité du ТЗР ?",
+      "options": [
+        "1500 habitants",
+        "20000 habitants",
+        "Il n'y a pas de taille minimum",
+        "11000 habitants"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_040",
+      "question": "Quel service délivre la carte professionnelle de conducteur de T3P ?",
+      "options": [
+        "La DREAL",
+        "La préfecture",
+        "La DIRECCTE",
+        "La mairie"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_041",
+      "question": "L'examen du T3P est composé :",
+      "options": [
+        "D'une épreuve de préparation",
+        "D'une épreuve d'admission",
+        "D'une épreuve d'intégration",
+        "D'une épreuve d'admissibilité"
+      ],
+      "correctAnswer": 4,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_042",
+      "question": "Quel est le délit justifiant le refus de délivrance d'une carte professionnelle ?",
+      "options": [
+        "Franchissement d'un feu rouge",
+        "Non exercice régulier de la profession",
+        "lnaptitude médicale",
+        "Conduite après usage de stupéfiants"
+      ],
+      "correctAnswer": 4,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_043",
+      "question": "Quelle est la signification du terme LOTI ?",
+      "options": [
+        "Loi d'observation des taxis intramuros",
+        "Loi d'orientation des transports intérieurs",
+        "Loi d'organisation du tourisme intérieur",
+        "Loi d'orientation du tourisme interne"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_044",
+      "question": "Parmi ces affirmations, laquelle est vraie ?",
+      "options": [
+        "La carte professionnelle est délivrée par le Préfet ou le Préfet de Police",
+        "La carte professionnelle mentionne le résultat à l'examen",
+        "La carte professionnelle est délivrée par la Mairie.",
+        "La carte professionnelle mentionne la commune dans laquelle on est autorisé à exercer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_045",
+      "question": "Un conducteur de transport public particulier de personnes doit restituer sa carte professionnelle lorsque :",
+      "options": [
+        "Une condition de validité n'est plus remplie",
+        "Il est condamné pour délit par le juge du tribunal correctionnel.",
+        "Il est employé par un dirigeant qui ne respecte par la règlementation du transport de de voyageurs",
+        "Il cesse son activité professionnelle définitivement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_046",
+      "question": "Quels types de personnalités peuvent être associées avec voix consultative aux travaux des membres de la commission locale de T3P ?",
+      "options": [
+        "Un collège de représentants des professionnels (syndicats, organisations professionnelles)",
+        "Les représentants des organisations professionnelles des centrales de réservation des transports publics particuliers de personnes",
+        "Un collège de représentants de l'État (ex : préfet ou son représentant, DDPP, représentant de la gendarmerie/police nationale, .....)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_047",
+      "question": "Pour accéder à la profession de conducteur de 3P, il faut obligatoirement : a ) Avoir une expérience professionnelle de conducteur de véhicule léger dans les 5 ans précédant la demande de carte professionnelle.",
+      "options": [
+        "Suivre une formation",
+        "Réussir à un examen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_048",
+      "question": "Un client se plaint de la tarification de la course. Quelle est l'autorité compétente pour le traiter ?",
+      "options": [
+        "Les Prudhommes",
+        "Le tribunal de commerce",
+        "Le juge de proximité",
+        "La préfecture"
+      ],
+      "correctAnswer": 4,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_049",
+      "question": "Le stage de formation continue dispensé aux conducteurs de transport public particulier de personnes permet d'obtenir une attestation valable :",
+      "options": [
+        "5 ans",
+        "2 ans",
+        "1 an",
+        "10 ans"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_050",
+      "question": "Quelles sont les sanctions possibles en cas d'exercice illégal d'une des professions du T3P ?",
+      "options": [
+        "À une amende de 30 000 € et deux ans d'emprisonnement",
+        "Une amende de 15 000 € et un an d'emprisonnement",
+        "Une amende de 1 500 € et six mois d'emprisonnement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_051",
+      "question": "Parmi les entreprises du T3P, quelles sont celles qui sont soumises à l'obligation de s'assurer en responsabilité civile professionnelle ?",
+      "options": [
+        "VTC et 2 ou 3 roues",
+        "Le taxi. VTC et 2 ou 3 roues seulement",
+        "Le taxi seulement",
+        "Le taxi et le VTC seulement"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_052",
+      "question": "Pour effectuer du T3P le véhicule doit :",
+      "options": [
+        "Être de couleur blanche",
+        "Avoir des tailles de pneumatiques fixées par décret",
+        "Avoir une signalétique distinctive"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_053",
+      "question": "Quelle est la durée du mandat des membres de la commission locale des T3P ?",
+      "options": [
+        "3 ans",
+        "2 ans",
+        "5 ans",
+        "1 an"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_054",
+      "question": "Un client avec une prescription médicale sera remboursé de son transport s'il utilise :",
+      "options": [
+        "Un taxi conventionné ou un VTC conventionné",
+        "Un VTC conventionné ou un taxi moto conventionné",
+        "Un taxi conventionné ou un Taxi moto conventionné ou un VTC conventionné",
+        "Un taxi conventionné"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_055",
+      "question": "Quel comportement constitue un outrage sexiste dans un VTC ?",
+      "options": [
+        "Un passager qui reste silencieux pendant tout le trajet",
+        "Un chauffeur qui respecte la ﻿vie privée du passager",
+        "Un chauffeur qui fait des remarques suggestives sur la tenue d'une passagère"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_056",
+      "question": "Quelles sont les conséquences pour un conducteur de T3P qui ne serait pas titulaire d'une responsabilité civile professionnelle ?",
+      "options": [
+        "Une amende de 1 500 € et six mois d'emprisonnement",
+        "Une amende de 30 000 € et deux ans d'emprisonnement",
+        "Une amende de 15 000 € et un an d'emprisonnement",
+        "Une amende de 5ème classe"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_057",
+      "question": "Quelles sont les nouveautés de l'examen de conducteur de T3P à partir du 1er janvier 2017 ?",
+      "options": [
+        "Il n'y a plus d'épreuves pratiques",
+        "Un tronc commun et des épreuves spécifiques taxi et VTC",
+        "L'examen est remplacé par une formation obligatoire",
+        "Des épreuves d'admissibilité et des épreuves d'admission"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_058",
+      "question": "La carte professionnelle d'un conducteur de T3P",
+      "options": [
+        "Doit-être apposée de telle manière que la photographie soit visible de l'extérieur",
+        "Doit-être apposée de telle manière que la photographie soit visible de l'intérieur par le client",
+        "Il n'y a pas d'obligation d'apposer sa carte professionnelle dans le véhicule"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_059",
+      "question": "Combien de fois au minimum les commissions locales du T3P doivent-eues se réunir chaque année ?",
+      "options": [
+        "Au minimum 2 fois",
+        "Au minimum 1 fois",
+        "Au minimum 3 fois",
+        "Aucune obligation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_060",
+      "question": "Quelles condamnations définitives d'au moins 6 mois d'emprisonnement inscrites au Bulletin N°2 du casier judiciaire ne permettent pas d'exercer la profession de conducteur de T3P",
+      "options": [
+        "Condamnation pour agression sexuelle",
+        "Condamnation pour troubles de voisinage",
+        "Condamnation pour abus de confiance",
+        "Condamnation pour tapage nocturne"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_061",
+      "question": "Pour être exploitable en activité de transport public particulier de personnes, un véhicule électrique doit être :",
+      "options": [
+        "Soumis à des contraintes particulières",
+        "De couleur noire",
+        "Équipé d'un pack confort (boite automatique, climatisation, connectique...)",
+        "Sans contraintes particulières"
+      ],
+      "correctAnswer": 4,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_062",
+      "question": "Quelle est la périodicité de la visite médicale d'un conducteur, âgé de 61 ans à ce jour ?",
+      "options": [
+        "1 an",
+        "5 ans",
+        "7 ans",
+        "2 ans"
+      ],
+      "correctAnswer": 4,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_063",
+      "question": "A quel moment doit être restituée la carte professionnelle ?",
+      "options": [
+        "En cas d'arrêt maladie",
+        "Pendant les périodes de congés",
+        "En cas de cessation d'activité temporaire",
+        "En cas de cessation d'activité totale"
+      ],
+      "correctAnswer": 4,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_064",
+      "question": "Pour s'inscrire à l'examen d'accès à la profession, le candidat ne doit pas avoir fait l'objet d'une exclusion pour fraude lors d'une session à un examen du T3P :",
+      "options": [
+        "Dans l'année",
+        "Dans les 5 ans qui précèdent sa demande",
+        "Dans les 10 ans qui précèdent sa demande",
+        "Dans les 2 ans qui précèdent sa demande"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_065",
+      "question": "L'assurance dite responsabilité civile professionnelle (RCP) peut être invoquée par le conducteur s'il :",
+      "options": [
+        "Abîme le vêtement de son passager en l'accompagnant jusqu'à son hôtel",
+        "Est contrôlé et n'a pas sa carte professionnelle",
+        "Accroche un autre véhicule en manœuvrant pour se garer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_066",
+      "question": "Quel kilométrage maximum un conducteur de T3P peut-il réaliser pour sa course ?",
+      "options": [
+        "Pas de limitation",
+        "500 km",
+        "300 km",
+        "1000 km"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_067",
+      "question": "La circulation dans les couloirs de bus est autorisée",
+      "options": [
+        "Aux taxis quel que soit leur commune ou zone de rattachement",
+        "Aux VTC et VMDTR ayant une réservation et au moins un passager à bord",
+        "Aux taxis, VTC et VMDTR",
+        "Aux taxis uniquement dans leur commune ou zone de rattachement"
+      ],
+      "correctAnswer": 4,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_068",
+      "question": "A quelle catégorie de transports appartiennent les transports scolaires ?",
+      "options": [
+        "Les services occasionnels",
+        "Les services à la demande",
+        "Les services réguliers publics collectifs"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_069",
+      "question": "Quelle est la périodicité du contrôle technique pour un véhicule utilisé pour une activité de VTC ou de taxi ?",
+      "options": [
+        "2 ans",
+        "3 ans",
+        "1 an",
+        "6 mois"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_070",
+      "question": "Je veux être conducteur de T3P. Pour obtenir ma carte professionnelle, je dois être titulaire, au moment de ma demande, du permis de conduire depuis :",
+      "options": [
+        "Il n'y a pas de délai à respecter",
+        "Un an",
+        "Plus de 3 ans (ou 2 ans sous certaines conditions)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_071",
+      "question": "Pour pouvoir s’inscrire à l’examen en vue d’obtenir la carte professionnelle de conducteur de transport public particulier de personnes, la condition est :",
+      "options": [
+        "Ne pas avoir certaines inscriptions mentionnées au bulletin N°2 du casier judiciaire",
+        "Pouvoir justifier d’une assurance responsabilité civile professionnelle",
+        "Ne pas avoir un permis de conduire affecté par un délai probatoire"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_072",
+      "question": "Dans une entreprise du T3P possédant deux véhicules conduits par un artisan et un salarié, la carte professionnelle doit être détenu par :",
+      "options": [
+        "L’artisan et le salarié",
+        "L’artisan seul",
+        "Le salarié seul",
+        "L’artisan ou le salarié"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_073",
+      "question": "Un artisan effectuant du T3P est victime d’un accident corporel de la circulation dans l’exercice de son activité, sous quel régime est-il ?",
+      "options": [
+        "Accident du travail",
+        "Pas de régime particulier",
+        "De l’arrêt de maladie"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_074",
+      "question": "Quelles sommes peut exiger un conducteur dans le cadre du covoiturage ?",
+      "options": [
+        "Une somme définie par décret en fonction de la puissance du véhicule utilisé",
+        "Le remboursement partiel de ses frais limité au carburant et au péage éventuel",
+        "Aucune somme",
+        "De l’arrêt de maladie"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_075",
+      "question": "L’obligation de formation continue quinquennale concerne tous :",
+      "options": [
+        "Les cyclistes",
+        "Les conducteurs de voitures pour le covoiturage",
+        "Les conducteurs de T3P"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_076",
+      "question": "La location à la place, entendue comme la facturation de plusieurs clients sur un même trajet ou course, est un service :",
+      "options": [
+        "Interdit aux taxis",
+        "Autorisé aux VTC",
+        "Interdit aux VTC"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_077",
+      "question": "Depuis l’arrêté du 11 août 2017, la durée minimum de la formation continue obligatoire des conducteurs de T3P est de :",
+      "options": [
+        "35 heures",
+        "7 heures",
+        "14 heures"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_078",
+      "question": "Un conducteur de transport particulier de personnes doit restituer da carte professionnelle l’orsqu’ :",
+      "options": [
+        "Il cesse son activité définitivement",
+        "Il est condamné pour délit par le juge du tribunal correctionnel.",
+        "Il est employé par un dirigeant qui ne respecte pas la réglementation du transport de voyageurs"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_079",
+      "question": "Relève du transport collectif occasionnel :",
+      "options": [
+        "Chaque année le transport privé particulier aller-retour depuis l’aéroport des cousins de mes voisins qui n’ont pas de véhicule",
+        "Un circuit touristique organisé par un transporteur inscrit au registre des transporteurs routiers de voyageurs",
+        "Un billet collectif de demande de transport d’une chorale de 8 chanteurs",
+        "Le transport du Directeur du festival de théâtre de d’Automne de Paris pendant une semaine"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_080",
+      "question": "De quel ministère dépend l’activité principale des T3P ?",
+      "options": [
+        "Ministère du tourisme",
+        "Ministère de l’économie",
+        "Ministère des transports",
+        "Ministère de l’intérieur"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_081",
+      "question": "La première visite technique pour un véhicule T3P aura lieu :",
+      "options": [
+        "3 ans après sa première mise en service",
+        "2 ans après la première mise en service",
+        "1 an après la première mise en service"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_082",
+      "question": "Exercer une activité de T3P sans détenir une carte professionnelle en cours de validité est puni :",
+      "options": [
+        "D’une peine de prison",
+        "D’une interdiction de conduire sur l’ensemble du territoire",
+        "De l’amende prévue pour une contravention de cinquième classe",
+        "D’une interdiction de conduire dans la région où a été commise l’infraction"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_083",
+      "question": "De combien de membres se compose le comité national (CN) du T3P ?",
+      "options": [
+        "63 membres au plus",
+        "20 membres au plus",
+        "50 membres au plus",
+        "Pas de nombre maximum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_084",
+      "question": "Les juridictions compétentes dans le cadre de l’activité de transport particulier de personnes appartiennent à :",
+      "options": [
+        "L’ordre pénal seulement",
+        "L’ordre judiciaire et l’ordre social",
+        "L’ordre commercial, l’ordre civil et l’ordre pénal",
+        "L’ordre civil, l’ordre spécialisé et l’ordre pénal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_085",
+      "question": "A quelle catégorie de transports appartiennent les transports scolaires ?",
+      "options": [
+        "Les services occasionnels",
+        "Les services à la demande",
+        "Les services réguliers publics collectifs"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_086",
+      "question": "Quelle est l’autorité compétente organisatrice de l’examen du T3P ?",
+      "options": [
+        "La chambre des métiers et de l’artisanat",
+        "La chambre de commerce et d’industrie",
+        "La préfecture",
+        "Les centres de formation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_087",
+      "question": "Le port de la ceinture de sécurité est obligatoire ?",
+      "options": [
+        "Pour les VTC",
+        "Pour les taxis",
+        "Pour les deux professions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_088",
+      "question": "Quelle est la signification du terme LOTI ?",
+      "options": [
+        "Loi d’orientation du transport intérieur",
+        "Loi d’orientation du tourisme interne",
+        "Loi d’observation des taxis intramuros",
+        "Loi d’organisation du tourisme intérieur"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_089",
+      "question": "En cas de contrôle, le conducteur d’un véhicule de transport public particulier doit être en mesure de justifier de :",
+      "options": [
+        "Trois assurances",
+        "Deux assurances dont l’une est obligatoirement tous risques",
+        "Deux assurances",
+        "Une assurance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_090",
+      "question": "Un conducteur de transport public particulier de personnes n’effectuant que des remplacements épisodiques doit-il être titulaire d’une carte professionnelle ?",
+      "options": [
+        "Non si ces remplacements représentent moins de 10 heures par semaine",
+        "Non",
+        "Oui"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_091",
+      "question": "Dans quel(s) cas la carte professionnelle d’un T3P peut-elle lui être retirée ?",
+      "options": [
+        "En cas de changement de véhicule",
+        "En cas de violation des règles applicables à la profession",
+        "En cas de changement de domicile",
+        "A défaut de restitution de la carte après cessation définitive d’activité"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_092",
+      "question": "Quel motif de discrimination est mentionné dans l'article 225-1 du Code pénal ?",
+      "options": [
+        "Compétences linguistiques",
+        "Orientation sexuelle",
+        "Niveau de revenus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_093",
+      "question": "Quelle peine complémentaire peut être appliquée pour discrimination dans le secteur du VTC ?",
+      "options": [
+        "Interdiction des droits civiques, civils et de famille",
+        "Suspension temporaire de permis de conduire",
+        "Formation obligatoire sur la conduite sécurisée"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_094",
+      "question": "Quel type de peine principale peut être appliqué pour discrimination dans le secteur du VTC ?",
+      "options": [
+        "3 ans d'emprisonnement et 45 000 euros d'amende",
+        "1 an d'emprisonnement et 5 000 euros d'amende",
+        "6 mois d'emprisonnement et 1 000 euros d'amende"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "t3p_095",
+      "question": "Quel service peut offrir un accompagnement social et juridique pour des discriminations dans le VTC ?",
+      "options": [
+        "Les conseils départementaux et centres communaux d'action sociale (CCAS)",
+        "Les agences de voyages",
+        "Les compagnies d'assurance Réponses QCM"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    }
+  ]
+}

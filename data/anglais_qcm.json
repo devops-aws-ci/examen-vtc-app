@@ -1,0 +1,853 @@
+{
+  "category": "anglais",
+  "name": "Anglais",
+  "description": "Test de connaissance en anglais pour le futur chauffeur VTC.",
+  "icon": "britain.png",
+  "duration": "20",
+  "questions": [
+    {
+      "id": "eng_001",
+      "question": " Il y a un supplément pour la quatrième personne",
+      "options": [
+        "There is no extra charge for the fourth person",
+        "There is a supplement for the third person",
+        "There is an extra charge for the fourth person"
+      ],
+      "correctAnswer": 3,
+      "explanation": "« There is an extra charge for the fourth person » = supplément pour la 4e personne.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_002",
+      "question": " « Break down » signifie :",
+      "options": [
+        "Freiner au maximum",
+        "Faire une dépression",
+        "Tomber en panne"
+      ],
+      "correctAnswer": 3,
+      "explanation": "« Break down » = tomber en panne (voiture).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_003",
+      "question": " Merci pour la course. Gardez la monnaie !",
+      "options": [
+        "Thank you for the race. Save the change !",
+        "Thank you for the ride. Keep the change!",
+        "Thank you for the errand. Give the change!"
+      ],
+      "correctAnswer": 2,
+      "explanation": "« Thank you for the ride. Keep the change! » = Merci pour la course, gardez la monnaie.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_004",
+      "question": " Write the opposite of « boring » :",
+      "options": [
+        "Dangerous",
+        "Noisy",
+        "Exciting"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Opposite of boring = exciting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_005",
+      "question": " La voiture de mon cousin est très vieille",
+      "options": [
+        "My cousin car is very old",
+        "My cousin's car is very old",
+        "The car of my cousin is very old",
+        "My cousins car is very old"
+      ],
+      "correctAnswer": 2,
+      "explanation": "On dit « my cousin's car » (génitif possessif).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_006",
+      "question": " The secretary was given a bonus :",
+      "options": [
+        "La secrétaire a reçu une prime",
+        "On a donné une prime à la secrétaire",
+        "Le secrétaire était donné en prime"
+      ],
+      "correctAnswer": 2,
+      "explanation": "« The secretary was given a bonus » = on a donné une prime à la secrétaire.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_007",
+      "question": " Y a t-il un problème ? La route est bloquée",
+      "options": [
+        "Is there a problem ? The road is blocked",
+        "Are there a problem ? The road is blocked",
+        "Is there a problem ? The road is open"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Forme correcte = « Is there a problem? The road is blocked ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_008",
+      "question": " Il y a un festival à Edimbourg tous les quatre ans :",
+      "options": [
+        "It is a festival at Edinburgh every four year",
+        "There is a festival in Edinburgh every four years",
+        "There is a festival on Edinburgh every four years"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct = « There is a festival in Edinburgh every four years ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_009",
+      "question": " Un client vous demande de l'amener à \"the suburb\", où irezvous ?",
+      "options": [
+        "Au métro",
+        "En banlieue",
+        "Au bord de la mer"
+      ],
+      "correctAnswer": 2,
+      "explanation": "« Suburb » = banlieue.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_010",
+      "question": " I have italian lessons..... Monday :",
+      "options": [
+        "On",
+        "In",
+        "At"
+      ],
+      "correctAnswer": 1,
+      "explanation": "On utilise « on Monday ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_011",
+      "question": " Nous vérifions ma voiture deux à trois fois par semaine :",
+      "options": [
+        "We tcheck my car too or three time by week",
+        "We check my car two or three times a week",
+        "We check my car two or three times by week"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct = « We check my car two or three times a week ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_012",
+      "question": " Fill it up, please :",
+      "options": [
+        "Remplissez-le s'il vous plait",
+        "Le plein s'il vous plait",
+        "Garder le moral"
+      ],
+      "correctAnswer": 2,
+      "explanation": "À la station-service « Fill it up » = « Le plein svp ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_013",
+      "question": " We will probably not make it on time. There's too much traffic",
+      "options": [
+        "Nous arriverons probablement en retard. Il y a trop de circulation",
+        "Nous arriverons probablement en retard. Il y a beaucoup de ralentissement",
+        "Nous arriverons certainement en retard. Il y a peu de circulation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Traduction : Nous arriverons probablement en retard. Il y a trop de circulation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_014",
+      "question": " \"To demand\", signifie :",
+      "options": [
+        "Exiger",
+        "Demander",
+        "Supplier"
+      ],
+      "correctAnswer": 1,
+      "explanation": "« To demand » = exiger (faux ami avec « demander »).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_015",
+      "question": " How long are you planning to stay in France ?",
+      "options": [
+        "Comment comptez-vous rester en France ?",
+        "Combien de fois êtes-vous venu en France ?",
+        "Combien de temps comptez-vous rester en France ?"
+      ],
+      "correctAnswer": 3,
+      "explanation": "« How long are you planning to stay in France? » = Combien de temps…",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_016",
+      "question": " Est-ce qu'il y a un Musée dans votre ville ?",
+      "options": [
+        "Is there a museum in your town ?",
+        "Whats a museum in your town ?",
+        "Is there museum on your town ?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct = « Is there a museum in your town? ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_017",
+      "question": " « The landscape », signifie :",
+      "options": [
+        "La campagne",
+        "La prairie",
+        "Le paysage"
+      ],
+      "correctAnswer": 3,
+      "explanation": "« Landscape » = paysage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_018",
+      "question": " Avez-vous des enfants ?",
+      "options": [
+        "Have you get children ?",
+        "Have you children ?",
+        "Have you got children ?"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Forme correcte = « Have you got children? ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_019",
+      "question": " I went to Paris ...... air :",
+      "options": [
+        "By",
+        "In the",
+        "With",
+        "On"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Transport : on dit « by air ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_020",
+      "question": " \"A refound\", signifie :",
+      "options": [
+        "Un remboursement",
+        "Un refus",
+        "Une retrouvaille"
+      ],
+      "correctAnswer": 1,
+      "explanation": "« Refund » = remboursement (orthographe corrigée).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_021",
+      "question": " I need a taxi for tomorrow afternoon :",
+      "options": [
+        "J'ai besoin d'un taxi pour demain après-midi",
+        "J'ai besoin d'un taxi pour demain",
+        "J'ai besoin d'un taxi pour cet après-midi"
+      ],
+      "correctAnswer": 1,
+      "explanation": "« I need a taxi for tomorrow afternoon ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_022",
+      "question": " Est-ce qu'il y a un musée dans votre ville ?",
+      "options": [
+        "Is there museum on your town ?",
+        "Whats a museum in your town ?",
+        "Is there a museum in your town?"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Bonne formulation = « Is there a museum in your town? ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_023",
+      "question": " Pouvez-vous attendre quelques minutes ? Mon ami arrive.",
+      "options": [
+        "Could you wait a couple of minutes ?  My friend would arrive",
+        "Could you wait a couple of minutes ?  My friend is coming",
+        "Are you waiting a couple of minutes ? My friend is coming"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct = « Could you wait… My friend is coming ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_024",
+      "question": " Souhaitez-vous un reçu ?",
+      "options": [
+        "Do you want a ticket ?",
+        "Would you like a receipt ?",
+        "Did you want a bill ?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "On dit « Would you like a receipt? ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_025",
+      "question": " Ma voiture ne démarre pas :",
+      "options": [
+        "My car shouldn't start",
+        "My car didn't start",
+        "My car doesn't start"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Présent simple : « My car doesn’t start ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_026",
+      "question": " What is the translation of « driving» ?",
+      "options": [
+        "Conduire",
+        "Partir",
+        "Construire"
+      ],
+      "correctAnswer": 1,
+      "explanation": "« Driving » = conduire.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_027",
+      "question": " Quelle est la marque de votre voiture ?",
+      "options": [
+        "What brand is your car ?",
+        "How is your car ?",
+        "Is that your car ?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct = « What brand is your car? ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_028",
+      "question": " Are you free ?",
+      "options": [
+        "Êtes-vous disponible ?",
+        "Êtes-vous prêt ?",
+        "Êtes-vous gratuit ?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "« Are you free? » = disponible.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_029",
+      "question": " Mettez votre ceinture de sécurité :",
+      "options": [
+        "Fasten your seat belt",
+        "Sit on your seat belt",
+        "Unfasten your seat belt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "« Fasten your seat belt ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_030",
+      "question": " Can you take us to the airport before 4 pm ?",
+      "options": [
+        "Pouvez-vous nous conduire à l'aéroport avant 4h de l'après midi ?",
+        "Pouvez-vous aller à l'aéroport à 4h de l'apès midi ?",
+        "Peux-tu nous prendre à l'aéroport à 4h ?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "« Can you take us to the airport before 4 pm? ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_031",
+      "question": " I am so sorry, I lost my wallet. What can we do ?",
+      "options": [
+        "Je suis désolé, j'ai perdu mon sac à main. Que pouvons-nous faire ?",
+        "Je suis désolé, j‘ai perdu mon portefeuille. Que pouvonsnous faire ?",
+        "Je suis désolé, j‘ai perdu mon portefeuille. Que pouvez-vous faire ?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "« I lost my wallet » = portefeuille.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_032",
+      "question": " Do you have a business card ?",
+      "options": [
+        "Avez-vous une carte professionnelle ?",
+        "Avez-vous une carte des entreprises ?",
+        "Avez-vous une carte de visite ?"
+      ],
+      "correctAnswer": 3,
+      "explanation": "« Business card » = carte de visite.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_033",
+      "question": " I can't go through, the road is blocked.",
+      "options": [
+        "Je peux traverser, la circulation n'est pas bloquée",
+        "Je ne peux pas y aller, la route est bloquée",
+        "Je peux y aller, la route n'est pas bloquée"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Traduction : « Je ne peux pas y aller, la route est bloquée ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_034",
+      "question": " There seems to be traffic jams on the motorway, do you know another way ?",
+      "options": [
+        "Il semble que les routes soient bloquées, pouvez-vous prendre l'autoroute ?",
+        "Il semblerait qu'il faille prendre l'autoroute pour éviter les bouchons ?",
+        "Apparemment, il y a des bouchons sur l'autoroute, connaissez-vous une autre route ?"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Bonne traduction = « there are traffic jams… another way? ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_035",
+      "question": " Will we be on time for my train ?",
+      "options": [
+        "Est-ce que le train sera à l'heure ?",
+        "Serons-nous à l'heure pour mon train ?",
+        "A quelle heure est mon train ?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct = « Will we be on time for my train? ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_036",
+      "question": " Taking the bus is cheaper than taking the train :",
+      "options": [
+        "Prendre le bus coûte plus cher que prendre le train",
+        "Prendre le bus coûte moins cher que prendre le train",
+        "Prendre le bus est plus long que prendre le train"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Comparatif : bus cheaper than train.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_037",
+      "question": " We booked a guest house in Lamentin :",
+      "options": [
+        "Nous avons réservé dans une maison d'hôtes au Lamentin",
+        "Vous livrez les invités au Lamentin",
+        "Nous avons un livre d'invités au Lamentin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Traduction : « We booked a guest house… ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_038",
+      "question": " | have a commute at the station at 4.15 pm.",
+      "options": [
+        "J‘ai une correspondance à la gare à 16h15",
+        "J‘ai une correspondance à l'aéroport à 16h15",
+        "J'ai une correspondance à la gare à 4h15 du matin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Commute = correspondance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_039",
+      "question": " I would like to visit the south of France, have you already been there ?",
+      "options": [
+        "J‘aimerais visiter le sud de la France, y êtes-vous déja allé ?",
+        "Je veux visiter le sud de la France, y êtes-vous déjà allé ?",
+        "Je veux visiter le sud de la France, êtes-vous déjà descendu là-bas ?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct = « I would like to visit… have you already been there? ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_040",
+      "question": " Do you have change on ten euros ?",
+      "options": [
+        "Pouvez-vous me donner dix euros ?",
+        "Connaissez-vous un bureau de change pour des euros ?",
+        "Avez-vous la monnaie sur dix euros ?"
+      ],
+      "correctAnswer": 3,
+      "explanation": "« Do you have change on ten euros? » = Avez-vous la monnaie…",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_041",
+      "question": " Savez-vous de quand date ce bâtiment historique ?",
+      "options": [
+        "Is it possible to visit this historical monument ?",
+        "Do you know some listed historical monuments ?",
+        "Do you know when this historical monument was built ?"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct = « Do you know when this historical monument was built? ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_042",
+      "question": " You will..., our island is amazing.",
+      "options": [
+        "Look",
+        "See",
+        "Watch"
+      ],
+      "correctAnswer": 2,
+      "explanation": "On dit « You will see ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_043",
+      "question": " Pourriez-vous passer me prendre ici demain à 6 heures, s'ilvous-plait ?",
+      "options": [
+        "Can you take me here tomorrow at 6, please ?",
+        "Could you pick me on here tomorrow at 6, please ?",
+        "Would you pick me up here tomorrow at 6, please ?"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Forme correcte = « Would you pick me up… ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_044",
+      "question": " Thank you for the ride, keep the change.",
+      "options": [
+        "Merci pour la course, ne changez pas",
+        "Merci d'avoir attendu, gardez la monnaie",
+        "Merci pour la course, gardez la monnaie"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Traduction : Merci pour la course, gardez la monnaie.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_045",
+      "question": " Passez-vous un agréable séjour en France ?",
+      "options": [
+        "Do you enjoy your stay in France ?",
+        "Do you like France ?",
+        "Are you ok in France ?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct = « Do you enjoy your stay in France? ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_046",
+      "question": " She...English very well.",
+      "options": [
+        "Speaks",
+        "Speak",
+        "Spoken"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Troisième personne singulier : « She speaks English very well ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_047",
+      "question": " Have you come for the music festival ?",
+      "options": [
+        "Êtes-vous venus pour le festival de musique ?",
+        "Avez-vous votre place pour le festival de musique ?",
+        "Êtes-vous allés au festival de musique ?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Traduction correcte : Êtes-vous venus pour le festival de musique ?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_048",
+      "question": " Souhaitez-vous un reçu ?",
+      "options": [
+        "Would you like a receipt ?",
+        "Did you want a bill ?",
+        "Do you want a ticket ?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct = « Would you like a receipt? ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_049",
+      "question": " Sorry ! It's quite expensive for us. May we get a ... price ?",
+      "options": [
+        "Less",
+        "Lower",
+        "Reduction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Comparatif : « lower price ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_050",
+      "question": " Les gilets jaunes bloquent les autoroutes en ce moment",
+      "options": [
+        "The yellow vests are blocking the motorways",
+        "The yellow vests block the motorways",
+        "The yellow vests blocked the motorways"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct = « The yellow vests are blocking the motorways ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_051",
+      "question": " Disabled welcome :",
+      "options": [
+        "Pas de fauteuil roulant",
+        "J‘accueille les handicapés",
+        "Pas de place pour le fauteuil"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Traduction correcte : « Disabled welcome » = j’accueille les handicapés.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_052",
+      "question": " Bonjour, etes-vous disponible pour m'emmener à la gare ?",
+      "options": [
+        "Hello, are you disponible to make me to the station ?",
+        "Hello, are you available to get me to the station ?",
+        "Hello, are you disponible to get me to the station ?",
+        "Hello, are you available to make me to the station ?"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct = « Hello, are you available to get me to the station? ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_053",
+      "question": " Do you take the...card?",
+      "options": [
+        "Business",
+        "Credit",
+        "Blue"
+      ],
+      "correctAnswer": 2,
+      "explanation": "On dit « credit card ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_054",
+      "question": " I was told to say anything concerning this new advert :",
+      "options": [
+        "Je n'ai rien à dire à propos de ce nouvel avertissement",
+        "On m'a dit de ne rien dire de cette nouvelle publicité",
+        "Je n'avais rien à dire concernant ce nouvel adversaire"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bonne traduction : « On m’a dit de ne rien dire de cette publicité ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_055",
+      "question": " Nous vérifions le moteur trois fois par an",
+      "options": [
+        "We check the motor three times per year",
+        "We're checking the motor three times per week",
+        "We were tchecking the motor three times per year"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct = « We check the motor three times per year ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_056",
+      "question": " Vous nous devez 53 euros :",
+      "options": [
+        "You must us 53 euros",
+        "You must buy 53 euros",
+        "You owe us 53 euros"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct = « You owe us 53 euros ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_057",
+      "question": " What is the opposite of slow ?",
+      "options": [
+        "Noisy",
+        "Dry",
+        "Fast"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Opposite of slow = fast.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_058",
+      "question": " Il est interdit de fumer dans la voiture !",
+      "options": [
+        "It's allowed of smoke in the car !",
+        "It's forbidden to smoke in the car !",
+        "It's forbidden of smoke in the car!"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct = « It’s forbidden to smoke in the car! ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_059",
+      "question": " Elle vit à Paris depuis dix ans",
+      "options": [
+        "She had been living in Paris since ten years",
+        "She has been living in Paris for ten years",
+        "She has lived in Paris until ten years",
+        "She lived in Paris for ten years"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct = « She has been living in Paris for ten years ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_060",
+      "question": " I took a taxi because the buses were on strike",
+      "options": [
+        "Je prends un taxi car les bus sont lents",
+        "J‘ai pris un taxi car les bus ne fonctionnaient pas",
+        "J‘ai pris un taxi car les bus étaient en grève"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Traduction correcte = « I took a taxi because the buses were on strike ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_061",
+      "question": " Un client vous demande de l'amener à \"the suburb\". Où irezvous ?",
+      "options": [
+        "Au métro",
+        "En banlieue",
+        "Au bord de la mer"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Suburb = banlieue.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_062",
+      "question": " Write the opposite of « boring »:",
+      "options": [
+        "Dangerous",
+        "Noisy",
+        "Exciting"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Opposite of boring = exciting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_063",
+      "question": " You are from Ireland, ..........:",
+      "options": [
+        "Do you?",
+        "Are you?",
+        "Aren't you?"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Tag question → You are from Ireland, aren’t you?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_064",
+      "question": " I have..........in downtown:",
+      "options": [
+        "Things to do",
+        "Gifts",
+        "Sometime"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct = « I have things to do in downtown ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_065",
+      "question": " Which French monuments do you advise us to visit ?",
+      "options": [
+        "I think that the Louvres and the Reims Cathedral would be great",
+        "You can go by car or by train to visit them",
+        "I don't see 326"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Réponse correcte = proposition monuments (Louvre, Reims Cathedral).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_066",
+      "question": " \"A cab\" est :",
+      "options": [
+        "Une cabine",
+        "Un cabriolet",
+        "Un taxi"
+      ],
+      "correctAnswer": 3,
+      "explanation": "« A cab » = un taxi.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_067",
+      "question": " Where do you come from? ",
+      "options": [
+        "D'où partez-vous ? ",
+        "Où allez-vous ? ",
+        "D'où venez-vous ?"
+      ],
+      "correctAnswer": 3,
+      "explanation": "« Where do you come from? » = D’où venez-vous ?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_068",
+      "question": " A steering wheel :",
+      "options": [
+        "Un pneu",
+        "Une roue de secours",
+        "Un volant 327"
+      ],
+      "correctAnswer": 3,
+      "explanation": "« Steering wheel » = volant.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_069",
+      "question": " Don't forget to give me a bill, please :",
+      "options": [
+        "Sorry, I don't know Bill",
+        "Of course, I will prepare it as soon as we arrive",
+        "Of course, I give you them when we arrive"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bonne réponse = « Of course, I will prepare it… ».",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eng_070",
+      "question": " Conduire prudemment permet de ne pas être verbalisé :",
+      "options": [
+        "A careful driving allows not being fined",
+        "A cautious drive permits not to get amends",
+        "To drive with prudence avoids contraventions  Réponses QCM"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct = « A careful driving allows not being fined ».",
+      "difficulty": "medium"
+    }
+  ]
+}

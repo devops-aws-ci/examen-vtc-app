@@ -1,109 +1,432 @@
 {
-  "category": "FRANCAIS",
-  "name": "Compréhension Française",
-  "description": "Maîtrise de la langue française",
-  "icon": "🇫🇷",
-  "duration": 30,
+  "category": "français",
+  "name": "Français",
+  "description": "Test de connaissance en français pour le futur chauffeur VTC.",
+  "icon": "france.png",
+  "duration": "20",
   "questions": [
     {
       "id": "fra_001",
-      "question": "Quel est le synonyme de 'itinéraire' ?",
-      "options": ["Parcours", "Véhicule", "Passager", "Tarif"],
-      "correctAnswer": 0,
-      "explanation": "Un itinéraire est un parcours, un chemin à suivre pour aller d'un point à un autre.",
-      "difficulty": "easy"
+      "question": " Que signifie le mot « recensement » ?",
+      "options": [
+        "Enquête",
+        "Recueil d'informations",
+        "Traitement de statistiques",
+        "Dénombrement détaillé"
+      ],
+      "correctAnswer": 4,
+      "explanation": "",
+      "difficulty": "medium"
     },
     {
       "id": "fra_002",
-      "question": "Comment écrit-on correctement ?",
-      "options": ["Nous avons était en retard", "Nous avons été en retard", "Nous avons êtres en retard", "Nous avons étés en retard"],
-      "correctAnswer": 1,
-      "explanation": "Le participe passé du verbe être est 'été', invariable avec l'auxiliaire avoir.",
+      "question": " Combien de Français utilisent le vélo au quotidien ?",
+      "options": [
+        "2%",
+        "4%",
+        "14%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
       "difficulty": "medium"
     },
     {
       "id": "fra_003",
-      "question": "Quelle phrase est correctement ponctuée ?",
+      "question": " Le mot « cadre » définit :",
       "options": [
-        "Bonjour Monsieur, où souhaitez-vous aller ?",
-        "Bonjour Monsieur où souhaitez-vous aller ?",
-        "Bonjour, Monsieur où souhaitez-vous aller ?",
-        "Bonjour Monsieur, où souhaitez vous aller ?"
+        "Un statut",
+        "Un classement administratif",
+        "Une grille de rémunération 265"
       ],
-      "correctAnswer": 0,
-      "explanation": "La virgule après 'Monsieur' est correcte, ainsi que le trait d'union dans 'souhaitez-vous'.",
+      "correctAnswer": 1,
+      "explanation": "",
       "difficulty": "medium"
     },
     {
       "id": "fra_004",
-      "question": "Que signifie 'être ponctuel' ?",
-      "options": ["Être en retard", "Arriver à l'heure", "Conduire vite", "Être poli"],
-      "correctAnswer": 1,
-      "explanation": "Être ponctuel signifie arriver à l'heure convenue, respecter les horaires.",
-      "difficulty": "easy"
+      "question": " Qu'est-ce que l'INSEE ?",
+      "options": [
+        "Une agence de publicité",
+        "Un institut de suivi de l'économie européenne",
+        "Une administration",
+        "Un institut d'études statistiques et économiques"
+      ],
+      "correctAnswer": 4,
+      "explanation": "",
+      "difficulty": "medium"
     },
     {
       "id": "fra_005",
-      "question": "Quel est le contraire de 'courtois' ?",
-      "options": ["Poli", "Respectueux", "Impoli", "Aimable"],
-      "correctAnswer": 2,
-      "explanation": "Le contraire de courtois (poli, respectueux) est impoli ou discourtois.",
-      "difficulty": "easy"
+      "question": " Qu'est-ce qu'une mesure incitative ?",
+      "options": [
+        "C'est une mesure obligatoire",
+        "C'est une mesure conseillée",
+        "C'est une mesure qui donne envie"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
     },
     {
       "id": "fra_006",
-      "question": "Comment conjugue-t-on 'aller' à la 1ère personne du futur ?",
-      "options": ["J'irai", "J'irais", "Je vais", "J'allais"],
-      "correctAnswer": 0,
-      "explanation": "Le futur de 'aller' à la 1ère personne du singulier est 'j'irai'.",
+      "question": " Qu'est-ce qu'une indemnité ?",
+      "options": [
+        "Une récompense",
+        "Le remboursement de frais",
+        "Une taxe sur les transports"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
       "difficulty": "medium"
     },
     {
       "id": "fra_007",
-      "question": "Quelle expression est correcte pour s'excuser d'un retard ?",
+      "question": " Quels éléments les sondés jugent prioritaires dans le plan vélo ?",
       "options": [
-        "Je suis désolé pour le retard",
-        "Je suis désolé du retard",
-        "Je suis désolé de retard",
-        "Je suis désolé avec le retard"
+        "La sécurité",
+        "De meilleures infrastructures",
+        "La mise en place d'une indemnité kilométrique velo 266"
       ],
-      "correctAnswer": 0,
-      "explanation": "L'expression correcte est 'Je suis désolé pour le retard' ou 'Je vous présente mes excuses pour le retard'.",
+      "correctAnswer": 1,
+      "explanation": "",
       "difficulty": "medium"
     },
     {
       "id": "fra_008",
-      "question": "Que signifie 'prendre en charge' un client ?",
+      "question": " Donnez un synonyme du verbe \"titiller\":",
       "options": [
-        "Lui faire payer plus cher",
-        "S'occuper de lui et le transporter",
-        "Le porter physiquement",
-        "Lui donner de l'argent"
+        "Tracasser",
+        "Interpeller",
+        "Taquiner"
       ],
-      "correctAnswer": 1,
-      "explanation": "Prendre en charge un client signifie s'occuper de lui, le transporter et assurer son service.",
-      "difficulty": "easy"
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
     },
     {
       "id": "fra_009",
-      "question": "Comment écrit-on le pluriel de 'travail' ?",
-      "options": ["Travails", "Travaux", "Travauxs", "Travailles"],
-      "correctAnswer": 1,
-      "explanation": "Le pluriel de 'travail' est 'travaux', comme pour la plupart des mots en -ail.",
+      "question": " Que signifie le verbe \"éradiquer\"?",
+      "options": [
+        "Maintenir",
+        "Faire disparaître",
+        "Conserver"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
       "difficulty": "medium"
     },
     {
       "id": "fra_010",
-      "question": "Quelle formule de politesse convient pour terminer un mail professionnel ?",
+      "question": " Donnez le contraire de l'adjectif \"autonome\".",
       "options": [
-        "Bisous",
-        "À bientôt",
-        "Cordialement",
-        "Ciao"
+        "Assistée",
+        "Libre",
+        "Indépendant 269"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_011",
+      "question": " Dans le texte, quel est le sens du mot « bardés » ?",
+      "options": [
+        "Devenus menaçants",
+        "Avec un prix réduit",
+        "Couverts"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_012",
+      "question": " Un comportement erratique, c'est :",
+      "options": [
+        "Un comportement instable",
+        "Un comportement sans cohérence",
+        "Un comportement dangereux"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_013",
+      "question": " La voiture autonome est un moyen de communication facile pour les constructeurs car :",
+      "options": [
+        "Le concept n'intéresse que les médias et pas le grand public",
+        "Elles sont équipées d'un système qui leur permet d'échanger des informations entre elles",
+        "Les médias diffusent les démonstrations des voitures autonomes ce qui permet de faire de la publicité aux constructeurs 270"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_014",
+      "question": " « Elles sera forcément mue par l'électricité » signifie :",
+      "options": [
+        "Elle se déplacera avec l'électricité comme source d'énergie",
+        "Elle se sera débarrassée de l'électricité pour se déplacer",
+        "Pour se mouvoir elle utilisera l‘électricité"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_015",
+      "question": " Quel pick-up est le plus apprécié aux États-Unis depuis longtemps ?",
+      "options": [
+        "Le SpaceX",
+        "Le Ford F-150",
+        "Le Blade Runner"
       ],
       "correctAnswer": 2,
-      "explanation": "'Cordialement' est une formule de politesse appropriée pour un contexte professionnel.",
-      "difficulty": "easy"
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_016",
+      "question": " Qu'est-ce qu'un prototype ?",
+      "options": [
+        "Dernier modèle d'une série",
+        "Un modèle de tests/d'études d'un nouveau produit",
+        "Modèle diffusé à grande échelle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_017",
+      "question": " Pourquoi le Cybertruck pourrait-il avoir du mal à séduire la clientèle traditionnelle ?",
+      "options": [
+        "Parce que c'est un véhicule électrique",
+        "Parce qu'il est trop cher",
+        "Parce qu'll ne ressemble à rien d'autre 274"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_018",
+      "question": " Donnez un (des) synonyme(s) de « arborer » :",
+      "options": [
+        "Cacher",
+        "Révéler",
+        "Afficher",
+        "Dissimuler"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_019",
+      "question": " Pour quel autre moyen de transport l'alliage en acier développé par Tesla sera-t-il utilisé ?",
+      "options": [
+        "Le Blade Runner",
+        "Le F-150",
+        "La fusée spatiale"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_020",
+      "question": " Quelle est l'autonomie maximale d'un modèle Cybertruck ?",
+      "options": [
+        "100km",
+        "800km",
+        "400km 275"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_021",
+      "question": " Quelle est la signification du mot « allure » dans le texte ?",
+      "options": [
+        "Aspect",
+        "Vitesse",
+        "Style"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_022",
+      "question": " Quel(s) est (sont) le(s) synonyme(s) de paradoxe :",
+      "options": [
+        "Invraisemblance",
+        "Accord",
+        "Concordance de genre"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_023",
+      "question": " L'industrie automobile :",
+      "options": [
+        " Respecte la parité homme / femme",
+        "Compte peu de femmes dans ses effectifs",
+        "Est un secteur très masculin"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_024",
+      "question": " Les auteures parlent d'un écart de 10 points entre les hommes et les femmes à l'examen du permis de conduire, cela signifie que",
+      "options": [
+        "Les femmes réussissent davantage à l'examen du permis de conduire",
+        "Les hommes réussissent plus souvent l'examen du permis de conduire que les femmes",
+        "Le permis de conduire des femmes à moins de points que celui des hommes 278"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_025",
+      "question": " L'accidentalité est :",
+      "options": [
+        "Le taux d'accident rapporté à une population",
+        "Le nombre d'accident par an",
+        "La science qui étudie la nature des accidents"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_026",
+      "question": " « L’influence des stéréotypes masculins et féminins tout au long du parcours scolaire » a quelle(s) conséquence(s) selon les auteures ?",
+      "options": [
+        "Les filles ne s'orientent pas vers les filières techniques automobiles",
+        "L’industrie automobile ne veut pas recruter des femmes",
+        "Les métiers de l'automobile sont trop durs physiquement pour les filles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_027",
+      "question": " Qu'est-ce qu'un stéréotype ?",
+      "options": [
+        "Un cliché",
+        "Une typologie",
+        "Un genre 279"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_028",
+      "question": " Trouvez le(s) synonyme(s) de précarité :",
+      "options": [
+        "Instabilité",
+        "Fragilité",
+        "Pauvreté"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_029",
+      "question": " Donnez un synonyme d’indécent :",
+      "options": [
+        "Opportun",
+        "Choquant",
+        "Correct"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_030",
+      "question": " Qu’est-ce que la « société civile » ?",
+      "options": [
+        "C’est l’ensemble des acteurs sociaux/économiques (entreprises, ONG, associations...)",
+        "C’est l’ensemble des personnes non-militaire",
+        "C’est l’ensemble des actions gouvernementales"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_031",
+      "question": " Qu’entend-on par « pays tiers » dans l’article ?",
+      "options": [
+        "Le troisième pays de l’union européenne",
+        "Un pays non-membre de l’union européenne",
+        "Un autre pays que la France 283"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_032",
+      "question": " Que signifie le sigle ONG",
+      "options": [
+        "Organisation non garantie",
+        "Organisation non gouvernementale",
+        "Optimisation non gouvernementale"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_033",
+      "question": " Que signifie l’expression « rapports glaçant » dans l’article ? ",
+      "options": [
+        "Des comptes rendus d’enquête excitants",
+        "Des secrets terrifiants",
+        "Des comptes rendus d’enquête terrifiants"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_034",
+      "question": " Qu’est-ce qu’un périple ?",
+      "options": [
+        "Un voyage comportant beaucoup d’étapes",
+        "Un évènement",
+        "Une figure de gymnastique 284"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "fra_035",
+      "question": " Donnez un antonyme de « vétuste » :",
+      "options": [
+        "Etroit",
+        "Neuf",
+        "Délabré"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
     }
   ]
 }

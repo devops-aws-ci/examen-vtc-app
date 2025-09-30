@@ -7,217 +7,1272 @@
   "questions": [
     {
       "id": "ges_001",
-      "question": "Le matériel informatique peut être amorti sur :",
-      "options": ["3 ans", "5 ans", "1 an"],
-      "correctAnswer": 0,
-      "explanation": "Le matériel informatique s'amortit généralement sur 3 ans selon les règles comptables.",
+      "question": "Quand il y a franchise de TVA cela signifie que :",
+      "options": [
+        "La déclaration de TVA sera faite ultérieurement",
+        "La prestation n’est pas assujettie à la TVA",
+        "L’entreprise ne peut pas récupérer la TVA"
+      ],
+      "correctAnswer": [ 2, 3 ],
+      "explanation": "Franchise en base : pas de collecte/déduction de TVA (Service-Public).",
       "difficulty": "medium"
     },
     {
       "id": "ges_002",
-      "question": "La TVA sur les prestations de transport de personnes est de :",
-      "options": ["20%", "10%", "5,5%", "0%"],
-      "correctAnswer": 1,
-      "explanation": "Le transport de personnes bénéficie d'un taux de TVA réduit à 10%.",
+      "question": "Quelle situation permet d’avoir un crédit de TVA",
+      "options": [
+        "TVA collectée superieurà TVA deductible",
+        "TVA collectée est inférieur TVA déductible",
+        "TVA collectée =TVA déductible"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Crédit de TVA quand déductible > collectée (impots.gouv).",
       "difficulty": "medium"
     },
     {
       "id": "ges_003",
-      "question": "Un auto-entrepreneur VTC doit déclarer son chiffre d'affaires :",
-      "options": ["Annuellement", "Trimestriellement", "Mensuellement", "Au choix"],
-      "correctAnswer": 3,
-      "explanation": "L'auto-entrepreneur peut choisir entre déclaration mensuelle ou trimestrielle.",
-      "difficulty": "easy"
+      "question": "Les achats de carburant figurent :",
+      "options": [
+        "Au compte de résultat, dans les charges",
+        "Au bilan , au passif",
+        "Au bilan à l’actif",
+        "Au compte de résultats , dans les produits"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
     },
     {
       "id": "ges_004",
-      "question": "Les charges sociales d'un conducteur VTC indépendant sont calculées sur :",
-      "options": ["Le chiffre d'affaires", "Le bénéfice", "Le nombre de kilomètres", "Le nombre de clients"],
-      "correctAnswer": 0,
-      "explanation": "Pour un auto-entrepreneur, les charges sociales sont un pourcentage du chiffre d'affaires.",
+      "question": "Quelle forme juridique est compatible avec le régime fiscal de la micro-entreprise ?",
+      "options": [
+        "La SARL a associé unique (anciennement EURL)",
+        "La SAS",
+        "L’EI",
+        "La SA"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
       "difficulty": "medium"
     },
     {
       "id": "ges_005",
-      "question": "L'assurance responsabilité civile professionnelle est due :",
+      "question": "La durée de conservation des bilans comptables est de :",
       "options": [
-        "Par tous les conducteurs de VTC indépendants",
-        "Par tous les conducteurs de VTC indépendants, à l'exception des auto-entrepreneurs",
-        "Par tous les conducteurs qu'ils soient indépendants ou salariés"
+        "1 an à compter de la date de clôture de l’exercice",
+        "10 ans à compter de la date de clôture",
+        "Tout au long de la durée de vie d’une entreprise"
       ],
-      "correctAnswer": 0,
-      "explanation": "Tous les conducteurs VTC indépendants doivent souscrire une assurance RC professionnelle.",
+      "correctAnswer": 2,
+      "explanation": "Conservation des pièces 10 ans (C. com. L123-22).",
       "difficulty": "medium"
     },
     {
       "id": "ges_006",
-      "question": "Le seuil de chiffre d'affaires pour rester auto-entrepreneur en prestations de services est de :",
-      "options": ["72 600 €", "176 200 €", "85 800 €", "Pas de limite"],
-      "correctAnswer": 0,
-      "explanation": "Le seuil pour les prestations de services est de 72 600 € en 2024.",
-      "difficulty": "hard"
+      "question": "Le terme BIC signifie :",
+      "options": [
+        "Bulletin indicatif de cours",
+        "Bénéfices industriels et commerciaux",
+        "Bénéfices de l’industrie et du commerce"
+      ],
+      "correctAnswer": 2,
+      "explanation": "BIC = Bénéfices industriels et commerciaux. https://entreprendre.service-public.fr/vosdroits/F32919",
+      "difficulty": "medium"
     },
     {
       "id": "ges_007",
-      "question": "La durée légale de conservation des factures est de :",
-      "options": ["5 ans", "10 ans", "3 ans", "Illimitée"],
-      "correctAnswer": 1,
-      "explanation": "Les factures doivent être conservées pendant 10 ans à des fins fiscales.",
+      "question": "Qu’est ce qu’un chiffre d’affaires ?",
+      "options": [
+        "L’ensemble des commandes et des devis",
+        "Différence entre les produits et les charges",
+        "Les sommes facturées aux clients"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
       "difficulty": "medium"
     },
     {
       "id": "ges_008",
-      "question": "Un véhicule VTC peut être financé par :",
-      "options": ["Achat comptant uniquement", "Crédit ou leasing", "Location longue durée", "Toutes ces solutions"],
+      "question": "Un bien totalement amorti, mais toujours en service :",
+      "options": [
+        "Ne doit plus apparaitre dans le bilan",
+        "Doit figurer dans le bilan dans la colonne passif",
+        "Doit figurer dans le bilan, dans la colonne « actif net » pour une valeur de 0 euros",
+        "Ne doit plus apparaitre dans les documents comptables de l’entreprise"
+      ],
       "correctAnswer": 3,
-      "explanation": "Toutes les solutions de financement sont possibles selon la situation de l'entreprise.",
-      "difficulty": "easy"
+      "explanation": "",
+      "difficulty": "medium"
     },
     {
       "id": "ges_009",
-      "question": "En cas de contrôle fiscal, quels documents doit présenter un VTC auto-entrepreneur ?",
+      "question": "Les termes actif et passif se rapportent au :",
       "options": [
-        "Seulement le livre de recettes",
-        "Livre de recettes et factures",
-        "Livre de recettes, factures et justificatifs d'achats",
-        "Aucun document spécifique"
+        "Journal des recettes",
+        "Compte des résultat",
+        "Bilan"
       ],
-      "correctAnswer": 2,
-      "explanation": "Un auto-entrepreneur doit tenir un livre de recettes et conserver toutes ses factures et justificatifs.",
+      "correctAnswer": 3,
+      "explanation": "",
       "difficulty": "medium"
     },
     {
       "id": "ges_010",
-      "question": "Le résultat d'une entreprise correspond à :",
+      "question": "Quelle est le montant requis lors de la création d’une SASU ?",
       "options": [
-        "Chiffre d'affaires - charges",
-        "Chiffre d'affaires + charges",
-        "Chiffre d'affaires × charges",
-        "Chiffre d'affaires ÷ charges"
+        "Le montant est libre",
+        "10 000 €",
+        "1 000 €",
+        "7 500 €"
       ],
-      "correctAnswer": 0,
-      "explanation": "Le résultat (bénéfice ou perte) = Chiffre d'affaires - Charges.",
-      "difficulty": "easy"
+      "correctAnswer": 1,
+      "explanation": "SASU : capital libre (min. 1 €) (Service-Public).",
+      "difficulty": "medium"
     },
     {
       "id": "ges_011",
-      "question": "La cotisation foncière des entreprises (CFE) concerne :",
+      "question": "Bilan et compte de résultat sont obligatoires pour toutes structures exploitées :",
       "options": [
-        "Tous les auto-entrepreneurs",
-        "Seulement les entreprises avec local",
-        "Toute activité professionnelle",
-        "Seulement les sociétés"
+        "Sous statut fiscal de réel simplifié",
+        "Sous régime de micro-entrepreneur",
+        "Sous statut fiscal de réel normal"
       ],
-      "correctAnswer": 2,
-      "explanation": "La CFE concerne toute activité professionnelle, y compris les auto-entrepreneurs.",
+      "correctAnswer": 3,
+      "explanation": "",
       "difficulty": "medium"
     },
     {
       "id": "ges_012",
-      "question": "Un conducteur VTC peut déduire de ses revenus :",
+      "question": "Parmi ces propositions, laquelle (lesquelles) se trouve(nt) à l'actif du bilan :",
       "options": [
-        "Seulement le carburant",
-        "Toutes les charges liées à l'activité",
-        "Rien du tout en auto-entrepreneur",
-        "Seulement l'assurance"
+        "Le prêt bancaire",
+        "La banque",
+        "Le véhicule",
+        "Le capital"
       ],
-      "correctAnswer": 1,
-      "explanation": "Toutes les charges justifiées et liées à l'activité professionnelle sont déductibles.",
+      "correctAnswer": [
+        2,
+        3
+      ],
+      "explanation": "",
       "difficulty": "medium"
     },
     {
       "id": "ges_013",
-      "question": "La comptabilité d'un auto-entrepreneur VTC consiste en :",
+      "question": "Une entreprise individuelle :",
       "options": [
-        "Une comptabilité complète",
-        "Un livre de recettes uniquement",
-        "Aucune obligation",
-        "Un bilan annuel"
+        "Doit changer de statut juridique pour embaucher un salarié",
+        "Peut embaucher des salariés",
+        "Ne peut embaucher qu'un apprenti"
       ],
-      "correctAnswer": 1,
-      "explanation": "L'auto-entrepreneur doit seulement tenir un livre de recettes (et un registre des achats si nécessaire).",
-      "difficulty": "easy"
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
     },
     {
       "id": "ges_014",
-      "question": "Le versement libératoire de l'impôt sur le revenu pour un auto-entrepreneur est de :",
-      "options": ["1%", "2,2%", "3%", "5%"],
+      "question": "Le résultat d'une entreprise est obtenu par :",
+      "options": [
+        "La différence entre produits et charges",
+        "La différence entre actif et passif",
+        "Stock + créances clients - dettes fournisseurs"
+      ],
       "correctAnswer": 1,
-      "explanation": "Le taux du versement libératoire est de 2,2% du chiffre d'affaires pour les prestations de services.",
-      "difficulty": "hard"
+      "explanation": "",
+      "difficulty": "medium"
     },
     {
       "id": "ges_015",
-      "question": "En cas de dépassement du seuil auto-entrepreneur, que se passe-t-il ?",
+      "question": "Dans un bilan comptable, un amortissement fait baisser :",
       "options": [
-        "Rien, pas de conséquence",
-        "Passage automatique en entreprise individuelle",
-        "Amende fiscale",
-        "Interdiction d'exercer"
+        "Les charges",
+        "Le bénéfice",
+        "L‘imposition"
       ],
-      "correctAnswer": 1,
-      "explanation": "En cas de dépassement des seuils, il y a passage automatique au régime de l'entreprise individuelle.",
+      "correctAnswer": 2,
+      "explanation": "",
       "difficulty": "medium"
     },
     {
       "id": "ges_016",
-      "question": "Un auto-entrepreneur VTC doit-il facturer la TVA ?",
+      "question": "L'assujettissement du bénéfice de l'entreprise à l'impôt sur les sociétés est possible dans le cadre :",
       "options": [
-        "Oui, toujours",
-        "Non, jamais",
-        "Seulement au-dessus d'un certain seuil",
-        "Au choix"
+        "D'une SARL",
+        "D'une SARL à associé unique (anciennement EURL)",
+        "D'une micro-entreprise"
       ],
-      "correctAnswer": 2,
-      "explanation": "L'auto-entrepreneur est exonéré de TVA jusqu'à certains seuils de chiffre d'affaires.",
+      "correctAnswer": 1,
+      "explanation": "",
       "difficulty": "medium"
     },
     {
       "id": "ges_017",
-      "question": "La franchise en base de TVA permet :",
+      "question": "Les montants figurant dans le compte de résultat sont :",
       "options": [
-        "De ne pas déclarer la TVA",
-        "De ne pas facturer la TVA",
-        "De récupérer la TVA sur les achats",
-        "D'être exonéré d'impôts"
+        "HT",
+        "TTC",
+        "TVA"
       ],
       "correctAnswer": 1,
-      "explanation": "La franchise en base permet de ne pas facturer la TVA aux clients jusqu'à un certain seuil.",
+      "explanation": "",
       "difficulty": "medium"
     },
     {
       "id": "ges_018",
-      "question": "Un conducteur VTC en SARL doit :",
+      "question": "Qu'est-ce qu'une créance client?",
       "options": [
-        "Tenir une comptabilité simplifiée",
-        "Tenir une comptabilité complète",
-        "Aucune obligation comptable",
-        "Seulement un livre de recettes"
+        "Une facture en attente de création",
+        "Une facture impayée par un client",
+        "Une facture réglée par un client",
+        "Une facture due à un fournisseur"
       ],
-      "correctAnswer": 1,
-      "explanation": "Une SARL doit tenir une comptabilité complète avec bilan et compte de résultat.",
-      "difficulty": "hard"
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
     },
     {
       "id": "ges_019",
-      "question": "Les charges sociales d'un auto-entrepreneur VTC sont de :",
-      "options": ["12,8%", "22%", "25%", "45%"],
-      "correctAnswer": 1,
-      "explanation": "Le taux de charges sociales pour un auto-entrepreneur en prestations de services est de 22%.",
-      "difficulty": "hard"
+      "question": "Lequel de ces documents n'est pas demandé à un artisan pour s'inscrire au Répertoire des Métiers ?",
+      "options": [
+        "Extrait du casier judiciaire",
+        "Justificatif de domicile",
+        "Carte de sécurité sociale"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
     },
     {
       "id": "ges_020",
-      "question": "La déclaration de chiffre d'affaires auto-entrepreneur se fait :",
+      "question": "Le Président de la Chambre de Métiers et de l'Artisanat est :",
       "options": [
-        "Sur papier uniquement",
-        "En ligne uniquement",
-        "Au choix papier ou en ligne",
-        "Par téléphone"
+        "Un(e) salarié(e) de la fonction publique",
+        "Un(e) artisan(e) en exercice",
+        "Une personne nommée par le Préfet de région"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_021",
+      "question": "Un artisan exerçant en entreprise individuelle est imposé de plein droit à :",
+      "options": [
+        "L'impôt sur les sociétés et l'impôt sur le revenu des personnes physiques",
+        "L'impôt sur le revenu des personnes physiques",
+        "L'impôt sur les sociétés"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_022",
+      "question": "Quel est le taux de TVA applicable sur le transport de personnes ?",
+      "options": [
+        "7%",
+        "10%",
+        "20%",
+        "5,5 %"
+      ],
+      "correctAnswer": 2,
+      "explanation": "TVA transport de voyageurs : 10 % (BOFiP).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_023",
+      "question": "Quel est le code qui permet de déterminer l'activité réalisée par une entreprise ?",
+      "options": [
+        "SIRET",
+        "SIREN",
+        "APE"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_024",
+      "question": "Les emprunts sont intégrés dans :",
+      "options": [
+        "Les créances sur client",
+        "Les dettes à long terme",
+        "Les capitaux permanents",
+        "Les immobilisations"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_025",
+      "question": "Lors de la création d'une société la rédaction d'une annonce légale est :",
+      "options": [
+        "Obligatoire",
+        "Nécessaire pour faire de la publicité",
+        "Facultative"
       ],
       "correctAnswer": 1,
-      "explanation": "La déclaration de chiffre d'affaires auto-entrepreneur se fait obligatoirement en ligne.",
-      "difficulty": "easy"
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_026",
+      "question": "L'adhérent d'un centre de gestion agréé :",
+      "options": [
+        "N'a pas le droit d'accepter les paiements en espèces",
+        "Est tenu d'accepter les paiements par chèque",
+        "Ne peut accepter les paiements par carte bancaire"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_027",
+      "question": "Que signifie le signe CRDS ?",
+      "options": [
+        "Contribution pour la réduction de la dette sociale",
+        "Contribution régionale pour les dépenses sociales",
+        "Contribution pour le regroupement des dettes sociales",
+        "Contribution pour le remboursement de la dette sociale"
+      ],
+      "correctAnswer": 4,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_028",
+      "question": "Pour être immatriculé au Répertoire des métiers, le futur chef d'entreprise du T3P doit :",
+      "options": [
+        "Être titulaire du permis D transports en commun",
+        "Avoir une qualification professionnelle spécifique",
+        "Être propriétaire de son véhicule"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_029",
+      "question": "Un véhicule est acquis 22 000 € HT le 1er avril 2016. Calculez l'amortissement 2016, bilan au 31/12/2016, en tenant compte d'une durée d'amortissement de 4 ans.",
+      "options": [
+        "5 500 €",
+        "4 125 €",
+        "6 574 €",
+        "5 885 €"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_030",
+      "question": "Quel acte donne naissance à l'entreprise ?",
+      "options": [
+        "Le paiement des cotisations sociales",
+        "L'immatriculation au CFE",
+        "La rédaction de la 1ere facture"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_031",
+      "question": "Pour constituer une entreprise individuelle, le capital minimum à apporter est de :",
+      "options": [
+        "3 000 €",
+        "7 500 €",
+        "Aucun capital social minimum n'est requis",
+        "1 €"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_032",
+      "question": "L'EBE signifie :",
+      "options": [
+        "Encaissement brut excédentaire",
+        "Excédent brut d'exploitation",
+        "Excédent bénéficiaire employé"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_033",
+      "question": "Où sera comptabilisé à la date de clôture de l'exercice comptable le montant des achats réalisés sachant que tous les consommables ont été utilisés ?",
+      "options": [
+        "Dotation aux amortissements",
+        "Créances fournisseurs",
+        "Compte de résultat",
+        "Passif du bilan"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_034",
+      "question": "Les chambres de métiers et de l'artisanat et les chambres de commerce et d'industrie sont des :",
+      "options": [
+        "Établissements publics",
+        "Entreprises",
+        "Collectivités territoriales",
+        "Associations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_035",
+      "question": "La déclaration de cessation de paiement se fait :",
+      "options": [
+        "À la chambre de commerce et d'industrie",
+        "À la chambre de métiers et de l'artisanat",
+        "Auprès du greffe du Tribunal de Commerce"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_036",
+      "question": "Deux personnes décident de créer une SARL en détenant chacune la moitié des parts sociales. Elles souhaitent exercer en commun la gérance de la société. Indiquez le statut social de ces deux personnes :",
+      "options": [
+        "Statut d'entrepreneur individuel",
+        "Statut des travailleurs non-salariés",
+        "Statut des salariés"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_037",
+      "question": "La CSG :",
+      "options": [
+        "Est un impôt supporté par le salarié et prélevé sur sa fiche de paie",
+        "signifie « Contribution Salariale Généralisée »",
+        "Est un impôt prélevé à la source"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_038",
+      "question": "Parmi les 3 termes de comptabilité suivants, lequel n'est pas une composante de l'actif du bilan ?",
+      "options": [
+        "Le résultat de l'exercice",
+        "Les disponibilités",
+        "Les frais d'établissement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_039",
+      "question": "Le capital social d'une SARL est divisé en :",
+      "options": [
+        "Actions",
+        "Parts sociales",
+        "Obligations"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_040",
+      "question": "Qu'est-ce qu'un investissement ?",
+      "options": [
+        "Les assurances professionnelles",
+        "L'acquisition d'un véhicule",
+        "Les honoraires d'expert comptable"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_041",
+      "question": "Selon le Code du Commerce, les documents comptables doivent être conservés :",
+      "options": [
+        "Un an",
+        "3 ans",
+        "5 ans",
+        "10 ans"
+      ],
+      "correctAnswer": 4,
+      "explanation": "Conservation des documents 10 ans (L123-22).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_042",
+      "question": "Quels sont les critères qui caractérisent une activité relevant du Répertoire des Métiers ?",
+      "options": [
+        "L'effectif",
+        "La forme juridique",
+        "La nature d'activité",
+        "Le chiffre d'affaires"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_043",
+      "question": "Qui attribue le code APE d'une entreprise ?",
+      "options": [
+        "CMA",
+        "URSSAF",
+        "SSI",
+        "INSEE"
+      ],
+      "correctAnswer": 4,
+      "explanation": "Code APE attribué par l’INSEE.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_044",
+      "question": "Quelle est la durée de vie maximum prévue par la loi pour une SARL ?",
+      "options": [
+        "99 ans",
+        "25 ans",
+        "10 ans",
+        "50 ans"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_045",
+      "question": "Que signifie le sigle SARL ?",
+      "options": [
+        "Société anonyme à revenu limité",
+        "Société à responsabilié limitée",
+        "Société à risque limité"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_046",
+      "question": "Comment appelle-t-on entreprise artisanale ? l'extrait d'immatriculation d'une",
+      "options": [
+        "Un extrait K-bis",
+        "Un extrait de casier n°2",
+        "Un extrait D1"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_047",
+      "question": "Chaque mois, la TVA à décaisser représente :",
+      "options": [
+        "La TVA sur les achats",
+        "La TVA déductible moins la TVA collectée",
+        "La TVA collectée moins la TVA déductible"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_048",
+      "question": "Lorsque les charges d'exploitation d'une entreprise sont inférieures aux produits :",
+      "options": [
+        "Il y a perte d'exploitation",
+        "L'entreprise doit déposer le bilan",
+        "Il y a bénéfice"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_049",
+      "question": "Dans quel cas un gérant de société à capitaux est-il salarié ?",
+      "options": [
+        "Associé unique S.A.R.L.",
+        "Gérant de S.A.R.L. possédant 49 % des parts sociales",
+        "Gérant de S.A.R.L. possédant 51 % des parts sociales",
+        "Gérant de S.A.S"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_050",
+      "question": "Dans un bilan :",
+      "options": [
+        "Si le total de l'actif est inférieur au passif il y a perte",
+        "Le total de l'actif est toujours égal au total du passif",
+        "Si le total de l'actif est supérieur au passif il y a bénéfice"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_051",
+      "question": "Le Président d'une SASU est :",
+      "options": [
+        "Travailleur salarié",
+        "Salarié",
+        "Assimilé salarié"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Président de SASU = assimilé salarié (URSSAF).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_052",
+      "question": "La TVA sur les carburants est-elle récupérable ?",
+      "options": [
+        "Non, dans tous les cas",
+        "Oui, totalement dans tous les cas",
+        "Cela dépend de la fiscalité départementale",
+        "Oui, partiellement dans tous les cas"
+      ],
+      "correctAnswer": 4,
+      "explanation": "TVA carburants : récupération partielle (Service-Public).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_053",
+      "question": "Parmi ces propositions, qu'est-ce qui constitue une charge déductible pour un entrepreneur individuel ?",
+      "options": [
+        "La facture d'entretien du véhicule",
+        "Le prélèvement de l'exploitant",
+        "L'achat d'un véhicule",
+        "Le loyer de crédit-bail"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_054",
+      "question": "Pour être immatriculé au Répertoire des Métiers, le futur chef d'entreprise du T3P doit :",
+      "options": [
+        "Avoir une qualification professionnelle spécifique",
+        "Être titulaire du permis D transports en commun",
+        "Être propriétaire de son véhicule"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_055",
+      "question": "A l'actif du bilan figure :",
+      "options": [
+        "Les créances des clients",
+        "Le capital",
+        "Le bénéfice de l'année"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_056",
+      "question": "Quelle mention n'est pas obligatoire sur le bulletin de salaire ?",
+      "options": [
+        "Le montant net à payer",
+        "Le diplôme du salarié",
+        "La convention collective applicable"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_057",
+      "question": "La SAS est sur le plan juridique :",
+      "options": [
+        "Une personne juridique",
+        "Une personne morale",
+        "Une personne professionnelle",
+        "Une personne physique"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_058",
+      "question": "Dans un bilan comptable, un amortissement fait baisser :",
+      "options": [
+        "Les charges",
+        "Le bénéfice",
+        "L’imposition"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_059",
+      "question": "La libération totale du capital social dans une société à responsabilité limitée (SARL) doit intervenir au plus tard dans un délai de :",
+      "options": [
+        "99 ans",
+        "5 ans",
+        "10 ans",
+        "1 an"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_060",
+      "question": "Les montants figurant dans le compte de résultat sont :",
+      "options": [
+        "HT",
+        "TTC",
+        "BIC"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Montants du compte de résultat en HT (si TVA).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_061",
+      "question": "Existe-t-il une durée minimale pour un contrat à durée déterminée ?",
+      "options": [
+        "1 mois",
+        "Pas de durée minimale",
+        "7 jours",
+        "15 jours"
+      ],
+      "correctAnswer": 2,
+      "explanation": "CDD : pas de durée minimale légale (hors cas spécifiques).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_062",
+      "question": "Pour une entreprise sous statut SARL, la TVA est :",
+      "options": [
+        "Une charge financière",
+        "Une charge",
+        "Un mouvement de trésorerie",
+        "Un produit"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_063",
+      "question": "Quelle est la dépense qui ne constitue pas une charge pour l'entreprise ?",
+      "options": [
+        "Intérêt d'un prêt professionnel",
+        "Abonnement à une revue professionnelle",
+        "Remboursement du capital d'un prêt professionnel"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_064",
+      "question": "Quel statut du conjoint du chef d'entreprise ne convient pas à l'entreprise individuelle ?",
+      "options": [
+        "Conjoint salarié",
+        "Conjoint hors statut",
+        "Conjoint associé",
+        "Conjoint collaborateur"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_065",
+      "question": "Qu'est-ce qu'un chiffre d'affaires ?",
+      "options": [
+        "L’argent qui reste en banque après avoir payé toutes les charges",
+        "L’ensemble des commandes ou devis",
+        "L’ensemble des sommes facturées aux clients",
+        "La différence entre les produits et les charges"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_066",
+      "question": "Les revenus d'un chef d'entreprise individuelle sont imposés dans les catégories des :",
+      "options": [
+        "RCM (revenus de capitaux mobiliers)",
+        "BNC (bénéfices non commerciaux)",
+        "IS (Impôts sur les sociétés)",
+        "BIC (bénéfices industriels et commerciaux)"
+      ],
+      "correctAnswer": 4,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_067",
+      "question": "Deux personnes décident de créer une SARL en détenant chacune la moitié des parts sociales. Elles souhaitent exercer en commun la gérance de la société. Indiquez le statut social de ces deux personnes :",
+      "options": [
+        "Statut des salariés",
+        "Statut d'entrepreneur individuel",
+        "Statut des travailleurs non-salariés"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_068",
+      "question": "Que signifie le sigle BNC ?",
+      "options": [
+        "Bénéfice non commercial",
+        "Bénéfice net comptable",
+        "Bénéfice non connu"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_069",
+      "question": "Parmi les charges suivantes, quelles sont celles considérées comme étant des charges fixes ?",
+      "options": [
+        "L’assurance du véhicule",
+        "Les achats de carburant",
+        "Les honoraires comptables"
+      ],
+      "correctAnswer": [
+        1,
+        3
+      ],
+      "explanation": "Coût -> calcul arithmétique précisé dans l’énoncé.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_070",
+      "question": "L'entreprise réalise un emprunt, cette opération a pour effet(s) immédiat(s) :",
+      "options": [
+        "D’augmenter la trésorerie",
+        "De diminuer la trésorerie",
+        "D’augmenter les capitaux étrangers",
+        "D’augmenter les capitaux propres"
+      ],
+      "correctAnswer": [
+        1,
+        3
+      ],
+      "explanation": "Emprunt : hausse trésorerie et dettes (capitaux étrangers).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_071",
+      "question": "La CSG :",
+      "options": [
+        "Est un impôt supporté par le salarié et prélevé sur sa fiche de paie",
+        "Est un impôt prélevé à la source.",
+        "Signifie « Contribution Salariale Généralisée »"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_072",
+      "question": "Le seuil de rentabilité est atteint lorsque :",
+      "options": [
+        "Coûts fixes = coûts variables",
+        "Résultat = 0",
+        "Chiffre d'affaires = coûts fixes",
+        "(Coûts fixes + coûts variables) = chiffre d'affaires"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Seuil de rentabilité : Résultat=0.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_073",
+      "question": "Le cout de revient d'une prestation est de 22 €, vous souhaitez réaliser une marge de 20% sur le prix de vente net de taxe, votre prix de vente net de taxe sera de :",
+      "options": [
+        "26,00 €",
+        "26,40 €",
+        "27,50 €"
+      ],
+      "correctAnswer": 2,
+      "explanation": "22 € + 20 % = 26,40 €.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_074",
+      "question": "A quoi est limitée la responsabilité d'un simple actionnaire ?",
+      "options": [
+        "A ses biens personnels",
+        "A son apport",
+        "A la totalité des dettes de l'entreprise"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_075",
+      "question": "Quels sont les documents comptables obligatoires pour une micro entreprise ?",
+      "options": [
+        "Le registre des achats",
+        "Le livre des recettes",
+        "Le bilan",
+        "Le compte de résultat"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Micro : livre des recettes (registre achats si revente).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_076",
+      "question": "Quel est le taux de T.V.A. applicable sur le transport de personnes ?",
+      "options": [
+        "10%",
+        "20%",
+        "5,5%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Transport de personnes : 10 % (BOFiP).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_077",
+      "question": "Quel document mesure l'enrichissement et l'appauvrissement d'une entreprise ?",
+      "options": [
+        "Le compte de résultat",
+        "La balance",
+        "Le bilan",
+        "Le grand livre"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_078",
+      "question": "Quels sont les critères qui caractérisent une activité relevant du Répertoire des métiers ?",
+      "options": [
+        "La nature d'activité",
+        "L'effectif",
+        "Le chiffre d'affaires",
+        "La forme juridique"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_079",
+      "question": "Vous empruntez 25 000 € sur une durée de 5 ans, l'annuité est de 5 600 E. Quel est le coût de l'emprunt ?",
+      "options": [
+        "4 200 €",
+        "3 000 €",
+        "3 600 €"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_080",
+      "question": "La dotation aux amortissements de l'année correspond à : Un produit calculé",
+      "options": [
+        "Un poste figurant dans le compte de résultat",
+        "Une charge calculée",
+        "Un poste figurant au passif"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_081",
+      "question": "Le conjoint d'un travailleur indépendant doit être déclaré à la chambre des métiers et de l'artisanat pour pouvoir exercer dans l'entreprise",
+      "options": [
+        "Non",
+        "Oui",
+        "Facultatif"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_082",
+      "question": "Quelle mention n'est pas obligatoire sur le bulletin de salaire ?",
+      "options": [
+        "Le montant net à payer",
+        "Le diplôme du salarié",
+        "La convention collective applicable"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_083",
+      "question": "Quelle est la durée de validité d'un devis ?",
+      "options": [
+        "Variable selon les mentions du devis",
+        "30 jours",
+        "3 mois"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_084",
+      "question": "Quelle est la différence entre le SIRET et le SIREN ?",
+      "options": [
+        "Le SIREN contient plus de chiffres",
+        "Le SIRET contient plus de chiffres",
+        "Aucune différence"
+      ],
+      "correctAnswer": 2,
+      "explanation": "SIREN 9 chiffres / SIRET 14 (INSEE).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_085",
+      "question": "Dans quel(s) cas, le dirigeant peut-il être salarié de son entreprise ?",
+      "options": [
+        "Associé minoritaire SARL",
+        "Dirigeant de micro-entreprise",
+        "Président de SAS ou SASU"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_086",
+      "question": "La trésorerie d'une entreprise est :",
+      "options": [
+        "La différence entre le fonds de roulement et le besoin en fonds de roulement",
+        "La différence entre l'actif circulant et les dettes à court terme",
+        "La différence entre les capitaux permanents et l'actif immobilisé"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_087",
+      "question": "Quelle est la durée de validité d’un chèque émis ?",
+      "options": [
+        "1 an et 8 jours",
+        "6 mois",
+        "2 ans et 1 jour",
+        "Pas de durée"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Validité d’un chèque : 1 an et 8 jours. Service-Public.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_088",
+      "question": "Développez l’acronyme APE (de code APE)",
+      "options": [
+        "Accord paritaire d’entreprise",
+        "Activité professionnelle de l’entreprise",
+        "Activité principale exercée"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_089",
+      "question": "Quelles sont les 2 composantes d’un bilan ?",
+      "options": [
+        "Les produits et les dépenses",
+        "L’actif et le passif",
+        "Les entrées et les sorties"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_090",
+      "question": "Auprès de quel organisme un entrepreneur individuel cotise-t-il pour sa retraite de base",
+      "options": [
+        "SSI",
+        "RSA",
+        "CNAV"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_091",
+      "question": "Mes clients me paient 30 jours fin de mois. Pour un achat réalisé le 5 avril, quand serai-je réglé ?",
+      "options": [
+        "31 mai",
+        "30 juin",
+        "30 avril"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_092",
+      "question": "Afin de pouvoir récupérer la TVA, une entreprise sera sous quel régime fiscal ?",
+      "options": [
+        "Versement fiscal libératoire",
+        "Régime réel simplifié de TVA",
+        "Régime réel normal de TVA",
+        "Franchise en base de TVA"
+      ],
+      "correctAnswer": [
+        2,
+        3
+      ],
+      "explanation": "Récupération TVA en réel simplifié/normal (impots.gouv).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_093",
+      "question": "Votre entreprise dépend fiscalement du régime de la microentreprise. Quelle est sa situation au regard de la TVA ?",
+      "options": [
+        "TVA à10%",
+        "TVA à 20%",
+        "Franchise en base de TVA"
+      ],
+      "correctAnswer": 3,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_094",
+      "question": "Le besoin en fonds de roulement",
+      "options": [
+        "Est toujours positif",
+        "Peut être positif ou négatif",
+        "Est toujours négatif"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_095",
+      "question": "Le président de la chambre des métiers est :",
+      "options": [
+        "Un fonctionnaire salarié de l’état",
+        "Un artisan en exercice",
+        "Elu par le préfet de région"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_096",
+      "question": "Parmi ces propositions, laquelle (lesquelles) se trouve(nt) à l’actif du bilan ?",
+      "options": [
+        "Véhicule",
+        "Autorisation de stationnement",
+        "Capital",
+        "Prêt bancaire"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_097",
+      "question": "Quels sont les différents types d’amortissements possibles ?",
+      "options": [
+        "Exponentiel",
+        "Linéaire",
+        "Dégressif"
+      ],
+      "correctAnswer": [
+        2,
+        3
+      ],
+      "explanation": "Méthodes d’amortissement : linéaire et dégressif.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_098",
+      "question": "Parmi les dépenses suivantes, quelles sont celles qui constituent des charges pour l’artisan ?",
+      "options": [
+        "La facture de révision et d’entretien du véhicule",
+        "L’acquisition d’un garage à des fins professionnelles",
+        "L’acquisition d’un micro-ordinateur pour l’entreprise",
+        "La facture du contrôle technique automobile"
+      ],
+      "correctAnswer": [
+        1,
+        3,
+        4
+      ],
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_099",
+      "question": "Qu'est-ce qu'un chiffre d'affaires ?",
+      "options": [
+        "L'argent qui reste en banque après avoir payé toutes les charges",
+        "La différence entre les produits et les charges",
+        "L'ensemble des commandes ou devis",
+        "L'ensemble des sommes facturées aux clients"
+      ],
+      "correctAnswer": 4,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_100",
+      "question": "Quels sont les critères qui caractérisent une activité relevant du Répertoire des métiers ?",
+      "options": [
+        "La nature d'activité",
+        "L'effectif",
+        "Le chiffre d'affaires",
+        "La forme juridique"
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ges_101",
+      "question": "Le cout de revient d'une prestation est de 22€, vous souhaitez réaliser une marge de 20% sur coût de revient, votre prix de vente net de taxe sera de :",
+      "options": [
+        "26,00 €",
+        "26,40 €",
+        "27,50 €"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "difficulty": "medium"
     }
   ]
 }

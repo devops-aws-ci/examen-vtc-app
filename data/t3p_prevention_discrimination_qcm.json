@@ -14,7 +14,7 @@
         "Ministère de l’intérieur",
         "Ministère en charge des transports"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 4,
       "explanation": "Art. 225-1 Code pénal : discrimination = traitement défavorable fondé sur critère prohibé.",
       "difficulty": "medium"
     },
@@ -41,7 +41,7 @@
         "2 vignettes rondes de couleur rouge",
         "2 vignettes rondes de couleur mauve"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "explanation": "Art. 225-2 Code pénal : sanctions = 3 ans prison et 45 000 € amende.",
       "difficulty": "medium"
     },
@@ -52,9 +52,9 @@
         "Un assureur ou une banque doté d'un numéro de Siret.",
         "Une structure agréée par l'AMF (Autorité des Marchés Financiers).",
         "Une organisation agréée par la Direction de la législation et de la réglementation financière.",
-        "Un organisme agréé par l'Autorité de contrôle prudentiel et de résolution."
+        "Un organisme agréé par l'Autorité de contrôle prudentiel et de résolution (ACPR)."
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 4,
       "explanation": "Refuser une course pour motif discriminatoire = interdit (Code des transports + art. 225-1 CP).",
       "difficulty": "medium"
     },
@@ -67,7 +67,10 @@
         "En apportant la preuve qu'il est propriétaire de sa voiture.",
         "Grâce à un contrat de location de plus de 6 mois."
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        3,
+        4
+      ],
       "explanation": "La carte professionnelle est délivrée par le préfet. Code des transports.",
       "difficulty": "medium"
     },
@@ -93,7 +96,7 @@
         "Non.",
         "Cela dépend de la situation de chaque chauffeur."
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "explanation": "Prévention discrimination = obligation légale de tout professionnel T3P.",
       "difficulty": "medium"
     },
@@ -105,7 +108,7 @@
         "Vous lui dites qu'il doit d'abord faire une réservation",
         "Vous refusez de le prendre"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "explanation": "Extrait B2 doit être vierge de condamnations incompatibles (Code des transports).",
       "difficulty": "medium"
     },
@@ -118,7 +121,7 @@
         "Rectangulaire et rouge",
         "Rond et rouge"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 4,
       "explanation": "Visite médicale obligatoire pour aptitude à la conduite professionnelle (Code des transports R3120-9).",
       "difficulty": "medium"
     },
@@ -131,7 +134,7 @@
         "En cas de location de plus de 6 mois d'un véhicule en utilisation régulière",
         "Lors d'une première inscription sur le registre, lors des renouvellements quinquennaux ou d'un changement de véhicule"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 4,
       "explanation": "Refus client handicapé = discrimination (art. 225-1 CP).",
       "difficulty": "medium"
     },
@@ -142,7 +145,7 @@
         "Oui.",
         "Non."
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 1,
       "explanation": "Formation discrimination incluse dans formation continue obligatoire (Arrêté 11 août 2017).",
       "difficulty": "medium"
     },
@@ -154,8 +157,8 @@
         "Avoir 10 points minimum sur son permis de conduire",
         "Casier judiciaire B2 vierge"
       ],
-      "correctAnswer": 2,
-      "explanation": "Critères prohibés nombreux (origine, orientation sexuelle, handicap...). Art. 225-1 CP.",
+      "correctAnswer": 3,
+      "explanation": "T3P : Transport Public Particulier de Personnes(Les taxis,Les VTC (Véhicules de Tourisme avec Chauffeur),Les VMDTR (Véhicules Motorisés à Deux ou Trois Roues).",
       "difficulty": "medium"
     },
     {
@@ -166,21 +169,21 @@
         "Une amende de 15 000 €et un an d'emprisonnement",
         "Une amende de 1500 €et six mois d'emprisonnement"
       ],
-      "correctAnswer": 1,
-      "explanation": "Le chauffeur doit assurer l’égalité de traitement entre clients.",
+      "correctAnswer": 2,
+      "explanation": "T3P : Transport Public Particulier de Personnes(Les taxis,Les VTC (Véhicules de Tourisme avec Chauffeur),Les VMDTR (Véhicules Motorisés à Deux ou Trois Roues).",
       "difficulty": "medium"
     },
     {
       "id": "t3p_014",
       "question": "Parmi les entreprises du T3P, quelles sont celles qui sont soumises à l'obligation de s'assurer en responsabilité civile professionnelle?",
       "options": [
-        "VTC et 2ou 3 roues",
+        "VTC et 2 ou 3 roues",
         "Le taxi, VTC et 2 ou 3 roues seulement",
         "Le taxi seulement",
         "Le taxi et le VTC seulement"
       ],
-      "correctAnswer": 3,
-      "explanation": "Refus discriminatoire = sanction disciplinaire et pénale (art. 225-2 CP).",
+      "correctAnswer": 2,
+      "explanation": "T3P : Transport Public Particulier de Personnes",
       "difficulty": "medium"
     },
     {
@@ -191,7 +194,7 @@
         "Avoir des tailles de pneumatiques fixées par décret",
         "Avoir une signalétique distinctive"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "explanation": "La responsabilité incombe au conducteur/exploitant. Code des transports.",
       "difficulty": "medium"
     },
@@ -218,7 +221,7 @@
         "Le Président de la chambre des métiers"
       ],
       "correctAnswer": 2,
-      "explanation": "La DDPP peut contrôler et sanctionner (répression des fraudes).",
+      "explanation": "T3P : Transport Public Particulier de Personnes",
       "difficulty": "medium"
     },
     {
@@ -231,7 +234,7 @@
         "1 an"
       ],
       "correctAnswer": 1,
-      "explanation": "Défenseur des droits (ex-HALDE) = autorité indépendante contre discriminations.",
+      "explanation": "T3P : Transport Public Particulier de Personnes",
       "difficulty": "medium"
     },
     {
@@ -243,20 +246,23 @@
         "Un taxi conventionné ou un Taxi moto conventionné ou un VTC conventionné",
         "Un taxi conventionné"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 4,
       "explanation": "Exemple de discrimination : refus de client en raison de son origine.",
       "difficulty": "medium"
     },
     {
       "id": "t3p_020",
-      "question": "Quels agents sont habilités àeffectuer un contrôle routier de conducteur de T3P ?",
+      "question": "Quels agents sont habilités à effectuer un contrôle routier de conducteur de T3P ?",
       "options": [
         "Les agents représentant la SNCF",
         "Les gendarmes",
         "Le juge du tribunal d'instance",
         "Les policiers"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": [
+        2,
+        4
+      ],
       "explanation": "La loi impose prévention discrimination dans T3P. Code des transports.",
       "difficulty": "medium"
     },
@@ -269,7 +275,10 @@
         "Transporter un appareil permettant de déceler la présence de systèmes servant à la constatation des infractions à la législation, ou à la réglementation de la circulation routière",
         "Poursuivre sa route, en connaissance de cause, après avoir occasionné un accident"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        2,
+        4
+      ],
       "explanation": "",
       "difficulty": "medium"
     },
@@ -308,7 +317,10 @@
         "Transporter un appareil permettant de déceler la présence de systèmes servant à la constatation des infractions à la législation, ou à la réglementation de la circulation routière",
         "Conduire avec un taux d'alcool dans le sang de 0.8 gramme par litre ou plus"
       ],
-      "correctAnswer": 4,
+      "correctAnswer": [
+        2,
+        4
+      ],
       "explanation": "",
       "difficulty": "medium"
     },
@@ -347,8 +359,11 @@
         "15,24 €",
         "25€"
       ],
-      "correctAnswer": 2,
-      "explanation": "",
+      "correctAnswer": [
+        2,
+        4
+      ],
+      "explanation": "Obligatoire a partir de 25€, au choix du client endessous de 25€",
       "difficulty": "medium"
     },
     {
@@ -372,7 +387,7 @@
         "Doit-être apposée de telle manière que la photographie soit visible de l'extérieur",
         "Il n'y a pas d'obligation d'apposer sa carte professionnelle dans le véhicule"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "",
       "difficulty": "medium"
     },
@@ -386,7 +401,7 @@
         "La cour d'appel"
       ],
       "correctAnswer": 4,
-      "explanation": "",
+      "explanation": "cour d'appel محكمة الاستئناف re-juger les faits , cour de cassation contrôler la conformité du droit مراجعة مدى احترام القانون محكمة النقض" ,
       "difficulty": "medium"
     },
     {
@@ -411,8 +426,11 @@
         "Une sanction administrative prise par un juge",
         "Consécutif à la décision d'un juge de l'ordre pénal sous certaines conditions"
       ],
-      "correctAnswer": 2,
-      "explanation": "",
+      "correctAnswer": [
+        2,
+        4
+      ],
+      "explanation": "Le préfet ➝ peut retirer la carte professionnelle par sanction administrative (non-respect des règles, sécurité, conditions non remplies).Le juge pénal ➝ peut retirer la carte comme peine complémentaire à une condamnation (infractions ou délits graves).👉 Donc : Retrait administratif (préfet) ou retrait judiciaire (juge pénal).",
       "difficulty": "medium"
     },
     {
@@ -437,7 +455,10 @@
         "Les agents représentant la SNCF",
         "Les gendarmes"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": [
+        2,
+        4
+      ],
       "explanation": "",
       "difficulty": "medium"
     },
@@ -463,8 +484,8 @@
         "7 ans",
         "2 ans"
       ],
-      "correctAnswer": 3,
-      "explanation": "",
+      "correctAnswer": 1,
+      "explanation": "Véhicules thermiques (essence / diesel) Ancienneté maximale : 7 ans (sauf exceptions en cas de dérogation préfectorale).⚡ Véhicules électriques et hybrides Aucune limite d’ancienneté",
       "difficulty": "medium"
     },
     {
@@ -489,7 +510,7 @@
         "1 an"
       ],
       "correctAnswer": 3,
-      "explanation": "",
+      "explanation": "Avant 60 ans → examen médical obligatoire tous les 5 ans. Entre 60 et 76 ans → tous les 2 ans.Après 76 ans → tous les ans.",
       "difficulty": "medium"
     },
     {
@@ -527,7 +548,10 @@
         "D'une épreuve d'intégration",
         "D'une épreuve d'admissibilité"
       ],
-      "correctAnswer": 4,
+      "correctAnswer": [
+        2,
+        4
+      ],
       "explanation": "",
       "difficulty": "medium"
     },
@@ -576,10 +600,14 @@
       "options": [
         "Une condition de validité n'est plus remplie",
         "Il est condamné pour délit par le juge du tribunal correctionnel.",
-        "Il est employé par un dirigeant qui ne respecte par la règlementation du transport de de voyageurs",
+        "Il est employé par un dirigeant qui ne respecte par la règlementation du transport de voyageurs",
         "Il cesse son activité professionnelle définitivement"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": [
+        1,
+        2,
+        4
+      ],
       "explanation": "",
       "difficulty": "medium"
     },
@@ -588,21 +616,22 @@
       "question": "Quels types de personnalités peuvent être associées avec voix consultative aux travaux des membres de la commission locale de T3P ?",
       "options": [
         "Un collège de représentants des professionnels (syndicats, organisations professionnelles)",
-        "Les représentants des organisations professionnelles des centrales de réservation des transports publics particuliers de personnes",
+        "Les représentants des organisations professionnelles des centrales de réservation des transports publics particuliers de personnes type uber Bolt ....",
         "Un collège de représentants de l'État (ex : préfet ou son représentant, DDPP, représentant de la gendarmerie/police nationale, .....)"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "explanation": "",
       "difficulty": "medium"
     },
     {
       "id": "t3p_047",
-      "question": "Pour accéder à la profession de conducteur de 3P, il faut obligatoirement : a ) Avoir une expérience professionnelle de conducteur de véhicule léger dans les 5 ans précédant la demande de carte professionnelle.",
-      "options": [
+      "question": "Pour accéder à la profession de conducteur de T3P, il faut obligatoirement :",
+      "options": [ 
+        "Avoir une expérience professionnelle de conducteur de véhicule léger dans les 5 ans précédant la demande de carte professionnelle.",
         "Suivre une formation",
         "Réussir à un examen"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "explanation": "",
       "difficulty": "medium"
     },
@@ -621,7 +650,7 @@
     },
     {
       "id": "t3p_049",
-      "question": "Le stage de formation continue dispensé aux conducteurs de transport public particulier de personnes permet d'obtenir une attestation valable :",
+      "question": "Le stage de formation continue dispensé aux conducteurs de T3P transport public particulier de personnes permet d'obtenir une attestation valable :",
       "options": [
         "5 ans",
         "2 ans",
@@ -640,7 +669,7 @@
         "Une amende de 15 000 € et un an d'emprisonnement",
         "Une amende de 1 500 € et six mois d'emprisonnement"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "",
       "difficulty": "medium"
     },
@@ -678,7 +707,7 @@
         "5 ans",
         "1 an"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 1,
       "explanation": "",
       "difficulty": "medium"
     },
@@ -691,7 +720,7 @@
         "Un taxi conventionné ou un Taxi moto conventionné ou un VTC conventionné",
         "Un taxi conventionné"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 4,
       "explanation": "",
       "difficulty": "medium"
     },
@@ -700,7 +729,7 @@
       "question": "Quel comportement constitue un outrage sexiste dans un VTC ?",
       "options": [
         "Un passager qui reste silencieux pendant tout le trajet",
-        "Un chauffeur qui respecte la ﻿vie privée du passager",
+        "Un chauffeur qui respecte la vie privée du passager",
         "Un chauffeur qui fait des remarques suggestives sur la tenue d'une passagère"
       ],
       "correctAnswer": 3,
@@ -710,14 +739,14 @@
     {
       "id": "t3p_056",
       "question": "Quelles sont les conséquences pour un conducteur de T3P qui ne serait pas titulaire d'une responsabilité civile professionnelle ?",
-      "options": [
+        "options": [
         "Une amende de 1 500 € et six mois d'emprisonnement",
         "Une amende de 30 000 € et deux ans d'emprisonnement",
         "Une amende de 15 000 € et un an d'emprisonnement",
         "Une amende de 5ème classe"
       ],
-      "correctAnswer": 3,
-      "explanation": "",
+      "correctAnswer": 4,
+      "explanation": "Absence d’assurance expose à des amendes et à des sanctions administratives, voire à l’interdiction d’exercer.",
       "difficulty": "medium"
     },
     {
@@ -729,7 +758,10 @@
         "L'examen est remplacé par une formation obligatoire",
         "Des épreuves d'admissibilité et des épreuves d'admission"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        2,
+        4
+      ],
       "explanation": "",
       "difficulty": "medium"
     },
@@ -741,7 +773,7 @@
         "Doit-être apposée de telle manière que la photographie soit visible de l'intérieur par le client",
         "Il n'y a pas d'obligation d'apposer sa carte professionnelle dans le véhicule"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "explanation": "",
       "difficulty": "medium"
     },
@@ -767,7 +799,10 @@
         "Condamnation pour abus de confiance",
         "Condamnation pour tapage nocturne"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": [
+        1,
+        4
+      ],
       "explanation": "",
       "difficulty": "medium"
     },
@@ -857,7 +892,7 @@
         "Aux taxis, VTC et VMDTR",
         "Aux taxis uniquement dans leur commune ou zone de rattachement"
       ],
-      "correctAnswer": 4,
+      "correctAnswer": 1,
       "explanation": "",
       "difficulty": "medium"
     },
@@ -867,7 +902,7 @@
       "options": [
         "Les services occasionnels",
         "Les services à la demande",
-        "Les services réguliers publics collectifs"
+        "Les services réguliers"
       ],
       "correctAnswer": 3,
       "explanation": "",
@@ -906,8 +941,8 @@
         "Pouvoir justifier d’une assurance responsabilité civile professionnelle",
         "Ne pas avoir un permis de conduire affecté par un délai probatoire"
       ],
-      "correctAnswer": 1,
-      "explanation": "",
+      "correctAnswer": 3,
+      "explanation": "La période probatoire c’est quoi ? Durée normale : 3 ans. Durée réduite à 2 ans si tu as fait la conduite accompagnée (AAC). \n Pendant cette période, ton capital de points est limité (6 points au lieu de 12) apres cette periode ton permis est définitif et tu as 12 points de capital.",
       "difficulty": "medium"
     },
     {
@@ -919,7 +954,7 @@
         "Le salarié seul",
         "L’artisan ou le salarié"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "explanation": "",
       "difficulty": "medium"
     },
@@ -932,19 +967,19 @@
         "De l’arrêt de maladie"
       ],
       "correctAnswer": 3,
-      "explanation": "",
+      "explanation": "Les artisans T3P (chauffeurs VTC, taxis, VMDTR en indépendant) sont travailleurs non-salariés (TNS)\n Ils ne bénéficient donc pas du régime des accidents du travail réservé aux salariés. \n En cas d’accident corporel (y compris pendant l’activité professionnelle), l’artisan est indemnisé par la sécurité sociale uniquement au titre de la maladie.\n Il peut percevoir des indemnités journalières maladie, mais pas celles spécifiques aux accidents du travail (qui sont plus avantageuses).",
       "difficulty": "medium"
     },
     {
       "id": "t3p_074",
-      "question": "Quelles sommes peut exiger un conducteur dans le cadre du covoiturage ?",
+      "question": "Quelles sommes peut exiger un conducteur dans le cadre de service de covoiturag ?",
       "options": [
         "Une somme définie par décret en fonction de la puissance du véhicule utilisé",
         "Le remboursement partiel de ses frais limité au carburant et au péage éventuel",
         "Aucune somme",
         "De l’arrêt de maladie"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "",
       "difficulty": "medium"
     },
@@ -956,7 +991,7 @@
         "Les conducteurs de voitures pour le covoiturage",
         "Les conducteurs de T3P"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "explanation": "",
       "difficulty": "medium"
     },
@@ -968,7 +1003,10 @@
         "Autorisé aux VTC",
         "Interdit aux VTC"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": [
+        1,
+        3
+      ],
       "explanation": "",
       "difficulty": "medium"
     },
@@ -980,8 +1018,8 @@
         "7 heures",
         "14 heures"
       ],
-      "correctAnswer": 1,
-      "explanation": "",
+      "correctAnswer": 3,
+      "explanation": "Tous les conducteurs de T3P (taxis, VTC, VMDTR) doivent suivre une formation continue obligatoire tous les 5 ans pour conserver leur carte professionnelle.\n ’arrêté du 11 août 2017 a fixé la durée minimale de cette formation à 14 heures.",
       "difficulty": "medium"
     },
     {
@@ -989,11 +1027,11 @@
       "question": "Un conducteur de transport particulier de personnes doit restituer da carte professionnelle l’orsqu’ :",
       "options": [
         "Il cesse son activité définitivement",
-        "Il est condamné pour délit par le juge du tribunal correctionnel.",
+        "Il est condamné pour délit par le juge du tribunal correctionnel.inraction grave",
         "Il est employé par un dirigeant qui ne respecte pas la réglementation du transport de voyageurs"
       ],
-      "correctAnswer": 2,
-      "explanation": "",
+      "correctAnswer": 1,
+      "explanation": "En cas de condamnation grave, la carte peut être retirée par décision judiciaire ou préfectorale (mais ce n’est pas une restitution volontaire).",
       "difficulty": "medium"
     },
     {
@@ -1005,8 +1043,11 @@
         "Un billet collectif de demande de transport d’une chorale de 8 chanteurs",
         "Le transport du Directeur du festival de théâtre de d’Automne de Paris pendant une semaine"
       ],
-      "correctAnswer": 3,
-      "explanation": "",
+      "correctAnswer": [
+        1,
+        2
+      ],
+      "explanation": "Le transport collectif occasionnel = transport effectué par un transporteur professionnel inscrit au registre des transporteurs routiers de voyageurs, pour un groupe déterminé de personnes (pas une seul persone individuel) , sans caractère de régularité (ex : sorties, voyages, séjours, chorales, clubs…).",
       "difficulty": "medium"
     },
     {
@@ -1018,7 +1059,7 @@
         "Ministère des transports",
         "Ministère de l’intérieur"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 3,
       "explanation": "",
       "difficulty": "medium"
     },
@@ -1030,7 +1071,7 @@
         "2 ans après la première mise en service",
         "1 an après la première mise en service"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "explanation": "",
       "difficulty": "medium"
     },
@@ -1044,7 +1085,7 @@
         "D’une interdiction de conduire dans la région où a été commise l’infraction"
       ],
       "correctAnswer": 3,
-      "explanation": "",
+      "explanation": "📌L’article R.3124-11 du Code des transports précise que le fait d’exercer l’activité de conducteur T3P (Taxi, VTC, VMDTR) sans carte professionnelle en cours de validité est puni de l’amende prévue pour les contraventions de 5ᵉ classe.\n Amende de 5ᵉ classe = jusqu’à 1 500 € (3 000 € en cas de récidive).\n ⚖️ Ce n’est pas un délit → donc pas de prison ni interdiction de conduire nationale ou régionale. \n 👉 Donc seule l’amende contraventionnelle de 5ᵉ classe s’applique. ",
       "difficulty": "medium"
     },
     {
@@ -1056,7 +1097,7 @@
         "50 membres au plus",
         "Pas de nombre maximum"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 3,
       "explanation": "",
       "difficulty": "medium"
     },
@@ -1069,7 +1110,7 @@
         "L’ordre commercial, l’ordre civil et l’ordre pénal",
         "L’ordre civil, l’ordre spécialisé et l’ordre pénal"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "explanation": "",
       "difficulty": "medium"
     },
@@ -1106,20 +1147,20 @@
         "Pour les taxis",
         "Pour les deux professions"
       ],
-      "correctAnswer": 2,
-      "explanation": "",
+      "correctAnswer": 1,
+      "explanation": "Le port de la ceinture est une obligation légale pour tous les conducteurs et passagers, y compris les taxis et les VTC. Toutefois, les chauffeurs de taxi en service peuvent bénéficier d'une dérogation limitée en agglomération lorsqu'ils transportent un client, mais en règle générale l'obligation s'applique aux deux professions.",
       "difficulty": "medium"
     },
     {
       "id": "t3p_088",
       "question": "Quelle est la signification du terme LOTI ?",
       "options": [
-        "Loi d’orientation du transport intérieur",
-        "Loi d’orientation du tourisme interne",
-        "Loi d’observation des taxis intramuros",
-        "Loi d’organisation du tourisme intérieur"
+        "Loi d’Orientation du Transport Intérieur",
+        "Loi d’Orientation du Tourisme Interne",
+        "Loi d’Observation des Taxis Intramuros",
+        "Loi d’Organisation du Tourisme Intérieur"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 1,
       "explanation": "",
       "difficulty": "medium"
     },
@@ -1132,8 +1173,8 @@
         "Deux assurances",
         "Une assurance"
       ],
-      "correctAnswer": 1,
-      "explanation": "",
+      "correctAnswer": 2,
+      "explanation": "Le conducteur de T3P doit justifier de deux assurances distinctes : la responsabilité civile automobile (assurance véhicule) et la responsabilité civile professionnelle couvrant le transport de personnes. Aucune obligation d’assurance tous risques n’existe.",
       "difficulty": "medium"
     },
     {
@@ -1144,7 +1185,7 @@
         "Non",
         "Oui"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "explanation": "",
       "difficulty": "medium"
     },
@@ -1157,7 +1198,10 @@
         "En cas de changement de domicile",
         "A défaut de restitution de la carte après cessation définitive d’activité"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": [
+        2,
+        4
+      ],
       "explanation": "",
       "difficulty": "medium"
     },
@@ -1169,7 +1213,7 @@
         "Orientation sexuelle",
         "Niveau de revenus"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "",
       "difficulty": "medium"
     },
@@ -1181,8 +1225,8 @@
         "Suspension temporaire de permis de conduire",
         "Formation obligatoire sur la conduite sécurisée"
       ],
-      "correctAnswer": 2,
-      "explanation": "",
+      "correctAnswer": 1,
+      "explanation": "La discrimination dans le secteur du VTC est un délit pénal.La discrimination (refus de prise en charge d’un client en raison de son origine, sexe, handicap, etc.) est un délit pénal en France.\n Elle peut être sanctionnée par des peines principales (amende, prison) et des peines complémentaires, dont l’interdiction des droits civiques, civils et de famille. Les autres options ne correspondent pas aux sanctions légales prévues.",
       "difficulty": "medium"
     },
     {
@@ -1193,7 +1237,7 @@
         "1 an d'emprisonnement et 5 000 euros d'amende",
         "6 mois d'emprisonnement et 1 000 euros d'amende"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 1,
       "explanation": "",
       "difficulty": "medium"
     },

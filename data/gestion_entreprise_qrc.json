@@ -5,43 +5,43 @@
     {
       "id": "ges_qrc_01",
       "question": "Mme Sophie achète et met en service un véhicule le 1er mars 2023 pour une valeur de 24 000 € HT, amortissable de façon linéaire sur 5 ans. Ses comptes sont clôturés traditionnellement le 31 décembre de chaque année. Quelle sera la valeur comptable nette du véhicule au 31 décembre 2026 ? Détaillez vos calculs.",
-      "answer": "Mme Sophie achète et met en service un véhicule le 1er mars 2023 pour une valeur de 24 000 € HT, amortissable de façon linéaire sur 5 ans. Ses comptes sont clôturés traditionnellement le 31 décembre de chaque année. Quelle sera la valeur comptable nette du véhicule au 31 décembre 2026 ? Détaillez vos calculs. 24 000 / 5 = 4 800 € 1er année = 4 800 x 10 / 12 = 4000 € 2ème, 3ème et 4ème année = 4 800 € chacune Total amortissement au 31 décembre 2026 = 18 400 € Valeur comptable nette au 31 décembre 2026 = 24 000 - 18 400 = 5 600 €",
+      "answer": "24 000 / 5 = 4 800 € 1er année = 4 800 x 10 / 12 = 4000 € 2ème, 3ème et 4ème année = 4 800 € chacune Total amortissement au 31 décembre 2026 = 18 400 € Valeur comptable nette au 31 décembre 2026 = 24 000 - 18 400 = 5 600 €",
       "points": 2
     },
     {
       "id": "ges_qrc_02",
       "question": "Vous créez seul(e) une activité de transport de personnes. Quels sont les statuts juridiques possibles ? (citez-en trois)",
-      "answer": "Vous créez seul(e) une activité de transport de personnes. Quels sont les statuts juridiques possibles ? (citez-en trois) Entreprise Individuelle (El). SARL à associé unique (anciennement EURL). SASU",
+      "answer": "Entreprise Individuelle (El). SARL à associé unique (anciennement EURL). SASU",
       "points": 2
     },
     {
       "id": "ges_qrc_03",
       "question": "Citez 2 types d'immobilisations.",
-      "answer": "Citez 2 types d'immobilisations. Immobilisations corporelles, immobilisations incorporelles, immobilisations financières.",
+      "answer": "Immobilisations corporelles (Biens physiques), immobilisations incorporelles (non pyhisqiue telque Logiciels, brevets, licences, marques), immobilisations financières.",
       "points": 2
     },
     {
       "id": "ges_qrc_04",
       "question": "Vous créez seul(e) une activité de transport de personnes. Quels sont les statuts juridiques possibles ? (citez-en trois)",
-      "answer": "Vous créez seul(e) une activité de transport de personnes. Quels sont les statuts juridiques possibles ? (citez-en trois) Entreprise Individuelle et/ou microentreprise. Entreprise individuelle à Responsabilité Limitée. EURL. SASU",
+      "answer": "Entreprise Individuelle et/ou microentreprise. SASU  . Entreprise individuelle à Responsabilité Limitée. EURL",
       "points": 2
     },
     {
       "id": "ges_qrc_05",
       "question": "Un artisan achète un véhicule 21 000 € HT. Ce véhicule est amorti sur 3 ans. De combien sera l'amortissement annuel ? Détaillez votre calcul.",
-      "answer": "Un artisan achète un véhicule 21 000 € HT. Ce véhicule est amorti sur 3 ans. De combien sera l'amortissement annuel ? Détaillez votre calcul. 21 000 / 3 = 7 000 € HT d'amortissement annuel",
+      "answer": "Détaillez votre calcul. 21 000 / 3 = 7 000 € HT d'amortissement annuel",
       "points": 2
     },
     {
       "id": "ges_qrc_06",
       "question": "Qu'est-ce qu'une personne morale ?",
-      "answer": "Qu'est-ce qu'une personne morale ? Une personne morale est généralement constituée par un regroupement de personnes physiques ou morales qui souhaitent accomplir quelque chose en commun.",
+      "answer": "Une personne morale est généralement constituée par un regroupement de personnes physiques ou morales qui souhaitent accomplir quelque chose en commun.",
       "points": 2
     },
     {
       "id": "ges_qrc_07",
       "question": "Donnez la définition d'un bilan comptable.",
-      "answer": "Donnez la définition d'un bilan comptable. l est fait par le comptable avant le 30 avril sur le formulaire 2033. Il montre les éléments d’actif et de passif. Il permet de connaitre la situation de l’entreprise à une date donnée.",
+      "answer": "l est fait par le comptable avant le 30 avril sur le formulaire 2033. Il montre les éléments d’actif et de passif. Il permet de connaitre la situation de l’entreprise à une date donnée.",
       "points": 2
     },
     {
@@ -53,67 +53,67 @@
     {
       "id": "ges_qrc_09",
       "question": "Citez 2 modes de transmission d’une entreprise",
-      "answer": "Citez 2 modes de transmission d’une entreprise Une entreprise peut être céder à titre gratuit ou par donation ou bien à titre onéreux",
+      "answer": "Une entreprise peut être céder à titre gratuit ou par donation ou bien à titre onéreux",
       "points": 2
     },
     {
       "id": "ges_qrc_10",
       "question": "Expliquez la différence entre Les numéros SIREN et SIRET",
-      "answer": "Expliquez la différence entre Les numéros SIREN et SIRET Le numéro SIREN (pour « système d'identification du répertoire des entreprises ») est le numéro unique d’identification de chaque entreprise. C’est ce numéro qui permet d’identifier chaque entreprise auprès des administrations. Le numéro SIRET (pour « système d'identification du répertoire des établissements ») permet lui d’identifier chaque établissement qui compose une entreprise. Il y a donc autant de n° SIRET que d’établissement dans l’entreprise. Il est composé de 14 chiffres : les 9 chiffres du numéro SIREN + les 5 chiffres du NIC (numéro interne de classement propre à chaque établissement). Les numéros SIREN et SIRET sont générés par l’Insee et récupérés au même moment.",
+      "answer": "Expliquez la différence entre Les numéros SIREN (9 chiffre) et SIRET (14 chiffres)) Le numéro SIREN (pour « système d'identification du répertoire des entreprises ») est le numéro unique d’identification de chaque entreprise. C’est ce numéro qui permet d’identifier chaque entreprise auprès des administrations. Le numéro SIRET (pour « système d'identification du répertoire des établissements ») permet lui d’identifier chaque établissement qui compose une entreprise. Il y a donc autant de n° SIRET que d’établissement dans l’entreprise. Il est composé de 14 chiffres : les 9 chiffres du numéro SIREN + les 5 chiffres du NIC (numéro interne de classement propre à chaque établissement). Les numéros SIREN et SIRET sont générés par l’Insee et récupérés au même moment.",
       "points": 2
     },
     {
       "id": "ges_qrc_11",
       "question": "Que représente le point mort en comptabilité ?",
-      "answer": "Que représente le point mort en comptabilité ? le point mort désigne l'instant où une entreprise atteint son seuil de rentabilité. Il symbolise le moment où elle ne réalise ni gains ni pertes sur son activité. C’est-à-dire avoir un résultat à zéro (total des charges = total des produits).",
+      "answer": "le point mort désigne l'instant où une entreprise atteint son seuil de rentabilité. Il symbolise le moment où elle ne réalise ni gains ni pertes sur son activité. C’est-à-dire avoir un résultat à zéro (total des charges = total des produits).",
       "points": 2
     },
     {
       "id": "ges_qrc_12",
       "question": "Qu’est-ce que la taxe CTE ?",
-      "answer": "Qu’est-ce que la taxe CTE ? La Contribution Économique Territoriale (CET) est composée de La Cotisation Foncière des Entreprises (CFE) et de la Cotisation sur la Valeur Ajoutée des Entreprises (CVAE). Elle est due, pour toute l’année, par toutes les personnes physiques ou morales qui exercent en France une activité professionnelle non salariée, lucrative et à titre habituel au 1er janvier. Peuvent être exonérés certaines activités artisanales à condition que le professionnel travaille seul et à condition que l'artisan ne soit pas redevable de l'impôt sur les sociétés (IS), La cotisation n’est pas due la première année de la création.",
+      "answer": "La Contribution Économique Territoriale (CET) est composée de La Cotisation Foncière des Entreprises (CFE) et de la Cotisation sur la Valeur Ajoutée des Entreprises (CVAE). Elle est due, pour toute l’année, par toutes les personnes physiques ou morales qui exercent en France une activité professionnelle non salariée, lucrative et à titre habituel au 1er janvier. Peuvent être exonérés certaines activités artisanales à condition que le professionnel travaille seul et à condition que l'artisan ne soit pas redevable de l'impôt sur les sociétés (IS), La cotisation n’est pas due la première année de la création.",
       "points": 2
     },
     {
       "id": "ges_qrc_13",
       "question": "M. PAUL achète un véhicule le 1er mars 2020 pour une valeur de 24 000 € HT, amortissable de façon linéaire sur 5 ans. Ses comptes sont clôturés traditionnellement le 31 décembre de chaque année. Quelle est la valeur comptable du véhicule au 31 décembre 2023 ?",
-      "answer": "M. PAUL achète un véhicule le 1er mars 2020 pour une valeur de 24 000 € HT, amortissable de façon linéaire sur 5 ans. Ses comptes sont clôturés traditionnellement le 31 décembre de chaque année. Quelle est la valeur comptable du véhicule au 31 décembre 2023 ? 24 000 / 60 = 400 ( amortissement mensuel). Le véhicule a été amorti pendant 46 mois (10 mois en 2020 12 en 2021 12 en 2022 et 12 en 2023). Il reste donc 14 mois d’amortissement (60-46) soit 14 X 400 = 5600. On peut faire aussi la méthode comptable : 24 000 /5 = 4800 amortissement pour un an. Il reste 14 mois X 30 jours par mois = 420 jours restant (4800 X 420) / 360 = 5600. La valeur du véhicule est de 5600 €.",
+      "answer": " 24 000 / 60 = 400 ( amortissement mensuel). Le véhicule a été amorti pendant 46 mois (10 mois en 2020 12 en 2021 12 en 2022 et 12 en 2023). Il reste donc 14 mois d’amortissement (60-46) soit 14 X 400 = 5600. On peut faire aussi la méthode comptable : 24 000 /5 = 4800 amortissement pour un an. Il reste 14 mois X 30 jours par mois = 420 jours restant (4800 X 420) / 360 = 5600. La valeur du véhicule est de 5600 €.",
       "points": 2
     },
     {
       "id": "ges_qrc_14",
       "question": "Citez 3 soldes intermédiaires de gestion",
-      "answer": "Citez 3 soldes intermédiaires de gestion 1. la production de l’exercice 2. la marge commerciale 3. la valeur ajoutée 4. l’excédent brut d’exploitation 5. le résultat d’exploitation 6. le résultat financier 7. le résultat courant avant impôt 8. le résultat exceptionnel 9. le résultat de l’exercice",
+      "answer": "1. la production de l’exercice 2. la marge commerciale 3. la valeur ajoutée 4. l’excédent brut d’exploitation 5. le résultat d’exploitation 6. le résultat financier 7. le résultat courant avant impôt 8. le résultat exceptionnel 9. le résultat de l’exercice",
       "points": 2
     },
     {
       "id": "ges_qrc_15",
       "question": "Vous créez seul une activité de transport de personnes. Quels sont les statuts possibles ? (citez-en trois)",
-      "answer": "Vous créez seul une activité de transport de personnes. Quels sont les statuts possibles ? (citez-en trois) Entreprise individuelle EI Micro-entreprise Entreprise individuelle à responsabilité limitée EIRL Entreprise unipersonnelle à responsabilité limitée EURL Société par actions simplifiée unipersonnelle SASU",
+      "answer": "Entreprise individuelle EI Micro-entreprise Entreprise individuelle à responsabilité limitée EIRL Entreprise unipersonnelle à responsabilité limitée EURL Société par actions simplifiée unipersonnelle SASU",
       "points": 2
     },
     {
       "id": "ges_qrc_16",
       "question": "Citez deux régimes de base de la protection sociale en France.",
-      "answer": "Citez deux régimes de base de la protection sociale en France. Régime général de la sécurité sociale Régime agricole Régimes spéciaux (SNCF, fonctionnaires…) Sécurité sociale des indépendants (SSI)",
+      "answer": "Régime général de la sécurité sociale. Régime agricole. Régimes spéciaux (SNCF, fonctionnaires…). Sécurité sociale des indépendants (SSI)",
       "points": 2
     },
     {
       "id": "ges_qrc_17",
       "question": "Développez les sigles SSI et URSSAF.",
-      "answer": "Développez les sigles SSI et URSSAF. SSI : Sécurité Sociale des Indépendants URSSAF : Union de Recouvrement des cotisations de Sécurité Sociale et d’Allocations Familiales",
+      "answer": "SSI : Sécurité Sociale des Indépendants.\n URSSAF : Union de Recouvrement des cotisations de Sécurité Sociale et d’Allocations Familiales",
       "points": 2
     },
     {
       "id": "ges_qrc_18",
       "question": "Qu'est-ce que le seuil de rentabilité",
-      "answer": "Qu'est-ce que le seuil de rentabilité C'est le montant de chiffre d'affaires à réaliser afin d'obtenir un résultat nul ou un bénéfice",
+      "answer": "C'est le montant de chiffre d'affaires à réaliser afin d'obtenir un résultat nul ou un bénéfice",
       "points": 2
     },
     {
       "id": "ges_qrc_19",
       "question": "Quelle est la différence entre une charge fixe et une charge variable ?",
-      "answer": "Une charge fixe reste identique quel que soit le niveau d’activité (ex : loyer, assurances), tandis qu’une charge variable varie en fonction du volume d’activité (ex : carburant, frais de mission).",
+      "answer": "Une charge fixe reste identique quel que soit le niveau d’activité (ex: loyer, assurances), tandis qu’une charge variable varie en fonction du volume d’activité (ex : carburant, frais de mission).",
       "points": 2
     }
   ]

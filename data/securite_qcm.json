@@ -394,7 +394,7 @@
         "Je dois m’arrêter pour faciliter le passage du transport en commun",
         "Il n’y a pas de règle, c’est une question de courtoisie"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "",
       "difficulty": "medium"
     },
@@ -423,7 +423,10 @@
         "Pour déterminer la sanction encourue par l'auteur",
         "Pour que le garagiste puisse établir un devis des réparations"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        1,
+        2
+      ],
       "explanation": "Constat amiable : pour déterminer responsabilités.",
       "difficulty": "medium"
     },
@@ -450,7 +453,7 @@
         "130 km/h",
         "90 km/h"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 3,
       "explanation": "",
       "difficulty": "medium"
     },
@@ -467,7 +470,7 @@
         3,
         4
       ],
-      "explanation": "0,7 g/L = contravention + −6 points (pas prison). R234‑1.",
+      "explanation": "Le taux légal d’alcoolémie est limité à 0,5 g/L de sang (0,25 mg/L d’air expiré) pour les conducteurs confirmés, et à 0,2 g/L (0,10 mg/L d’air expiré) pour les jeunes conducteurs en permis probatoire (moins de 3 ans de permis). Entre 0,5 et 0,8 g/L, il s’agit d’une contravention : 135 € d’amende, retrait de 6 points et possible suspension. À partir de 0,8 g/L, c’est un délit : jusqu’à 4 500 € d’amende, 6 points en moins, suspension ou annulation du permis, et jusqu’à 2 ans d’emprisonnement.",
       "difficulty": "medium"
     },
     {
@@ -520,7 +523,10 @@
         "Véhicules de secours d'électricité",
         "Véhicules de service hivernal"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        1,
+        2
+      ],
       "explanation": "",
       "difficulty": "medium"
     },
@@ -606,10 +612,7 @@
         "N'ont pas le droit de s'engager dans la traversée d'une chaussée hors d'un passage piéton, même s'il n'en n'existe pas à moins de 50 mètres",
         "Sont tenus d'utiliser, lorsqu'il en existe à moins de 50 mètres, les passages prévus à leur intention"
       ],
-      "correctAnswer": [
-        1,
-        4
-      ],
+      "correctAnswer": 4,
       "explanation": "Piéton : utiliser un passage si <50 m ; tenir compte visibilité/vitesse.",
       "difficulty": "medium"
     },
@@ -637,7 +640,10 @@
         "J'allume mes feux de détresse",
         "Je m'arrête sur ma droite"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        2,
+        3
+      ],
       "explanation": "",
       "difficulty": "medium"
     },
@@ -686,7 +692,7 @@
         "70 m",
         "80 m"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "explanation": "",
       "difficulty": "medium"
     },
@@ -860,7 +866,10 @@
         "Je suis toujours prioritaire",
         "Je dois la priorité durant la manœuvre"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": [
+        1,
+        3
+      ],
       "explanation": "En manœuvre : je dois la priorité pendant la manœuvre.",
       "difficulty": "medium"
     },
@@ -909,7 +918,10 @@
         "M’indique une descente dangereuse sur une distance de 1 500 mètres",
         "M’oblige à réduire ma vitesse"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": [
+        3,
+        4
+      ],
       "explanation": "Descente dangereuse sur 1 500 m (et non dans 1 500 m).",
       "difficulty": "medium"
     },
@@ -987,10 +999,7 @@
         "Du temps de réaction",
         "Des réflexes"
       ],
-      "correctAnswer": [
-        2,
-        3
-      ],
+      "correctAnswer": 3,
       "explanation": "Alcool : ↑ temps de réaction et distance de freinage.",
       "difficulty": "medium"
     },
@@ -1002,7 +1011,10 @@
         "Possible lors d’un accident corporel ou matériel",
         "Obligatoire pour toute infraction"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": [
+        1,
+        2
+      ],
       "explanation": "Dépistage stupéfiants obligatoire en cas d’accident mortel.",
       "difficulty": "medium"
     },
@@ -1016,7 +1028,7 @@
         "Couvrir la victime"
       ],
       "correctAnswer": [
-        2,
+        3,
         4
       ],
       "explanation": "Premiers secours : parler/couvrir ; ne pas retirer le casque.",
@@ -1087,6 +1099,7 @@
         "Est obligatoire sur toutes les automobiles mises en circulation actuellement"
       ],
       "correctAnswer": [
+        1,
         2,
         4
       ],
@@ -1102,7 +1115,7 @@
         "6 points"
       ],
       "correctAnswer": 1,
-      "explanation": "",
+      "explanation": "Le non-respect d’un STOP constitue une contravention de 4ᵉ classe. La sanction est une amende forfaitaire de 135 € et un retrait de 4 points. Une suspension de permis jusqu’à 3 ans peut aussi être prononcée.",
       "difficulty": "medium"
     },
     {
@@ -1114,10 +1127,7 @@
         "Lorsque le conducteur d’un véhicule est l’auteur présumé d’une infraction au code de la route punie d’une peine de suspension du permis de conduire",
         "Dans un accident corporel lorsqu’il existe une ou plusieurs raisons plausibles de soupçonner que la personne impliquée conduisait après avoir fait usage de produits stupéfiants"
       ],
-      "correctAnswer": [
-        2,
-        3
-      ],
+      "correctAnswer": 4,
       "explanation": "Stupéfiants : dépistage systématique pour certaines infractions et accidents graves.",
       "difficulty": "medium"
     },
@@ -1143,7 +1153,10 @@
         "Blessures involontaires entrainant une incapacité de travail de moins de 3 mois",
         "Utilisation en conduite d’un téléphone tenu en main"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": [
+        1,
+        3
+      ],
       "explanation": "Retrait 6 points : excès ≥50 km/h (tél tenu en main = −3).",
       "difficulty": "medium"
     },
@@ -1157,7 +1170,7 @@
         "Une amende"
       ],
       "correctAnswer": [
-        2,
+        1,
         4
       ],
       "explanation": "0,7 g/L : contravention + −6 points (pas prison).",
@@ -1184,7 +1197,10 @@
         "Réduit considérablement la distance d’arrêt",
         "Permet de ne pas allonger la distance d’arrêt"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": [
+        1,
+        3
+      ],
       "explanation": "ABS aide à garder la direction ; distance d’arrêt pas forcément réduite.",
       "difficulty": "medium"
     },

@@ -7,13 +7,13 @@
   "questions": [
     {
       "id": "sec_001",
-      "question": "Ce panneau m'indique :",
+      "question": "Ce panneau m'indique 🅿️🚫 (1.15 - 16.31) :",
       "options": [
         "Un stationnement à durée limitée",
         "Que du 1er au 15 de chaque mois, le stationnement est autorisé du côté des numéros impairs des immeubles bordant la rue",
         "Que du 1er au 15 de chaque mois, le stationnement est autorisé du côté des numéros pairs des immeubles bordant la rue"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "",
       "difficulty": "medium"
     },
@@ -53,13 +53,13 @@
         "110 km/h",
         "130 km/h"
       ],
-      "correctAnswer": 2,
-      "explanation": "110 km/h sur routes à 2 chaussées séparées (hors autoroute). R413-2.",
+      "correctAnswer": 1,
+      "explanation": ".",
       "difficulty": "medium"
     },
     {
       "id": "sec_005",
-      "question": "Les éléments qui favorisent le risque d’aquaplanage sont :",
+      "question": "Les éléments qui favorisent le risque d’aquaplanage(la voiture flotte littéralement et perd toute adhérence.) sont :",
       "options": [
         "Une grande quantité d’eau sur la chaussée",
         "Une vitesse élevée",
@@ -90,7 +90,7 @@
       "id": "sec_007",
       "question": "La roue de secours est-elle obligatoire dans une voiture ?",
       "options": [
-        "Non, la règlementation française ne l’impose pas",
+        "Non, la règlementation française ne l’impose pas (tu peux te satsiffaire de bobonne)",
         "Oui, il s’agit d’un équipement de sécurité",
         "Oui, il s’agit d’une obligation européenne"
       ],
@@ -111,7 +111,7 @@
         3,
         4
       ],
-      "explanation": "Feu tunnel : couper moteur, laisser clés, évacuer par issue de secours.",
+      "explanation": "En cas d’incendie dans un tunnel, il faut couper le moteur, laisser les clés sur le véhicule pour faciliter l’intervention des secours, et évacuer immédiatement par l’issue de secours la plus proche. Il est interdit de faire demi-tour ou de réduire la distance de sécurité.",
       "difficulty": "medium"
     },
     {
@@ -123,7 +123,10 @@
         "Non",
         "Je dois avoir à bord de mon véhicule des lunettes de rechange"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        1,
+        2
+      ],
       "explanation": "",
       "difficulty": "medium"
     },
@@ -193,13 +196,13 @@
     },
     {
       "id": "sec_015",
-      "question": "Ce pictogramme, qui figure sur des boîtes de médicaments, signifie :",
+      "question": "Ce pictogramme 🚗 ⚠️ NIVEAU 3, qui figure sur des boîtes de médicaments, signifie :",
       "options": [
         "Soyez très prudent. Ne pas conduire sans l’avis d’un professionnel de santé",
         "Attention, danger : ne pas conduire. Pour la reprise de la conduite, demandez l’avis d’un médecin",
         "Soyez prudent. Ne pas conduire sans avoir lu la notice"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "",
       "difficulty": "medium"
     },
@@ -207,16 +210,16 @@
       "id": "sec_016",
       "question": "Dans cette liste d'infractions, quelles sont celles qui entrainent un retrait de quatre points du permis de conduire :",
       "options": [
-        "Utilisation du téléphone en conduisant",
-        "Circulation en sens interdit",
-        "Stop glissé",
-        "Non port de la ceinture de sécurité"
+        "Utilisation du téléphone en conduisant (-3)",
+        "Circulation en sens interdit  −4",
+        "Stop glissé  −4",
+        "Non port de la ceinture de sécurité (-3)"
       ],
       "correctAnswer": [
         2,
         3
       ],
-      "explanation": "Sens interdit et stop = −4 pts ; téléphone/ceinture = −3 pts.",
+      "explanation": "Sens interdit et stop glissé = −4 pts ; téléphone/ceinture = −3 pts.",
       "difficulty": "medium"
     },
     {
@@ -288,14 +291,14 @@
     },
     {
       "id": "sec_022",
-      "question": "A 90 km/h la distance d'arrêt est approximativement de :",
+      "question": "A 90 km/h la distance d'arrêt (distance de réaction + distance de freinage) est approximativement de :",
       "options": [
         "80 m",
         "70 m",
         "50 m"
       ],
       "correctAnswer": 1,
-      "explanation": "",
+      "explanation": "La distance d’arrêt = distance de réaction + distance de freinage. À 90 km/h, la distance d’arrêt est d’environ 80 m (≈ 25 m de réaction + 55 m de freinage). On retient comme ordre de grandeur la formule vitesse/10 au carré pour estimer la distance de freinage.",
       "difficulty": "medium"
     },
     {

@@ -52,7 +52,7 @@
         "La SA"
       ],
       "correctAnswer": 3,
-      "explanation": "",
+      "explanation": "Le régime micro-entreprise est un régime fiscal et social applicable principalement aux entreprises individuelles (EI). Il n’est pas compatible avec les SA ou SAS, mais peut s’appliquer à certaines EURL à l’IR.",
       "difficulty": "medium"
     },
     {
@@ -265,7 +265,7 @@
     },
     {
       "id": "ges_021",
-      "question": "Un artisan exerçant en entreprise individuelle EI (Comme SASU IR) est imposé de plein droit à :",
+      "question": "Un artisan exerçant en entreprise individuelle EI (comme une SASU a l'IR) est imposé de plein droit à :",
       "options": [
         "L'impôt sur les sociétés et l'impôt sur le revenu des personnes physiques",
         "L'impôt sur le revenu des personnes physiques",
@@ -302,7 +302,7 @@
     },
     {
       "id": "ges_024",
-      "question": "Les emprunts sont intégrés dans :",
+      "question": "Les emprunts (emprunt = dette) sont intégrés dans :",
       "options": [
         "Les créances sur client",
         "Les dettes à long terme",
@@ -310,7 +310,7 @@
         "Les immobilisations"
       ],
       "correctAnswer": 2,
-      "explanation": "",
+      "explanation": "emprunt = dette (vu du côté de l’emprunteur).\n Emprunt = action de recevoir un crédit.\n Dette = situation qui en résulte.",
       "difficulty": "medium"
     },
     {
@@ -344,7 +344,7 @@
         "Contribution pour la réduction de la dette sociale",
         "Contribution régionale pour les dépenses sociales",
         "Contribution pour le regroupement des dettes sociales",
-        "Contribution pour le remboursement de la dette sociale"
+        "Contribution pour le Remboursement de la Dette Sociale"
       ],
       "correctAnswer": 4,
       "explanation": "",
@@ -372,7 +372,7 @@
         "5 885 €"
       ],
       "correctAnswer": 2,
-      "explanation": "",
+      "explanation": "Le véhicule coûte 22 000 € HT et est amorti sur 4 ans, soit 22 000 / 4 = 5 500 € par an. Comme il a été acquis le 1er avril 2016, il n’est utilisé que 9 mois sur l’année. L’amortissement 2016 est donc 5 500 × 9/12 = 4 125 €.",
       "difficulty": "medium"
     },
     {
@@ -447,7 +447,7 @@
         "Auprès du greffe du Tribunal de Commerce"
       ],
       "correctAnswer": 3,
-      "explanation": "",
+      "explanation": "La déclaration de cessation de paiement doit être faite au greffe du Tribunal de commerce dans un délai de 45 jours. Elle permet l'ouverture d'une procédure collective (sauvegarde, redressement ou liquidation judiciaire).",
       "difficulty": "medium"
     },
     {
@@ -470,7 +470,10 @@
         "signifie « Contribution Salariale Généralisée »",
         "Est un impôt prélevé à la source"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": [
+        1,
+        3
+      ],
       "explanation": "",
       "difficulty": "medium"
     },
@@ -532,8 +535,11 @@
         "La nature d'activité",
         "Le chiffre d'affaires"
       ],
-      "correctAnswer": 3,
-      "explanation": "",
+      "correctAnswer": [
+        1,
+        3
+      ],
+      "explanation": "Une activité relevant du Répertoire des Métiers est caractérisée par sa nature artisanale (production, transformation, réparation ou service) et par un effectif inférieur à 10 salariés La forme juridique et le chiffre d'affaires ne sont pas des critères déterminants.\n  effectif salarié → moins de 10 salariés",
       "difficulty": "medium"
     },
     {
@@ -583,7 +589,7 @@
         "Un extrait D1"
       ],
       "correctAnswer": 3,
-      "explanation": "",
+      "explanation": "Les entreprises artisanales sont inscrites au Répertoire des Métiers (RM).Leur justificatif officiel d’immatriculation est appelé extrait D1.L’extrait Kbis, lui, concerne les sociétés immatriculées au Registre du Commerce et des Sociétés (RCS).",
       "difficulty": "medium"
     },
     {
@@ -619,7 +625,10 @@
         "Gérant de S.A.R.L. possédant 51 % des parts sociales",
         "Gérant de S.A.S"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        2,
+        4
+      ],
       "explanation": "",
       "difficulty": "medium"
     },
@@ -632,7 +641,7 @@
         "Si le total de l'actif est supérieur au passif il y a bénéfice"
       ],
       "correctAnswer": 2,
-      "explanation": "",
+      "explanation": "Dans un bilan, le total de l'actif est toujours égal au total du passif car chaque ressource correspond à un emploi. L'équilibre est une règle comptable de base. La notion de bénéfice ou perte se calcule dans le compte de résultat, pas à partir de cette égalité.",
       "difficulty": "medium"
     },
     {
@@ -656,7 +665,7 @@
         "Cela dépend de la fiscalité départementale",
         "Oui, partiellement dans tous les cas"
       ],
-      "correctAnswer": 4,
+      "correctAnswer": 2,
       "explanation": "TVA carburants : récupération partielle (Service-Public).",
       "difficulty": "medium"
     },
@@ -666,11 +675,14 @@
       "options": [
         "La facture d'entretien du véhicule",
         "Le prélèvement de l'exploitant",
-        "L'achat d'un véhicule",
+        "L'achat d'un véhicule (immobilisation)",
         "Le loyer de crédit-bail"
       ],
-      "correctAnswer": 1,
-      "explanation": "",
+      "correctAnswer": [
+        1,
+        4
+      ],
+      "explanation": "Les charges déductibles sont les dépenses engagées dans l'intérêt de l'entreprise. La facture d'entretien du véhicule en fait partie. En revanche, le prélèvement de l'exploitant n'est pas une charge, l'achat d'un véhicule est une immobilisation et le crédit-bail est traité spécifiquement, mais ici la réponse attendue est l'entretien du véhicule.",
       "difficulty": "medium"
     },
     {
@@ -730,7 +742,10 @@
         "Le bénéfice",
         "L’imposition"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        2,
+        3
+      ],
       "explanation": "",
       "difficulty": "medium"
     },
@@ -794,7 +809,7 @@
         "Remboursement du capital d'un prêt professionnel"
       ],
       "correctAnswer": 3,
-      "explanation": "",
+      "explanation": "Le remboursement du capital d'un prêt n'est pas une charge mais un remboursement de dette. En revanche, les intérêts du prêt et l'abonnement à une revue professionnelle sont des charges car ils impactent le résultat de l'exercice.",
       "difficulty": "medium"
     },
     {
@@ -807,7 +822,7 @@
         "Conjoint collaborateur"
       ],
       "correctAnswer": 3,
-      "explanation": "",
+      "explanation": "En entreprise individuelle, il n’y a pas de capital social ni de parts sociales. Le conjoint ne peut donc pas être associé. Les statuts adaptés sont conjoint salarié, conjoint collaborateur ou conjoint hors statut.",
       "difficulty": "medium"
     },
     {
@@ -833,7 +848,7 @@
         "BIC (bénéfices industriels et commerciaux)"
       ],
       "correctAnswer": 4,
-      "explanation": "",
+      "explanation": "Les bénéfices d’une entreprise individuelle sont imposés à l’impôt sur le revenu. Ils relèvent de la catégorie BIC pour les activités commerciales, artisanales ou industrielles. Les BNC concernent les professions libérales (medecin, avocat,...),  et l’IS concerne les sociétés.",
       "difficulty": "medium"
     },
     {
@@ -888,7 +903,7 @@
         1,
         3
       ],
-      "explanation": "Emprunt : hausse trésorerie et dettes (capitaux étrangers).",
+      "explanation": "Un emprunt apporte des liquidités à l’entreprise, ce qui augmente sa trésorerie (actif). En contrepartie, il crée une nouvelle dette, ce qui augmente les capitaux étrangers (passif). Les capitaux propres ne sont pas concernés.",
       "difficulty": "medium"
     },
     {
@@ -899,7 +914,10 @@
         "Est un impôt prélevé à la source.",
         "Signifie « Contribution Salariale Généralisée »"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        1,
+        2
+      ],
       "explanation": "",
       "difficulty": "medium"
     },
@@ -912,7 +930,10 @@
         "Chiffre d'affaires = coûts fixes",
         "(Coûts fixes + coûts variables) = chiffre d'affaires"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        2,
+        4
+      ],
       "explanation": "Seuil de rentabilité : Résultat=0.",
       "difficulty": "medium"
     },
@@ -942,15 +963,18 @@
     },
     {
       "id": "ges_075",
-      "question": "Quels sont les documents comptables obligatoires pour une micro entreprise ?",
+      "question": "Quels sont les documents comptables obligatoires pour une micro entreprise(auto-entrepreuneur) pas besoin de compta ?",
       "options": [
         "Le registre des achats",
         "Le livre des recettes",
         "Le bilan",
         "Le compte de résultat"
       ],
-      "correctAnswer": 2,
-      "explanation": "Micro : livre des recettes (registre achats si revente).",
+      "correctAnswer": [
+        1,
+        2
+      ],
+      "explanation": " une micro entreprise( c'est auto-entrepreuneur) pas besoin de comptable , dond pas besoin de bilan et compte de result ,  La micro-entreprise doit tenir un livre des recettes et, si elle exerce une activité de vente de marchandises ou assimilée, un registre des achats. Elle n’a pas à établir de bilan ni de compte de résultat.",
       "difficulty": "medium"
     },
     {
@@ -975,7 +999,7 @@
         "Le grand livre"
       ],
       "correctAnswer": 1,
-      "explanation": "",
+      "explanation": "Le compte de résultat compare les produits et les charges d’un exercice. Il montre si l’entreprise s’est enrichie (bénéfice) ou appauvrie (perte). Le bilan décrit le patrimoine, tandis que la balance et le grand livre servent au suivi comptable.",
       "difficulty": "medium"
     },
     {
@@ -987,7 +1011,10 @@
         "Le chiffre d'affaires",
         "La forme juridique"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": [
+        1,
+        2
+      ],
       "explanation": "",
       "difficulty": "medium"
     },
@@ -1011,8 +1038,11 @@
         "Une charge calculée",
         "Un poste figurant au passif"
       ],
-      "correctAnswer": 2,
-      "explanation": "",
+      "correctAnswer": [
+        1,
+        2
+      ],
+      "explanation": "La dotation aux amortissements est une charge calculée qui constate la perte de valeur des immobilisations. Elle figure dans le compte de résultat comme charge d’exploitation. Elle n’apparaît pas directement au passif, mais en diminution de l’actif immobilisé.",
       "difficulty": "medium"
     },
     {
@@ -1097,7 +1127,7 @@
         "Pas de durée"
       ],
       "correctAnswer": 1,
-      "explanation": "Validité d’un chèque : 1 an et 8 jours. Service-Public.",
+      "explanation": "En France, un chèque est valable pendant 1 an et 8 jours à compter de sa date d’émission (article L.131-32 du Code monétaire et financier). Passé ce délai, il ne peut plus être encaissé.",
       "difficulty": "medium"
     },
     {
@@ -1126,14 +1156,14 @@
     },
     {
       "id": "ges_090",
-      "question": "Auprès de quel organisme un entrepreneur individuel cotise-t-il pour sa retraite de base",
+      "question": "Auprès de quel organisme un entrepreneur individuel (EI) cotise-t-il pour sa retraite de base",
       "options": [
-        "SSI",
-        "RSA",
-        "CNAV"
+        "SSI (Sécurité sociale des indépendants)",
+        "RSA (minimum social)",
+        "CNAV (retraite du régime général des salariés)" 
       ],
       "correctAnswer": 1,
-      "explanation": "",
+      "explanation": "L’entrepreneur individuel cotise pour sa retraite de base auprès de la Sécurité sociale des indépendants (SSI), désormais intégrée au régime général et gérée par l’URSSAF et la CPAM. La CNAV concerne les salariés, et le RSA n’est pas un organisme de retraite.",
       "difficulty": "medium"
     },
     {
@@ -1144,8 +1174,7 @@
         "30 juin",
         "30 avril"
       ],
-      "correctAnswer": 1,
-      "explanation": "",
+      "explanation": "Avec un paiement à 30 jours fin de mois, on part de la fin du mois de facturation (30 avril) et on ajoute 30 jours. L’échéance de règlement est donc fixée au 31 mai.",
       "difficulty": "medium"
     },
     {
@@ -1166,7 +1195,7 @@
     },
     {
       "id": "ges_093",
-      "question": "Votre entreprise dépend fiscalement du régime de la microentreprise. Quelle est sa situation au regard de la TVA ?",
+      "question": "Votre entreprise dépend fiscalement du régime de la microentreprise(auto-entrepreneur). Quelle est sa situation au regard de la TVA ?",
       "options": [
         "TVA à10%",
         "TVA à 20%",
@@ -1209,7 +1238,10 @@
         "Capital",
         "Prêt bancaire"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": [
+        1,
+        2
+      ],
       "explanation": "",
       "difficulty": "medium"
     },
@@ -1232,14 +1264,13 @@
       "id": "ges_098",
       "question": "Parmi les dépenses suivantes, quelles sont celles qui constituent des charges pour l’artisan ?",
       "options": [
-        "La facture de révision et d’entretien du véhicule",
-        "L’acquisition d’un garage à des fins professionnelles",
-        "L’acquisition d’un micro-ordinateur pour l’entreprise",
-        "La facture du contrôle technique automobile"
+        "La facture de révision et d’entretien du véhicule (charge déductible)",
+        "L’acquisition d’un garage à des fins professionnelles (immobilisation)",
+        "L’acquisition d’un micro-ordinateur pour l’entreprise (immobilisation)",
+        "La facture du contrôle technique automobile (charge déductible)"
       ],
       "correctAnswer": [
         1,
-        3,
         4
       ],
       "explanation": "",
@@ -1267,7 +1298,10 @@
         "Le chiffre d'affaires",
         "La forme juridique"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": [
+        1,
+        2
+      ],
       "explanation": "",
       "difficulty": "medium"
     },

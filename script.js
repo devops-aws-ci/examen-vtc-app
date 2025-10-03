@@ -18,6 +18,63 @@ const QRC_FILES = [
   'data/developpement_commercial_qrc.json'
 ];
 
+const EXAMS = [
+  {
+    code: "A",
+    name: "Réglementation du T3P et prévention des discriminations",
+    qcm: 10,
+    qrc: 5,
+    duration: 45, // minutes
+    coef: 3,
+    eliminatoire: 6,
+    sourceQCM: "data/reglementation_qcm.json",
+    // sourceQRC: "data/t3p_prevention_discrimination_qrc.json"
+  },
+  {
+    code: "B",
+    name: "Gestion",
+    qcm: 16,
+    qrc: 2,
+    duration: 45,
+    coef: 2,
+    eliminatoire: 6,
+    sourceQCM: "data/gestion_entreprise_qcm.json",
+    // sourceQRC: "data/gestion_entreprise_qrc.json"
+  },
+  {
+    code: "C",
+    name: "Sécurité routière",
+    qcm: 20,
+    qrc: 0,
+    duration: 30,
+    coef: 3,
+    eliminatoire: 6,
+    sourceQCM: "data/securite_qcm.json"
+  },
+  {
+    code: "D",
+    name: "Français",
+    qcm: 7,
+    qrc: 3,
+    duration: 30,
+    coef: 2,
+    eliminatoire: 6,
+    sourceQCM: "data/francais_qcm.json",
+    // sourceQRC: "data/francais_qrc.json"
+  },
+  {
+    code: "E",
+    name: "Anglais",
+    qcm: 20,
+    qrc: 0,
+    duration: 30,
+    coef: 1,
+    eliminatoire: 4,
+    sourceQCM: "data/anglais_qcm.json"
+  }
+  // tu pourras rajouter les épreuves spécifiques Taxis et VTC ici
+];
+
 // ============================
 // État global & utilitaires
 // ============================
@@ -93,6 +150,7 @@ async function loadAll() {
   }
 
   renderCategories();
+  renderExams();
 }
 
 // ============================
@@ -134,8 +192,15 @@ function startExam(cat, type) {
   state.idx = 0;
   state.answers = new Map();
 
+  // Masquer accueil complet
   byId('categoriesQCM').classList.add('hidden');
+  byId('titleQCM').classList.add('hidden');
   byId('categoriesQRC').classList.add('hidden');
+  byId('titleQRC').classList.add('hidden');
+  byId('examens').classList.add('hidden');
+  byId('titleExams').classList.add('hidden');
+
+  // Afficher l’examen
   byId('exam').classList.remove('hidden');
   byId('results').classList.add('hidden');
 
@@ -180,6 +245,73 @@ function renderQuestion() {
   }
 
   byId('prevBtn').disabled = (i === 0);
+}
+
+function renderExams() {
+  const root = byId('examens');
+  root.innerHTML = '';
+
+  EXAMS.forEach(ex => {
+    const card = document.createElement('div');
+    card.className = 'category-card';
+    card.innerHTML = `
+      <div>📝</div>
+      <div><strong>${escapeHtml(ex.code)}</strong> – ${escapeHtml(ex.name)}</div>
+       #<span class="badge">${ex.qcm} QCM ${ex.qrc ? "+ " + ex.qrc + " QRC" : ""}</span>
+      <span class="badge">${ex.qcm} QCM</span>
+      <div>Durée : ${ex.duration} min</div>
+      <div>Coef : ${ex.coef} | Éliminatoire : ${ex.eliminatoire}/20</div>
+    `;
+    card.onclick = () => startExamMode(ex);
+    root.appendChild(card);
+  });
+}
+
+
+async function startExamMode(ex) {
+  // Masquer accueil complet
+  byId('categoriesQCM').classList.add('hidden');
+  byId('titleQCM').classList.add('hidden');
+  byId('categoriesQRC').classList.add('hidden');
+  byId('titleQRC').classList.add('hidden');
+  byId('examens').classList.add('hidden');
+  byId('titleExams').classList.add('hidden');
+
+  // Cacher les sections accueil
+  byId('categoriesQCM').classList.add('hidden');
+  byId('categoriesQRC').classList.add('hidden');
+  byId('examens').classList.add('hidden');
+
+  // Charger les questions QCM demandées
+  let qcmQuestions = [];
+  if (ex.sourceQCM) {
+    const dataQCM = await fetch(ex.sourceQCM).then(r => r.json());
+    const norm = normalizeQCM(dataQCM);
+    qcmQuestions = norm.questions.slice(0, ex.qcm); // pour l’instant : on prend les premiers
+  }
+
+  // // Charger les questions QRC demandées
+  // let qrcQuestions = [];
+  // if (ex.sourceQRC) {
+  //   const dataQRC = await fetch(ex.sourceQRC).then(r => r.json());
+  //   const norm = normalizeQRC(dataQRC);
+  //   qrcQuestions = norm.questions.slice(0, ex.qrc);
+  // }
+
+  // Fusionner QCM et QRC pour constituer l’examen
+  const questions = [...qcmQuestions,];
+
+  // Lancer l’examen avec ces questions
+  state.type = "QCM"; //MIXED
+  state.currentCat = ex;
+  state.questions = questions;
+  state.idx = 0;
+  state.answers = new Map();
+
+  byId('exam').classList.remove('hidden');
+  byId('results').classList.add('hidden');
+
+  renderQuestion();
 }
 
 
@@ -385,11 +517,19 @@ function splitIntoSeries(cat, size = 15) {
 }
 
 function showSeries(cat) {
+  // Masquer QCM/QRC/Examens + titres
   byId('categoriesQCM').classList.add('hidden');
+  byId('titleQCM').classList.add('hidden');
   byId('categoriesQRC').classList.add('hidden');
+  byId('titleQRC').classList.add('hidden');
+  byId('examens').classList.add('hidden');
+  byId('titleExams').classList.add('hidden');
+
+  // Afficher les séries
   const root = byId('seriesQCM');
   root.innerHTML = '';
   const series = splitIntoSeries(cat, 15);
+
   series.forEach((serie, idx) => {
     const card = document.createElement('div');
     card.className = 'category-card';
@@ -404,6 +544,22 @@ function showSeries(cat) {
 }
 
 
+function goHome() {
+  byId('exam').classList.add('hidden');
+  byId('results').classList.add('hidden');
+  byId('seriesQCM')?.classList.add('hidden');
+
+  // Réafficher tout
+  byId('categoriesQCM').classList.remove('hidden');
+  byId('titleQCM').classList.remove('hidden');
+  byId('categoriesQRC').classList.remove('hidden');
+  byId('titleQRC').classList.remove('hidden');
+  byId('examens').classList.remove('hidden');
+  byId('titleExams').classList.remove('hidden');
+
+  state.currentCat = null;
+}
+
 
 // ============================
 // Boutons / évènements
@@ -416,13 +572,6 @@ byId('replayBtn').onclick  = () => state.currentCat && startExam(state.currentCa
 byId('homeBtn').onclick    = goHome;
 document.getElementById('homeFloating').onclick = goHome;
 
-function goHome() {
-  byId('exam').classList.add('hidden');
-  byId('results').classList.add('hidden');
-  byId('seriesQCM').classList.add('hidden');
-  byId('categoriesQCM').classList.remove('hidden');
-  byId('categoriesQRC').classList.remove('hidden');
-}
 
 // Lancement
 loadAll();

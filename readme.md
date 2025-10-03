@@ -18,6 +18,15 @@ git config --global credential.helper store
 git config core.autocrlf false --global
 
 
+## 🎯 Amelioration a faire
+ajouter un mode examen chronométré (timer par série ou global),
+
+exporter les résultats en PDF / CSV pour suivi des candidats,
+
+mode entraînement (réponses et corrections immédiates après chaque question).
+
+ajout directement le timer (durée de l’épreuve) et le calcul de la note /20 en appliquant le coefficient et seuil éliminatoire ?
+
 ## 🎯 Fonctionnalités
 
 ### ✨ Interface Moderne

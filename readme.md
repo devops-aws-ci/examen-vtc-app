@@ -1,6 +1,4 @@
 # 🚗 QCM VTC - Site Web de Préparation à l'Examen
-
-reglmentation vtc 
 develop comercial 
 francais 
 anglais

@@ -1,6 +1,6 @@
 {
   "category": "developpement_commercial",
-  "name": "Développement commercial",
+  "name": "Développement commercial OK",
   "description": "Test de connaissance en développement commercial pour le futur chauffeur VTC.",
   "icon": "business.png",
   "duration": "20",
@@ -41,7 +41,10 @@
         "Conformes à la loi Hamon du 17 mars 2014",
         "Ne doivent pas être fournies à un professionnel qui en fait la demande 354"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": [
+        1,
+        3
+      ],
       "explanation": "",
       "difficulty": "medium",
       "image": ""
@@ -68,7 +71,10 @@
         "Coût des cotisations sociales",
         "Coût de revient"
       ],
-      "correctAnswer": 4,
+      "correctAnswer": [
+        1,
+        4
+      ],
       "explanation": "",
       "difficulty": "medium",
       "image": ""
@@ -145,7 +151,10 @@
         "De prestations d'un particulier vers des particuliers",
         "De prestations business to business"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": [
+        1,
+        3
+      ],
       "explanation": "",
       "difficulty": "medium",
       "image": ""
@@ -158,7 +167,7 @@
         "27 000 €",
         "43 000 € 357"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "explanation": "",
       "difficulty": "medium",
       "image": ""
@@ -237,7 +246,10 @@
         "Les frais administratifs et les assurances",
         "Le contrat annuel d'entretien du véhicule 359"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": [
+        1,
+        2
+      ],
       "explanation": "",
       "difficulty": "medium",
       "image": ""
@@ -331,7 +343,10 @@
         "Proposer mes produits uniquement à l'extérieur de ma zone de chalandise",
         "Générer de nouveaux contacts auprès de prospects potentiels"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": [
+        1,
+        3
+      ],
       "explanation": "",
       "difficulty": "medium",
       "image": ""
@@ -371,7 +386,10 @@
         "Est interdit par le code du commerce",
         "N'est possible que lorsqu'un contrat annuel de type abonnement a été souscrit par le client"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        1,
+        2
+      ],
       "explanation": "",
       "difficulty": "medium",
       "image": ""
@@ -384,7 +402,7 @@
         "Vous appelez le 112",
         "Vous sécurisez les lieux 363"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "explanation": "",
       "difficulty": "medium",
       "image": ""
@@ -461,7 +479,10 @@
         "Le coût variable par kilomètre",
         "Le coût fixe véhicule par jour"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        2,
+        3
+      ],
       "explanation": "",
       "difficulty": "medium",
       "image": ""
@@ -515,7 +536,10 @@
         "Business plan",
         "Carte grise du véhicule 366"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        2,
+        3
+      ],
       "explanation": "",
       "difficulty": "medium",
       "image": ""
@@ -528,7 +552,10 @@
         "Fixer librement les prix, sous réserve d'être en dessous du prix de revient",
         "Fixer librement les prix sans m'assurer que je ne travaille pas à perte"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": [
+        1,
+        3
+      ],
       "explanation": "",
       "difficulty": "medium",
       "image": ""
@@ -567,7 +594,10 @@
         "Est postérieur à la prestation",
         "A une date de validité maximale"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": [
+        1,
+        3
+      ],
       "explanation": "",
       "difficulty": "medium",
       "image": ""
@@ -580,7 +610,7 @@
         "Vos objectifs",
         "Votre marché"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "explanation": "",
       "difficulty": "medium",
       "image": ""
@@ -607,7 +637,10 @@
         "Facultatives en relation B to B",
         "Conformes à la loi Hamon du 17 mars 2014"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        2,
+        3
+      ],
       "explanation": "",
       "difficulty": "medium",
       "image": ""
@@ -621,7 +654,10 @@
         "Lors de la gestion de la mission, je dois déposer mon client le plus rapidement possible",
         "Lors de l'accueil client, je dois savoir contrôler ma tenue et mon véhicule 369"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        2,
+        4
+      ],
       "explanation": "",
       "difficulty": "medium",
       "image": ""
@@ -661,7 +697,10 @@
         "la rémunération du cabinet comptable de l'entreprise",
         "les intérêts bancaires des emprunts contractés 370"
       ],
-      "correctAnswer": 4,
+      "correctAnswer": [
+        1,
+        4
+      ],
       "explanation": "",
       "difficulty": "medium",
       "image": ""
@@ -688,7 +727,10 @@
         "Prévoir l’itinéraire que vous allez prendre.",
         "Rien de particulier, vous êtes un professionnel."
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        2,
+        3
+      ],
       "explanation": "",
       "difficulty": "medium",
       "image": ""
@@ -730,7 +772,10 @@
         "Etre à l’heure pour une mission.",
         "Chouchouter au maximum vos clients."
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        2,
+        3
+      ],
       "explanation": "",
       "difficulty": "medium",
       "image": ""

@@ -1,5 +1,11 @@
 # 🚗 QCM VTC - Site Web de Préparation à l'Examen
 
+reglmentation vtc 
+develop comercial 
+francais 
+anglais
+
+
 Un site web moderne et interactif pour la préparation à l'examen de conducteur VTC (Voiture de Transport avec Chauffeur).
 
 ![VTC Exam](https://img.shields.io/badge/VTC-Exam%20Preparation-blue)
@@ -16,16 +22,6 @@ developpers settings --> Personal access tokens (classic) --> Generate new token
 
 git config --global credential.helper store
 git config core.autocrlf false --global
-
-
-## 🎯 Amelioration a faire
-ajouter un mode examen chronométré (timer par série ou global),
-
-exporter les résultats en PDF / CSV pour suivi des candidats,
-
-mode entraînement (réponses et corrections immédiates après chaque question).
-
-ajout directement le timer (durée de l’épreuve) et le calcul de la note /20 en appliquant le coefficient et seuil éliminatoire ?
 
 ## 🎯 Fonctionnalités
 
@@ -57,7 +53,11 @@ ajout directement le timer (durée de l’épreuve) et le calcul de la note /20 
 - ✅ **Correction détaillée** avec explications
 - 🔄 **Mode révision** complet
 - 🌐 **Fonctionnement hors ligne**
-
+- 🔄 ** mode examen chronométré (timer par série ou global)** .
+- 🔄 ** exporter les résultats en PDF / CSV pour suivi des candidats** .
+- 🔄 ** mode entraînement (réponses et corrections immédiates après chaque question)** .
+- 🔄 ** timer (durée de l’épreuve) et le calcul de la note /20 en appliquant le coefficient et seuil éliminatoire ** .
+- 🔄 ** partage reseaux sociaeux  .
 ## 🚀 Installation Rapide
 
 ### Option 1 : Téléchargement Direct

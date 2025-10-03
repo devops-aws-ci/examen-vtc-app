@@ -1,6 +1,6 @@
 {
   "category": "reglementation",
-  "name": "Réglementation nationale VTC",
+  "name": "Réglementation nationale VTC OK",
   "description": "Test de connaissance sur la réglementation nationale des VTC.",
   "icon": "law.png",
   "duration": "20",
@@ -68,7 +68,10 @@
         "Un délit puni d'une peine de prison et d'une amende pouvant aller jusqu'à 15 000€",
         "Passible d'une suspension du permis de conduire"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        2,
+        3
+      ],
       "explanation": "Maraude interdite pour VTC : délit puni d’1 an prison et 15 000 €. Code des transports L.3124-9 : https://www.legifrance.gouv.fr/codes/id/LEGISCTA000030048385/",
       "difficulty": "medium",
       "image": ""
@@ -82,7 +85,10 @@
         "Longueur 4,47 m et largeur 1,85 m",
         "Longueur 4.70 m et largeur 1.80 m"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        2,
+        4
+      ],
       "explanation": "Dimensions minimales VTC : L ≥ 4,60 m et l ≥ 1,70 m. Réponse valide : 4,61 m x 1,77 m. Arrêté technique VTC.",
       "difficulty": "medium",
       "image": ""
@@ -108,7 +114,10 @@
         "Oui, si c'est un véhicule hybride ou électrique",
         "Non si c'est un véhicule thermique"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": [
+        2,
+        3
+      ],
       "explanation": "Véhicule acheté en 2012 (thermique) : trop ancien (âge > 7 ans) → Non.",
       "difficulty": "medium",
       "image": ""
@@ -190,7 +199,10 @@
         "La délivrance d'une attestation d'inscription",
         "La délivrance d'un diplôme"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": [
+        2,
+        3
+      ],
       "explanation": "Inscription REVTC → attestation d’inscription. Portail REVTC.",
       "difficulty": "medium",
       "image": ""
@@ -217,7 +229,10 @@
         "Un délit puni d’une peine de prison et d’une amende pouvant aller jusqu’à 15 000 €",
         "Passible d’une supsension du permis de conduire"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        2,
+        3
+      ],
       "explanation": "Maraude : délit puni d’1 an et 15 000 € (réservation préalable obligatoire). L.3120-2 et L.3124-9.",
       "difficulty": "medium",
       "image": ""
@@ -231,7 +246,10 @@
         "la délivrance d'une attestation d'inscription",
         "la délivrance d'un diplôme"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": [
+        2,
+        3
+      ],
       "explanation": "Idem reg_014 (attestation d’inscription).",
       "difficulty": "medium",
       "image": ""
@@ -258,7 +276,10 @@
         "un engagement oral suffit",
         "Sur support électronique"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        1,
+        3
+      ],
       "explanation": "Ticket de réservation : support papier ou électronique. L.3120-2.",
       "difficulty": "medium",
       "image": ""
@@ -298,7 +319,7 @@
         "Par tous les conducteurs de VTC indé-pendants, à l'exception des auto-entrepre-neurs",
         "Par tous les conducteurs qu'ils soient indépendants ou salariés"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 1,
       "explanation": "RCP due par tous conducteurs (salariés ou indépendants). Code des transports.",
       "difficulty": "medium",
       "image": ""
@@ -322,7 +343,7 @@
         "Oui",
         "Non"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "explanation": "Condamnation pour abus de confiance : incompatible → Non. B2 vierge exigé (L.3120-2-1).",
       "difficulty": "medium",
       "image": ""
@@ -335,7 +356,7 @@
         "9 places au maximum y compris le chauffeur",
         "9 places au maximum sans le chauffeur"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "Max 8 passagers y compris le conducteur (véhicule ≤ 9 places). L.3120-1.",
       "difficulty": "medium",
       "image": ""
@@ -347,7 +368,7 @@
         "Oui",
         "Non"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "explanation": "Carte pro sur pare-brise : non (seules vignettes EVTC).",
       "difficulty": "medium",
       "image": ""
@@ -384,7 +405,7 @@
         "Dans sa région",
         "Seulement dans un département"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "explanation": "Validité nationale : carte pro valable dans toute la France.",
       "difficulty": "medium",
       "image": ""
@@ -435,7 +456,10 @@
         "L'assurance responsabilité civile du chauffeur",
         "La vignette affichée sur le pare-brise"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": [
+        1,
+        2
+      ],
       "explanation": "Validité carte : attestation formation continue (tous les 5 ans). Arrêté 11 août 2017.",
       "difficulty": "medium",
       "image": ""
@@ -448,7 +472,10 @@
         "Un délit puni d'une peine de prison et d'une amende pouvant aller jusqu'à 15 000 €",
         "Passible d'une suspension du permis de conduire"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        2,
+        3
+      ],
       "explanation": "Maraude interdite = délit (idem reg_005).",
       "difficulty": "medium",
       "image": ""
@@ -461,7 +488,10 @@
         "Un délit puni d'une peine de prison et d'une amende pouvant aller jusqu'à 15 000 €",
         "Passible d'une suspension du permis de conduire"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        2,
+        3
+      ],
       "explanation": "Maraude interdite = délit (idem reg_005).",
       "difficulty": "medium",
       "image": ""
@@ -486,7 +516,7 @@
         "Inférieur à 7 ans, à l'exception des voitures de collection dont l'âge doit être de moins de 30 ans.",
         "Inférieur à 6 ans, à l'exception des voitures de collection dont l'âge doit être d'au moins 30 ans."
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "explanation": "Âge véhicule thermique < 7 ans (sauf collection < 30 ans).",
       "difficulty": "medium",
       "image": ""
@@ -499,7 +529,7 @@
         "Les taxis ont droit à la subvention pour des véhicules adaptés aux personnes à mobilité réduite",
         "Les VTC ont droit à la subvention pour des véhicules adaptés aux personnes à mobilité réduite"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "explanation": "Subvention PMR : VTC éligibles (décret 31/07/2023). Ministère.",
       "difficulty": "medium",
       "image": ""
@@ -512,7 +542,10 @@
         "Passible d'une suspension de permis de conduire",
         "Autorisé"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": [
+        1,
+        2
+      ],
       "explanation": "Prise en charge sans bon = faute/maraude interdite.",
       "difficulty": "medium",
       "image": ""
@@ -524,7 +557,7 @@
         "Sans limites de temps",
         "Dans la limite de 1H maximum sur présentation d'un bon de réservation"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "explanation": "Gare/aéroport : limite 1h avec bon de réservation. L.3120-2 ; fiches préfectures.",
       "difficulty": "medium",
       "image": ""
@@ -538,7 +571,10 @@
         "Nom et téléphone client, date et heure de réservation, date, heure et lieu de prise en charge",
         "Nom ou dénomination sociale et coordonnées de la société"
       ],
-      "correctAnswer": 4,
+      "correctAnswer": [
+        3,
+        4
+      ],
       "explanation": "Ticket de réservation : nom/tél du client, date/heure de réservation, date/heure/lieu de prise en charge. L.3120-2.",
       "difficulty": "medium",
       "image": ""
@@ -552,7 +588,7 @@
         "Loi d'Observation des Taxis Intra-muros",
         "Loi d'Orientation du Transport Intérieur"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 4,
       "explanation": "LOTI : Loi d’Orientation du Transport Intérieur.",
       "difficulty": "medium",
       "image": ""
@@ -629,10 +665,7 @@
         "Avoir 10 points minimum sur son permis de conduire",
         "Casier judiciaire B2 vierge"
       ],
-      "correctAnswer": [
-        1,
-        3
-      ],
+      "correctAnswer": 3,
       "explanation": "Examen T3P : permis > 3 ans (2 ans AAC), 10 points non exigés, B2 compatible (vierge d’infractions excluantes).",
       "difficulty": "medium",
       "image": ""

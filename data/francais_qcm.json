@@ -14,7 +14,10 @@
         "Traitement de statistiques",
         "Dénombrement détaillé"
       ],
-      "correctAnswer": 4,
+      "correctAnswer": [
+        2,
+        4
+      ],
       "explanation": "",
       "difficulty": "medium",
       "image": ""
@@ -27,7 +30,7 @@
         "4%",
         "14%"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "explanation": "",
       "difficulty": "medium",
       "image": ""
@@ -93,7 +96,10 @@
         "De meilleures infrastructures",
         "La mise en place d'une indemnité kilométrique velo 266"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": [
+        1,
+        2
+      ],
       "explanation": "",
       "difficulty": "medium",
       "image": ""
@@ -106,7 +112,10 @@
         "Interpeller",
         "Taquiner"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": [
+        1,
+        3
+      ],
       "explanation": "",
       "difficulty": "medium",
       "image": ""
@@ -158,7 +167,10 @@
         "Un comportement sans cohérence",
         "Un comportement dangereux"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": [
+        1,
+        2
+      ],
       "explanation": "",
       "difficulty": "medium",
       "image": ""
@@ -184,7 +196,10 @@
         "Elle se sera débarrassée de l'électricité pour se déplacer",
         "Pour se mouvoir elle utilisera l‘électricité"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": [
+        1,
+        3
+      ],
       "explanation": "",
       "difficulty": "medium",
       "image": ""
@@ -223,7 +238,7 @@
         "Parce qu'il est trop cher",
         "Parce qu'll ne ressemble à rien d'autre 274"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 1,
       "explanation": "",
       "difficulty": "medium",
       "image": ""
@@ -237,7 +252,10 @@
         "Afficher",
         "Dissimuler"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": [
+        2,
+        3
+      ],
       "explanation": "",
       "difficulty": "medium",
       "image": ""

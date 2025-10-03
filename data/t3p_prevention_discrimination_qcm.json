@@ -27,10 +27,7 @@
         "Non si c’est un véhicule thermique",
         "Oui, à condition qu’il respecte les critères de puissance et de dimensions"
       ],
-      "correctAnswer": [
-        1,
-        3
-      ],
+      "correctAnswer": 1,
       "explanation": "Critères interdits : origine, sexe, situation familiale, grossesse, apparence physique, patronyme, orientation sexuelle, handicap...",
       "difficulty": "medium",
       "image": ""

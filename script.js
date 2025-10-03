@@ -568,20 +568,42 @@ function goHome() {
   byId('titleExams').classList.remove('hidden');
 
   state.currentCat = null;
+    // 👇 Forcer retour en haut de la page
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function replayCategory() {
+  if (state.currentCat) {
+    startExam(state.currentCat, state.type);
+
+    // Faire défiler vers le haut de la zone des questions
+    setTimeout(() => {
+      document.getElementById('exam').scrollIntoView({ behavior: 'smooth' });
+    }, 100);
+  }
 }
 
 
 // ============================
 // Boutons / évènements
 // ============================
+byId('homeBtn').onclick    = goHome;
 byId('checkBtn').onclick   = checkAnswer;
 byId('nextBtn').onclick    = nextQ;
 byId('prevBtn').onclick    = prevQ;
 byId('finishBtn').onclick  = finishExam;
-byId('replayBtn').onclick  = () => state.currentCat && startExam(state.currentCat, state.type);
-byId('homeBtn').onclick    = goHome;
-document.getElementById('homeFloating').onclick = goHome;
+byId('replayBtn').onclick = replayCategory;
+// byId('replayBtn').onclick  = () => state.currentCat && startExam(state.currentCat, state.type);
 
 
+
+// document.getElementById('homeFloating').onclick = goHome;
+
+document.addEventListener("DOMContentLoaded", () => {
+  const homeBtnFloat = document.getElementById('homeFloating');
+  if (homeBtnFloat) {
+    homeBtnFloat.onclick = goHome;
+  }
+});
 // Lancement
 loadAll();

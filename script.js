@@ -216,7 +216,9 @@ function renderQuestion() {
   const i = state.idx;
   const q = state.questions[i];
 
-  byId('qNumber').textContent = `Question ${i + 1}/${state.questions.length}`;
+  let serieName = state.currentCat?.name ? ` – ${state.currentCat.name}` : '';
+  byId('qNumber').textContent = `Question ${i+1}/${state.questions.length}${serieName}`;
+  
   byId('qText').textContent = q.text;
 
   // afficher image si disponible

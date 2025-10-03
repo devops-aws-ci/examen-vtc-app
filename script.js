@@ -317,6 +317,13 @@ function renderReview() {
     const div = document.createElement('div');
     div.className = 'review-item';
 
+    let html = `<p><strong>${i + 1}. ${escapeHtml(q.text)}</strong></p>`;
+
+    // ✅ afficher l'image si présente
+    if (q.image && q.image.trim() !== '') {
+      html += `<div class="review-image"><img src="${q.image}" alt="Illustration"></div>`;
+    }
+
     if (state.type === 'QCM') {
       const ans = state.answers.get(i);
       let user, statusClass;
@@ -338,22 +345,23 @@ function renderReview() {
         .map(c => `${letterOf(c)}) ${q.options[c - 1]}`)
         .join(', ');
 
-      div.innerHTML =
-        `<p><strong>${i + 1}. ${escapeHtml(q.text)}</strong></p>
-         <p class="${statusClass}">Votre réponse : ${escapeHtml(user)}</p>
-         <p>Bonne réponse : <span class="ok">${escapeHtml(good)}</span></p>` +
-        (q.explanation ? `<p style="color:#475569">💡 ${escapeHtml(q.explanation)}</p>` : '');
+      html += `
+        <p class="${statusClass}">Votre réponse : ${escapeHtml(user)}</p>
+        <p>Bonne réponse : <span class="ok">${escapeHtml(good)}</span></p>
+        ${q.explanation ? `<p style="color:#475569">💡 ${escapeHtml(q.explanation)}</p>` : ''}
+      `;
     } else {
       const ans = state.answers.get(i);
       const given = ans?.text?.trim() || '—';
       const statusClass = given === '—' ? 'unanswered' : 'neutral';
 
-      div.innerHTML =
-        `<p><strong>${i + 1}. ${escapeHtml(q.text)}</strong></p>
-         <p class="${statusClass}">Votre réponse : ${escapeHtml(given)}</p>
-         <p>Réponse attendue : <span class="ok">${escapeHtml(q.answer)}</span> ${q.points ? `(<strong>${q.points} pt${q.points>1?'s':''}</strong>)` : ''}</p>`;
+      html += `
+        <p class="${statusClass}">Votre réponse : ${escapeHtml(given)}</p>
+        <p>Réponse attendue : <span class="ok">${escapeHtml(q.answer)}</span> ${q.points ? `(<strong>${q.points} pt${q.points>1?'s':''}</strong>)` : ''}</p>
+      `;
     }
 
+    div.innerHTML = html;
     review.appendChild(div);
   });
 }

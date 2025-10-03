@@ -107,7 +107,6 @@ body {
   border-radius: 6px;
 }
 
-
 #qImage img {
   display:block;
   max-width:100%;
@@ -115,4 +114,15 @@ body {
   margin:12px auto;
   border-radius:8px;
   box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+.review-item .review-image {
+  margin: 10px 0;
+  text-align: center;
+}
+.review-item .review-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }

@@ -1,11 +1,25 @@
 # 🚗 QCM VTC - Site Web de Préparation à l'Examen
 
-!!!!! pour les test francais il faut ajouter le sujet des qcm,
- donc il faut changer la strcture de json , 
- ajouter un item "sujet" par structure qcm qui pointe sur un path de type text
-exemple 
-sujet : "/files/sujet_001.txt"
-sujet : "/files/sujet_015.txt"
+
+# 🔄 TODO
+ - 🔄 ** test francais il faut ajouter le sujet du qcm, donc il faut changer la strcture de json , 
+        ajouter un item "sujet" par structure qcm qui pointe sur un path de type text
+        exemple 
+      sujet : "/files/sujet_001.txt" sujet : "/files/sujet_015.txt"
+- 🔄 ** mode examen chronométré (timer par série ou global)** .
+- 🔄 ** exporter les résultats en PDF / CSV pour suivi des candidats** .
+- 🔄 ** mode entraînement (réponses et corrections immédiates après chaque question)** .
+- 🔄 ** timer (durée de l’épreuve) et le calcul de la note /20 en appliquant le coefficient et seuil éliminatoire ** .
+- 🔄 ** partage reseaux sociaeux  .
+
+- ⏱️ **Timer dynamique** avec alertes visuelles
+- 📊 **Barre de progression** en temps réel
+- 💾 **Sauvegarde automatique** (reprendre un examen interrompu)
+- 📱 **Raccourcis clavier** (flèches, touches 1-4, Esc)
+- 📈 **Statistiques détaillées** et historique complet
+- ✅ **Correction détaillée** avec explications
+- 🔄 **Mode révision** complet
+- 🌐 **Fonctionnement hors ligne**
 
 
 Un site web moderne et interactif pour la préparation à l'examen de conducteur VTC (Voiture de Transport avec Chauffeur).
@@ -60,6 +74,8 @@ git config core.autocrlf false --global
 - 🔄 ** mode entraînement (réponses et corrections immédiates après chaque question)** .
 - 🔄 ** timer (durée de l’épreuve) et le calcul de la note /20 en appliquant le coefficient et seuil éliminatoire ** .
 - 🔄 ** partage reseaux sociaeux  .
+
+
 ## 🚀 Installation Rapide
 
 ### Option 1 : Téléchargement Direct

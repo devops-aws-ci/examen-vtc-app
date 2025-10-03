@@ -99,20 +99,26 @@ async function loadAll() {
 // Rendu des catégories
 // ============================
 function renderCategories() {
-  const rootQCM = byId('categoriesQCM'); rootQCM.innerHTML = '';
+  const rootQCM = byId('categoriesQCM'); 
+  rootQCM.innerHTML = '';
+
   state.bankQCM.forEach(cat => {
     const card = document.createElement('div');
     card.className = 'category-card';
     card.innerHTML = `<div>📘</div><div>${escapeHtml(cat.name)}</div><span class='badge'>${cat.questions.length}</span>`;
-    card.onclick = () => startExam(cat, 'QCM');
+    card.onclick = () => showSeries(cat);   // 👈 au lieu de startExam
     rootQCM.appendChild(card);
   });
 
-  const rootQRC = byId('categoriesQRC'); rootQRC.innerHTML = '';
+  const rootQRC = byId('categoriesQRC'); 
+  rootQRC.innerHTML = '';
   state.bankQRC.forEach(cat => {
     const card = document.createElement('div');
     card.className = 'category-card';
-    card.innerHTML = `<div>📝</div><div>${escapeHtml(cat.name)}</div><span class='badge'>${cat.questions.length}</span>`;
+    card.innerHTML = `
+      <div>📝</div>
+      <div>${escapeHtml(cat.name)}</div>
+      <span class='badge'>${cat.questions.length}</span>`;
     card.onclick = () => startExam(cat, 'QRC');
     rootQRC.appendChild(card);
   });
@@ -366,6 +372,38 @@ function renderReview() {
   });
 }
 
+function splitIntoSeries(cat, size = 15) {
+  const series = [];
+  for (let i = 0; i < cat.questions.length; i += size) {
+    series.push({
+      key: `${cat.key}_S${Math.floor(i / size) + 1}`,
+      name: `Série ${Math.floor(i / size) + 1}`,
+      questions: cat.questions.slice(i, i + size)
+    });
+  }
+  return series;
+}
+
+function showSeries(cat) {
+  byId('categoriesQCM').classList.add('hidden');
+  byId('categoriesQRC').classList.add('hidden');
+  const root = byId('seriesQCM');
+  root.innerHTML = '';
+  const series = splitIntoSeries(cat, 15);
+  series.forEach((serie, idx) => {
+    const card = document.createElement('div');
+    card.className = 'category-card';
+    card.innerHTML = `
+      <div>📑</div>
+      <div>${escapeHtml(cat.name)} – ${serie.name}</div>
+      <span class="badge">${serie.questions.length}</span>`;
+    card.onclick = () => startExam(serie, 'QCM');
+    root.appendChild(card);
+  });
+  root.classList.remove('hidden');
+}
+
+
 
 // ============================
 // Boutons / évènements
@@ -381,6 +419,7 @@ document.getElementById('homeFloating').onclick = goHome;
 function goHome() {
   byId('exam').classList.add('hidden');
   byId('results').classList.add('hidden');
+  byId('seriesQCM').classList.add('hidden');
   byId('categoriesQCM').classList.remove('hidden');
   byId('categoriesQRC').classList.remove('hidden');
 }

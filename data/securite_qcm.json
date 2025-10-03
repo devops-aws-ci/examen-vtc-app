@@ -16,7 +16,7 @@
       "correctAnswer": 2,
       "explanation": "",
       "difficulty": "medium",
-      "image": "/images/img_sec_001.png"
+      "image": "./images/img_sec_001.png"
     },
     {
       "id": "sec_002",

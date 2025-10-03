@@ -7,7 +7,7 @@
   "questions": [
     {
       "id": "sec_001",
-      "question": "Ce panneau m'indique 🅿️🚫 (1.15 - 16.31) :",
+      "question": "Ce panneau m'indique:",
       "options": [
         "Un stationnement à durée limitée",
         "Que du 1er au 15 de chaque mois, le stationnement est autorisé du côté des numéros impairs des immeubles bordant la rue",
@@ -29,7 +29,7 @@
       "correctAnswer": 2,
       "explanation": "",
       "difficulty": "medium",
-      "image": "/images/img_sec_002.png"
+      "image": ""
     },
     {
       "id": "sec_003",
@@ -46,7 +46,7 @@
       ],
       "explanation": "Agglo éclairée : feux de position OU de croisement si visibilité suffisante (Code de la route – éclairage).",
       "difficulty": "medium",
-      "image": ""
+      "image": "/images/img_sec_003.png"
     },
     {
       "id": "sec_004",
@@ -210,7 +210,7 @@
     },
     {
       "id": "sec_015",
-      "question": "Ce pictogramme 🚗 ⚠️ NIVEAU 3, qui figure sur des boîtes de médicaments, signifie :",
+      "question": "Ce pictogramme, qui figure sur des boîtes de médicaments, signifie :",
       "options": [
         "Soyez très prudent. Ne pas conduire sans l’avis d’un professionnel de santé",
         "Attention, danger : ne pas conduire. Pour la reprise de la conduite, demandez l’avis d’un médecin",
@@ -219,11 +219,11 @@
       "correctAnswer": 2,
       "explanation": "",
       "difficulty": "medium",
-      "image": ""
+      "image": "/images/img_sec_015.png"
     },
     {
       "id": "sec_016",
-      "question": "Dans cette liste d'infractions, quelles sont celles qui entrainent un retrait de quatre points du permis de conduire :",
+      "question": "⚠️ Dans cette liste d'infractions , quelles sont celles qui entrainent un retrait de quatre points du permis de conduire :",
       "options": [
         "Utilisation du téléphone en conduisant (-3)",
         "Circulation en sens interdit  −4",
@@ -874,7 +874,7 @@
       "correctAnswer": 1,
       "explanation": "Panneau cassis/dos d’âne A2.",
       "difficulty": "medium",
-      "image": ""
+      "image": "/images/img_sec_059.png"
     },
     {
       "id": "sec_060",
@@ -905,7 +905,7 @@
       ],
       "explanation": "Place PMR : réservée véhicules autorisés ; fourrière possible ; amende 4e classe.",
       "difficulty": "medium",
-      "image": ""
+      "image": "/images/img_sec_061.png"
     },
     {
       "id": "sec_062",
@@ -990,7 +990,7 @@
       ],
       "explanation": "Descente dangereuse sur 1 500 m (et non dans 1 500 m).",
       "difficulty": "medium",
-      "image": ""
+      "image": "/images/img_sec_067.png"
     },
     {
       "id": "sec_068",

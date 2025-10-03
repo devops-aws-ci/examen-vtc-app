@@ -52,7 +52,8 @@ function normalizeQCM(raw) {
       text: q.question,
       options: q.options,
       correct: Array.isArray(q.correctAnswer) ? q.correctAnswer.map(Number) : [Number(q.correctAnswer)],
-      explanation: q.explanation || ''
+      explanation: q.explanation || '',
+      image: q.image || ''
     }));
   return { key: raw.category || 'CAT', name: raw.name || 'Catégorie', questions };
 }
@@ -142,6 +143,14 @@ function renderQuestion() {
   byId('qNumber').textContent = `Question ${i + 1}/${state.questions.length}`;
   byId('qText').textContent = q.text;
 
+  // afficher image si disponible
+  const imgContainer = document.getElementById('qImage');
+  if (q.image && q.image.trim() !== '') {
+    imgContainer.innerHTML = `<img src="${q.image}" alt="Illustration" style="max-width:100%;margin:10px 0;border-radius:8px;">`;
+  } else {
+    imgContainer.innerHTML = '';
+  }
+
   const root = byId('qOptions');
   root.innerHTML = '';
   byId('qrcInput').classList.add('hidden');
@@ -164,9 +173,9 @@ function renderQuestion() {
     byId('qrcAnswer').value = prev?.text || '';
   }
 
-  // état du bouton "Précédent"
   byId('prevBtn').disabled = (i === 0);
 }
+
 
 function toggleOption(choice) {
   const i = state.idx;

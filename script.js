@@ -205,6 +205,11 @@ function startExam(cat, type) {
   byId('results').classList.add('hidden');
 
   renderQuestion();
+
+    // 👇 Auto-scroll vers la div #exam
+  setTimeout(() => {
+    document.getElementById('exam').scrollIntoView({ behavior: 'smooth' });
+  }, 100);
 }
 
 function renderQuestion() {
@@ -312,6 +317,11 @@ async function startExamMode(ex) {
   byId('results').classList.add('hidden');
 
   renderQuestion();
+
+    // 👇 Auto-scroll vers la div #exam
+  setTimeout(() => {
+    document.getElementById('exam').scrollIntoView({ behavior: 'smooth' });
+  }, 100);
 }
 
 

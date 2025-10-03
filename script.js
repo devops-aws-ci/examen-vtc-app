@@ -527,7 +527,6 @@ function splitIntoSeries(cat, size = 15) {
 }
 
 function showSeries(cat) {
-  // Masquer QCM/QRC/Examens + titres
   byId('categoriesQCM').classList.add('hidden');
   byId('titleQCM').classList.add('hidden');
   byId('categoriesQRC').classList.add('hidden');
@@ -535,12 +534,13 @@ function showSeries(cat) {
   byId('examens').classList.add('hidden');
   byId('titleExams').classList.add('hidden');
 
-  // Afficher les séries
   const root = byId('seriesQCM');
   root.innerHTML = '';
   const series = splitIntoSeries(cat, 15);
 
   series.forEach((serie, idx) => {
+    serie.parentCat = cat;  // 👈 mémorise la catégorie d'origine
+
     const card = document.createElement('div');
     card.className = 'category-card';
     card.innerHTML = `
@@ -550,8 +550,10 @@ function showSeries(cat) {
     card.onclick = () => startExam(serie, 'QCM');
     root.appendChild(card);
   });
+
   root.classList.remove('hidden');
 }
+
 
 
 function goHome() {
@@ -583,6 +585,28 @@ function replayCategory() {
   }
 }
 
+function backToSeries() {
+  // Masquer résultats et examen
+  byId('results').classList.add('hidden');
+  byId('exam').classList.add('hidden');
+
+  // Cacher les titres accueil
+  byId('categoriesQCM').classList.add('hidden');
+  byId('titleQCM').classList.add('hidden');
+  byId('categoriesQRC').classList.add('hidden');
+  byId('titleQRC').classList.add('hidden');
+  byId('examens').classList.add('hidden');
+  byId('titleExams').classList.add('hidden');
+
+  // Revenir à la liste de séries
+  if (state.currentCat && state.currentCat.parentCat) {
+    showSeries(state.currentCat.parentCat);   // 👈 utiliser la catégorie d'origine
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  } else {
+    goHome();
+  }
+}
+
 
 // ============================
 // Boutons / évènements
@@ -592,6 +616,7 @@ byId('checkBtn').onclick   = checkAnswer;
 byId('nextBtn').onclick    = nextQ;
 byId('prevBtn').onclick    = prevQ;
 byId('finishBtn').onclick  = finishExam;
+byId('seriesBtn').onclick = backToSeries;
 byId('replayBtn').onclick = replayCategory;
 // byId('replayBtn').onclick  = () => state.currentCat && startExam(state.currentCat, state.type);
 

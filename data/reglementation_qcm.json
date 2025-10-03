@@ -16,7 +16,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Durée max d’attente aux gares/aéroports : 1 heure avant l’horaire de prise en charge. Code des transports (décret) : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000030048385/",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_002",
@@ -28,7 +29,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Périmètre d’exercice : territoire national. Code des transports (L.3120-2 et s.).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_003",
@@ -41,7 +43,8 @@
       ],
       "correctAnswer": 4,
       "explanation": "Âge véhicule VTC (thermique) < 7 ans (collection < 30 ans). Arrêté technique VTC.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_004",
@@ -54,7 +57,8 @@
       ],
       "correctAnswer": 4,
       "explanation": "Véhicule hybride/électrique : pas de longueur minimale imposée. Arrêté technique VTC.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_005",
@@ -66,7 +70,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Maraude interdite pour VTC : délit puni d’1 an prison et 15 000 €. Code des transports L.3124-9 : https://www.legifrance.gouv.fr/codes/id/LEGISCTA000030048385/",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_006",
@@ -79,7 +84,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Dimensions minimales VTC : L ≥ 4,60 m et l ≥ 1,70 m. Réponse valide : 4,61 m x 1,77 m. Arrêté technique VTC.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_007",
@@ -91,7 +97,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "REVTC sert à s’inscrire / mettre à jour le dossier d’exploitant. Portail officiel : https://registre-vtc.developpement-durable.gouv.fr/public/accueil",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_008",
@@ -103,7 +110,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Véhicule acheté en 2012 (thermique) : trop ancien (âge > 7 ans) → Non.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_009",
@@ -115,7 +123,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Macaron EVTC obligatoire (arrêté signalétique du 6 avril 2017). https://www.ecologie.gouv.fr/politiques-publiques/taxi-vtc-vmdtr-cpa-reglementation-transports-publics-particuliers-personnes",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_010",
@@ -127,7 +136,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Capacité financière : 1 500 € par véhicule. Code des transports R.3122-7 et s.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_011",
@@ -140,7 +150,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Retour au siège/garage sauf nouvelle réservation. Possibilité d’éviter le retour sous conditions (ticket de réservation). L.3120-2.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_012",
@@ -153,7 +164,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Exercice sans inscription REVTC : 1 an prison et 15 000 € d’amende. L.3124-4 et L.3124-9 : https://www.legifrance.gouv.fr/codes/",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_013",
@@ -166,7 +178,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Dimensions min : 4,5 m x 1,7 m (thermique). Arrêté technique VTC.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_014",
@@ -179,7 +192,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Inscription REVTC → attestation d’inscription. Portail REVTC.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_015",
@@ -192,7 +206,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Identification VTC : macarons avant ET arrière. Arrêté signalétique 6 avril 2017.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_016",
@@ -204,7 +219,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Maraude : délit puni d’1 an et 15 000 € (réservation préalable obligatoire). L.3120-2 et L.3124-9.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_017",
@@ -217,7 +233,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Idem reg_014 (attestation d’inscription).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_018",
@@ -230,7 +247,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Contrat possible sur support papier ou électronique (CGV pouvant valoir contrat). Code de la consommation.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_019",
@@ -242,7 +260,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Ticket de réservation : support papier ou électronique. L.3120-2.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_020",
@@ -255,7 +274,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Carte pro VTC délivrée par la préfecture. Arrêté du 7 sept. 2017.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_021",
@@ -267,7 +287,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Accès à la profession : réussite à l’examen (T3P). Arrêté 6 avril 2017.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_022",
@@ -279,7 +300,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "RCP due par tous conducteurs (salariés ou indépendants). Code des transports.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_023",
@@ -290,7 +312,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Permis probatoire : non pour T3P (ancienneté du permis requise).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_024",
@@ -301,7 +324,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Condamnation pour abus de confiance : incompatible → Non. B2 vierge exigé (L.3120-2-1).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_025",
@@ -313,7 +337,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Max 8 passagers y compris le conducteur (véhicule ≤ 9 places). L.3120-1.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_026",
@@ -324,7 +349,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Carte pro sur pare-brise : non (seules vignettes EVTC).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_027",
@@ -335,7 +361,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Carte pro obligatoire pour exercer : Oui.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_028",
@@ -346,7 +373,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Arrêt définitif : restitution carte pro : Oui.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_029",
@@ -358,7 +386,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Validité nationale : carte pro valable dans toute la France.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_030",
@@ -369,7 +398,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Usage privé : pas d’obligation d’apposer la carte pro.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_031",
@@ -380,7 +410,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Conjoint non titulaire ne peut pas conduire avec seul permis B : Non.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_032",
@@ -392,7 +423,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Sanctions disciplinaires : préfet (avertissement, suspension, retrait carte).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_033",
@@ -405,7 +437,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Validité carte : attestation formation continue (tous les 5 ans). Arrêté 11 août 2017.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_034",
@@ -417,7 +450,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Maraude interdite = délit (idem reg_005).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_035",
@@ -429,7 +463,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Maraude interdite = délit (idem reg_005).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_036",
@@ -441,7 +476,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Contrôle technique VTC : 1 an → première échéance 1 an après 1re immatriculation. Rép. : 10/10/2024. (Arrêté CT + fiches préfectures)",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_037",
@@ -452,7 +488,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Âge véhicule thermique < 7 ans (sauf collection < 30 ans).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_038",
@@ -464,7 +501,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Subvention PMR : VTC éligibles (décret 31/07/2023). Ministère.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_039",
@@ -476,7 +514,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Prise en charge sans bon = faute/maraude interdite.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_040",
@@ -487,7 +526,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Gare/aéroport : limite 1h avec bon de réservation. L.3120-2 ; fiches préfectures.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_041",
@@ -500,7 +540,8 @@
       ],
       "correctAnswer": 4,
       "explanation": "Ticket de réservation : nom/tél du client, date/heure de réservation, date/heure/lieu de prise en charge. L.3120-2.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_042",
@@ -513,7 +554,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "LOTI : Loi d’Orientation du Transport Intérieur.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_043",
@@ -526,7 +568,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Puissance min : 84 kW (≈ 115-120 ch). Arrêté technique VTC.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_044",
@@ -537,7 +580,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Stationnement en ville : uniquement avec bon de réservation préalable.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_045",
@@ -548,7 +592,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Attestation de formation continue à bord : vrai. Arrêté du 11 août 2017.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_046",
@@ -560,7 +605,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Capacité financière : à l’inscription et à chaque mise à jour/renouvellement (tous les 5 ans).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_047",
@@ -572,7 +618,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Frais d’inscription au registre VTC : 170 €. Service-Public/Ministère : https://entreprendre.service-public.fr/vosdroits/F31027 et https://www.ecologie.gouv.fr/politiques-publiques/vtc-registre-voitures-transport-chauffeur",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "reg_048",
@@ -587,7 +634,8 @@
         3
       ],
       "explanation": "Examen T3P : permis > 3 ans (2 ans AAC), 10 points non exigés, B2 compatible (vierge d’infractions excluantes).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     }
   ]
 }

@@ -16,7 +16,8 @@
       ],
       "correctAnswer": 4,
       "explanation": "Art. 225-1 Code pénal : discrimination = traitement défavorable fondé sur critère prohibé.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_002",
@@ -31,7 +32,8 @@
         3
       ],
       "explanation": "Critères interdits : origine, sexe, situation familiale, grossesse, apparence physique, patronyme, orientation sexuelle, handicap...",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_003",
@@ -43,7 +45,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Art. 225-2 Code pénal : sanctions = 3 ans prison et 45 000 € amende.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_004",
@@ -56,7 +59,8 @@
       ],
       "correctAnswer": 4,
       "explanation": "Refuser une course pour motif discriminatoire = interdit (Code des transports + art. 225-1 CP).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_005",
@@ -72,7 +76,8 @@
         4
       ],
       "explanation": "La carte professionnelle est délivrée par le préfet. Code des transports.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_006",
@@ -85,7 +90,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Formation continue obligatoire tous les 5 ans (Arrêté du 11 août 2017).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_007",
@@ -98,7 +104,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Prévention discrimination = obligation légale de tout professionnel T3P.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_008",
@@ -110,7 +117,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Extrait B2 doit être vierge de condamnations incompatibles (Code des transports).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_009",
@@ -123,7 +131,8 @@
       ],
       "correctAnswer": 4,
       "explanation": "Visite médicale obligatoire pour aptitude à la conduite professionnelle (Code des transports R3120-9).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_010",
@@ -136,7 +145,8 @@
       ],
       "correctAnswer": 4,
       "explanation": "Refus client handicapé = discrimination (art. 225-1 CP).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_011",
@@ -147,7 +157,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Formation discrimination incluse dans formation continue obligatoire (Arrêté 11 août 2017).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_012",
@@ -159,7 +170,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "T3P : Transport Public Particulier de Personnes(Les taxis,Les VTC (Véhicules de Tourisme avec Chauffeur),Les VMDTR (Véhicules Motorisés à Deux ou Trois Roues).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_013",
@@ -171,7 +183,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "T3P : Transport Public Particulier de Personnes(Les taxis,Les VTC (Véhicules de Tourisme avec Chauffeur),Les VMDTR (Véhicules Motorisés à Deux ou Trois Roues).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_014",
@@ -184,7 +197,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "T3P : Transport Public Particulier de Personnes",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_015",
@@ -196,7 +210,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "La responsabilité incombe au conducteur/exploitant. Code des transports.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_016",
@@ -209,7 +224,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Obligation de neutralité (ex : pas de propos discriminatoires). Art. 225-1 CP.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_017",
@@ -222,7 +238,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "T3P : Transport Public Particulier de Personnes",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_018",
@@ -235,7 +252,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "T3P : Transport Public Particulier de Personnes",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_019",
@@ -248,7 +266,8 @@
       ],
       "correctAnswer": 4,
       "explanation": "Exemple de discrimination : refus de client en raison de son origine.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_020",
@@ -264,7 +283,8 @@
         4
       ],
       "explanation": "La loi impose prévention discrimination dans T3P. Code des transports.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_021",
@@ -280,7 +300,8 @@
         4
       ],
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_022",
@@ -293,7 +314,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_023",
@@ -306,7 +328,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_024",
@@ -322,7 +345,8 @@
         4
       ],
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_025",
@@ -335,7 +359,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_026",
@@ -348,7 +373,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_027",
@@ -364,7 +390,8 @@
         4
       ],
       "explanation": "Obligatoire a partir de 25€, au choix du client endessous de 25€",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_028",
@@ -377,7 +404,8 @@
       ],
       "correctAnswer": 4,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_029",
@@ -389,7 +417,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_030",
@@ -402,7 +431,8 @@
       ],
       "correctAnswer": 4,
       "explanation": "cour d'appel محكمة الاستئناف re-juger les faits , cour de cassation contrôler la conformité du droit مراجعة مدى احترام القانون محكمة النقض" ,
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_031",
@@ -415,7 +445,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_032",
@@ -431,7 +462,8 @@
         4
       ],
       "explanation": "Le préfet ➝ peut retirer la carte professionnelle par sanction administrative (non-respect des règles, sécurité, conditions non remplies).Le juge pénal ➝ peut retirer la carte comme peine complémentaire à une condamnation (infractions ou délits graves).👉 Donc : Retrait administratif (préfet) ou retrait judiciaire (juge pénal).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_033",
@@ -444,7 +476,8 @@
       ],
       "correctAnswer": 4,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_034",
@@ -460,7 +493,8 @@
         4
       ],
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_035",
@@ -473,7 +507,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_036",
@@ -486,7 +521,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Véhicules thermiques (essence / diesel) Ancienneté maximale : 7 ans (sauf exceptions en cas de dérogation préfectorale).⚡ Véhicules électriques et hybrides Aucune limite d’ancienneté",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_037",
@@ -499,7 +535,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_038",
@@ -511,7 +548,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Avant 60 ans → examen médical obligatoire tous les 5 ans. Entre 60 et 76 ans → tous les 2 ans.Après 76 ans → tous les ans.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_039",
@@ -524,7 +562,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_040",
@@ -537,7 +576,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_041",
@@ -553,7 +593,8 @@
         4
       ],
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_042",
@@ -566,7 +607,8 @@
       ],
       "correctAnswer": 4,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_043",
@@ -579,7 +621,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_044",
@@ -592,7 +635,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_045",
@@ -609,7 +653,8 @@
         4
       ],
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_046",
@@ -621,7 +666,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_047",
@@ -633,7 +679,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_048",
@@ -646,7 +693,8 @@
       ],
       "correctAnswer": 4,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_049",
@@ -659,7 +707,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_050",
@@ -671,7 +720,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_051",
@@ -684,7 +734,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_052",
@@ -696,7 +747,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_053",
@@ -709,7 +761,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_054",
@@ -722,7 +775,8 @@
       ],
       "correctAnswer": 4,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_055",
@@ -734,7 +788,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_056",
@@ -747,7 +802,8 @@
       ],
       "correctAnswer": 4,
       "explanation": "Absence d’assurance expose à des amendes et à des sanctions administratives, voire à l’interdiction d’exercer.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_057",
@@ -763,7 +819,8 @@
         4
       ],
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_058",
@@ -775,7 +832,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_059",
@@ -788,7 +846,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_060",
@@ -804,7 +863,8 @@
         4
       ],
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_061",
@@ -817,7 +877,8 @@
       ],
       "correctAnswer": 4,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_062",
@@ -830,7 +891,8 @@
       ],
       "correctAnswer": 4,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_063",
@@ -843,7 +905,8 @@
       ],
       "correctAnswer": 4,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_064",
@@ -856,7 +919,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_065",
@@ -868,7 +932,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_066",
@@ -881,7 +946,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_067",
@@ -894,7 +960,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_068",
@@ -906,7 +973,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_069",
@@ -919,7 +987,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_070",
@@ -931,7 +1000,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_071",
@@ -943,7 +1013,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "La période probatoire c’est quoi ? Durée normale : 3 ans. Durée réduite à 2 ans si tu as fait la conduite accompagnée (AAC). \n Pendant cette période, ton capital de points est limité (6 points au lieu de 12) apres cette periode ton permis est définitif et tu as 12 points de capital.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_072",
@@ -956,7 +1027,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_073",
@@ -968,7 +1040,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Les artisans T3P (chauffeurs VTC, taxis, VMDTR en indépendant) sont travailleurs non-salariés (TNS)\n Ils ne bénéficient donc pas du régime des accidents du travail réservé aux salariés. \n En cas d’accident corporel (y compris pendant l’activité professionnelle), l’artisan est indemnisé par la sécurité sociale uniquement au titre de la maladie.\n Il peut percevoir des indemnités journalières maladie, mais pas celles spécifiques aux accidents du travail (qui sont plus avantageuses).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_074",
@@ -981,7 +1054,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_075",
@@ -993,7 +1067,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_076",
@@ -1008,7 +1083,8 @@
         3
       ],
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_077",
@@ -1020,7 +1096,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Tous les conducteurs de T3P (taxis, VTC, VMDTR) doivent suivre une formation continue obligatoire tous les 5 ans pour conserver leur carte professionnelle.\n ’arrêté du 11 août 2017 a fixé la durée minimale de cette formation à 14 heures.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_078",
@@ -1032,7 +1109,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "En cas de condamnation grave, la carte peut être retirée par décision judiciaire ou préfectorale (mais ce n’est pas une restitution volontaire).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_079",
@@ -1048,7 +1126,8 @@
         2
       ],
       "explanation": "Le transport collectif occasionnel = transport effectué par un transporteur professionnel inscrit au registre des transporteurs routiers de voyageurs, pour un groupe déterminé de personnes (pas une seul persone individuel) , sans caractère de régularité (ex : sorties, voyages, séjours, chorales, clubs…).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_080",
@@ -1061,7 +1140,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_081",
@@ -1073,7 +1153,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_082",
@@ -1086,7 +1167,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "📌L’article R.3124-11 du Code des transports précise que le fait d’exercer l’activité de conducteur T3P (Taxi, VTC, VMDTR) sans carte professionnelle en cours de validité est puni de l’amende prévue pour les contraventions de 5ᵉ classe.\n Amende de 5ᵉ classe = jusqu’à 1 500 € (3 000 € en cas de récidive).\n ⚖️ Ce n’est pas un délit → donc pas de prison ni interdiction de conduire nationale ou régionale. \n 👉 Donc seule l’amende contraventionnelle de 5ᵉ classe s’applique. ",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_083",
@@ -1099,7 +1181,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_084",
@@ -1112,7 +1195,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_085",
@@ -1124,7 +1208,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_086",
@@ -1137,7 +1222,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_087",
@@ -1149,7 +1235,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Le port de la ceinture est une obligation légale pour tous les conducteurs et passagers, y compris les taxis et les VTC. Toutefois, les chauffeurs de taxi en service peuvent bénéficier d'une dérogation limitée en agglomération lorsqu'ils transportent un client, mais en règle générale l'obligation s'applique aux deux professions.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_088",
@@ -1162,7 +1249,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_089",
@@ -1175,7 +1263,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Le conducteur de T3P doit justifier de deux assurances distinctes : la responsabilité civile automobile (assurance véhicule) et la responsabilité civile professionnelle couvrant le transport de personnes. Aucune obligation d’assurance tous risques n’existe.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_090",
@@ -1187,7 +1276,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_091",
@@ -1203,7 +1293,8 @@
         4
       ],
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_092",
@@ -1215,7 +1306,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_093",
@@ -1227,7 +1319,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "La discrimination dans le secteur du VTC est un délit pénal.La discrimination (refus de prise en charge d’un client en raison de son origine, sexe, handicap, etc.) est un délit pénal en France.\n Elle peut être sanctionnée par des peines principales (amende, prison) et des peines complémentaires, dont l’interdiction des droits civiques, civils et de famille. Les autres options ne correspondent pas aux sanctions légales prévues.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_094",
@@ -1239,7 +1332,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "t3p_095",
@@ -1251,7 +1345,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     }
   ]
 }

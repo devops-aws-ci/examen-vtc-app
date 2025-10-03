@@ -15,7 +15,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "« There is an extra charge for the fourth person » = supplément pour la 4e personne.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_002",
@@ -27,7 +28,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "« Break down » = tomber en panne (voiture).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_003",
@@ -39,7 +41,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "« Thank you for the ride. Keep the change! » = Merci pour la course, gardez la monnaie.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_004",
@@ -51,7 +54,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Opposite of boring = exciting.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_005",
@@ -64,7 +68,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "On dit « my cousin's car » (génitif possessif).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_006",
@@ -76,7 +81,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "« The secretary was given a bonus » = on a donné une prime à la secrétaire.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_007",
@@ -88,7 +94,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Forme correcte = « Is there a problem? The road is blocked ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_008",
@@ -100,7 +107,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Correct = « There is a festival in Edinburgh every four years ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_009",
@@ -112,7 +120,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "« Suburb » = banlieue.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_010",
@@ -124,7 +133,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "On utilise « on Monday ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_011",
@@ -136,7 +146,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Correct = « We check my car two or three times a week ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_012",
@@ -148,7 +159,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "À la station-service « Fill it up » = « Le plein svp ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_013",
@@ -160,7 +172,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Traduction : Nous arriverons probablement en retard. Il y a trop de circulation.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_014",
@@ -172,7 +185,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "« To demand » = exiger (faux ami avec « demander »).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_015",
@@ -184,7 +198,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "« How long are you planning to stay in France? » = Combien de temps…",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_016",
@@ -196,7 +211,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Correct = « Is there a museum in your town? ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_017",
@@ -208,7 +224,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "« Landscape » = paysage.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_018",
@@ -220,7 +237,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Forme correcte = « Have you got children? ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_019",
@@ -233,7 +251,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Transport : on dit « by air ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_020",
@@ -245,7 +264,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "« Refund » = remboursement (orthographe corrigée).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_021",
@@ -257,7 +277,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "« I need a taxi for tomorrow afternoon ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_022",
@@ -269,7 +290,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Bonne formulation = « Is there a museum in your town? ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_023",
@@ -281,7 +303,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Correct = « Could you wait… My friend is coming ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_024",
@@ -293,7 +316,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "On dit « Would you like a receipt? ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_025",
@@ -305,7 +329,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Présent simple : « My car doesn’t start ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_026",
@@ -317,7 +342,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "« Driving » = conduire.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_027",
@@ -329,7 +355,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Correct = « What brand is your car? ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_028",
@@ -341,7 +368,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "« Are you free? » = disponible.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_029",
@@ -353,7 +381,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "« Fasten your seat belt ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_030",
@@ -365,7 +394,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "« Can you take us to the airport before 4 pm? ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_031",
@@ -377,7 +407,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "« I lost my wallet » = portefeuille.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_032",
@@ -389,7 +420,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "« Business card » = carte de visite.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_033",
@@ -401,7 +433,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Traduction : « Je ne peux pas y aller, la route est bloquée ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_034",
@@ -413,7 +446,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Bonne traduction = « there are traffic jams… another way? ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_035",
@@ -425,7 +459,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Correct = « Will we be on time for my train? ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_036",
@@ -437,7 +472,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Comparatif : bus cheaper than train.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_037",
@@ -449,7 +485,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Traduction : « We booked a guest house… ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_038",
@@ -461,7 +498,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Commute = correspondance.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_039",
@@ -473,7 +511,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Correct = « I would like to visit… have you already been there? ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_040",
@@ -485,7 +524,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "« Do you have change on ten euros? » = Avez-vous la monnaie…",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_041",
@@ -497,7 +537,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Correct = « Do you know when this historical monument was built? ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_042",
@@ -509,7 +550,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "On dit « You will see ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_043",
@@ -521,7 +563,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Forme correcte = « Would you pick me up… ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_044",
@@ -533,7 +576,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Traduction : Merci pour la course, gardez la monnaie.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_045",
@@ -545,7 +589,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Correct = « Do you enjoy your stay in France? ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_046",
@@ -557,7 +602,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Troisième personne singulier : « She speaks English very well ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_047",
@@ -569,7 +615,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Traduction correcte : Êtes-vous venus pour le festival de musique ?",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_048",
@@ -581,7 +628,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Correct = « Would you like a receipt? ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_049",
@@ -593,7 +641,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Comparatif : « lower price ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_050",
@@ -605,7 +654,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Correct = « The yellow vests are blocking the motorways ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_051",
@@ -617,7 +667,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Traduction correcte : « Disabled welcome » = j’accueille les handicapés.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_052",
@@ -630,7 +681,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Correct = « Hello, are you available to get me to the station? ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_053",
@@ -642,7 +694,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "On dit « credit card ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_054",
@@ -654,7 +707,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Bonne traduction : « On m’a dit de ne rien dire de cette publicité ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_055",
@@ -666,7 +720,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Correct = « We check the motor three times per year ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_056",
@@ -678,7 +733,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Correct = « You owe us 53 euros ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_057",
@@ -690,7 +746,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Opposite of slow = fast.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_058",
@@ -702,7 +759,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Correct = « It’s forbidden to smoke in the car! ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_059",
@@ -715,7 +773,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Correct = « She has been living in Paris for ten years ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_060",
@@ -727,7 +786,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Traduction correcte = « I took a taxi because the buses were on strike ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_061",
@@ -739,7 +799,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Suburb = banlieue.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_062",
@@ -751,7 +812,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Opposite of boring = exciting.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_063",
@@ -763,7 +825,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Tag question → You are from Ireland, aren’t you?",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_064",
@@ -775,7 +838,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Correct = « I have things to do in downtown ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_065",
@@ -787,7 +851,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Réponse correcte = proposition monuments (Louvre, Reims Cathedral).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_066",
@@ -799,7 +864,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "« A cab » = un taxi.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_067",
@@ -811,7 +877,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "« Where do you come from? » = D’où venez-vous ?",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_068",
@@ -823,7 +890,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "« Steering wheel » = volant.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_069",
@@ -835,7 +903,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Bonne réponse = « Of course, I will prepare it… ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "eng_070",
@@ -847,7 +916,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Correct = « A careful driving allows not being fined ».",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     }
   ]
 }

@@ -15,7 +15,8 @@
       ],
       "correctAnswer": [ 2, 3 ],
       "explanation": "Franchise en base : pas de collecte/déduction de TVA (Service-Public).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_002",
@@ -27,7 +28,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Crédit de TVA quand déductible > collectée (impots.gouv).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_003",
@@ -40,7 +42,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_004",
@@ -53,7 +56,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Le régime micro-entreprise est un régime fiscal et social applicable principalement aux entreprises individuelles (EI). Il n’est pas compatible avec les SA ou SAS, mais peut s’appliquer à certaines EURL à l’IR.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_005",
@@ -65,7 +69,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Conservation des pièces 10 ans (C. com. L123-22).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_006",
@@ -77,7 +82,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "BIC = Bénéfices industriels et commerciaux. https://entreprendre.service-public.fr/vosdroits/F32919",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_007",
@@ -89,7 +95,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_008",
@@ -102,7 +109,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_009",
@@ -114,7 +122,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_010",
@@ -127,7 +136,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "SASU : capital libre (min. 1 €) (Service-Public).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_011",
@@ -142,7 +152,8 @@
         3
       ],
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_012",
@@ -158,7 +169,8 @@
         3
       ],
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_013",
@@ -170,7 +182,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_014",
@@ -182,7 +195,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_015",
@@ -197,7 +211,8 @@
         3
       ],
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_016",
@@ -212,7 +227,8 @@
         2
       ],
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_017",
@@ -224,7 +240,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_018",
@@ -237,7 +254,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_019",
@@ -249,7 +267,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_020",
@@ -261,7 +280,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_021",
@@ -273,7 +293,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_022",
@@ -286,7 +307,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "TVA transport de voyageurs : 10 % (BOFiP).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_023",
@@ -298,7 +320,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_024",
@@ -311,7 +334,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "emprunt = dette (vu du côté de l’emprunteur).\n Emprunt = action de recevoir un crédit.\n Dette = situation qui en résulte.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_025",
@@ -323,7 +347,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_026",
@@ -335,7 +360,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_027",
@@ -348,7 +374,8 @@
       ],
       "correctAnswer": 4,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_028",
@@ -360,7 +387,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_029",
@@ -373,7 +401,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Le véhicule coûte 22 000 € HT et est amorti sur 4 ans, soit 22 000 / 4 = 5 500 € par an. Comme il a été acquis le 1er avril 2016, il n’est utilisé que 9 mois sur l’année. L’amortissement 2016 est donc 5 500 × 9/12 = 4 125 €.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_030",
@@ -385,7 +414,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_031",
@@ -398,7 +428,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_032",
@@ -410,7 +441,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_033",
@@ -423,7 +455,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_034",
@@ -436,7 +469,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_035",
@@ -448,7 +482,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "La déclaration de cessation de paiement doit être faite au greffe du Tribunal de commerce dans un délai de 45 jours. Elle permet l'ouverture d'une procédure collective (sauvegarde, redressement ou liquidation judiciaire).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_036",
@@ -460,7 +495,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_037",
@@ -475,7 +511,8 @@
         3
       ],
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_038",
@@ -487,7 +524,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_039",
@@ -499,7 +537,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_040",
@@ -511,7 +550,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_041",
@@ -524,7 +564,8 @@
       ],
       "correctAnswer": 4,
       "explanation": "Conservation des documents 10 ans (L123-22).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_042",
@@ -540,7 +581,8 @@
         3
       ],
       "explanation": "Une activité relevant du Répertoire des Métiers est caractérisée par sa nature artisanale (production, transformation, réparation ou service) et par un effectif inférieur à 10 salariés La forme juridique et le chiffre d'affaires ne sont pas des critères déterminants.\n  effectif salarié → moins de 10 salariés",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_043",
@@ -553,7 +595,8 @@
       ],
       "correctAnswer": 4,
       "explanation": "Code APE attribué par l’INSEE.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_044",
@@ -566,7 +609,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_045",
@@ -578,7 +622,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_046",
@@ -590,7 +635,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Les entreprises artisanales sont inscrites au Répertoire des Métiers (RM).Leur justificatif officiel d’immatriculation est appelé extrait D1.L’extrait Kbis, lui, concerne les sociétés immatriculées au Registre du Commerce et des Sociétés (RCS).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_047",
@@ -602,7 +648,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_048",
@@ -614,7 +661,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_049",
@@ -630,7 +678,8 @@
         4
       ],
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_050",
@@ -642,7 +691,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "Dans un bilan, le total de l'actif est toujours égal au total du passif car chaque ressource correspond à un emploi. L'équilibre est une règle comptable de base. La notion de bénéfice ou perte se calcule dans le compte de résultat, pas à partir de cette égalité.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_051",
@@ -654,7 +704,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Président de SASU = assimilé salarié (URSSAF).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_052",
@@ -667,7 +718,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "TVA carburants : récupération partielle (Service-Public).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_053",
@@ -683,7 +735,8 @@
         4
       ],
       "explanation": "Les charges déductibles sont les dépenses engagées dans l'intérêt de l'entreprise. La facture d'entretien du véhicule en fait partie. En revanche, le prélèvement de l'exploitant n'est pas une charge, l'achat d'un véhicule est une immobilisation et le crédit-bail est traité spécifiquement, mais ici la réponse attendue est l'entretien du véhicule.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_054",
@@ -695,7 +748,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_055",
@@ -707,7 +761,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_056",
@@ -719,7 +774,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_057",
@@ -732,7 +788,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_058",
@@ -747,7 +804,8 @@
         3
       ],
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_059",
@@ -760,7 +818,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_060",
@@ -772,7 +831,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Montants du compte de résultat en HT (si TVA).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_061",
@@ -785,7 +845,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "CDD : pas de durée minimale légale (hors cas spécifiques).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_062",
@@ -798,7 +859,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_063",
@@ -810,7 +872,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "Le remboursement du capital d'un prêt n'est pas une charge mais un remboursement de dette. En revanche, les intérêts du prêt et l'abonnement à une revue professionnelle sont des charges car ils impactent le résultat de l'exercice.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_064",
@@ -823,7 +886,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "En entreprise individuelle, il n’y a pas de capital social ni de parts sociales. Le conjoint ne peut donc pas être associé. Les statuts adaptés sont conjoint salarié, conjoint collaborateur ou conjoint hors statut.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_065",
@@ -836,7 +900,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_066",
@@ -849,7 +914,8 @@
       ],
       "correctAnswer": 4,
       "explanation": "Les bénéfices d’une entreprise individuelle sont imposés à l’impôt sur le revenu. Ils relèvent de la catégorie BIC pour les activités commerciales, artisanales ou industrielles. Les BNC concernent les professions libérales (medecin, avocat,...),  et l’IS concerne les sociétés.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_067",
@@ -861,7 +927,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_068",
@@ -873,7 +940,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_069",
@@ -888,7 +956,8 @@
         3
       ],
       "explanation": "Coût -> calcul arithmétique précisé dans l’énoncé.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_070",
@@ -904,7 +973,8 @@
         3
       ],
       "explanation": "Un emprunt apporte des liquidités à l’entreprise, ce qui augmente sa trésorerie (actif). En contrepartie, il crée une nouvelle dette, ce qui augmente les capitaux étrangers (passif). Les capitaux propres ne sont pas concernés.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_071",
@@ -919,7 +989,8 @@
         2
       ],
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_072",
@@ -935,7 +1006,8 @@
         4
       ],
       "explanation": "Seuil de rentabilité : Résultat=0.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_073",
@@ -947,7 +1019,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "22 € + 20 % = 26,40 €.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_074",
@@ -959,7 +1032,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_075",
@@ -975,7 +1049,8 @@
         2
       ],
       "explanation": " une micro entreprise( c'est auto-entrepreuneur) pas besoin de comptable , dond pas besoin de bilan et compte de result ,  La micro-entreprise doit tenir un livre des recettes et, si elle exerce une activité de vente de marchandises ou assimilée, un registre des achats. Elle n’a pas à établir de bilan ni de compte de résultat.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_076",
@@ -987,7 +1062,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Transport de personnes : 10 % (BOFiP).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_077",
@@ -1000,7 +1076,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "Le compte de résultat compare les produits et les charges d’un exercice. Il montre si l’entreprise s’est enrichie (bénéfice) ou appauvrie (perte). Le bilan décrit le patrimoine, tandis que la balance et le grand livre servent au suivi comptable.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_078",
@@ -1016,7 +1093,8 @@
         2
       ],
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_079",
@@ -1028,7 +1106,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_080",
@@ -1043,7 +1122,8 @@
         2
       ],
       "explanation": "La dotation aux amortissements est une charge calculée qui constate la perte de valeur des immobilisations. Elle figure dans le compte de résultat comme charge d’exploitation. Elle n’apparaît pas directement au passif, mais en diminution de l’actif immobilisé.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_081",
@@ -1055,7 +1135,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_082",
@@ -1067,7 +1148,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_083",
@@ -1079,7 +1161,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_084",
@@ -1091,7 +1174,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "SIREN 9 chiffres / SIRET 14 (INSEE).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_085",
@@ -1103,7 +1187,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_086",
@@ -1115,7 +1200,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_087",
@@ -1128,7 +1214,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "En France, un chèque est valable pendant 1 an et 8 jours à compter de sa date d’émission (article L.131-32 du Code monétaire et financier). Passé ce délai, il ne peut plus être encaissé.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_088",
@@ -1140,7 +1227,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_089",
@@ -1152,7 +1240,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_090",
@@ -1164,7 +1253,8 @@
       ],
       "correctAnswer": 1,
       "explanation": "L’entrepreneur individuel cotise pour sa retraite de base auprès de la Sécurité sociale des indépendants (SSI), désormais intégrée au régime général et gérée par l’URSSAF et la CPAM. La CNAV concerne les salariés, et le RSA n’est pas un organisme de retraite.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_091",
@@ -1175,7 +1265,8 @@
         "30 avril"
       ],
       "explanation": "Avec un paiement à 30 jours fin de mois, on part de la fin du mois de facturation (30 avril) et on ajoute 30 jours. L’échéance de règlement est donc fixée au 31 mai.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_092",
@@ -1191,7 +1282,8 @@
         3
       ],
       "explanation": "Récupération TVA en réel simplifié/normal (impots.gouv).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_093",
@@ -1203,7 +1295,8 @@
       ],
       "correctAnswer": 3,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_094",
@@ -1215,7 +1308,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_095",
@@ -1227,7 +1321,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_096",
@@ -1243,7 +1338,8 @@
         2
       ],
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_097",
@@ -1258,7 +1354,8 @@
         3
       ],
       "explanation": "Méthodes d’amortissement : linéaire et dégressif.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_098",
@@ -1274,7 +1371,8 @@
         4
       ],
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_099",
@@ -1287,7 +1385,8 @@
       ],
       "correctAnswer": 4,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_100",
@@ -1303,7 +1402,8 @@
         2
       ],
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     },
     {
       "id": "ges_101",
@@ -1315,7 +1415,8 @@
       ],
       "correctAnswer": 2,
       "explanation": "",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "image": ""
     }
   ]
 }

@@ -7,9 +7,7 @@ Un site web moderne et interactif pour la préparation à l'examen de conducteur
 ![Status](https://img.shields.io/badge/Status-Ready%20for%20Production-success)
 
 ## 🎯 To run website local
-
-cd C:\myworkspace\personel-repos\examen-vtc-app
-
+cd /mnt/c/myworkspace/personel-repos/examen-vtc-app
 python3 -m http.server 8000
 
 ## 🎯 git config

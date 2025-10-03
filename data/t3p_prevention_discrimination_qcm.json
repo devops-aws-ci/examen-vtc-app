@@ -1258,7 +1258,7 @@
         "Deux assurances",
         "Une assurance"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "explanation": "Le conducteur de T3P doit justifier de deux assurances distinctes : la responsabilité civile automobile (assurance véhicule) et la responsabilité civile professionnelle couvrant le transport de personnes. Aucune obligation d’assurance tous risques n’existe.",
       "difficulty": "medium",
       "image": ""

@@ -1,6 +1,6 @@
 {
   "category": "anglais",
-  "name": "Anglais",
+  "name": "Anglais OK",
   "description": "Test de connaissance en anglais pour le futur chauffeur VTC.",
   "icon": "britain.png",
   "duration": "20",
@@ -26,7 +26,10 @@
         "Faire une dépression",
         "Tomber en panne"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": [
+        2,
+        3
+      ],
       "explanation": "« Break down » = tomber en panne (voiture).",
       "difficulty": "medium",
       "image": ""
@@ -79,7 +82,10 @@
         "On a donné une prime à la secrétaire",
         "Le secrétaire était donné en prime"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        1,
+        2
+      ],
       "explanation": "« The secretary was given a bonus » = on a donné une prime à la secrétaire.",
       "difficulty": "medium",
       "image": ""
@@ -157,7 +163,10 @@
         "Le plein s'il vous plait",
         "Garder le moral"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": [
+        1,
+        2
+      ],
       "explanation": "À la station-service « Fill it up » = « Le plein svp ».",
       "difficulty": "medium",
       "image": ""

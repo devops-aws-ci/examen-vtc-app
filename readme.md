@@ -1,7 +1,5 @@
 # 🚗 QCM VTC - Site Web de Préparation à l'Examen
-develop comercial 
 francais 
-anglais
 
 
 Un site web moderne et interactif pour la préparation à l'examen de conducteur VTC (Voiture de Transport avec Chauffeur).

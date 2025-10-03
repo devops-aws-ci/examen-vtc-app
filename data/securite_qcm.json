@@ -46,7 +46,7 @@
       ],
       "explanation": "Agglo éclairée : feux de position OU de croisement si visibilité suffisante (Code de la route – éclairage).",
       "difficulty": "medium",
-      "image": "/images/img_sec_003.png"
+      "image": "./images/img_sec_003.png"
     },
     {
       "id": "sec_004",
@@ -219,7 +219,7 @@
       "correctAnswer": 2,
       "explanation": "",
       "difficulty": "medium",
-      "image": "/images/img_sec_015.png"
+      "image": "./images/img_sec_015.png"
     },
     {
       "id": "sec_016",
@@ -874,7 +874,7 @@
       "correctAnswer": 1,
       "explanation": "Panneau cassis/dos d’âne A2.",
       "difficulty": "medium",
-      "image": "/images/img_sec_059.png"
+      "image": "./images/img_sec_059.png"
     },
     {
       "id": "sec_060",
@@ -905,7 +905,7 @@
       ],
       "explanation": "Place PMR : réservée véhicules autorisés ; fourrière possible ; amende 4e classe.",
       "difficulty": "medium",
-      "image": "/images/img_sec_061.png"
+      "image": "./images/img_sec_061.png"
     },
     {
       "id": "sec_062",
@@ -990,7 +990,7 @@
       ],
       "explanation": "Descente dangereuse sur 1 500 m (et non dans 1 500 m).",
       "difficulty": "medium",
-      "image": "/images/img_sec_067.png"
+      "image": "./images/img_sec_067.png"
     },
     {
       "id": "sec_068",

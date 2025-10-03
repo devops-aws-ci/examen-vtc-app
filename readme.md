@@ -1,5 +1,13 @@
 # 🚗 QCM VTC - Site Web de Préparation à l'Examen
 
+!!!!! pour les test francais il faut ajouter le sujet des qcm,
+ donc il faut changer la strcture de json , 
+ ajouter un item "sujet" par structure qcm qui pointe sur un path de type text
+exemple 
+sujet : "/files/sujet_001.txt"
+sujet : "/files/sujet_015.txt"
+
+
 Un site web moderne et interactif pour la préparation à l'examen de conducteur VTC (Voiture de Transport avec Chauffeur).
 
 ![VTC Exam](https://img.shields.io/badge/VTC-Exam%20Preparation-blue)

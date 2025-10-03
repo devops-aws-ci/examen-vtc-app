@@ -543,7 +543,7 @@
         "2 ans",
         "1 an"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "explanation": "Avant 60 ans → examen médical obligatoire tous les 5 ans. Entre 60 et 76 ans → tous les 2 ans.Après 76 ans → tous les ans.",
       "difficulty": "medium",
       "image": ""
